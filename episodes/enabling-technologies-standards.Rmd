@@ -1,0 +1,313 @@
+---
+title: 'Enabling Technologies & Standards'
+teaching: 35
+exercises: 50
+discussion: 20
+---
+
+:::::::::::::::::::::::::::::::::::::: questions 
+
+- What are the benefits of creating / using a metadata schema / standard?
+- How do you find a suitable metadata standard or terminology for your research field online?
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: objectives
+
+- Understand, read and write XML / JSON schema.
+- Find research field specific metadata standards and terminologies.
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+## The Web is not the internet
+
+In 1989 researchers Tim Berners-Lee and Robert Cailliau startet their HyperText project called the WWW (**W**orld-**W**ide **W**eb, short Web) at the CERN research centre in Geneva, Switzerland. The Web was developed to "meet the demand for automated information-sharing between scientists in universities and institutes around the world".[^10]
+
+The WWW is a service on the application layer of the internet protocol stack TCP/IP (**T**ransmission **C**ontrol **P**rotocol/**I**nternet **P**rotocol) -- invented by Vint Cerf and Robert (Bob) Elliot Kahn in the 1970s.
+
+The World Wide Web main building blocks are:
+- HTML markup language with "hyperlinks"
+- HTTP (**H**yper**T**ext **T**ransfer **P**rotocol)
+- URI (**U**niform **R**esource **I**dentifier)
+
+HTML applies the ideas of HyperText and HyperMedia -- terms coined by [<i class='fa fa-external-link-square'></i> Ted Nelson](https://www.youtube.com/user/TheTedNelson/videos) in the 1960s:
+
+> "a combination of natural language text with the computer's capacity for interactive branching, or dynamic display ... "
+
+([<i class='fa fa-external-link-square'></i> Ted Nelson](https://ieeexplore.ieee.org/document/1663693))
+
+HTTP is a simple protocol that sets communication rules for client and server software on the World Wide Web. For URI see chapter [(Web) Location & Identifiers](#web-location-identifiers).
+
+In 1992 Deutsches Elektronen-Synchrotron DESY in Hamburg connected a web server to the WWW. An even earlier adopter was the **arXiv preprint repository**. They switched from email to HTTP for manuscript dissemination in 1991.[^11]
+
+So-called **web repositories** store and publish (scholarly) digital objects -- like paper publications and research data -- and their **metadata records**. This way, they aim to improve the persistent **findability and accessibility of research output.** Repositories in turn are indexed for findability in registry services like [<i class='fa fa-external-link-square'></i> https://www.re3data.org/](https://www.re3data.org/) and [<i class='fa fa-external-link-square'></i> https://v2.sherpa.ac.uk/opendoar/](https://v2.sherpa.ac.uk/opendoar/).
+
+## Metadata Schemas
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: callout 
+**A metadata schema is a template** which exemplifies the metadata elements expected and how they should be structured.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+**XML Schemas (.xsd)** are written in XML and used to describe & syntactically validate the structure of XML documents or (meta)data records.[^12]
+
+The **[<i class='fa fa-external-link-square'></i> JSON Schema vocabulary](https://json-schema.org/)** is used to describe & syntactically validate the structure of JSON (meta)data records. We will focus on **JSON Schema** in our next hands-on task.[^13] 
+    
+A simple JSON schema could look like the one below. It declares:
+- JSON Schema version with `$schema`
+- a list (an array) of required (i. e. mandatory) properties
+- one required property (i.e. ``"superhero"``)
+- one optional property (i.e. ``"power"``)
+- data type constraints for record values (e.g. ``"type": "integer"``)
+    
+There are also some `descriptions` added for the human reader.
+
+```json
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "In real life you would add a meaningful description here.",
+  "type": "object",
+  "required": [
+    "superhero"
+  ],
+  "properties": {
+    "superhero": {
+      "description": "A mandatory string property.",
+      "type": "string"
+    },
+    "power": {
+      "description": "An optional numeric property.",
+      "type": "integer"
+    }
+  }
+}
+
+```
+A JSON instance is syntactically valid, if it conforms to the definition described by the JSON schema. Note, that the JSON Schema `required` keyword holds a list of keys that must be present for a JSON object to be considered a valid instance of this schema.
+
+```json
+{
+  "superhero": "I am just a string"
+}
+```
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: callout 
+The most challenging part of schema development can be to **have everyone agree on the same expectations.**
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: challenge
+## TASK 4: JSON Schema (20 min)
+    
+After a couple of researchers upload their JSON metadata records to the project repository it becomes obvious that well-formed JSON metadata describing similar experiments can still be expressed in myriad ways.
+
+Your collaboration decides to develop a metadata schema to standardize metadata records across the project. Consensus is encoded in a JSON Schema.
+
+**Now its your task to help with the subschema for experimental conditions!**
+
+In this **code block** you see valid JSON metadata that describes experimental conditions as agreed on in the project.
+<br>
+```json
+{
+  "experimentalConditions": {
+    "ride": {
+      "rideType": "roller coaster",
+      "rideName": "Flight of the Bat",
+      "location": "Gotham City, New Jersey"
+    },
+    "testPerson": {
+      "sex": "male",
+      "height": 180
+    },
+    "recording": {
+      "testDevice": "iPhone X",
+      "testDeviceFixture": "left upper arm",
+      "testApp": "Physics Toolbox Suite by Vieyra Software"
+    }
+  }
+}
+```
+In this code block you see the JSON Schema draft for the experimental conditions. Your collaborators already modelled constraints and valid values for `ride` and `testPerson`.<br>
+
+**Discuss and add constraints to `recording` property above.**
+
+- `testDevice`, `testDeviceFixture` and `testApp` are **mandatory properties** for the **`recording`** object
+- **`testDevice`** value must be one of:
+    - `iPhone X`
+    - `iPhone 6`
+    - `iPhone 6s`
+    - `other`
+    
+- **`testApp`** value must be one of:
+    - `Physics Toolbox Suite by Vieyra Software`
+    - `Bunny Rollercoaster Physics App`
+    
+- **`testDeviceFixture`** value must be one of:
+    - `left upper arm`
+    - `right upper arm`
+    - `mouth fixture device`
+    - `other`
+<br>
+```json
+{
+  "experimentalConditions": {
+    "description": "A summary of the experimental conditions. Include sufficient detail to facilitate search and discovery.",
+    "type": "object",
+    "required": [
+      "recording",
+      "ride",
+      "testPerson"
+      ],
+    "properties": {
+    
+      "recording": {
+      /* Insert your schema here and delete this comment */
+        },
+      
+      "ride": {
+        "description": "Properties of the ride.",
+        "type": "object",
+        "required": [
+          "rideType",
+          "rideName"
+        ],
+        "properties": {
+          "rideType": {
+            "description": "Ride type.",
+            "type": "string",
+            "enum": [
+              "roller coaster",
+              "water slide",
+              "bob sled"
+            ]
+          },
+          "rideName": {
+            "description": "Official name of the ride.",
+            "type": "string",
+            "minLength": 3
+          },
+          "location": {
+            "description": "City and State in which ride is located.",
+            "type": "string",
+            "minLength": 10
+          }
+        }
+      }
+    },
+    "testPerson": {
+      "description": "Properties of person carrying the test device.",
+      "type": "object",
+      "required": [
+        "height",
+        "sex"
+      ],
+      "properties": {
+        "height": {
+          "description": "Height of test person in cm (SI unit of length).",
+          "type": "number",
+          "minimum": 120,
+          "exclusiveMaximum": 220
+        },
+        "sex": {
+          "description": "Sex of test person.",
+          "type": "string",
+          "enum": [
+            "female",
+            "male",
+            "non-binary",
+            "not disclosed"
+          ]
+        }
+      }
+    }
+  }
+}
+```
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: challenge
+## TASK 5: Form input & validation with JSON schema (10 min)
+
+**Congratulations, you finished your metadata schema!
+Now, collecting interoperable metadata will be a lot easier in your collaboration.**
+
+We must admit: writing a valid JSON metadata record for each and every experiment that you perform is tedious and time consuming. But now that you have a JSON Schema at hand, things will get a lot easier! The project sets up a user-friendly HTML form interface for the input of JSON metadata.
+
+**Let's try this**:
+- Download the full JSON schema [ <i class='fa fa-download'></i> **HERE**](https://nubes.helmholtz-berlin.de/s/RkLXpcQ4Cm3iBF8)
+- Inspect the JSON schema briefly
+- In your browser go to [<i class='fa fa-external-link-square'></i> react-jsonschema-form playground](https://rjsf-team.github.io/react-jsonschema-form/). 
+- Delete sample content in `JSONschema` and `formData`
+- Copy and paste the full schema into the `JSONschema` box
+- Check again if Chuck Norris properties reappeared in `formData` results; he can be tough :smile:
+- Inspect the form interface thoroughly, enter some values and discuss the following questions
+    - How does the browser display lists of pre-defined values (specified as `enum` in the schema)?
+    - How are `arrays` and `objects` interpreted in the form interface?
+    - What happens if you enter an invalid value (e.g. try to enter a string for the test persons `height`)
+    - What happens if you enter a nonsense value (e.g. try to enter a nonsense string for `rideName`)
+    - How does the web service respond if you click on submit without filling all the "required" fields?
+<br>
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: hint
+Note that the JSON Schema used for this demo **lacks the recommended `$schema` keyword**: this is because the playground will reject the keyword.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+## Metadata Standards
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: callout 
+A well **established metadata schema** can become a standard.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Researchers, librarians and web technologists drafted the **Dublin Core** -- a set of 15 library-card-catalog-like metadata elements for the web -- in 1995 at a meeting in Dublin, Ohio (USA).[^14]
+
+Dublin Core and its extensions are widely used and referenced today. The [<i class='fa fa-external-link-square'></i> Dublin Core Metadata Initiative (DCMI)](https://www.dublincore.org/about/) states to work openly, with a paid-membership model.
+
+The 15 generic Dublin Core metadata elements have been formally standardized for cross-domain resource description in e.g. **ISO 15836-1:2017**[^15]
+
+**Creator
+Contributor
+Publisher
+Title
+Date
+Language
+Format
+Subject
+Description
+Identifier
+Relation
+Source
+Type
+Coverage
+Rights**
+
+Many scholarly repositories expose a standardized **application programming interface (API)** for the harvesting of Dublin Core metadata as specified in [<i class='fa fa-external-link-square'></i> http://www.openarchives.org/OAI/2.0/openarchivesprotocol.htm#dublincore](http://www.openarchives.org/OAI/2.0/openarchivesprotocol.htm#dublincore). **Try it yourself and check oai_dc XML records from [<i class='fa fa-external-link-square'></i> Zenodo OAI-PMH endpoint](https://zenodo.org/oai2d?verb=ListRecords&metadataPrefix=oai_dc)**.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: challenge
+## TASK 6: Domain specific metadata standards
+
+1. Open one of these metadata standard registries in your preferred browser: <br> [<i class='fa fa-external-link-square'></i> FAIRsharing.org](https://fairsharing.org/search?fairsharingRegistry=Standard)<br>[<i class='fa fa-external-link-square'></i> RDA Metadata Standards Catalog](https://rdamsc.bath.ac.uk/)<br>[<i class='fa fa-external-link-square'></i> DCC List of Metadata Standards](https://www.dcc.ac.uk/guidance/standards/metadata/list)
+3. Search for a metadata schema, standard or vocabulary **relevant to your research domain**.
+4. Inspect the **information provided**.
+5. Take notes to **discuss your findings** with the group. Did you get any 404 (not found) responses clicking on links? Do you want to try a Google search in addition?
+
+**Notes:**
+```!
+your research domain: link to metadata schema, standard or vocabulary found
+your research domain: link to metadata schema, standard or vocabulary found
+...
+```   
+:::
+
+::: callout 
+<i class='fa fa-bullhorn fa-2x'></i> 
+You did not find a standard, schema or recommendation for your research domain or **want to participate in metadata development? Get in touch with us at HMC.**
+:::
+
+::::::::::::::::::::::::::::::::::::: keypoints 
+
+- Use `.md` files for episodes when you want static content
+- Use `.Rmd` files for episodes when you need to generate output
+- Run `sandpaper::check_lesson()` to identify any issues with your lesson
+- Run `sandpaper::build_lesson()` to preview your lesson locally
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+

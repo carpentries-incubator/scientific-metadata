@@ -6,7 +6,7 @@
 # swc: Software Carpentry
 # dc: Data Carpentry
 # lc: Library Carpentry
-# cp: Carpentries (to use for instructor traning for instance)
+# cp: Carpentries (to use for instructor training for instance)
 # incubator: The Carpentries Incubator
 carpentry: 'incubator'
 
@@ -60,6 +60,11 @@ contact: 'team@carpentries.org'
 # Order of episodes in your lesson
 episodes: 
 - introduction.md
+- getting-started.Rmd
+- data-metadata.Rmd
+- structure-schema.Rmd
+- enabling-technologies-standards.Rmd
+- web-location-identifiers.Rmd
 
 # Information for Learners
 learners: 

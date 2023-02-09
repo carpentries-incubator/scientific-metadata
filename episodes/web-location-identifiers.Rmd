@@ -1,0 +1,93 @@
+---
+title: '(Web) Location & Identifiers'
+teaching: 35
+---
+
+:::::::::::::::::::::::::::::::::::::: questions 
+
+- What are PIDs?
+- What are the differences between URL, URI and PID?
+- Which PIDs are connected to the research context?
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: objectives
+
+- Explain differences between URL, URI and PID(s)
+- Name examples of PIDs relevant for the research context.
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+## The Web of today
+
+Built for human understanding: even though web documents are made with computers, computers can NOT understand the content of these documents. **They can't read, see relationships or make decisions like human can.**
+
+Most search engines are based on keywords:
+- results are high recall and low precision
+- results are highly sensitive to vocabulary
+- results are single human-readable web pages
+- **results do not support logical reasoning and query answering**
+
+The World Wide Web is a hypermedia system. It contains:
+
+**Resources**
+A web resource is any identifiable resource present on or connected to the World Wide Web.
+A resource can be anything that has identity.
+
+**Links**
+(Web identifiers) between these resources.
+
+### Web Identifiers
+The **Uniform Resource Identifier (URI)** is a string of characters formulated to uniquely identify a resource, (most commonly on the Web) and enable interaction with it via common protocols such as HTTP.
+
+A **Uniform Resource Name (URN)** is a type of URI. It is a standard, persistent and unique identifier for digital resources on the Internet. To link to the resource from the URN, a **resolver service is required.**
+
+The **Uniform Resource Locator (URL)** is a string of characters used to access the information or resource by **using the address of the resource location** via communication protocols such as HTTP.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: callout 
+A URL does not ensure the link to a resource is maintained if it is moved within its repository. **URL links "rot" over time.**
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+A **Persistent Identifier (PID)** is a long-lasting reference to digital objects:
+- articles
+- datasets
+- tables
+- figures
+- videos
+- persons
+- instruments
+- organizations
+
+**PIDs**[^16]
+- are globally unique
+- persistent over time
+- ensure permanent identifiability, referencing and linking of digital objects
+- **make researchers, their affiliations and their contributions more easily discoverable**
+- are a key element in [FAIR](https://www.nature.com/articles/sdata201618)
+
+**Frequently used PID schemes**
+- Digital Object Identifiers (DOIs)
+- Persistent Uniform Resource Locators (PURLs)
+- International Standard Book Number (ISBN)
+- [<i class='fa fa-external-link-square'></i> ORCIDs](https://orcid.org/0000-0002-1825-0097)
+- Archival Resource Keys (ARKs)
+- International Standard Name Identifier (ISNI) 
+
+### The Semantic Web
+**The term “Semantic Web” refers to [W3C’s](https://www.w3.org/standards/semanticweb/) vision of a Web of Linked Data.**
+
+It provides a way for machines to be able to process and understand the data that they were only to display on the traditional Web. It is a vision for the future Web (a web of meaning — semantics); originally defined by Tim Berners-Lee. The Semantic Web is not a separate Web, but an extension of the current one. In the Semantic Web, metadata are invisible as people read the page, but they're clearly visible to computers.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: callout 
+The goal of a Semantic Web is to **make computers perform more of the tedious work involved in finding, sharing and combining information on the Web efficiently.**
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: keypoints 
+
+- Use `.md` files for episodes when you want static content
+- Use `.Rmd` files for episodes when you need to generate output
+- Run `sandpaper::check_lesson()` to identify any issues with your lesson
+- Run `sandpaper::build_lesson()` to preview your lesson locally
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+

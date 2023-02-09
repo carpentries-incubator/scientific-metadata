@@ -1,0 +1,103 @@
+---
+title: 'Data & Metadata'
+teaching: 50
+exercises: 15
+---
+
+:::::::::::::::::::::::::::::::::::::: questions 
+
+- What is data and what is metadata?
+- How is metadata classified?
+- Where can I find (meta)data in every day examples?
+- What are worst and good enough practices of metadata handling in the scientific context?
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: objectives
+
+- Recognize and describe examples of (meta)data
+- Name best and worst practice situations in research (meta)data handling
+- Getting familiar with the example data set
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Data -- Information -- Knowledge -- Wisdom
+The question “What is data?” seems trivial at first, but if we look at the definition, it is apparent that the question is not that easy to answer. In information science, we distinguish between Glyphs (or symbols), data, information, knowledge and wisdom. **GLYPHS** are the smallest unit of data representation. Glyphs represent the symbols of which data can be composed.
+
+To cite the information scientist Jeffrey Pomerantz, “**DATA** is stuff. It is raw, unprocessed, possibly even untouched by human hands, unviewed by human eyes, un-thought-about by human minds”[^1]. In other words, data is potential information, that requires processing and context to extract the information held within. 
+
+Accordingly, **INFORMATION** is processed, human-consumable data. If this information is internalized by a human being, it is called **KNOWLEDGE**. This knowledge can be applied in a broader context by the human being. Applied knowledge is called **WISDOM**.
+The key to reaching wisdom from data is processing and contextualizing data to extract information. To achieve this goal we often need to add a description to the data: **metadata**.
+
+::::::::::::::::::::::::::::::::::::::: callout
+Data is potential information and needs to be processed and contextualized to make it accessible for a human agent. Data can be understood as **potentially informative**.
+:::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+
+The transition between "Data -- Information -- Knowledge -- Wisdom" and 
+"Metadata" is used to have a first look at the example data set, revealing 
+subject, variables and data types.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Metadata
+Metadata is **(semi-)structured data** that provides information about characteristics of other (more complex) data objects (e.g. files or documents). Regarding research data, metadata gives the observer the necessary context to interpret the data and derive information from it. Although metadata is data itself, it can only exist in connection with a data object that is described by the metadata record (e.g. the meta-information in a book about said book). Metadata can be found inside of a data object (e.g. in a book, in a data record) or as a separate object (e.g. library catalogue, separate file).
+
+[National Information Standards Organization](https://groups.niso.org/higherlogic/ws/public/download/17446/Understanding%20Metadata.pdf) (NISO, 2004, from "Big Data, Little Data, No Data", Christine L. Borgman, 2015): "Metadata is structured information that describes, explains, locates, or otherwise makes it easier to retrieve, use or manage an information resource".
+
+::::::::::::::::::::::::::::::::::::::: callout
+Metadata is **a statement** about a potentially informative object.
+:::::::::::::::::::::::::::::::::::::::::::::::
+
+## Types of metadata
+**Descriptive metadata** provides information about the intellectual content of a (digital) object (e.g. title, author, date of publication, subject, description, unique identifier). [^2]
+
+**Administrative metadata** provides information to support the management of a resource (e.g. technical information regarding the file's creation and format, version, information about copyright, licence and intellectual property rights). [^2]
+
+**Structural metadata** specifies the relationships between components of a (digital) object and between different (digital) objects (e.g. chapters in a book). [^2]
+
+::::::::::::::::::::::::::::::::::::: challenge 
+
+## Challenge 1: Real world metadata
+
+1. Open one of these web pages in your preferred browser: <br> 
+[<i class='fa fa-external-link-square'></i> Science Journal](https://www.science.org/)<br> 
+[<i class='fa fa-external-link-square'></i> The Guardian](https://www.theguardian.com/international)<br> 
+[<i class='fa fa-external-link-square'></i> German Federal Government](https://www.bundesregierung.de/breg-en). <br>
+2. Open **one of the articles** linked on the main page.
+3. Inspect the **web page source code**.
+
+
+| Browser            | Shortcut to Source Code |
+| ------------------ | ----------------------- |
+| Firefox            | Ctrl + u                |
+| Chrome             | Ctrl + u                |
+| Safari             | Option + Command + u    |
+| Opera              | Ctrl + u                |
+| Edge               | Ctrl + u                |
+| Internet Explorer  | Ctrl + u                |
+
+4. Look for [<i class='fa fa-external-link-square'></i> meta tags](https://www.w3schools.com/tags/tag_meta.asp) in the HTML source code **`<head>`** element. 
+5. Assign some **`<meta>`** tags to one of the categories **descriptive**, **administrative**, **structural** in [<i class='fa fa-external-link-square'></i> **our Miro Board**](https://miro.com/app/board/uXjVPYT6plk=/?share_link_id=440221692263), if applicaple.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+
+**Time:** 15 min - including result discussion.  
+
+**Implementation:** We recommend using a pre-structured, collaborative document 
+(whiteboard or notepad) to collect the participants' results.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::
+
+
+::::::::::::::::::::::::::::::::::::: keypoints 
+
+- Use `.md` files for episodes when you want static content
+- Use `.Rmd` files for episodes when you need to generate output
+- Run `sandpaper::check_lesson()` to identify any issues with your lesson
+- Run `sandpaper::build_lesson()` to preview your lesson locally
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+

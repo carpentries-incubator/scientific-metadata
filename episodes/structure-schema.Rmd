@@ -1,0 +1,282 @@
+---
+title: 'Structure & Schema'
+teaching: 25
+exercises: 35
+discussion: 25
+---
+
+:::::::::::::::::::::::::::::::::::::: questions 
+
+- What is semi-structured metadata?
+- How do you extract semi-structured metadata from natural language.
+- What is the JSON syntax?
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: objectives
+
+- Explain the importance of semi-structured metadata for machine readability.
+- Understand, read and write basic Markdown / HTML / XML / JSON.
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Metadata records
+**Handwritten (lab) notes**
+Handwritten (lab) notes are still a common practice in many scientific disciplines. These notes are easy to take during data generation. The greatest disadvantage, however, is the physical separation from the data itself and the difficulty to find, store and share these information. Often, handwritten lab notes do not follow a predictable structure and, hence, are hard to interpret and sometimes even hard to read.
+
+**Readme style text documents**
+Recording your metadata (additionally) in a digital readme style text document comes with one great advantage: the metadata can be associated and stored directly with the experimental data. Readme style metadata best practices include:[^3]
+- creating one readme file for each data file, whenever possible.
+- naming the readme in a way that it is easily associated with the data file(s) it describes.
+- writing the readme document as a plain text file for interoperability.
+- formatting multiple readme files identically
+- where possible follow established conventions for scientific vocabulary (i.e. from glossaries or ressources such as the [<i class='fa fa-external-link-square'></i> IUPAC Gold book](https://goldbook.iupac.org/))
+
+We strongly recommend to use [<i class='fa fa-external-link-square'></i> **this template**](https://cornell.app.box.com/v/ReadmeTemplate) for readme style metadata documents.
+
+## Structured metadata records
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: callout 
+Data exchange formats such as the **markup language XML** or **JSON** can be read and processed not only by humans but also by computers. Structured (meta)data is key to enable **machine-readability**. 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+### What is Markup?
+**Markup** is not part of the natural text or content but tells something **about it**...[^4], [^5]
+
+**Punctuational markup** -- for example -- is placing periods or question marks at the end of sentences.
+
+**Presentational markup** is mainly about style. Note, how the simple Markdown markup on the left tells HedgeDoc to display text **bold** on screen.
+
+**Descriptive or declarative markup** declares what an element is; e. g. a member of a particular type or class like a:
+## headline
+If design rules for headlines change, the document structure remains intact and is still in line with the authors original intention.
+
+**Referential markup** refers to entities external to the document and may be replaced by those entities during processing. The World Wide Web markup language HTML (**H**yper**T**ext **M**arkup **L**anguage) e.g. uses the anchor `<a>` tag for hypertext references (hyperlinks).
+
+```html
+<a href="url">link text displayed to reader</a>
+```
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: callout
+Rigorous markup can make text (character strings) more accessible for computer analysis.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+**SGML** (**S**tandard **G**eneralized **M**arkup **L**anguage) was one of the first industry standards for electronic publishing -- a meta-language for generalized, descriptive markup languages -- first accepted as an ISO standard in 1986. Both, HTML (1989) and XML (1998) are based on SGML.[^6]
+
+**HTML** (**H**yper**T**ext **M**arkup **L**anguage) is the standard markup language for web pages.
+
+In contrast, the main purpose of **XML** (e**X**tensible **M**arkup **L**anguage) is the transfer and storage of arbitrary data on the World Wide Web.  XML is software- and hardware-independent. It is considered human-readable and allows for hierarchical (tree-like) structures. Data elements are wrapped in start and end "tags" `<></>`. XML tags can be customized by the author of the document, its markup is extensible.[^7]
+
+```xml
+<example>
+    <title>This is the example title</title>
+    <description>A simple XML example</description>
+    <wordCount>1</wordCount>
+</example>
+```
+
+**JSON** (**J**ava**S**cript **O**bject **N**otation) is not a markup language. It is a lightweight, human-readable, hierarchical format to store and transport data.[^8] [<i class='fa fa-external-link-square'></i> JSON syntax](https://www.json.org/json-en.html) is inspired by JavaScript object notation.[^9] Like XML, JSON is software- and hardware-independent.
+
+- data elements are in key/value pairs
+- keys are of data type _string_ (in quotes)
+- values must be of data type _string_, _number_, _boolean_, _array_ or _object_ 
+- elements are separated by commas
+- curly braces hold objects
+- square brackets hold arrays
+- no comments supported
+    
+```json
+{
+    "key":"value",
+    "aString":"string",
+    "anInteger":5,
+    "aFloat":0.5,
+    "aBoolean":true,
+    "anArray": ["item1", "item2", "item3"],
+    "anObject": {
+        "key1":"value1",
+        "key2":"value2",
+        "key3":"value3"
+    }
+}
+```
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: challenge
+## Challenge 2: Identify metadata in README.txt
+
+<i class='fa fa-pencil fa-2x'></i>
+You cannot make sense of the data you got from your collaborators. You ask them for supplemental information and they send you the following [**README file**](#README) (see below).
+- Read the README carefully.
+- In the group, **discuss**, **decide** and **prioritize** which information in the text are valuable experimental metadata. 
+- **Mark up the valuable information** in HedgeDoc source code on the left. Mark up the respective words with "==". <br>**Example**: (`==This text will be highlighted==`)
+
+You can download the README as TXT file[ <i class='fa fa-download'></i> **HERE**](https://nubes.helmholtz-berlin.de/s/MifJYsPJGWtHZCp) 
+
+
+**20220228_trainingObject_Readme.txt**
+```markdown
+This README file describes the data in trainingObject.csv
+
+The data describes the biomechanical acceleration and screams detected of a test person during the ride of the roller coaster "Flight of the Bat" in Gotham City. 
+
+The data was collected by Bruce Wayne and Selina Kyle (Institute for Vigilance and Nightly Motion -- Justice League) on 2022-02-28 in Gotham City, New Jersey.
+
+The test person (male) is 5'11 tall and weighs 187 lbs.
+
+The test person strapped the recording device (iPhone X) with a running armband to their left upper arm and activated the biomechanical acceleration and scream detection of the application "Physics Toolbox Suite" by Vieyra Software.
+
+- "t" describes the ride time at which measurements were taken upon activating the recording in seconds.
+- "ax" describes the biomechanical acceleration of the test person on the x axis in m/s².
+- "ay" describes the biomechanical acceleration of the test person on the y axis in m/s².
+- "az" describes the biomechanical acceleration of the test person on the z axis in m/s².
+- "scr" is a boolean indicating a detected scream of the test person.
+```
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: solution
+This README describes the data in **trainingObject.csv**
+
+
+The data describes the **biomechanical acceleration** and **screams detected** of a test person during the ride of the roller coaster **"Flight of the Bat"** in **Gotham City**. 
+
+The data was collected by **Bruce Wayne** and **Selina Kyle** (**Institute for Vigilance and Nightly Motion - Justice League**) on **2022-02-28** in **Gotham City, New Jersey**.
+
+
+The test person (**male**) is **5'11''** tall and weighs **187 lbs**.
+
+
+The test person strapped the **recording device (iPhone X)** with a running armband to the **left upper arm** and activated the biomechanical acceleration and scream detection of the application **Physics Toolbox Suite by Vieyra Software**.
+During the ride, the test person was instructed to firmly hold on to the safety handles in order to avoid excessive movement of the arm. The test person was seated in **row 10** on the **outer left** (**seat 37**).
+
+"**t**" describes the **ride time** at which measurements were taken upon activating the recording in **seconds**.
+"**ax**" describes the **biomechanical acceleration of the test person on the x axis** in **m/s²**.
+"**ay**" describes the **biomechanical acceleration of the test person on the y axis** in **m/s²**.
+"**az**" describes the **biomechanical acceleration of the test person on the z axis** in **m/s²**.
+"**scr**" is a **boolean** indicating a **detected scream of the test person**.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: challenge
+## Challenge 3: Write JSON metadata record
+
+You have manually marked up the relevant information in the README. However, your project requires you to provide metadata in the form of a machine-readable JSON metadata record. The project provides you with a simple example JSON object (remember, that curly braces hold objects):
+
+- Based on the information identified in the README; write a well-formed, descriptive JSON object.
+- Collaboratively, find suitable keys (aka names) to your values.
+- You can use the **code block** provided **below** (input source code on the left).
+- You may want to use some [JSON formatter web service](https://jsonformatter.org/) to check and pretty-print your output
+<br>
+
+```json
+{
+  "key":"value",
+  "key":"value"
+}
+``` 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: hint
+
+**Keep in mind**, that values in JSON must be one of the following data types:
+
+- a string `""`
+- a number `42`
+- a boolean `True`
+- null `null`
+- an array `[]`
+- an object `{}`
+
+**Example:**
+```json
+{
+    "key":"value",
+    "aString":"string",
+    "anInteger":5,
+    "aFloat":0.5,
+    "aBoolean":true,
+    "anArray": ["item1", "item2", "item3"],
+    "anObject": {
+        "key1":"value1",
+        "key2":"value2",
+        "key3":"value3"
+    }
+}
+```
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: solution
+```json
+{
+  "fileName": "trainingObject.csv",
+  "abstract": "The data describes the biomechanical acceleration and screams detected of a test person during the ride of the roller coaster \"Flight of the Bat\" in Gotham City.",
+  "format": "text/csv",
+  "date": "2022-02-28",
+  "creator": [
+    {
+      "creatorName": "Bruce Wayne",
+      "creatorAffiliation": "Institute for Vigilance and Nightly Motion - Justice League"
+    },
+    {
+      "creatorName": "Selina Kyle",
+      "creatorAffiliation": "Institute for Vigilance and Nightly Motion - Justice League"
+    }
+  ],
+  "experimentalParameters": {
+    "testRide": {
+      "rideName": "Flight of the Bat",
+      "location": "Gotham City, New Jersey",
+      "rideType": "roller coaster"
+    },
+    "testPerson": {
+      "sex": "male",
+      "height": 180
+    },
+    "recording": {
+      "testDevice": "iPhone X",
+      "testDeviceFixture": "left upper arm",
+      "testApp": "Physics Toolbox Suite by Vieyra Software"
+    }
+  },
+  "columns": [
+    {
+      "columnName": "t",
+      "columnDescription": "ride time at which measurements were taken upon activating the recording in seconds",
+      "dataType": "number",
+      "columnUnit": "sec"
+    },
+    {
+      "columnName": "ax",
+      "columnDescription": "biomechanical acceleration of the test person on the x axis in m/s²",
+      "dataType": "number",
+      "columnUnit": "m/s²"
+    },
+    {
+      "columnName": "ay",
+      "columnDescription": "biomechanical acceleration of the test person on the y axis in m/s²",
+      "dataType": "number",
+      "columnUnit": "m/s²"
+    },
+    {
+      "columnName": "az",
+      "columnDescription": "biomechanical acceleration of the test person on the z axis in m/s²",
+      "dataType": "number",
+      "columnUnit": "m/s²"
+    },
+    {
+      "columnName": "scr",
+      "columnDescription": "boolean indicating a detected scream of the test person",
+      "dataType": "boolean",
+      "columnUnit": "1"
+    }
+  ]
+}
+```
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: discussion
+Discuss...
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: keypoints 
+
+- Use `.md` files for episodes when you want static content
+- Use `.Rmd` files for episodes when you need to generate output
+- Run `sandpaper::check_lesson()` to identify any issues with your lesson
+- Run `sandpaper::build_lesson()` to preview your lesson locally
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
