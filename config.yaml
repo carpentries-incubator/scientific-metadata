@@ -59,7 +59,6 @@ contact: 'team@carpentries.org'
 
 # Order of episodes in your lesson
 episodes: 
-- introduction.md
 - getting-started.Rmd
 - data-metadata.Rmd
 - structure-schema.Rmd

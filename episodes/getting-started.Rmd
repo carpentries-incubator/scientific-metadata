@@ -1,131 +1,53 @@
 ---
 title: 'Getting Started'
-teaching: 50
-exercises: 15
+teaching: 2
+exercises: 10
 ---
-
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- What is data and what is metadata?
-- How is metadata classified?
-- Where can I find (meta)data in every day examples?
-- What are worst and good enough practices of metadata handling in the scientific context?
+- What could the subject of the data set be?
+- What is challenging for understanding the data?
+- What would you have needed to draw conclusions on the data?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-::::::::::::::::::::::::::::::::::::: objectives
+:::::::::::::::::::::::::::::::::::::: objectives
 
-- Recognize and describe examples of (meta)data
-- Name best and worst practice situations in research (meta)data handling
-- Getting familiar with the example data set
+- Getting familiar with the example data set.
+- Facing a well-known challenge, when exploring a data set. 
+:::::::::::::::::::::::::::::::::::::::::::::::::
 
-::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: challenge
+## Challenge 0: What do you see?
 
-## Data -- Information -- Knowledge -- Wisdom
-The question “What is data?” seems trivial at first, but if we look at the definition, it is apparent that the question is not that easy to answer. In information science, we distinguish between Glyphs (or symbols), data, information, knowledge and wisdom. **GLYPHS** are the smallest unit of data representation. Glyphs represent the symbols of which data can be composed.
+Your collaborators sent you a link to one of their tabular data sets with the request to inspect and comment on the data collected.
 
-To cite the information scientist Jeffrey Pomerantz, “**DATA** is stuff. It is raw, unprocessed, possibly even untouched by human hands, unviewed by human eyes, un-thought-about by human minds”[^1]. In other words, data is potential information, that requires processing and context to extract the information held within. 
+- Download the data [**HERE**](data/exampleDataObject.csv) (.csv file, separator: ";") 
+- Open .csv with your day-to-day data tool (Python, MS Excel, R, Matlab, etc.)
+- Inspect the data
 
-Accordingly, **INFORMATION** is processed, human-consumable data. If this information is internalized by a human being, it is called **KNOWLEDGE**. This knowledge can be applied in a broader context by the human being. Applied knowledge is called **WISDOM**.
-The key to reaching wisdom from data is processing and contextualizing data to extract information. To achieve this goal we often need to add a description to the data: **metadata**.
+- Ask yourself the following questions:
+  - Do you get information out of the data?
+  - Which challenges do you face?
+  - Is context missing?
+  
+- Note your answers. We will discuss your statements in the lesson
 
-::::::::::::::::::::::::::::::::::::::: callout
-Data is potential information and needs to be processed and contextualized to make it accessible for a human agent. Data can be understood as **potentially informative**.
-:::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-
-The transition between "Data -- Information -- Knowledge -- Wisdom" and 
-"Metadata" is used to have a first look at the example data set, revealing 
-subject, variables and data types.
-
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: hint
+**Important:** There is no right or wrong in this task. Just note down whatever comes to your mind!
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Metadata
-Metadata is **(semi-)structured data** that provides information about characteristics of other (more complex) data objects (e.g. files or documents). Regarding research data, metadata gives the observer the necessary context to interpret the data and derive information from it. Although metadata is data itself, it can only exist in connection with a data object that is described by the metadata record (e.g. the meta-information in a book about said book). Metadata can be found inside of a data object (e.g. in a book, in a data record) or as a separate object (e.g. library catalogue, separate file).
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor 
 
-[National Information Standards Organization](https://groups.niso.org/higherlogic/ws/public/download/17446/Understanding%20Metadata.pdf) (NISO, 2004, from "Big Data, Little Data, No Data", Christine L. Borgman, 2015): "Metadata is structured information that describes, explains, locates, or otherwise makes it easier to retrieve, use or manage an information resource".
+## Creator recommendation
+This challenge is meant to get the learners into the mindset of the lesson by giving them a (usually) familiar problem: **unsufficiently annotated, uninterpretable data**.
 
-::::::::::::::::::::::::::::::::::::::: callout
-Metadata is **a statement** about a potentially informative object.
-:::::::::::::::::::::::::::::::::::::::::::::::
+Send this challenge to the learners before the lesson starts. During the warm-up and introduction session of your lesson, ask the learners to briefly share their experiences with the data set. You can use the questions in the overview as a guideline.
 
-## Types of metadata
-**Descriptive metadata** provides information about the intellectual content of a (digital) object (e.g. title, author, date of publication, subject, description, unique identifier). [^2]
+We recommend collecting the learners' statements in bullet points on a white board or shared document. After the introduction session, an adhoc summary of the statements can be used to lead over to the lesson topic.
 
-**Administrative metadata** provides information to support the management of a resource (e.g. technical information regarding the file's creation and format, version, information about copyright, licence and intellectual property rights). [^2]
-
-**Structural metadata** specifies the relationships between components of a (digital) object and between different (digital) objects (e.g. chapters in a book). [^2]
-
-::::::::::::::::::::::::::::::::::::: challenge 
-
-## Challenge 1: Real world metadata
-
-1. Open one of these web pages in your preferred browser: <br> 
-[<i class='fa fa-external-link-square'></i> Science Journal](https://www.science.org/)<br> 
-[<i class='fa fa-external-link-square'></i> The Guardian](https://www.theguardian.com/international)<br> 
-[<i class='fa fa-external-link-square'></i> German Federal Government](https://www.bundesregierung.de/breg-en). <br>
-2. Open **one of the articles** linked on the main page.
-3. Inspect the **web page source code**.
-
-
-| Browser            | Shortcut to Source Code |
-| ------------------ | ----------------------- |
-| Firefox            | Ctrl + u                |
-| Chrome             | Ctrl + u                |
-| Safari             | Option + Command + u    |
-| Opera              | Ctrl + u                |
-| Edge               | Ctrl + u                |
-| Internet Explorer  | Ctrl + u                |
-
-4. Look for [<i class='fa fa-external-link-square'></i> meta tags](https://www.w3schools.com/tags/tag_meta.asp) in the HTML source code **`<head>`** element. 
-5. Assign some **`<meta>`** tags to one of the categories **descriptive**, **administrative**, **structural** in [<i class='fa fa-external-link-square'></i> **our Miro Board**](https://miro.com/app/board/uXjVPYT6plk=/?share_link_id=440221692263), if applicaple.
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-
-**Time:** 15 min - including result discussion.  
-
-**Implementation:** We recommend using a pre-structured, collaborative document 
-(whiteboard or notepad) to collect the participants' results.
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-:::::::::::::::::::::::::::::::::::::::::::::::
-
-
-## Figures
-
-You can include figures generated from R Markdown:
-
-```{r pyramid, fig.alt = "pie chart illusion of a pyramid", fig.cap = "Sun arise each and every morning"}
-pie(
-  c(Sky = 78, "Sunny side of pyramid" = 17, "Shady side of pyramid" = 5), 
-  init.angle = 315, 
-  col = c("deepskyblue", "yellow", "yellow3"), 
-  border = FALSE
-)
-```
-Or you can use pandoc markdown for static figures with the following syntax:
-
-`![optional caption that appears below the figure](figure url){alt='alt text for
-accessibility purposes'}`
-
-![You belong in The Carpentries!](https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg){alt='Blue Carpentries hex person logo with no text.'}
-
-## Math
-
-One of our episodes contains $\LaTeX$ equations when describing how to create
-dynamic reports with {knitr}, so we now use mathjax to describe this:
-
-`$\alpha = \dfrac{1}{(1 - \beta)^2}$` becomes: $\alpha = \dfrac{1}{(1 - \beta)^2}$
-
-Cool, right?
-
-::::::::::::::::::::::::::::::::::::: keypoints 
-
-- Use `.md` files for episodes when you want static content
-- Use `.Rmd` files for episodes when you need to generate output
-- Run `sandpaper::check_lesson()` to identify any issues with your lesson
-- Run `sandpaper::build_lesson()` to preview your lesson locally
+**The subject of the example data will be revealed after the introductory lecture on "What is data?" and bridges over to the topic of metadata.**
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 

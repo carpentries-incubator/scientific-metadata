@@ -1,8 +1,7 @@
 ---
 title: 'Enabling Technologies & Standards'
 teaching: 35
-exercises: 50
-discussion: 20
+exercises: 70
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
