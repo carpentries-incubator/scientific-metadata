@@ -19,20 +19,6 @@ exercises: 60
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Metadata records
-**Handwritten (lab) notes**
-Handwritten (lab) notes are still a common practice in many scientific disciplines. These notes are easy to take during data generation. The greatest disadvantage, however, is the physical separation from the data itself and the difficulty to find, store and share these information. Often, handwritten lab notes do not follow a predictable structure and, hence, are hard to interpret and sometimes even hard to read.
-
-**Readme style text documents**
-Recording your metadata (additionally) in a digital readme style text document comes with one great advantage: the metadata can be associated and stored directly with the experimental data. Readme style metadata best practices include:[^3]
-- creating one readme file for each data file, whenever possible.
-- naming the readme in a way that it is easily associated with the data file(s) it describes.
-- writing the readme document as a plain text file for interoperability.
-- formatting multiple readme files identically
-- where possible follow established conventions for scientific vocabulary (i.e. from glossaries or ressources such as the [<i class='fa fa-external-link-square'></i> IUPAC Gold book](https://goldbook.iupac.org/))
-
-We strongly recommend to use [<i class='fa fa-external-link-square'></i> **this template**](https://cornell.app.box.com/v/ReadmeTemplate) for readme style metadata documents.
-
 ## Structured metadata records
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: callout 
@@ -279,3 +265,5 @@ Discuss...
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
+[^4]: James H. Coombs et al. (November 1987). Markup Systems and the Future of Scholarly Text Processing. Communications of the ACM 30. http://xml.coverpages.org/coombs.html#Note1
+[^5]: Cynthia Zender (2005). Markup 101: Markup Basics. SAS Institute. https://www.lexjansen.com/pharmasug/2005/Tutorials/tu12.pdf
