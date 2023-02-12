@@ -137,10 +137,9 @@ We recommend to include an interactive exercise at this point to further focus o
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- Use `.md` files for episodes when you want static content
-- Use `.Rmd` files for episodes when you need to generate output
-- Run `sandpaper::check_lesson()` to identify any issues with your lesson
-- Run `sandpaper::build_lesson()` to preview your lesson locally
+- **Data** is potential information.
+- Borders between **data** and **metadata** are fluid and depend on the context.
+- **Scientific meta information** is often recorded in handwritten (lab) notes, README style records, or the like, limiting its accessibility.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
