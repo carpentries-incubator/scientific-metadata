@@ -22,7 +22,7 @@ exercises: 10
 
 Your collaborators sent you a link to one of their tabular data sets with the request to inspect and comment on the data collected.
 
-- Download the data [**HERE**](data/exampleDataObject.csv) (.csv file, separator: ";") 
+- Download the data [**HERE**](files/exampleDataObject.csv) (.csv file, separator: ";") 
 - Open .csv with your day-to-day data tool (Python, MS Excel, R, Matlab, etc.)
 - Inspect the data
 

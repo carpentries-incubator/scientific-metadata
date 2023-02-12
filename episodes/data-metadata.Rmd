@@ -84,14 +84,17 @@ Metadata is **a statement** about a potentially informative object.
 :::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-# Challenge note
+# Challenge notes
 
 **Time:** 15 min - including result discussion.  
 
-**Implementation:** We recommend using a pre-structured, collaborative document 
+**Challenge type:** guided confrontation, individual investigation, discussion
+
+**Implementation:** <br>
+We recommend using a pre-structured, collaborative document 
 (whiteboard or notepad) to collect the participants' results.
 
-**White board:** <a href="../../../episodes/files/example-challenge1-whiteboard.pdf">example set-up</a>
+**White board:** <a href="../../../episodes/files/exampleChallenge1Whiteboard.pdf">example set-up</a>
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -132,10 +135,11 @@ We recommend to include an interactive exercise at this point to further focus o
   <li>with the whole group of learners, find the "hidden" metadata in the publication and sort the findings into the metadata types (descriptive, administrative, structural)</li>
 </ul>
 
-**Creators recommendation**: Use a white board application to display the journal publication. This allows for simultaneous highlighting / annotation of the findings and thus gives a visual response and documentation of the discussion. 
+**Creators recommendation**: <br>
+Use a white board application to display the journal publication. This allows for simultaneous highlighting / annotation of the findings and thus gives a visual response and documentation of the discussion. 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-![**Baker, M.**, "1,500 scientists lift the lid on reproducibility.", _Nature_ **533**, 452 - 454 (2016). <a href="https://doi.org/10.1038/533452a">https://doi.org/10.1038/533452a</a>](fig/monyaBakerQuote.png){alt="Quote by Monya Baker in Nature from 2016, saying 'More than 70% of researchers have tried and failed to reproduce another scientist's experiments. More than half have failed to reproduce their own experiments.'"}
+![**Baker, M.** (2016) "1,500 scientists lift the lid on reproducibility.", _Nature_ **533**, 452 - 454. <a href="https://doi.org/10.1038/533452a" target="_blank">https://doi.org/10.1038/533452a</a>](fig/monyaBakerQuote.png){alt="Quote by Monya Baker in Nature from 2016, saying 'More than 70% of researchers have tried and failed to reproduce another scientist's experiments. More than half have failed to reproduce their own experiments.'"}
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
