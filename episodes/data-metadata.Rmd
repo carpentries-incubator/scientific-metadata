@@ -4,6 +4,9 @@ teaching: 50
 exercises: 15
 ---
 
+![Pomerantz, J. (2015). Metadata. Cambridge, MA: MIT Press.](fig/jeffreyPomerantzQuote.png){alt="Quote by Monya Baker saying 'Data is stuff. It is raw, unprocessed, possibly even untouched by human hands, unviewed by human eyes,, un-thought-about by human minds.'"}
+<br>
+
 :::::::::::::::::::::::::::::::::::::: questions 
 
 - What is data and what is metadata?
@@ -21,7 +24,6 @@ exercises: 15
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-![Pomerantz, J. (2015). Metadata. Cambridge, MA: MIT Press.](fig/jeffreyPomerantzQuote.png){alt="Quote by Monya Baker saying 'Data is stuff. It is raw, unprocessed, possibly even untouched by human hands, unviewed by human eyes,, un-thought-about by human minds.'"}
 
 ## Data -- Information -- Knowledge -- Wisdom
 The question “What is data?” seems trivial at first, but if we look at the definition, it is apparent that the question is not that easy to answer. In information science, we distinguish between Glyphs (or symbols), data, information, knowledge and wisdom. **GLYPHS** are the smallest unit of data representation. Glyphs represent the symbols of which data can be composed.

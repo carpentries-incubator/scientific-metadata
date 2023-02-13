@@ -4,6 +4,9 @@ teaching: 25
 exercises: 60
 ---
 
+![**Baker, M.** (2016) "1,500 scientists lift the lid on reproducibility.", _Nature_ **533**, 452 - 454. <a href="https://doi.org/10.1038/533452a" target="_blank">https://doi.org/10.1038/533452a</a>](fig/monyaBakerQuote.png){alt="Quote by Monya Baker in Nature from 2016, saying 'More than 70% of researchers have tried and failed to reproduce another scientist's experiments. More than half have failed to reproduce their own experiments.'"}
+<br>
+
 :::::::::::::::::::::::::::::::::::::: questions 
 
 - What is semi-structured metadata?
@@ -18,8 +21,6 @@ exercises: 60
 - Understand, read and write basic Markdown / HTML / XML / JSON.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
-
-![**Baker, M.** (2016) "1,500 scientists lift the lid on reproducibility.", _Nature_ **533**, 452 - 454. <a href="https://doi.org/10.1038/533452a" target="_blank">https://doi.org/10.1038/533452a</a>](fig/monyaBakerQuote.png){alt="Quote by Monya Baker in Nature from 2016, saying 'More than 70% of researchers have tried and failed to reproduce another scientist's experiments. More than half have failed to reproduce their own experiments.'"}
 
 ## Structured metadata records
 
