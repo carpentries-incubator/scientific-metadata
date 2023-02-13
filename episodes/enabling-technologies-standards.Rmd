@@ -18,6 +18,8 @@ exercises: 70
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
+![](fig/timBernersLee.png){alt="Quote by Tim Berners-Lee saying 'The original idea of the web was that it should be a collaborative space where you can communicate through sharing information.'"}
+
 ## The Web is not the internet
 
 In 1989 researchers Tim Berners-Lee and Robert Cailliau startet their HyperText project called the WWW (**W**orld-**W**ide **W**eb, short Web) at the CERN research centre in Geneva, Switzerland. The Web was developed to "meet the demand for automated information-sharing between scientists in universities and institutes around the world".[^10]

@@ -21,6 +21,8 @@ exercises: 15
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
+![Pomerantz, J. (2015). Metadata. Cambridge, MA: MIT Press.](fig/jeffreyPomerantzQuote.png){alt="Quote by Monya Baker saying 'Data is stuff. It is raw, unprocessed, possibly even untouched by human hands, unviewed by human eyes,, un-thought-about by human minds.'"}
+
 ## Data -- Information -- Knowledge -- Wisdom
 The question “What is data?” seems trivial at first, but if we look at the definition, it is apparent that the question is not that easy to answer. In information science, we distinguish between Glyphs (or symbols), data, information, knowledge and wisdom. **GLYPHS** are the smallest unit of data representation. Glyphs represent the symbols of which data can be composed.
 
@@ -139,7 +141,6 @@ We recommend to include an interactive exercise at this point to further focus o
 Use a white board application to display the journal publication. This allows for simultaneous highlighting / annotation of the findings and thus gives a visual response and documentation of the discussion. 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-![**Baker, M.** (2016) "1,500 scientists lift the lid on reproducibility.", _Nature_ **533**, 452 - 454. <a href="https://doi.org/10.1038/533452a" target="_blank">https://doi.org/10.1038/533452a</a>](fig/monyaBakerQuote.png){alt="Quote by Monya Baker in Nature from 2016, saying 'More than 70% of researchers have tried and failed to reproduce another scientist's experiments. More than half have failed to reproduce their own experiments.'"}
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
