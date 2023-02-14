@@ -49,13 +49,14 @@ subject, variables and data types.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Metadata
-Metadata is **(semi-)structured data** that provides information about characteristics of other (more complex) data objects (e.g. files or documents). Regarding research data, metadata gives the observer the necessary context to interpret the data and derive information from it. Although metadata is data itself, it can only exist in connection with a data object that is described by the metadata record (e.g. the meta-information in a book about said book). Metadata can be found inside of a data object (e.g. in a book, in a data record) or as a separate object (e.g. library catalogue, separate file).
-
-[National Information Standards Organization](https://groups.niso.org/higherlogic/ws/public/download/17446/Understanding%20Metadata.pdf) (NISO, 2004, from "Big Data, Little Data, No Data", Christine L. Borgman, 2015): "_Metadata is structured information that describes, explains, locates, or otherwise makes it easier to retrieve, use or manage an information resource_".
 
 ::::::::::::::::::::::::::::::::::::::: callout
 Metadata is **a statement** about a potentially informative object.
 :::::::::::::::::::::::::::::::::::::::::::::::
+
+Metadata is **(semi-)structured data** that provides information about characteristics of other (more complex) data objects (e.g. files or documents). Regarding research data, metadata gives the observer the necessary context to interpret the data and derive information from it. Although metadata is data itself, it can only exist in connection with a data object that is described by the metadata record (e.g. the meta-information in a book about said book). Metadata can be found inside of a data object (e.g. in a book, in a data record) or as a separate object (e.g. library catalogue, separate file).
+
+[National Information Standards Organization](https://groups.niso.org/higherlogic/ws/public/download/17446/Understanding%20Metadata.pdf) (NISO, 2004, from "Big Data, Little Data, No Data", Christine L. Borgman, 2015): "_Metadata is structured information that describes, explains, locates, or otherwise makes it easier to retrieve, use or manage an information resource_".
 
 ## Types of metadata
 **Descriptive metadata** provides information about the intellectual content of a (digital) object (e.g. title, author, date of publication, subject, description, unique identifier). [^2]
@@ -63,6 +64,30 @@ Metadata is **a statement** about a potentially informative object.
 **Administrative metadata** provides information to support the management of a resource (e.g. technical information regarding the file's creation and format, version, information about copyright, licence and intellectual property rights). [^2]
 
 **Structural metadata** specifies the relationships between components of a (digital) object and between different (digital) objects (e.g. chapters in a book). [^2]
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Challenge notes
+
+**Time:** 15 min 
+
+**Challenge type:** guided confrontation, individual investigation, discussion
+
+**Objective:** <br>
+The learners experience a real world example of functional metadata applications and practice their acquired knowledge on metadata types.
+
+**Implementation:** <br>
+We recommend using a pre-structured, collaborative document 
+(whiteboard or notepad) to collect the participants' results.
+Allow for some time for the learners to navigate the websites and explore the metadata in the source code individually (ca. 8 min). Open the source code of one website in the browser and share the screen. Talking points for the guided confrontation can be: 
+<ul>
+  <li>different types of targets (e.g. `twitter:`, `robots:`)</li>
+  <li>different contexts (e.g. `dc:`, `og:`); don't go to deep in this topic and just teaser the existence of metadata standards and references</li>
+  <li>**Fun fact:** *The Guardian* regularly uses a comment in the `head` of their html documents to advertise IT jobs :grin: </li>
+</ul>
+
+**White board:** <a href="../../../episodes/files/exampleChallenge1Whiteboard.pdf">example set-up</a>
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 ## Challenge 1: Real world metadata
@@ -87,20 +112,6 @@ Metadata is **a statement** about a potentially informative object.
 5. Assign some **`<meta>`** tags to one of the categories **descriptive**, **administrative**, **structural** 
 :::::::::::::::::::::::::::::::::::::::::::::::
 
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-# Challenge notes
-
-**Time:** 15 min - including result discussion.  
-
-**Challenge type:** guided confrontation, individual investigation, discussion
-
-**Implementation:** <br>
-We recommend using a pre-structured, collaborative document 
-(whiteboard or notepad) to collect the participants' results.
-
-**White board:** <a href="../../../episodes/files/exampleChallenge1Whiteboard.pdf">example set-up</a>
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Metadata records
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
@@ -126,21 +137,32 @@ Recording your metadata (additionally) in a digital readme style text document c
 We strongly recommend to use [**this template**](https://cornell.app.box.com/v/ReadmeTemplate) for readme style metadata documents.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-# Group activity: Metadata in scientific publications
+# Guided confrontation: Metadata in scientific publications
 
 We recommend to include an interactive exercise at this point to further focus on metadata in the scientific context.
 
-**Time**: 10 min
+**Time:** 10 min
 
-**Exercise**:
+**Type:** guided confrontation, collaboration
+
+**Objective:** <br>
+The learners apply their acquired knowledge about metadata identification and types on a familiar work situation.
+
+**Implementation:** <br>
 <ul>
   <li>select a scientific journal publication of your liking (could be related to the research field of the learners, if the group is homogeneous in this regard.)</li>
   <li>share the journal on your screen</li>
   <li>with the whole group of learners, find the "hidden" metadata in the publication and sort the findings into the metadata types (descriptive, administrative, structural)</li>
 </ul>
 
-**Creators recommendation**: <br>
+**Creator's recommendation**: <br>
 Use a white board application to display the journal publication. This allows for simultaneous highlighting / annotation of the findings and thus gives a visual response and documentation of the discussion. 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Break :coffee:
+
+We recommend a **15 min break** at this point.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 

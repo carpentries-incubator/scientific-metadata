@@ -166,11 +166,17 @@ You can find an example Markdown file for the group handouts <a href="../../../e
 
 **Challenge type:** group activity, production
 
+**Objective:** <br>
+By writing a short excerpt of a JSON schema, the learner get familiar with the schema syntax, gain the ability to read and understand a schema, and get to know some important JSON schema keywords. By writing the schema in a group set-up, the learner experience the discussion process as a crucial part of schema development.
+
 ##### <u>Challenge 5: Form input & validation with JSON schema</u>
 
 **Time:** 10 min
 
-**Challenge type:** group activity, exploration
+**Challenge type:** group activity **OR** individual exploration
+
+**Objective:** <br>
+By downloading and inspecting the final JSON schema, the learners comprehend the complexity a metadata schema can acquire. With the implementation of the schema in the UI of the react-jsonschema-form playground, the learners bring the developed schema into use, get to know a software tool, they can benefit from, and experience relieve of the frustration after Challenge 3.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -444,29 +450,50 @@ We must admit: writing a valid JSON metadata record for each and every experimen
   <li>Delete sample content in `JSONschema` and `formData`</li>
   <li>Copy and paste the full schema into the `JSONschema` box</li>
   <li>Check again if Chuck Norris properties reappeared in `formData` results; he can be tough :smile:</li>
-  <li>Inspect the form interface thoroughly, enter some values and discuss the following questions</li>
-    <ul>
-      <li>How does the browser display lists of pre-defined values (specified as `enum` in the schema)?</li>
-      <li>How are `arrays` and `objects` interpreted in the form interface?</li>
-      <li>What happens if you enter an invalid value (e.g. try to enter a string for the test persons `height`)</li>
-      <li>What happens if you enter a nonsense value (e.g. try to enter a nonsense string for `rideName`)</li>
-      <li>How does the web service respond if you click on submit without filling all the "required" fields?</li>
-    </ul>
+  <li>Inspect the form interface thoroughly.</li>
+  <li>**Optional:** Copy the final JSON object literal in `formData` in a separate text document and save the file as `exampleDataObject.json`</li> 
 </ul>  
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: hint
-## Attention
+## Good to know
 Note that the JSON Schema used for this demo **lacks the recommended `$schema` keyword**: this is because the playground will reject the keyword.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: discussion
-hier kommt ne discussion hin
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Discussion notes
 
+**Time:** 10 min
+
+**Implementation:** <br>
+<ul>
+  <li>share the [react-jsonschema-form playground](https://rjsf-team.github.io/react-jsonschema-form/){target="_blank"} pre-filled with the final schema and metadata values in your browser **OR**</li>
+  <li>share the final **JSON schema** on your screen **OR**</li>
+  <li>display the final **JSON metadata records** (`exampleDataObject.json`) of each group next to each other</li>
+</ul>
+
+**Objective:** <br>
+The learners are aware of the advantages of a metadata schema and metadata record validation, pay attention to interface interpretations in the proposed tool and feel relieve of the frustration experienced after challenge 3 based on the metadata record harmonization.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: discussion
+## Plenary result discussion
+
+<ul>
+  <li>How does the browser display lists of pre-defined values (specified as `enum` in the schema)?</li>
+  <li>How are `arrays` and `objects` interpreted in the form interface?</li>
+  <li>What happens if you enter an invalid value (e.g. try to enter a string for the test persons `height`)</li>
+  <li>What happens if you enter a nonsense value (e.g. try to enter a nonsense string for `rideName`)</li>
+  <li>How does the web service respond if you click on submit without filling all the "required" fields?</li>
+</ul>
+    
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Break :coffee:
+
+We recommend a **15 min break** at this point.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Metadata Standards
@@ -481,23 +508,33 @@ Dublin Core and its extensions are widely used and referenced today. The [Dublin
 
 The 15 generic Dublin Core metadata elements have been formally standardized for cross-domain resource description in e.g. **ISO 15836-1:2017**[^15]
 
-`Creator` <br>
-`Contributor` <br>
-`Publisher` <br>
-`Title` <br>
-`Date` <br>
-`Language` <br>
-`Format` <br>
-`Subject` <br>
-`Description` <br>
-`Identifier` <br>
-`Relation` <br>
-`Source` <br>
-`Type` <br>
-`Coverage` <br>
-`Rights` <br>
+![](fig/dublinCoreElements.png){alt="Depiction of the 15 Dublin Core Elements: Creator, Contributor, Publisher, Title, Date, Language, Format, Subject, Description, Identifier, Relation, Source, Type, Coverage, Rights"}
 
 Many scholarly repositories expose a standardized **application programming interface (API)** for the harvesting of Dublin Core metadata as specified in [ http://www.openarchives.org/OAI/2.0/openarchivesprotocol.htm#dublincore](http://www.openarchives.org/OAI/2.0/openarchivesprotocol.htm#dublincore){target="_blank"}. 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Challenge notes
+
+**Time:** 30 min
+
+**Challenge type:** individual exploration, guided confrontation
+
+**Objective:** <br>
+The learners are aware of metadata standard registries and know how to navigate them.
+
+**Creator's recommendation:** <br>
+After giving the challenge instructions, allow for some time for the learners to explore the registries (ca. 15 min). Start a screen share of one on the metadata registries and navigate to a metadata standard of your liking. Talking points could be:
+<ul>
+  <li>different representations of metadata standards (JSON / XML schema, RDF, SKOS, OWL)</li>
+  <li>granularity of representation (e.g. high level standard vs. application specific standard)</li>
+  <li>terms, properties, specifications</li>
+  <li>accompanying journal publications</li>
+</ul>
+
+**Transition to "(Web) Locations & Identifiers":**
+During the discussion, ask the group of learners, whether someone encountered a `404 Error` while exploring a metadata standard. If you are working with a heterogeneous group in regard of their scientific background, chances are high, that at least one of the learners made this experience (-> it is not unusual that research field specific metadata standard development was concluded and the maintenance of the web representation was terminated with the end of the funding period.)
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: challenge
 ## Challenge 6: Domain specific metadata standards
@@ -507,26 +544,16 @@ Many scholarly repositories expose a standardized **application programming inte
 [DCC List of Metadata Standards](https://www.dcc.ac.uk/guidance/standards/metadata/list){target="_blank"}
 3. Search for a metadata schema, standard or vocabulary **relevant to your research domain**.
 4. Inspect the **information provided**.
-5. Take notes to **discuss your findings** with the group. Did you get any 404 (not found) responses clicking on links? Do you want to try a Google search in addition?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-## Challenge notes
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-## Discussion notes
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- Use `.md` files for episodes when you want static content
-- Use `.Rmd` files for episodes when you need to generate output
-- Run `sandpaper::check_lesson()` to identify any issues with your lesson
-- Run `sandpaper::build_lesson()` to preview your lesson locally
+- The WWW was developed in a **research context** to connect researchers worldwide and enable **sharing information**
+- Metadata schemas serve as **template** and **validation matrix** for metadata records 
+- JSON schemas are **JSON object literals**
+- Well-established metadata schemas have the potential to become a (community) **standard**
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 

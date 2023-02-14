@@ -121,11 +121,17 @@ You can find an example Markdown file for the group handouts <a href="../../../e
 
 **Challenge type:** group activity
 
+**Objective:** <br>
+The learners practice the acquired knowledge of metadata identification in README style text formats.
+
 ##### <u>Challenge 3: Write JSON metadata record</u>
 
 **Time:** 20 min
 
 **Challenge type:** group activity
+
+**Objective:** <br>
+The learners create a structured JSON object literal, experience the difficulties in choosing meaningful key strings and value representations. 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -302,20 +308,10 @@ This is just one (of many) valid solutions.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-## Break
+## Break :coffee:
 
 We recommend a **15 min break** at this point. <br>
 You can use this time, to set-up the plenary discussion.
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: discussion
-## Plenary result discussion
-
-- What was easy generating the structured metadata record?
-- What was hard? Which points were intensely discussed in the group?
-- Which differences do you see between the different JSON metadata records?
-- How do you feel after comparing the results?
-
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
@@ -326,10 +322,10 @@ You can use this time, to set-up the plenary discussion.
 **Implementation:** <br> 
 Display the final JSON object literals of the different groups next to each other. Allow for some time, so that the learners can compare the different results and identify similarities and differences. 
 
-**Intention:** <br>
+**Objective:** <br>
 At this point, the learners should experience some form of frustration - the metadata is now structured and machine readable, yet interoperability and reusability haven't been achieved. This frustration is relieved in the next episode "**Enabling technolgy & Schemas**", when schemas and standards are introduced.
 
-**Creator recommendation:** <br>
+**Creator's recommendation:** <br>
 While moderating the discussion, pay attention to and highlight the following characteristics of the created JSON object literals:
 <ul>
   <li>(if done correctly) all JSON object literals are **valid**, **functional** and **machine readable**</li>
@@ -337,6 +333,16 @@ While moderating the discussion, pay attention to and highlight the following ch
   <li>structure of the JSON object literal (e.g. nested objects vs. flat structure)</li>
   <li>value representation</li>
 </ul>
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: discussion
+## Plenary result discussion
+
+- What was easy generating the structured metadata record?
+- What was hard? Which points were intensely discussed in the group?
+- Which differences do you see between the different JSON metadata records?
+- How do you feel after comparing the results?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
