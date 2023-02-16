@@ -114,13 +114,16 @@ The concept of a schema can be overwhelming for learners with little to no prior
 **Instructor material**: <br>
 <ul>
   <li><a href="../../../episodes/files/customerInformationForm.png" target="_blank">customerInformationForm.png</a></li> 
-  <li><a href="../../../episodes/files/customerInformationForm_solution.json" target="_blank">customerInformationForm_solution.json</a></li>
+  <li><a href="../../../episodes/files/customerInformationForm_solution.json" target="_blank">customerInformationForm_schemaSolution.json</a></li>
 </ul>
 
 **Creators recommendation**: <br>
 <ul>
   <li>Introduce a customer information form as an example for data validation / enforcement in your lecture (see also: */include teaching script anchor/*).</li>
-  <li>Open the image of the customer information form and an empty JSON file in **split-screen view**. (example */insert link to screenshot/*)</li>
+  <li>Open the image of the customer information form and an empty JSON file in **split-screen view**.</li>
+</ul>
+![](files/liveCodingScreenshot.png){alt="Screenshot of the recommended live coding session."}
+<ul>
   <li>For live coding, we recommend using an **IDE** with **JSON syntax highlighting** (e.g. VS Code)</li>
 </ul>
 
@@ -132,7 +135,7 @@ The concept of a schema can be overwhelming for learners with little to no prior
   <li> highlight the following aspects: </li>
     <ul>
       <li>`"Country/Region"`: to restrict a value to a fixed set of values, the keyword `"enum"` is used. Fixed values are specified in an `array` of unique elements.</li>
-      <li>*/@SG: come up with a better number value/*</li>
+      <li>`"Number of super powers"`: introduce `"type":"number"`</li>
       <li>`"E-mail"`: introduce the `"format"`-keyword. `"format":"email"` validates against the correct formatting of an e-mail address (`someString` - `@-sign` - `domain name`). However, it does check, whether the e-mail address exists.</li>
       <li>`"Date of birth"`: specify `date`-format.</li>
     </ul>

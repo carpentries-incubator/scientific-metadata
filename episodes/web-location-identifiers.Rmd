@@ -3,6 +3,9 @@ title: '(Web) Location & Identifiers'
 teaching: 35
 ---
 
+![**Bugeja, M., Dimitrova, D.** (2010) in "_Vanishing Act: The Erosion of Online Footnotes and Implications for Scholarship in the Digital Age_." Litwin Books. <a href="https://dr.lib.iastate.edu/handle/20.500.12876/96527" target="_blank">https://dr.lib.iastate.edu/handle/20.500.12876/96527</a>](fig/dimitrovaBugejaQuote.png){alt="Quote from the Book Vanishing Act: The Erosion of Online Footnotes and Implications for Schlolarship in the Digital Age by Daniela Dimitrova and Michael Bugeja, saying 'Vanishing online footnotes undermine the building blocks of research, and their disappearance raises concerns about the reliability and replicability of scholarship.'"}
+<br>
+
 :::::::::::::::::::::::::::::::::::::: questions 
 
 - What are PIDs?
@@ -20,13 +23,23 @@ teaching: 35
 
 ## The Web of today
 
-Built for human understanding: even though web documents are made with computers, computers can NOT understand the content of these documents. **They can't read, see relationships or make decisions like human can.**
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Creator's recommendation
+
+Conduct a **live poll** (e.g. in Zoom, Mentimeter, Ahaslides) with the learners to reactivate the audience and transition to the topic of (Persistent) Identifiers.
+
+![](files/exampleAhaslidesPid.png){alt="Live poll example asking for the audience familiarity of the terms DOI, ORCID, ROR, URN, PURL, and IRI."}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Built for human understanding: even though web documents are made with computers, computers can NOT understand the content of these documents. **They can't read, see relationships or make decisions like humans can.**
 
 Most search engines are based on keywords:
-- results are high recall and low precision
-- results are highly sensitive to vocabulary
-- results are single human-readable web pages
-- **results do not support logical reasoning and query answering**
+<ul>
+  <li>results are high recall and low precision</li>
+  <li>results are highly sensitive to vocabulary</li>
+  <li>results are single human-readable web pages</li>
+  <li>**results do not support logical reasoning and query answering**</li>
+</ul>
 
 The World Wide Web is a hypermedia system. It contains:
 
@@ -37,7 +50,14 @@ A resource can be anything that has identity.
 **Links**
 (Web identifiers) between these resources.
 
-### Web Identifiers
+## Web Identifiers
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: callout
+## Unique Identifiers
+
+etwas generelles über unique identifiers
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 The **Uniform Resource Identifier (URI)** is a string of characters formulated to uniquely identify a resource, (most commonly on the Web) and enable interaction with it via common protocols such as HTTP.
 
 A **Uniform Resource Name (URN)** is a type of URI. It is a standard, persistent and unique identifier for digital resources on the Internet. To link to the resource from the URN, a **resolver service is required.**
@@ -45,7 +65,12 @@ A **Uniform Resource Name (URN)** is a type of URI. It is a standard, persistent
 The **Uniform Resource Locator (URL)** is a string of characters used to access the information or resource by **using the address of the resource location** via communication protocols such as HTTP.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: callout 
-A URL does not ensure the link to a resource is maintained if it is moved within its repository. **URL links "rot" over time.**
+## How links rot
+
+![](fig/urlSyntax.png){alt="Examplary representation of the URL syntax: protocol specification, host adress, file path and query para"}
+
+
+
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 A **Persistent Identifier (PID)** is a long-lasting reference to digital objects:

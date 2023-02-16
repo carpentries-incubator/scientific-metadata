@@ -1,6 +1,6 @@
 {
     "title" : "Customer Information",
-    "description" : "Contact information of our customer",
+    "description" : "Contact information of our customer.",
     "type" : "object",
     "required" :[
         "Full Name",
@@ -8,13 +8,13 @@
         "Phone Number",
         "E-mail"
     ] ,   
-        "properties" : {
+    "properties" : {
             "Full Name" :{
-                "description" : "First and last name of the customer",
+                "description" : "First and last name of the customer.",
                 "type" : "string"
             },
-            "Country/Region" : {
-                "description" : "...",
+            "Country / Region" : {
+                "description" : "Country name of the customer's address.",
                 "type" : "string",
                 "enum" : [
                     "USA",
@@ -22,17 +22,17 @@
                     "UK"
                 ]
             },
-            "Phone Number" : {
-                "description" : "...",
+            "Number of super powers" : {
+                "description" : "Number of super powers the customer possesses.",
                 "type" : "number"
             },
             "E-mail" : {
-                "description" : "...",
+                "description" : "E-mail adress of the customer.",
                 "type" : "string",
                 "format" : "email"
             },
             "Date of birth" : {
-                "description" : "...",
+                "description" : "The customer's date of birth.",
                 "type" : "string",
                 "format" : "date"
             }
