@@ -6,7 +6,7 @@ title: Learner profiles
 <span>
 <h4 style="display:flex;">Berni Hughes</h4>
 Berni is a first-year PhD candidate in Computer Science. She is really excited about her new research topic: deep learning and computer vision. To kick-off her project, she attends a variety of classes focusing on good scientific practice and research data management. Her supervisor recommended to include a class on scientific data annotation and metadata to her. <br>
-Berni is fluent in C++, JavaScript and Python. She is familiar with the structure Markup, XML, YAML and JSON, yet she is new to annotating her scientific work and looking for solutions to validate her data objects. </span>
+Berni is fluent in C++, JavaScript and Python. She is familiar with the structure of Markup, XML, YAML and JSON, yet she is new to annotating her scientific work and looking for solutions to validate her data objects. </span>
 <img src="https://github.com/carpentries-incubator/scientific-metadata/blob/awesome_dev/profiles/bernyHughesPersona.png?raw=true" height="300px" alt="..." class="figure mx-auto d-block"></span>
 
 <br>

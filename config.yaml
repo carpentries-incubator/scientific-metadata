@@ -11,7 +11,7 @@
 carpentry: 'incubator'
 
 # Overall title for pages.
-title: 'Lesson Title'
+title: 'Fundamentals of scientific metadata'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
 created: ~
@@ -72,9 +72,12 @@ learners:
 
 # Information for Instructors
 instructors: 
+- instructor-notes.md
+- instructor-guide.Rmd
 
 # Learner Profiles
 profiles: 
+- learner-profiles.Rmd
 
 # Customisation ---------------------------------------------
 #
