@@ -66,9 +66,18 @@ learners:
 
 # Information for Instructors
 instructors: 
+<<<<<<< HEAD
 
 # Learner Profiles
 profiles: 
+=======
+- instructor-notes.md
+- instructor-guide.Rmd
+
+# Learner Profiles
+profiles: 
+- learner-profiles.Rmd
+>>>>>>> parent of e8d543c... - minor content updates
 
 # Customisation ---------------------------------------------
 #
