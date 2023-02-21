@@ -57,60 +57,46 @@ A resource can be anything that has identity.
 
 etwas generelles über unique identifiers
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-<br>
-<span>
-<img src="fig/uriUrnUrl.png" alt="" height="300px" style="float:right;" alt="Relationship between URI, URN and URL. URN and URL are seperated entities but both are a subtype of URI."/>
 
 The **Uniform Resource Identifier (URI)** is a string of characters formulated to uniquely identify a resource, (most commonly on the Web) and enable interaction with it via common protocols such as HTTP.
 
 A **Uniform Resource Name (URN)** is a type of URI. It is a standard, persistent and unique identifier for digital resources on the Internet. To link to the resource from the URN, a **resolver service is required.**
 
-The **Uniform Resource Locator (URL)** is a string of characters used to access the information or resource by **using the address of the resource location** via communication protocols such as HTTP. </span>
-<br><br>
-
+The **Uniform Resource Locator (URL)** is a string of characters used to access the information or resource by **using the address of the resource location** via communication protocols such as HTTP.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: callout 
-
 ## How links rot
 
-![URL Example](fig/urlSyntax.png){alt="Examplary representation of the URL syntax: protocol specification, host adress, file path and query parameters."}
+![](fig/urlSyntax.png){alt="Examplary representation of the URL syntax: protocol specification, host adress, file path and query para"}
 
-The **URL** specifies the exact location of a retrievable resource on the web (host & path) as well as the communication protocol (e.g. HTTP) necessary for the local browser to address the host server.
-If you open a link on the web operated under the HTTP protocol, the browser sends a **GET request** to the host server, specifying the path to the requested resource. The host server then follows this path and responds with the resource information, if retrievable.
 
-A resource might **not be retrievable** by the host server, if:
-<ul>
-  <li> the location was misspelled.</li>
-  <li> the file path on the host server changed.</li>
-  <li> the resource was deleted.</li>
-  <li> the resource was migrated to a different server.</li>
-</ul>
-
-Each of these events will result in the **404 error** response. To avoid these broken or rotten links, assigning a **Persistent Identifier (PID)** to the resource resolves the issue.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-A **Persistent Identifier (PID)** is a long-lasting reference to digital objects such as websites, articles, datasets, persons or organizations. PIDs are **globally unique** and **persistent over time**. Assigning a PID to a digital resource ensures its permanent indentifiability, accessibility, and referenciability.[^16] <br><br>
+A **Persistent Identifier (PID)** is a long-lasting reference to digital objects:
+- articles
+- datasets
+- tables
+- figures
+- videos
+- persons
+- instruments
+- organizations
 
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: callout
-## PID services
+**PIDs**[^16]
+- are globally unique
+- persistent over time
+- ensure permanent identifiability, referencing and linking of digital objects
+- **make researchers, their affiliations and their contributions more easily discoverable**
+- are a key element in [FAIR](https://www.nature.com/articles/sdata201618)
 
-A **PID service** operate as a persistent look-up service that redirects GET requests for digital resources to the latest URL of this resource.<br>
-**The host of the digital resource is responsible to update the resource's location with the PID service after the location changed.** <br><br>
-
-**Frequently used PIDs in the scientific context are:**
-<ul>
-  <li>Digital Object Identifier ([DOI](https://www.doi.org/index.html))</li>
-  <li>Persistent Uniform Resource Locator (PURL, e.g. [PIDA](https://purls.helmholtz-metadaten.de/))</li>
-  <li>International Standard Book Number ([ISBN](https://www.isbn-international.org/content/what-isbn))</li>
-  <li>[ORCID iD](https://orcid.org/0000-0002-1825-0097)</li>
-  <li>Research Organization Registry([ROR](https://ror.org/))</li>
-</ul>
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-### Persistent identifiers and metadata
-
+**Frequently used PID schemes**
+- Digital Object Identifiers (DOIs)
+- Persistent Uniform Resource Locators (PURLs)
+- International Standard Book Number (ISBN)
+- [<i class='fa fa-external-link-square'></i> ORCIDs](https://orcid.org/0000-0002-1825-0097)
+- Archival Resource Keys (ARKs)
+- International Standard Name Identifier (ISNI) 
 
 ### The Semantic Web
 **The term “Semantic Web” refers to [W3C’s](https://www.w3.org/standards/semanticweb/) vision of a Web of Linked Data.**
@@ -130,4 +116,3 @@ The goal of a Semantic Web is to **make computers perform more of the tedious wo
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-[^16]: John Kunze (2018). "Ten persistent myths about persistent identifiers". https://escholarship.org/uc/item/73m910w8

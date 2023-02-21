@@ -70,17 +70,14 @@ episodes:
 # Information for Learners
 learners: 
 
-
 # Information for Instructors
 instructors: 
 - instructor-notes.md
 - instructor-guide.Rmd
-- meetTheCreators.Rmd
 
 # Learner Profiles
 profiles: 
 - learner-profiles.Rmd
-
 
 # Customisation ---------------------------------------------
 #
