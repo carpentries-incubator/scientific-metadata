@@ -10,6 +10,18 @@
     <loc>https://carpentries.github.io/workbench-template-md/aio.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/workbench-template-md/conclusion-outlook.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/workbench-template-md/data-metadata.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/workbench-template-md/enabling-technologies-standards.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/workbench-template-md/getting-started.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/workbench-template-md/images.html</loc>
   </url>
   <url>
@@ -25,10 +37,25 @@
     <loc>https://carpentries.github.io/workbench-template-md/instructor/aio.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/workbench-template-md/instructor/conclusion-outlook.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/workbench-template-md/instructor/data-metadata.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/workbench-template-md/instructor/enabling-technologies-standards.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/workbench-template-md/instructor/getting-started.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/workbench-template-md/instructor/images.html</loc>
   </url>
   <url>
     <loc>https://carpentries.github.io/workbench-template-md/instructor/index.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/workbench-template-md/instructor/instructor-guide.html</loc>
   </url>
   <url>
     <loc>https://carpentries.github.io/workbench-template-md/instructor/instructor-notes.html</loc>
@@ -40,7 +67,22 @@
     <loc>https://carpentries.github.io/workbench-template-md/instructor/key-points.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/workbench-template-md/instructor/meetTheCreators.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/workbench-template-md/instructor/profiles.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/workbench-template-md/instructor/structure-schema.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/workbench-template-md/instructor/thank-you-feedback.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/workbench-template-md/instructor/web-location-identifiers.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/workbench-template-md/instructor-guide.html</loc>
   </url>
   <url>
     <loc>https://carpentries.github.io/workbench-template-md/instructor-notes.html</loc>
@@ -52,6 +94,18 @@
     <loc>https://carpentries.github.io/workbench-template-md/key-points.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/workbench-template-md/meetTheCreators.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/workbench-template-md/profiles.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/workbench-template-md/structure-schema.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/workbench-template-md/thank-you-feedback.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/workbench-template-md/web-location-identifiers.html</loc>
   </url>
 </urlset>
