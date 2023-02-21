@@ -1,0 +1,228 @@
+{
+  "title": "Sample JSON schema title",
+  "description": "Sample description. Schema validates a JSON object entry for the DC shared universe repository.",
+  "type": "object",
+  "required": [
+    "fileName",
+    "abstract",
+    "format",
+    "creator",
+    "date",
+    "experimentalConditions",
+    "columns"
+  ],
+  "properties": {
+    "fileName": {
+      "description": "Name of the described data file or set.",
+      "type": "string",
+      "minLength": 1
+    },
+    "abstract":{
+      "description": "A free text abstract of the experimental setup.",
+      "type": "string",
+      "minLength": 24
+    },
+    "format": {
+      "description": "The Internet Media Type of the resource, MIME Type.",
+      "type": "string",
+      "enum": [
+        "text/csv",
+        "video/mp4",
+        "text/markdown",
+        "image/png",
+        "other"
+      ]
+    },
+    "creator": {
+      "description": "An array of people (1-n) primarily responsible for making the resource.",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "creatorName": {
+            "description": "The name of the creator, a person.",
+            "type": "string"
+          },
+          "creatorAffiliation": {
+            "description": "The name of the institute the creator is working for.",
+            "type": "string"
+          }
+        }
+      }
+    },
+    "contributor": {
+      "description": "An array of people (0-n) responsible for making contributions to the resource.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "contributorName": {
+            "description": "The name of the contributor, a person.",
+            "type": "string"
+          },
+          "contributorAffiliation": {
+            "description": "The name of the institute the contributor is working for.",
+            "type": "string"
+          }
+        }
+      }
+    },
+    "date": {
+      "description": "The date of the experiment.",
+      "type": "string",
+      "format": "date"
+    },
+    "experimentalConditions": {
+      "description": "The experimental setting that was used to generate the data.",
+      "type": "object",
+      "required": [
+        "testRide",
+        "testPerson",
+        "recording"
+      ],
+      "properties": {
+        "ride": {
+          "description": "A summary of the experimental conditions. Include sufficient detail to facilitate search and discovery.",
+          "type": "object",
+          "required": [
+            "rideName",
+            "rideType"
+            ],
+            "properties": {
+              "rideName": {
+                "description": "Official name of the ride.",
+                "type": "string",
+                "minLength": 1
+              },
+              "location": {
+                "description": "City and State in which the ride is located",
+                "type": "string"
+              },
+              "rideType": {
+                "description": "Ride type.",
+                "type": "string",
+                "enum": [
+                  "roller coaster",
+                  "water slide",
+                  "bob sled"
+                ]
+              }     
+           }
+         },
+         "testPerson": {
+          "description": "Properties of person carrying the test device.",
+          "type": "object",
+          "required": [
+            "sex",
+            "height"
+          ],
+          "properties": {
+            "sex": {
+              "description": "The sex of test person.",
+              "type": "string",
+              "enum": [
+                "female",
+                "male",
+                "non-binary",
+                "not disclosed"
+              ]
+            },
+            "height": {
+              "description": "Height of test person in cm (SI unit of length).",
+              "type": "number",
+              "minimum": 120,
+              "exclusiveMaximum": 220
+            }
+          }
+        },
+        "recording": {
+          "description": "",
+          "type": "object",
+          "required":[
+			"testApp",
+			"testDevice",
+			"testDeviceFixture"
+            ],
+          "properties": {
+            "testApp": {
+              "description": "Test app used.",
+              "type": "string",
+              "enum": [
+                "Physics Toolbox Suite by Vieyra Software",
+                "Bunny Rollercoaster Physics App"
+               ]
+            },
+            "testAppVersion": {
+              "description": "Version of test app (free text input). Full semantic versioning input preferred: Major.minor.bugfix",
+              "type": "string",
+              "minLength": 1
+            },
+            "testDevice": {
+              "description": "Test device used.",
+              "type": "string",
+              "enum": [
+                "iPhone X",
+                "iPhone 6",
+                "iPhone 6s",
+                "other"
+              ]
+            },
+            "testDeviceFixture": {
+              "description": "Test device fixture.",
+              "type": "string",
+              "enum": [
+                "left upper arm",
+                "right upper arm",
+                "mouth fixture device",
+                "other"
+              ]
+            }
+          }   
+        }
+      }
+    },
+    "columns": {
+      "description": "Relevant information about columns/variables in dataset.",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "columnName",
+          "columnDescription",
+          "dataType",
+          "columnUnit"
+          ],
+        "properties": {
+          "columnName": {
+            "description": "The name of the column.",
+            "type": "string",
+            "minLength": 1
+            },
+          "columnDescription": {
+            "description": "A free text description of data in this column.",
+            "type": "string",
+            "minLength": 1
+            },
+          "dataType": {
+            "description": "The data type of the columns values.",
+            "enum": [
+              "string",
+              "number",
+              "object",
+              "boolean"
+              ]
+            },
+          "columnUnit": {
+            "description": "The SI unit of the columns values.",
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  }
+}
+  
+
