@@ -8,7 +8,8 @@ This is a new lesson built with [The Carpentries Workbench][workbench].
 [workbench]: https://carpentries.github.io/sandpaper-docs
 
 
-### Welcome,
+<img src="https://github.com/carpentries-incubator/scientific-metadata/blob/awesome_dev/episodes/fig/youWillLearn.png?raw=true"/ alt="Content overview. In this lesson you will learn, of the differences between and the importance of data and metadata, how to annotate your research data with structured metadata, how to find and evaluate suitable metadata frameworks, how to use basic Markdown, JSON, and JSON Schema, about available tools that you can use to up your metadata annotation game, why structured metadata is importent and how it can increase your scientific visibility.">
+<br>
 <br>
 to our entry-level introduction to the **fundamentals of scientific metadata**!
 
@@ -20,7 +21,7 @@ Precise and structured description of research data is key for scientific exchan
 
 This course is targeted at scientific staff and researchers from all fields, who would like to better understand research data annotation with metadata.<br><br>
 
-<img src="https://github.com/carpentries-incubator/scientific-metadata/blob/awesome_dev/episodes/fig/youWillLearn.png?raw=true"/ alt="Content overview. In this lesson you will learn, of the differences between and the importance of data and metadata, how to annotate your research data with structured metadata, how to find and evaluate suitable metadata frameworks, how to use basic Markdown, JSON, and JSON Schema, about available tools that you can use to up your metadata annotation game, why structured metadata is importent and how it can increase your scientific visibility.">
+<img src="https://github.com/carpentries-incubator/scientific-metadata/blob/awesome_dev/episodes/fig/youWillLearn.png?raw=true"/ alt="Content overview. In this lesson you will learn, of the differences between and the importance of data and metadata, how to annotate your research data with structured metadata, how to find and evaluate suitable metadata frameworks, how to use basic Markdown, JSON, and JSON Schema, about available tools that you can use to up your metadata annotation game, why structured metadata is important and how it can increase your scientific visibility.">
 <br>
 
 **This lesson is for you, if...**
