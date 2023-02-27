@@ -41,19 +41,45 @@ A detailed schedule is included in the Instructor guide.
 ### Instructor guide
 In the instructor guide, we will provide you with all the detailed information on lesson structure, additional content, and recommendations necessary to teach this lesson. Several of these recommendations can also be found in the instructor notes of the individual episodes and are marked as `Creators' recommendation`, `Additional activity`, or `Break` :coffee: alongside in depth notes on challenges and discussion (`Challenge notes` & `Discussion notes`).
 
-Also included in the Instructor guide, you can find `Talking points` for your lecture content. These sections contain the slide numbers for the [accompanying slide set](LINK). Of course you are free to use your own slides and take our Talking point as a guide line.
+Also included in the Instructor guide, you can find `Talking points` for lectures, challenges, live coding and other content. Lecture talking points contain the slide numbers for the [accompanying slide set](LINK). Of course you are free to use your own slides and take our talking points as a guide line. 
 
-**Talking points example:**
+**Talking points examples:**
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-## Talking points
+## Lecture: This is a talking points example
 
-- This is a point you need to consider 
-- use this example to bridge to the next topic
-- this is important to know for the learners in order to tackle the challenges
+**Time estimate**: 5 min (<i>approx. time needed to deliver this content<i>)
+
+**Slide set**: 1 - 5 (<i>slide numbers of accompanying slide set</i>)
+
+**Talking points**:
+- In lecture talking points each bullet refers to one slide in the provided slide set 
+- So this point would be referring to slide 2.
+- If a bullet ends with `...` ...
+- several slides are used to bring across the statement ...
+- in this case, ending with slide 5. (<i>additional information for instructors are written in italics</i>)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Challenge: Structure of challenge notes
+
+<i>Challenge notes can be found in the instructor guide as well as the individual episodes.</i>
+
+**Time:** 15 min (<i>time assigned for this challenge</i>)
+
+**Challenge type:** guided confrontation, individual investigation, discussion
+
+**Objective:** <br>
+Objective of the challenge. What do we want to achieve here.
+
+**Implementation:** <br>
+Detailed information and talking points to guide instructors and learners through the challenge
+
+**<i>Material</i>:** <br>
+specifying additional material needed for this challenge, including downloads and example setups.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 <br>
 
 ### Group challenges and handouts
@@ -76,6 +102,16 @@ We added variable names, transformed the time values and mocked the "scream dete
 **Example data set:** <a href="../files/exampleDataObject.csv"> exampleDataObject.csv</a>
 
 <img src="../docs/files/exampleDataObjectColor.png"/>
+
+<br>
+
+### Learning Objectives
+
+
+<br>
+
+### Episode 0: Housekeeping
+In the Instructor guide, we included sections labelled "Episode 0: Housekeeping". These sections are not directly related with the lesson subject but are important (to us) for the overall teaching experience. Episode 0 sections include activities like learner warm-ups and feedback and can be found in the detailed lesson schedule.
 
 <br>
 
