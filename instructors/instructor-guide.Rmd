@@ -2,4 +2,36 @@
 title: Instructor guide
 ---
 
-This is a test. Will it be displayed?!
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: checklist
+## Before the lesson
+
+- send the link to the "**Getting started**" **episode** 2-3 days before the lesson starts. 
+- prepare **group handouts**. You can find a Markdown template here: LINK
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Detailed schedule
+
+#### Day 1
+
+|<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> | Episode | Content |
+| ----- | :---: | ------------------------------- |
+| 5 min | 0     | Introduction bla bla bla lorem impsum bla bla blank !!! build this table based on the content of the instructor guide !!! Don't forget to place the anchors !!! |
+
+## Episode 1: Getting started
+This challenge is meant to get the learners into the mindset of the lesson by giving them a (usually) familiar problem: **unsufficiently annotated, uninterpretable data**.
+
+Send this challenge to the learners before the lesson starts. During the warm-up and introduction session of your lesson, ask the learners to briefly share their experiences with the data set. You can use the questions in the overview as a guideline.
+
+We recommend collecting the learners' statements in bullet points on a white board or shared document. After the introduction session, an adhoc summary of the statements can be used to lead over to the lesson topic.
+
+**The subject of the example data will be revealed after the introductory lecture on "What is data?" and bridges over to the topic of metadata.**
+
+## Episode 2: Data & Metadata
+
+## Episode 3: Structured metadata - from Markup to JSON
+
+## Episode 4. Enabling technologies with schemas and standards
+
+## Episode 5: (Web) Location & Identifiers
+
+## Episode 6: Outlook - Linked Data

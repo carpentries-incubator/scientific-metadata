@@ -73,6 +73,7 @@ learners:
 # Information for Instructors
 instructors: 
 - instructor-notes.md
+- general-lesson-information.Rmd
 - instructor-guide.Rmd
 
 # Learner Profiles
@@ -83,5 +84,3 @@ profiles:
 #
 # This space below is where custom yaml items (e.g. pinning
 # sandpaper and varnish versions) should live
-
-
