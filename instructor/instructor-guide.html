@@ -73,7 +73,7 @@
           <button class="nav-link dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
             More <i data-feather="chevron-down"></i>
           </button>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown"><li><a class="dropdown-item" href="instructor-guide.html">Instructor guide</a></li><li><a class="dropdown-item" href="meetTheCreators.html">Meet the creators</a></li>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown"><li><a class="dropdown-item" href="general-lesson-information.html">General Lesson Information</a></li><li><a class="dropdown-item" href="instructor-guide.html">Instructor guide</a></li>
           </ul></li>
       </ul></div>
     <form class="d-flex col-md-2 search-form">
@@ -163,7 +163,7 @@
 <div class="accordion accordion-flush" id="accordionFlush4">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading4">
-        <a href="structure-schema.html">3. Structure &amp; Schema</a>
+        <a href="structure-schema.html">3. Structured metadata: from Markup to JSON</a>
     </div><!--/div.accordion-header-->
         
   </div><!--/div.accordion-item-->
@@ -227,7 +227,7 @@
                       <li>
                         <a href="../instructor/images.html">Extract All Images</a>
                       </li>
-                      <li><a href="instructor-guide.html">Instructor guide</a></li><li><a href="meetTheCreators.html">Meet the creators</a></li>
+                      <li><a href="general-lesson-information.html">General Lesson Information</a></li><li><a href="instructor-guide.html">Instructor guide</a></li>
                     </ul></div>
                 </div>
               </div>
@@ -256,7 +256,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Instructor guide</h1>
-        <p> Last updated on 2023-02-21 | 
+        <p> Last updated on 2023-02-28 | 
         
         <a href="https://github.com/carpentries/workbench-template-md/edit/main/instructors/instructor-guide.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
         
@@ -270,15 +270,425 @@
 
         
 
-<p>This is a test. Will it be displayed?!</p>
-<!-- 
+<div id="checklist1" class="callout checklist">
+<div class="callout-square">
+<i class="callout-icon" data-feather="check-square"></i>
+</div>
+<div id="before-the-lesson" class="callout-inner">
+<h3 class="callout-title">Before the lesson<a class="anchor" aria-label="anchor" href="#checklist1"></a>
+</h3>
+<div class="callout-content">
+<ul><li>send the link to the “<strong>Episode 1: Getting started</strong>”
+2-3 days before the lesson starts.</li>
+<li>prepare <strong>group handouts</strong>. You can find a Markdown
+template here: LINK</li>
+</ul></div>
+</div>
+</div>
+<section id="lesson-schedule"><h2 class="section-heading">Lesson schedule<a class="anchor" aria-label="anchor" href="#lesson-schedule"></a>
+</h2>
+<hr class="half-width"><div class="overview card">
+<h2 class="card-header">
+Day 1
+</h2>
+<div class="row g-0">
+<table class="table"><colgroup><col width="12%"><col width="12%"><col width="75%"></colgroup><thead><tr class="header"><th><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg></th>
+<th align="center">Episode</th>
+<th>Content</th>
+</tr></thead><tbody><tr class="odd"><td>35 min</td>
+<td align="center"><a href="#episode-0-housekeeping">0</a></td>
+<td>Introduction bla bla bla lorem impsum bla bla blank !!! build this
+table based on the content of the instructor guide !!! Don’t forget to
+place the anchors !!!</td>
+</tr><tr class="even"><td>80 min</td>
+<td align="center"><a href="#episode-2-data-metadata">2</a></td>
+<td></td>
+</tr></tbody></table></div>
+</div>
+</section><section id="episode-0-housekeeping"><h2 class="section-heading">Episode 0: Housekeeping<a class="anchor" aria-label="anchor" href="#episode-0-housekeeping"></a>
+</h2>
+<hr class="half-width"><div class="overview card">
+<h2 class="card-header">
+Episode Schedule
+</h2>
+<div class="row g-0">
+<table class="table"><colgroup><col width="12%"><col width="17%"><col width="70%"></colgroup><thead><tr class="header"><th align="center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg></th>
+<th>Content type</th>
+<th>Title</th>
+</tr></thead><tbody><tr class="odd"><td align="center">5 min</td>
+<td><strong>Lecture</strong></td>
+<td><a href="#accordionInstructor1">Instructor introduction</a></td>
+</tr><tr class="even"><td align="center">28 min</td>
+<td><strong>Group activity</strong></td>
+<td><a href="#accordionInstructor2">Learner introduction</a></td>
+</tr><tr class="odd"><td align="center">2 min</td>
+<td><strong>Lecture</strong></td>
+<td><a href="#accordionInstructor3">Lesson scope &amp;
+structure</a></td>
+</tr></tbody></table></div>
+</div>
+<p><strong>Total time:</strong> 35 min <br><strong>Teaching
+methods:</strong> direct teaching, group activity, discussion <br><strong>Learning types:</strong> acquisition, collaboration <br><br></p>
+<strong>Learning Objectives:</strong><br><u>REMEMBER</u><br><ul><li>
+The participants are aware of the tasks and contact information of the
+hosting organization.
+</li>
+</ul><u>UNDERSTAND</u><br><ul><li>
+The learners get to know the teacher and the other participants. an open
+and collaborative working atmosphere is created.
+</li>
+</ul><p><strong>Description:</strong><br> Start the lesson by introducing the
+learners to the instructors, i.a. the hosting organization, and each
+other. Ask the learners to briefly introduce themselves.<br>
+Outline the scope and schedule of the lesson.</p>
+<p><strong>Talking Points:</strong></p>
+<div id="accordionInstructor1" class="accordion instructor-note accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
+  <h3 class="accordion-header" id="headingInstructor1">
+  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div>
+  Lecture: Instructor introduction
+  </h3>
+</button>
+<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
+<div class="accordion-body">
+<p><strong>Slide set</strong>: <i>not provided in slide set</i><br><strong>Time estimate</strong>: 5 min</p>
+<ul><li>Personal instructor introduction</li>
+<li>Institutional setting if applicable</li>
+</ul></div>
+</div>
+</div>
+</div>
+<div id="accordionInstructor2" class="accordion instructor-note accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor2" aria-expanded="false" aria-controls="collapseInstructor2">
+  <h3 class="accordion-header" id="headingInstructor2">
+  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div>
+  Group activity: Learner introduction
+  </h3>
+</button>
+<div id="collapseInstructor2" class="accordion-collapse collapse" aria-labelledby="headingInstructor2" data-bs-parent="#accordionInstructor2">
+<div class="accordion-body">
+<p><strong>Time estimate</strong>: 28 min <strong>Material</strong>:
+whiteboard or shared notes</p>
+<p>Guiding questions could be:</p>
+<ul><li>
+What is your name?
+</li>
+<li>
+What is your research topic? (especially helpful when working with a
+research field heterogenous group of learners)
+</li>
+<li>
+How did you approach the example data object?
+</li>
+<li>
+What was easy to identify in the data object?
+</li>
+<li>
+What was hard and why?
+</li>
+<li>
+What would have helped to understand the data better?
+</li>
+<li>
+Based on your experiences, what do you suspect the data to describe?
+</li>
+</ul><p>While the learners share their ideas about the example data object,
+take notes of their answers. These notes can be retrieved at later
+stages of the lesson, when the example data object is set in context and
+better understood by the learners to show the progress.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="accordionInstructor3" class="accordion instructor-note accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor3" aria-expanded="false" aria-controls="collapseInstructor3">
+  <h3 class="accordion-header" id="headingInstructor3">
+  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div>
+  Lecture: Lesson scope &amp; structure
+  </h3>
+</button>
+<div id="collapseInstructor3" class="accordion-collapse collapse" aria-labelledby="headingInstructor3" data-bs-parent="#accordionInstructor3">
+<div class="accordion-body">
+<p><strong>Slide set</strong>: <i>not provided in slide set</i><br><strong>Time estimate</strong>: 2 min</p>
+<ul><li>brief overview over the schedule, structure and scope of this
+lesson</li>
+</ul></div>
+</div>
+</div>
+</div>
+</section><section id="episode-2-data-metadata"><h2 class="section-heading">Episode 2: Data &amp; Metadata<a class="anchor" aria-label="anchor" href="#episode-2-data-metadata"></a>
+</h2>
+<hr class="half-width"><div class="overview card">
+<h2 class="card-header">
+Episode Schedule
+</h2>
+<div class="row g-0">
+<table class="table"><colgroup><col width="12%"><col width="17%"><col width="70%"></colgroup><thead><tr class="header"><th align="center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg></th>
+<th>Content type</th>
+<th>Title</th>
+</tr></thead><tbody><tr class="odd"><td align="center">30 min</td>
+<td><strong>Lecture</strong></td>
+<td>
+<a href="#accordionInstructor4">What is data?</a><br><a href="#accordionInstructor5">The example data object</a><br><a href="#accordionInstructor6">What is metadata?</a><br><a href="#accordionInstructor7">Descriptive, administrative, structural
+metadata</a>
+</td>
+</tr><tr class="even"><td align="center">15 min</td>
+<td><strong>Challenge</strong></td>
+<td><a href="#accordionInstructor8">Real World Metadata</a></td>
+</tr><tr class="odd"><td align="center">10 min</td>
+<td><strong>Lecture</strong></td>
+<td><a href="#accordionInstructor9">Metadata in the scientific
+context</a></td>
+</tr><tr class="even"><td align="center">10 min</td>
+<td><strong>Guided confrontation</strong></td>
+<td><a href="#accordionInstructor10">Metadata in scientific
+publications</a></td>
+</tr><tr class="odd"><td align="center">15 min</td>
+<td></td>
+<td>
+<span class="emoji" data-emoji="coffee">☕</span> Break <span class="emoji" data-emoji="coffee">☕</span>
+</td>
+</tr></tbody></table></div>
+</div>
+<p><strong>Total time:</strong> 80 min<br><strong>Teaching
+methods:</strong> direct teaching, guided confrontation<br><strong>Learning types:</strong> acquisition, investigation,
+discussion<br><br></p>
+<strong>Learning Objectives:</strong><br><u>UNDERSTAND</u><br><ul><li>
+The learners get familiar with the example data object.
+</li>
+<li>
+The learners recognize and describe examples of (meta)data.
+</li>
+</ul><u>REMEMBER</u><br><ul><li>
+The learners name examples for best / worst practice situations in
+research (meta)data handling.
+</li>
+</ul><p><strong>Description:</strong><br></p>
+<p><strong>Talking Points:</strong></p>
+<div id="accordionInstructor4" class="accordion instructor-note accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor4" aria-expanded="false" aria-controls="collapseInstructor4">
+  <h3 class="accordion-header" id="headingInstructor4">
+  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div>
+  Lecture: What is data?
+  </h3>
+</button>
+<div id="collapseInstructor4" class="accordion-collapse collapse" aria-labelledby="headingInstructor4" data-bs-parent="#accordionInstructor4">
+<div class="accordion-body">
+<p><strong>Slide set</strong>: 3 - 14<br><strong>Time
+estimate</strong>:</p>
+<ul><li>What is data? (direct this question to the audience and allow them
+to just shout in. Wait a little, it might be quiet <span class="emoji" data-emoji="wink">😉</span>)</li>
+<li>We start with an example: Imagine a satellite transmitting data back
+to earth.</li>
+<li>This is what actually arrives at the machine receiving the
+transmission…</li>
+<li>just a concatenation of signs…</li>
+<li>we call these <strong>glyphs</strong>. To a human being, this
+sequence of glyphs is not understandable and it needs some processing by
+a machine to make it interpretable for humans. And this is data…</li>
+<li>a <strong>potentially informative object</strong>.</li>
+<li>If the data is now processed by the receiving machine, it will be
+converted in this picture. (<i>The satellite image shows the city center
+of Cologne, Germany. Feel free to substitute it with a place your
+learners are familiar with and activate them by asking “Does anyone
+know, what is depicted?”</i>) In this processed form, the data becomes
+human-readable. In information science, this is what we call
+information.</li>
+<li>Knowledge is intrinsified information. For example, knowing where on
+the image the cathedral is located.</li>
+<li>The highest level of information content is wisdom, which means
+putting the acquired knowledge into context, the bigger picture. You
+might use the satellite image to navigate between to locations, for
+example. Naturally, as researchers, we strive to reach wisdom with our
+work.</li>
+<li>We have seen, that the information content increases by adding
+context, meaning, and insight to data. -The take-away message is: Data
+is <strong>potential information</strong> and needs to be processed and
+contextualized** to make it accessible for the human audience.</li>
+</ul></div>
+</div>
+</div>
+</div>
+<div id="accordionInstructor5" class="accordion instructor-note accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor5" aria-expanded="false" aria-controls="collapseInstructor5">
+  <h3 class="accordion-header" id="headingInstructor5">
+  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div>
+  Lecture: The example data object
+  </h3>
+</button>
+<div id="collapseInstructor5" class="accordion-collapse collapse" aria-labelledby="headingInstructor5" data-bs-parent="#accordionInstructor5">
+<div class="accordion-body">
+<p><strong>Slide set</strong>: 15 - 19<br><strong>Time
+estimate</strong>:</p>
+<ul><li>Now back to the example data you received from us. (<i>Here you can
+reflect on some of the statements made during the introduction
+session.</i>) What actually is represented in the data is this…</li>
+<li>(<i>Empty slide: open
+<a href="https://www.youtube.com/watch?v=KeKIBSN2F5c" target="_blank" class="external-link">https://www.youtube.com/watch?v=KeKIBSN2F5c</a>
+in a new tab or window and play the video. We start the video from 0:30.
+</i>)</li>
+<li>Shown in the data is the ride time (t)…</li>
+<li>the biomechanical acceleration of a human body during the
+rollercoaster ride in x, y, and z axis… (<i>Yes, the image of the toy
+bunny is really taken from a peer reviewed journal
+publication.</i>)</li>
+<li>and a boolean value, stating whether a scream of the test person
+could be detected or not.</li>
+<li>(<i>allow some time for questions</i>)</li>
+</ul></div>
+</div>
+</div>
+</div>
+<div id="accordionInstructor6" class="accordion instructor-note accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor6" aria-expanded="false" aria-controls="collapseInstructor6">
+  <h3 class="accordion-header" id="headingInstructor6">
+  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div>
+  Lecture: What is metadata?
+  </h3>
+</button>
+<div id="collapseInstructor6" class="accordion-collapse collapse" aria-labelledby="headingInstructor6" data-bs-parent="#accordionInstructor6">
+<div class="accordion-body">
+<p><strong>Slide set</strong>: 20 - 28<br><strong>Time
+estimate</strong>:</p>
+<ul><li>
+</li></ul></div>
+</div>
+</div>
+</div>
+<div id="accordionInstructor7" class="accordion instructor-note accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor7" aria-expanded="false" aria-controls="collapseInstructor7">
+  <h3 class="accordion-header" id="headingInstructor7">
+  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div>
+  Lecture: Descriptive, administrative, structural metadata
+  </h3>
+</button>
+<div id="collapseInstructor7" class="accordion-collapse collapse" aria-labelledby="headingInstructor7" data-bs-parent="#accordionInstructor7">
+<div class="accordion-body">
+<p><strong>Slide set</strong>: 29 - 37<br><strong>Time
+estimate</strong>:</p>
+<ul><li>
+</li></ul></div>
+</div>
+</div>
+</div>
+<div id="accordionInstructor8" class="accordion instructor-note accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor8" aria-expanded="false" aria-controls="collapseInstructor8">
+  <h3 class="accordion-header" id="headingInstructor8">
+  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div>
+  Challenge 2: Real world metadata
+  </h3>
+</button>
+<div id="collapseInstructor8" class="accordion-collapse collapse" aria-labelledby="headingInstructor8" data-bs-parent="#accordionInstructor8">
+<div class="accordion-body">
+<p><strong>Slide set</strong>: 38</p>
+<p><strong>Time:</strong> 15 min</p>
+<p><strong>Challenge type:</strong> guided confrontation, individual
+investigation, discussion</p>
+<p><strong>Objective:</strong> <br> The learners experience a real world
+example of functional metadata applications and practice their acquired
+knowledge on metadata types.</p>
+<strong>Implementation:</strong> <br> We recommend using a
+pre-structured, collaborative document (whiteboard or notepad) to
+collect the participants’ results. Allow for some time for the learners
+to navigate the websites and explore the metadata in the source code
+individually (ca. 8 min). Open the source code of one website in the
+browser and share the screen. Talking points for the guided
+confrontation can be:
+<ul><li>
+different types of targets (e.g. <code>twitter:</code>,
+<code>robots:</code>)
+</li>
+<li>
+different contexts (e.g. <code>dc:</code>, <code>og:</code>); don’t go
+to deep in this topic and just teaser the existence of metadata
+standards and references
+</li>
+<li>
+<strong>Fun fact:</strong> <em>The Guardian</em> regularly uses a
+comment in the <code>head</code> of their html documents to advertise IT
+jobs <span class="emoji" data-emoji="grin">😁</span>
+</li>
+</ul><p><strong>White board:</strong>
+<a href="../../../episodes/files/exampleChallenge1Whiteboard.pdf">example
+set-up</a></p>
+</div>
+</div>
+</div>
+</div>
+<div id="accordionInstructor9" class="accordion instructor-note accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor9" aria-expanded="false" aria-controls="collapseInstructor9">
+  <h3 class="accordion-header" id="headingInstructor9">
+  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div>
+  Lecture: Metadata in the scientific context
+  </h3>
+</button>
+<div id="collapseInstructor9" class="accordion-collapse collapse" aria-labelledby="headingInstructor9" data-bs-parent="#accordionInstructor9">
+<div class="accordion-body">
+<p><strong>Slide set</strong>: 39 - 56<br><strong>Time
+estimate</strong>: 10 min</p>
+<ul><li>
+</li></ul></div>
+</div>
+</div>
+</div>
+<div id="accordionInstructor10" class="accordion instructor-note accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor10" aria-expanded="false" aria-controls="collapseInstructor10">
+  <h3 class="accordion-header" id="headingInstructor10">
+  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div>
+  Guided confrontation: Metadata in scientific publications
+  </h3>
+</button>
+<div id="collapseInstructor10" class="accordion-collapse collapse" aria-labelledby="headingInstructor10" data-bs-parent="#accordionInstructor10">
+<div class="accordion-body">
+<p><strong>Slide set:</strong> 57</p>
+<p><strong>Time:</strong> 10 min</p>
+<p><strong>Type:</strong> guided confrontation, collaboration</p>
+<p><strong>Objective:</strong> <br> The learners apply their acquired
+knowledge about metadata identification and types on a familiar work
+situation.</p>
+<strong>Implementation:</strong> <br><ul><li>
+select a scientific journal publication of your liking (could be related
+to the research field of the learners, if the group is homogeneous in
+this regard.)
+</li>
+<li>
+share the journal on your screen
+</li>
+<li>
+with the whole group of learners, find the “hidden” metadata in the
+publication and sort the findings into the metadata types (descriptive,
+administrative, structural)
+</li>
+</ul><p><strong>Creator’s recommendation</strong>: <br> Use a white board
+application to display the journal publication. This allows for
+simultaneous highlighting / annotation of the findings and thus gives a
+visual response and documentation of the discussion.</p>
+</div>
+</div>
+</div>
+</div>
+</section><section id="episode-3-structured-metadata---from-markup-to-json"><h2 class="section-heading">Episode 3: Structured metadata - from Markup to JSON<a class="anchor" aria-label="anchor" href="#episode-3-structured-metadata---from-markup-to-json"></a>
+</h2>
+<hr class="half-width"></section><section id="episode-4.-enabling-technologies-with-schemas-and-standards"><h2 class="section-heading">Episode 4. Enabling technologies with schemas and standards<a class="anchor" aria-label="anchor" href="#episode-4.-enabling-technologies-with-schemas-and-standards"></a>
+</h2>
+<hr class="half-width"></section><section id="episode-5-web-location-identifiers"><h2 class="section-heading">Episode 5: (Web) Location &amp; Identifiers<a class="anchor" aria-label="anchor" href="#episode-5-web-location-identifiers"></a>
+</h2>
+<hr class="half-width"></section><section id="episode-6-outlook---linked-data"><h2 class="section-heading">Episode 6: Outlook - Linked Data<a class="anchor" aria-label="anchor" href="#episode-6-outlook---linked-data"></a>
+</h2>
+<hr class="half-width"><!-- 
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
- -->
-
-
-
-      </div> <!-- / div.lesson-content -->
+ --></section></div> <!-- / div.lesson-content -->
     </main><!-- / main#main-content.main-content --><nav class="bottom-pagination mx-md-4" aria-label="Previous and Next Chapter"><div class="d-block d-sm-block d-md-none">
         <a class="chapter-link" href="../instructor/index.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
         <a class="chapter-link float-end" href="../instructor/index.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
@@ -330,9 +740,9 @@ any links that you are not going to use.
   "creativeWorkStatus": "active",
   "url": "https://carpentries.github.io/workbench-template-md/instructor/instructor-guide.html",
   "identifier": "https://carpentries.github.io/workbench-template-md/instructor/instructor-guide.html",
-  "dateCreated": "2023-02-21",
-  "dateModified": "2023-02-21",
-  "datePublished": "2023-02-21"
+  "dateCreated": "2023-02-27",
+  "dateModified": "2023-02-28",
+  "datePublished": "2023-02-28"
 }
 
   </script><script>

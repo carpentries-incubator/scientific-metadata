@@ -201,7 +201,7 @@
 <div class="accordion accordion-flush" id="accordionFlush4">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading4">
-        <a href="structure-schema.html">3. Structure &amp; Schema</a>
+        <a href="structure-schema.html">3. Structured metadata: from Markup to JSON</a>
     </div>
 <!--/div.accordion-header-->
         
@@ -313,7 +313,7 @@
         
 <section id="aio-getting-started"><p>Content from <a href="getting-started.html">Getting Started</a></p>
 <hr>
-<p> Last updated on 2023-02-21 | 
+<p> Last updated on 2023-02-28 | 
         
         <a href="https://github.com/carpentries/workbench-template-md/edit/main/episodes/getting-started.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -393,7 +393,7 @@ Just note down whatever comes to your mind!</p>
 </div>
 </div></section><section id="aio-data-metadata"><p>Content from <a href="data-metadata.html">Data &amp; Metadata</a></p>
 <hr>
-<p> Last updated on 2023-02-21 | 
+<p> Last updated on 2023-02-28 | 
         
         <a href="https://github.com/carpentries/workbench-template-md/edit/main/episodes/data-metadata.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -650,9 +650,9 @@ Creating Digital Collections. Sawston, UK: Woodhead Publishing.<a href="#fnref4"
 <li id="fn5"><p>Chadwick, I. (2016). “Research Data Management: guide to
 writing”readme” type metadata.” The Open University. <a href="https://www.open.ac.uk/library-research-support/sites/www.open.ac.uk.library-research-support/files/files/RDM-Guidelines-for-creating-readme-style-metadata.pdf" class="external-link uri">https://www.open.ac.uk/library-research-support/sites/www.open.ac.uk.library-research-support/files/files/RDM-Guidelines-for-creating-readme-style-metadata.pdf</a><a href="#fnref5" class="footnote-back">↩︎</a></p></li>
 </ol>
-</div></section><section id="aio-structure-schema"><p>Content from <a href="structure-schema.html">Structure &amp; Schema</a></p>
+</div></section><section id="aio-structure-schema"><p>Content from <a href="structure-schema.html">Structured metadata: from Markup to JSON</a></p>
 <hr>
-<p> Last updated on 2023-02-21 | 
+<p> Last updated on 2023-02-28 | 
         
         <a href="https://github.com/carpentries/workbench-template-md/edit/main/episodes/structure-schema.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -688,27 +688,9 @@ readability.</li>
 </div>
 </div>
 </div>
-<section id="structured-metadata-records"><h2 class="section-heading">Structured metadata records<a class="anchor" aria-label="anchor" href="#structured-metadata-records"></a>
+<section id="markup"><h2 class="section-heading">Markup?<a class="anchor" aria-label="anchor" href="#markup"></a>
 </h2>
 <hr class="half-width">
-<div id="callout1" class="callout callout">
-<div class="callout-square">
-<i class="callout-icon" data-feather="bell"></i>
-</div>
-<div class="callout-inner">
-<h3 class="callout-title">Callout<a class="anchor" aria-label="anchor" href="#callout1"></a>
-</h3>
-<div class="callout-content">
-<p>Data exchange formats such as the <strong>markup language
-XML</strong> or <strong>JSON</strong> can be read and processed not only
-by humans but also by computers. Structured (meta)data is key to enable
-<strong>machine-readability</strong>.</p>
-</div>
-</div>
-</div>
-<div class="section level3">
-<h3 id="what-is-markup">What is Markup?<a class="anchor" aria-label="anchor" href="#what-is-markup"></a>
-</h3>
 <p><strong>Markup</strong> is not part of the natural text or content
 but tells something <strong>about it</strong>…<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>, <a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>.</p>
 <p><strong>Punctuational markup</strong> – for example – is placing
@@ -740,12 +722,12 @@ tag for hypertext references (hyperlinks).</p>
 </h3>
 <pre class="sourceCode html" tabindex="0"><code class="sourceCode html"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">"url"</span><span class="kw">&gt;</span>link text displayed to reader<span class="kw">&lt;/a&gt;</span></span></code></pre>
 </div>
-<div id="callout2" class="callout callout">
+<div id="callout1" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div class="callout-inner">
-<h3 class="callout-title">Callout<a class="anchor" aria-label="anchor" href="#callout2"></a>
+<h3 class="callout-title">Callout<a class="anchor" aria-label="anchor" href="#callout1"></a>
 </h3>
 <div class="callout-content">
 <p>Rigorous markup can make text (character strings) more accessible for
@@ -764,7 +746,10 @@ markup languages – first accepted as an ISO standard in 1986. Both, HTML
 markup language for web pages.</p>
 <figure><img src="fig/cynthiaZenderQuote.png" alt="Quote by Cynthia Zender, SAS Institue, saying 'To make markup work, the writer and the interpreter of the marked up content have to agree on the interpretation of the markup symbols.'" class="figure mx-auto d-block"><figcaption>[*] <strong>Zender, C.</strong> (2005) “Markup 101:
 Markup Basics.”, SAS Institute.
-<a href="https://www.lexjansen.com/pharmasug/2005/Tutorials/tu12.pdf" target="_blank" class="external-link">https://www.lexjansen.com/pharmasug/2005/Tutorials/tu12.pdf</a></figcaption></figure><p>In contrast, the main purpose of <strong>XML</strong>
+<a href="https://www.lexjansen.com/pharmasug/2005/Tutorials/tu12.pdf" target="_blank" class="external-link">https://www.lexjansen.com/pharmasug/2005/Tutorials/tu12.pdf</a></figcaption></figure></section><section id="xml"><h2 class="section-heading">XML<a class="anchor" aria-label="anchor" href="#xml"></a>
+</h2>
+<hr class="half-width">
+<p>In contrast, the main purpose of <strong>XML</strong>
 (e<strong>X</strong>tensible <strong>M</strong>arkup
 <strong>L</strong>anguage) is <strong>the transfer and storage of
 arbitrary data</strong> on the World Wide Web. XML is software- and
@@ -782,6 +767,9 @@ extensible.<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a></p>
 <span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">wordCount</span>&gt;1&lt;/<span class="kw">wordCount</span>&gt;</span>
 <span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>&lt;/<span class="kw">example</span>&gt;</span></code></pre>
 </div>
+</section><section id="json"><h2 class="section-heading">JSON<a class="anchor" aria-label="anchor" href="#json"></a>
+</h2>
+<hr class="half-width">
 <p><strong>JSON</strong> (<strong>J</strong>ava<strong>S</strong>cript
 <strong>O</strong>bject <strong>N</strong>otation) is
 <strong>not</strong> a markup language. It is a <strong>lightweight,
@@ -817,6 +805,21 @@ hardware-independent.</p>
 <span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>        <span class="dt">"key3"</span><span class="fu">:</span><span class="st">"value3"</span></span>
 <span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>    <span class="fu">}</span></span>
 <span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre>
+</div>
+<div id="callout2" class="callout callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Callout<a class="anchor" aria-label="anchor" href="#callout2"></a>
+</h3>
+<div class="callout-content">
+<p>Data exchange formats such as the <strong>markup language
+XML</strong> or <strong>JSON</strong> can be read and processed not only
+by humans but also by computers. Structured (meta)data is key to enable
+<strong>machine-readability</strong>.</p>
+</div>
+</div>
 </div>
 
 <div id="challenge1" class="callout challenge">
@@ -1127,7 +1130,6 @@ independet</strong>
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
  -->
-</div>
 </section><div class="footnotes footnotes-end-of-document">
 <hr>
 <ol>
@@ -1145,7 +1147,7 @@ W3Schools. <a href="https://www.w3schools.com/js/js_json_intro.asp" class="exter
 </ol>
 </div></section><section id="aio-enabling-technologies-standards"><p>Content from <a href="enabling-technologies-standards.html">Enabling Technologies &amp; Standards</a></p>
 <hr>
-<p> Last updated on 2023-02-21 | 
+<p> Last updated on 2023-02-28 | 
         
         <a href="https://github.com/carpentries/workbench-template-md/edit/main/episodes/enabling-technologies-standards.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1487,7 +1489,7 @@ of:
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb5">
 <h3 class="code-label">JSON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -1673,7 +1675,7 @@ Inspect the form interface thoroughly.
   Good to know
   </h4>
 </button>
-<div id="collapseHint1" class="accordion-collapse collapse" aria-labelledby="headingHint1" data-bs-parent="#accordionHint1">
+<div id="collapseHint1" class="accordion-collapse collapse" data-bs-parent="#accordionHint1" aria-labelledby="headingHint1">
 <div class="accordion-body">
 <p>Note that the JSON Schema used for this demo <strong>lacks the
 recommended <code>$schema</code> keyword</strong>: this is because the
@@ -1812,7 +1814,7 @@ updated on Feb 07, 2022. <a href="https://json-schema.org/understanding-json-sch
 </ol>
 </div></section><section id="aio-web-location-identifiers"><p>Content from <a href="web-location-identifiers.html">(Web) Location &amp; Identifiers</a></p>
 <hr>
-<p> Last updated on 2023-02-21 | 
+<p> Last updated on 2023-02-28 | 
         
         <a href="https://github.com/carpentries/workbench-template-md/edit/main/episodes/web-location-identifiers.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1889,6 +1891,7 @@ be anything that has identity.</p>
 </div>
 </div>
 </div>
+
 <p><br><figure><img src="fig/uriUrnUrl.png" alt="" height="300px" style="float:right;" class="figure mx-auto d-block"></figure></p>
 <p>The <strong>Uniform Resource Identifier (URI)</strong> is a string of
 characters formulated to uniquely identify a resource, (most commonly on
@@ -1981,13 +1984,27 @@ Research Organization Registry(<a href="https://ror.org/" class="external-link">
 </div>
 </div>
 </div>
+</section><section id="web-locations-and-scientific-metadata"><h2 class="section-heading">Web locations and scientific (meta)data<a class="anchor" aria-label="anchor" href="#web-locations-and-scientific-metadata"></a>
+</h2>
+<hr class="half-width">
 <div class="section level3">
-<h3 id="persistent-identifiers-and-metadata">Persistent identifiers and metadata<a class="anchor" aria-label="anchor" href="#persistent-identifiers-and-metadata"></a>
+<h3 id="making-your-data-retrievable">Making your data retrievable<a class="anchor" aria-label="anchor" href="#making-your-data-retrievable"></a>
 </h3>
 </div>
 <div class="section level3">
-<h3 id="the-semantic-web">The Semantic Web<a class="anchor" aria-label="anchor" href="#the-semantic-web"></a>
+<h3 id="pids-as-metadata-values">PIDs as metadata values<a class="anchor" aria-label="anchor" href="#pids-as-metadata-values"></a>
 </h3>
+<p>PIDs referencing i.e. digital objects (DOIs), persons (e.g. ORCID iD)
+or institutions (ROR) can be used to uniquely identify properties of a
+metadata record.</p>
+</div>
+<div class="section level3">
+<h3 id="pids-as-metadata-properties">PIDs as metadata properties<a class="anchor" aria-label="anchor" href="#pids-as-metadata-properties"></a>
+</h3>
+</div>
+</section><section id="linked-data-the-semantic-web"><h2 class="section-heading">Linked Data &amp; the Semantic Web<a class="anchor" aria-label="anchor" href="#linked-data-the-semantic-web"></a>
+</h2>
+<hr class="half-width">
 <p><strong>The term “Semantic Web” refers to <a href="https://www.w3.org/standards/semanticweb/" class="external-link">W3C’s</a> vision of a
 Web of Linked Data.</strong></p>
 <p>It provides a way for machines to be able to process and understand
@@ -1997,6 +2014,7 @@ defined by Tim Berners-Lee. The Semantic Web is not a separate Web, but
 an extension of the current one. In the Semantic Web, metadata are
 invisible as people read the page, but they’re clearly visible to
 computers.</p>
+<p>But this is another story and shall be told another time…</p>
 <div id="callout4" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
@@ -2036,7 +2054,6 @@ locally</li>
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
  -->
-</div>
 </section><div class="footnotes footnotes-end-of-document">
 <hr>
 <ol>
@@ -2045,7 +2062,7 @@ persistent identifiers”. <a href="https://escholarship.org/uc/item/73m910w8" c
 </ol>
 </div></section><section id="aio-conclusion-outlook"><p>Content from <a href="conclusion-outlook.html">Conclusion &amp; Outlook</a></p>
 <hr>
-<p> Last updated on 2023-02-21 | 
+<p> Last updated on 2023-02-28 | 
         
         <a href="https://github.com/carpentries/workbench-template-md/edit/main/episodes/conclusion-outlook.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -2220,7 +2237,7 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-thank-you-feedback"><p>Content from <a href="thank-you-feedback.html">Thank you &amp; Feedback</a></p>
 <hr>
-<p> Last updated on 2023-02-21 | 
+<p> Last updated on 2023-02-28 | 
         
         <a href="https://github.com/carpentries/workbench-template-md/edit/main/episodes/thank-you-feedback.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -2301,7 +2318,7 @@ reinforce the objectives.</li>
   Output
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -2332,7 +2349,7 @@ challenge blocks?<a class="anchor" aria-label="anchor" href="#challenge2"></a>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>You can add a line with at least three colons and a
 <code>solution</code> tag.</p>
@@ -2441,9 +2458,9 @@ any links that you are not going to use.
   "creativeWorkStatus": "active",
   "url": "https://carpentries.github.io/workbench-template-md/aio.html",
   "identifier": "https://carpentries.github.io/workbench-template-md/aio.html",
-  "dateCreated": "2023-02-21",
-  "dateModified": "2023-02-21",
-  "datePublished": "2023-02-21"
+  "dateCreated": "2023-02-27",
+  "dateModified": "2023-02-28",
+  "datePublished": "2023-02-28"
 }
 
   </script><script>
