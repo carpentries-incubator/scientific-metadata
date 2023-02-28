@@ -17,7 +17,8 @@ title: Instructor guide
 |<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> | Episode | Content |
 | ----- | :---: | ------------------------------- |
 | 35 min | [0](#episode-0-housekeeping) | Introduction bla bla bla lorem impsum bla bla blank !!! build this table based on the content of the instructor guide !!! Don't forget to place the anchors !!! |
-| 80 min | [2](#episode-2-data-metadata) |  |
+| 65 min | [2](#episode-2-data-metadata) |  |
+| 15 min |  | :coffee: Break :coffee: |
 </div>
 </div>
 
@@ -106,11 +107,11 @@ While the learners share their ideas about the example data object, take notes o
 | 15 min | **Challenge** | [Real World Metadata](#accordionInstructor8) |
 | 10 min | **Lecture** | [Metadata in the scientific context](#accordionInstructor9)  |
 | 10 min | **Guided confrontation** | [Metadata in scientific publications](#accordionInstructor10) |
-| 15 min |  |  :coffee: Break :coffee:  |
+
 </div>
 </div>
 
-**Total time:**  80 min<br>
+**Total time:**  65 min<br>
 **Teaching methods:**  direct teaching, guided confrontation<br>
 **Learning types:**  acquisition, investigation, discussion<br><br>
 
@@ -125,6 +126,7 @@ While the learners share their ideas about the example data object, take notes o
 </ul>
 
 **Description:**<br>
+The learners get an introduction into data and metadata in everyday life and research contexts. Descriptive, administrative, and structural metadata are distinguished. The learners conduct a guided online search (URLs are provided) and explore the metadata tagging in selected web pages. Good (enough) and worst practices of metadata annotation will be covered in the fina talk of this module. The presentation is complemented with a live demonstration, collaboratively extracting metadata from scientific publications.  
 
 **Talking Points:**
 
@@ -134,7 +136,7 @@ While the learners share their ideas about the example data object, take notes o
 **Slide set**: 3 - 14<br>
 **Time estimate**:
 
-- What is data? (direct this question to the audience and allow them to just shout in. Wait a little, it might be quiet :wink:)
+- What is data? (<i>direct this question to the audience and allow them to just shout in. Wait a little, it might be quiet</i> :wink:)
 - We start with an example: Imagine a satellite transmitting data back to earth.
 - This is what actually arrives at the machine receiving the transmission...
 - just a concatenation of signs...
@@ -169,7 +171,15 @@ While the learners share their ideas about the example data object, take notes o
 **Slide set**: 20 - 28<br>
 **Time estimate**:
 
-- 
+- What is metadata? (<i>Direct this questions to the learners and wait for them to reply. They might come up with the generic "Data about data".</i>)
+- Often metadata is described as "data about data", or - as Merriam Webster puts it - "metadata is data that provides information about other data". But this is extremely unspecific.
+- If you look a bit further, you can find more detailed description of the term "metadata". Admittedly, these text are seldomly...
+- fun to read.
+- Let's start - again - with an example. Let's say, you are looking for an informative book about the topic of metadata and decide to look for recommendations online...
+- your search will result in about 1,5 million results. But you remember a colleague, that has recently talked about a very good book on metadata...
+- you ask him about it and he gives you a well-meaning description of said book. "It is black and the title is 'metadata'. It was written by Jeff... Jeff... Something."
+- Okay, this is not really precise but you take these information to your favourite search engine and you will most likely come up with this ...
+- book. Metadata by Jeffrey Pomerantz published in the MIT Press Essential Knowledge series. So far, you have absolutely no idea about the content of the book - the actually data that is hold by it. However, with just a few clues on the title, author, and design, you can identify the ressource. You did this by using "metadata". Let's stay with this example for a bit and take a look inside... 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -179,7 +189,18 @@ While the learners share their ideas about the example data object, take notes o
 **Slide set**: 29 - 37<br>
 **Time estimate**:
 
-- 
+- On one of first pages, you will find a lot of information about the book...
+- You will get information on author, publisher, keywords and so on, that are descriptive in nature and can help you - or librarians - to successfully identify this specific book. Among these is a very important descriptor...
+- The persistent identifier. In the example of a book, this is the ISBN number. Whenever you look up this number, the result will unambiguously point to this specific title.
+- Furthermore, you will get information about how the book is administered: How it is distributed, who is responsible for its distribution and which conditions need to apply.
+- You can also find information on legal conditions that apply to this resource, such as copyright issues and the terms of distribution. Legal information can be considered as a subset of administrative information.
+- And - really important - you will get a precise idea about the book's structure and how you can navigate it: the chapters, its general content and how it is distributed over the pages. But still: we have not yet read a single word, that actually delivers the content of the book - its data.
+- So, metadata - or metainformation - is more or less structured data, that contains information about characteristics of other data (objects).
+- Let's briefly reflect on the types of metadata, that we came across so far, before we apply these concepts in the first challenge for today: 
+  - descriptive metadata holds information about the intellectual content, such as title, author, abstract...
+  - administrative metadata specifies how a resource is managed. This can be terms of distribution and copyright information. Regarding published data, this also applies to technical information on the files included in a data set or versioning...
+  - structural metadata describe, for example chapters in a book, file in a data set, or software components.
+- (<i>allow some time for questions</i>)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -215,7 +236,23 @@ Allow for some time for the learners to navigate the websites and explore the me
 **Slide set**: 39 - 56<br>
 **Time estimate**: 10 min
 
-- 
+- Now let's shift our focus on metadata annotation in the scientific context.
+- I'm sure many of us have been in a similar situation. You start a new project that is based on the work of your predecessor or collaborators and you are supposed to start with reproducing the published results...
+- You take a look at the accompnying publication and the data looks neat...
+- But as soon as you open the underlying data sets, understanding the process on how this data was acquired is not so straight forward anymore. The variables might be hard to understand, there might be missing values, and the data cleaning is not necessarily apparent.
+- So you take a look at the experiment's documentation...
+- A study by Monya Baker, that was published in Nature in 2016 was able to show, that more than 70% of researchers have tried and failed to reproduce another scientis's experiments. And more than half have even failed to reproduce their own experiments.
+- The worst practice that you can encounter in your scientific life is surely data, saved under an inexplicit file name with no documentation whatsoever.
+- Slightly better practice are lab notes, which are still widely used as the go-to documentation method in experimental scientific areas. Using lab notes as documentation method, you can facilitate the findability by assigning meaningful file names to your data. However...
+- lab notes come with various disadvantages. Lab notes are usually taken continuously and over the course of a 3-year contract, several hundred pages of lab notes can accumulate.
+- so even though lab notes allow for some kind of documentation, they are largely unstructured and subjective, rarely following templates or guidelines. The continous note taking makes the documentation hard to retrieve. They are physically seperated from the data they describe and remain in the hand of the experimentator or institution hosting the experiments, which makes them hard to share. And let's admit it, handwriting can be a pain to read.
+- One way to store your documentation with your data, is README-style metadata. 
+- Just like taking lab notes, Readme-style files can be subjectively written natural text documents. 
+- You can also find templates for Readme-style metadata records. Sticking to these templates will allow for increased structure in your documentation records. Now that we document our data digitally, we have increased options to link the metadata record to the described data set, for example by naming them accordingly...
+- if you now want to find the results of a specific experiment on your computer, a local keyword search can help you to identify the data set.
+- To sum up, digital documentation of your metadata in form of Readme-style metadata records, facilitates the linkage of data and metadata, allows for local searchability and increased readability, and the digital nature of the Readme file simplifies targeted sharing of the documentation. However, these records are still rather unstructured and subjective, and only allow for keyword searches.
+- If you want to have a look on a well-designed template for Readme-style metadata records, a recommended link is provided in the Episode description.
+- (<i>allow some time for questions</i>)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -241,6 +278,14 @@ The learners apply their acquired knowledge about metadata identification and ty
 **Creator's recommendation**: <br>
 Use a white board application to display the journal publication. This allows for simultaneous highlighting / annotation of the findings and thus gives a visual response and documentation of the discussion. 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+<br><br>
+
+---
+
+### :coffee: 15 min Break :coffee:
+
+---
 
 ## Episode 3: Structured metadata - from Markup to JSON
 
