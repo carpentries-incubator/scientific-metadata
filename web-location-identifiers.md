@@ -57,6 +57,14 @@ A resource can be anything that has identity.
 
 etwas generelles über unique identifiers
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Creators' recommendation
+
+In the lecture, the topic "Web Identifiers" is introduced by examples of unique identifiers. In a research field heterogeneous group, reactivate learners by asking for unique identifiers in their respective research fields.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 <br>
 <span>
 <img src="fig/uriUrnUrl.png" alt="" height="300px" style="float:right;" alt="Relationship between URI, URN and URL. URN and URL are seperated entities but both are a subtype of URI."/>
@@ -68,9 +76,7 @@ A **Uniform Resource Name (URN)** is a type of URI. It is a standard, persistent
 The **Uniform Resource Locator (URL)** is a string of characters used to access the information or resource by **using the address of the resource location** via communication protocols such as HTTP. </span>
 <br><br>
 
-
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: callout 
-
 ## How links rot
 
 ![URL Example](fig/urlSyntax.png){alt="Examplary representation of the URL syntax: protocol specification, host adress, file path and query parameters."}
@@ -109,13 +115,21 @@ A **PID service** operate as a persistent look-up service that redirects GET req
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-### Persistent identifiers and metadata
+## Web locations and scientific (meta)data
 
+### Making your data retrievable
 
-### The Semantic Web
+### PIDs as metadata values
+PIDs referencing i.e. digital objects (DOIs), persons (e.g. ORCID iD) or institutions (ROR) can be used to uniquely identify properties of a metadata record.
+
+### PIDs as metadata properties
+
+## Linked Data & the Semantic Web
 **The term “Semantic Web” refers to [W3C’s](https://www.w3.org/standards/semanticweb/) vision of a Web of Linked Data.**
 
 It provides a way for machines to be able to process and understand the data that they were only to display on the traditional Web. It is a vision for the future Web (a web of meaning — semantics); originally defined by Tim Berners-Lee. The Semantic Web is not a separate Web, but an extension of the current one. In the Semantic Web, metadata are invisible as people read the page, but they're clearly visible to computers.
+
+But this is another story and shall be told another time...
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: callout 
 The goal of a Semantic Web is to **make computers perform more of the tedious work involved in finding, sharing and combining information on the Web efficiently.**
@@ -129,5 +143,4 @@ The goal of a Semantic Web is to **make computers perform more of the tedious wo
 - Run `sandpaper::build_lesson()` to preview your lesson locally
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
-
 [^16]: John Kunze (2018). "Ten persistent myths about persistent identifiers". https://escholarship.org/uc/item/73m910w8

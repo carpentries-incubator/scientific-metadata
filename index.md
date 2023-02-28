@@ -2,15 +2,10 @@
 site: sandpaper::sandpaper_site
 ---
 
-This is a new lesson built with [The Carpentries Workbench][workbench]. 
-<br><br>
 
-[workbench]: https://carpentries.github.io/sandpaper-docs
+<img src="https://github.com/carpentries-incubator/scientific-metadata/blob/awesome_dev/episodes/fig/Welcome.png?raw=true/" alt="Welcome." height="75" align="left">
+<br><br><br><br>
 
-
-<img src="https://github.com/carpentries-incubator/scientific-metadata/blob/awesome_dev/episodes/fig/youWillLearn.png?raw=true"/ alt="Content overview. In this lesson you will learn, of the differences between and the importance of data and metadata, how to annotate your research data with structured metadata, how to find and evaluate suitable metadata frameworks, how to use basic Markdown, JSON, and JSON Schema, about available tools that you can use to up your metadata annotation game, why structured metadata is importent and how it can increase your scientific visibility.">
-<br>
-<br>
 to our entry-level introduction to the **fundamentals of scientific metadata**!
 
 In this lesson we will look at the intricate relationship between (digital) research data, metadata and knowledge, discuss why metadata is critical in today's research, as well as explain some of the technologies and concepts related to structured machine-readable metadata.
@@ -46,3 +41,8 @@ This course is targeted at scientific staff and researchers from all fields, who
 
 <p>This lesson was created by the **Helmholtz Medatada Collaboration** Hub Information.</p>
 <img src="https://github.com/carpentries-incubator/scientific-metadata/blob/awesome_dev/episodes/fig/HMC_Logo_RGB_Blue.png?raw=true" alt="HMC logo" height="30" style="float:left"/> <br><br>
+
+This is a new lesson built with [The Carpentries Workbench][workbench]. 
+<br><br>
+
+[workbench]: https://carpentries.github.io/sandpaper-docs

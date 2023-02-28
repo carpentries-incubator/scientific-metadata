@@ -1,5 +1,5 @@
 ---
-title: 'Structure & Schema'
+title: 'Structured metadata: from Markup to JSON'
 teaching: 25
 exercises: 60
 ---
@@ -22,13 +22,8 @@ exercises: 60
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Structured metadata records
 
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: callout 
-Data exchange formats such as the **markup language XML** or **JSON** can be read and processed not only by humans but also by computers. Structured (meta)data is key to enable **machine-readability**. 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-### What is Markup?
+## Markup?
 **Markup** is not part of the natural text or content but tells something **about it**...[^4], [^5]. 
 
 **Punctuational markup** -- for example -- is placing periods or question marks at the end of sentences.
@@ -66,6 +61,8 @@ Rigorous markup can make text (character strings) more accessible for computer a
 
 ![ [*] **Zender, C.** (2005) "Markup 101: Markup Basics.", SAS Institute. <a href="https://www.lexjansen.com/pharmasug/2005/Tutorials/tu12.pdf" target="_blank">https://www.lexjansen.com/pharmasug/2005/Tutorials/tu12.pdf</a>](fig/cynthiaZenderQuote.png){alt="Quote by Cynthia Zender, SAS Institue, saying 'To make markup work, the writer and the interpreter of the marked up content have to agree on the interpretation of the markup symbols.'"}
 
+## XML
+
 In contrast, the main purpose of **XML** (e**X**tensible **M**arkup **L**anguage) is **the transfer and storage of arbitrary data** on the World Wide Web.  XML is software- and hardware-independent. It is considered human-readable and allows for hierarchical (tree-like) structures. Data elements are wrapped in start `<...>` and end `</...>` "tags". XML tags can be customized by the author of the document, its markup is extensible.[^7]
 
 ```xml
@@ -75,6 +72,9 @@ In contrast, the main purpose of **XML** (e**X**tensible **M**arkup **L**anguage
     <wordCount>1</wordCount>
 </example>
 ```
+
+
+## JSON
 
 **JSON** (**J**ava**S**cript **O**bject **N**otation) is **not** a markup language. It is a **lightweight, human-readable, hierarchical format to store and transport data**.[^8] [JSON syntax](https://www.json.org/json-en.html) is inspired by JavaScript object notation.[^9] Like XML, JSON is software- and hardware-independent.
 
@@ -101,6 +101,11 @@ In contrast, the main purpose of **XML** (e**X**tensible **M**arkup **L**anguage
     }
 }
 ```
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: callout 
+Data exchange formats such as the **markup language XML** or **JSON** can be read and processed not only by humans but also by computers. Structured (meta)data is key to enable **machine-readability**. 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Challenge notes
 
