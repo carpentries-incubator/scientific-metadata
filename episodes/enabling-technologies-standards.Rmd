@@ -105,11 +105,11 @@ The most challenging part of schema development can be to **have everyone agree 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-# Group activity: Live coding a schema
+# Guided confrontation: Live coding a JSON schema
 
 The concept of a schema can be overwhelming for learners with little to no prior knowledge. To prepare the learners for Challenge 4, we recommend to include an **interactive live coding session**. The following instructions and suggestions are based on the narrative we follow in our course set-up.
 
-**Time**: 15 min
+**Time**: 8 min
 
 **Instructor material**: <br>
 <ul>

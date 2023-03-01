@@ -38,6 +38,12 @@ This course is targeted at scientific staff and researchers from all fields, who
 </ul>
 <br><br>
 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Dear instructor
+
+we prepared some <a href="../general-lesson-information"> General Lesson Information</a> for you as a starting point :smile:
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 <p>This lesson was created by the **Helmholtz Medatada Collaboration** Hub Information.</p>
 <img src="https://github.com/carpentries-incubator/scientific-metadata/blob/awesome_dev/episodes/fig/HMC_Logo_RGB_Blue.png?raw=true" alt="HMC logo" height="30" style="float:left"/> <br><br>

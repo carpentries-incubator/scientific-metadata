@@ -6,7 +6,7 @@ title: Instructor guide
 ## Before the lesson
 
 - send the link to the "**Episode 1: Getting started**" 2-3 days before the lesson starts. 
-- prepare **group handouts**. You can find a Markdown template here: LINK
+- prepare **group handouts** for the first day by including the challenges 2 and 3. You can find a Markdown template here: LINK
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Lesson schedule
@@ -14,23 +14,23 @@ title: Instructor guide
 <div class="overview card">
   <h2 class="card-header">Day 1</h2>
   <div class="row g-0">
-|<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> | Episode | Content |
+|<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> | Episode | Description |
 | ----- | :---: | ------------------------------- |
-| 35 min | [0](#episode-0-housekeeping) | Introduction bla bla bla lorem impsum bla bla blank !!! build this table based on the content of the instructor guide !!! Don't forget to place the anchors !!! |
-| 80 min | [2](#episode-2-data-metadata) |  |
-| 105 min | [3](#episode-3-structured-metadata---from-markup-to-json) |  |
-| 20 min | [0](#episode-0-housekeeping-1) |  |
+| 35 min | [0](#episode-0-housekeeping) | The lesson starts with an introduction by the instructors, and i.a. the hosting organization, to the learners to the instructors. The learners introduce themselves to briefly and report on their first impressions of the example data object. Scope and schedule of the lesson are outlined. |
+| 80 min | [2](#episode-2-data-metadata) | The learners get an introduction into data and metadata in everyday life and research contexts. Descriptive, administrative, and structural metadata are distinguished. The learners conduct a guided online search (URLs are provided) and explore the metadata tagging in selected web pages. Good (enough) and worst practices of metadata annotation will be covered in the fina talk of this module. The presentation is complemented with a live demonstration, collaboratively extracting metadata from scientific publications. |
+| 105 min | [3](#episode-3-structured-metadata---from-markup-to-json) | This episode introduces the concept of semi-structured metadata in regards to machine accessibility and interoperability. After defining the term "Markup", the learners will be confronted with XML and JSON as data exchance formats. In the challenges 2 & 3, the learners will apply the lecture content to the example data object by extracting metadata from an accompanying Readme file and annotating the example data object in a JSON object literal. Challenges will be tackled in groups of 5 - 7 learners. Group results are compared and discussed in a plenary discussion. Ideally, the learners will experience light frustration during result comparison, realizing, that structuring their metadata will result in valid machine interpretable data objects, yet lack of comparability and reusability. |
+| 20 min | [0](#episode-0-housekeeping-1) | Day 1 concludes with a brief recap on the topics of the first day. Feedback is gathered from the learners and eventually implemented in day 2. An outlook on the contet of the second day is presented. |
 </div>
 </div>
 <div class="overview card">
   <h2 class="card-header">Day 2</h2>
   <div class="row g-0">
-|<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> | Episode | Content |
+|<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> | Episode | Description |
 | ----- | :---: | ------------------------------- |
-| 15 min | [0](#episode-0-housekeeping-2) | Introduction bla bla bla lorem impsum bla bla blank !!! build this table based on the content of the instructor guide !!! Don't forget to place the anchors !!! |
-| 120 min | [4]() |  |
-| 55 min | [5]() |  |
-| xx min | [6]() |  |
+| 15 min | [0](#episode-0-housekeeping-2) | The learners get a brief recap of the contents of day 1 and an outlook on day 2. In the warm-up session, the learners actively apply their knowledge acquired on day 1 by completing a personal JSON template. |
+| 120 min | [4](#episode-4.-enabling-technologies-with-schemas-and-standards) |  |
+| 55 min | [5](#episode-5-web-location-identifiers) |  |
+| xx min | [6](#episode-6-outlook---linked-data) |  |
 | 30 min | [0](#episode-0-lightning-talk) | Lightning Talk |
 | 20 min | [0](#episode-0-housekeeping-3) |  |
 </div>
@@ -63,9 +63,7 @@ title: Instructor guide
 </ul>
 
 **Description:**<br>
-Start the lesson by introducing the learners to the instructors, i.a. the hosting organization, and each other.
-Ask the learners to briefly introduce themselves.  
-Outline the scope and schedule of the lesson.
+The lesson starts with an introduction by the instructors, and i.a. the hosting organization, to the learners to the instructors. The learners introduce themselves to briefly and report on their first impressions of the example data object. Scope and schedule of the lesson are outlined.
 
 **Talking Points:**
 
@@ -540,9 +538,10 @@ Day 1 concludes with a brief recap on the topics of the first day. Feedback is g
 <i>We like to include feedback sessions on each day of the lesson. Of course you are free to skip this part or design it according to your liking. Nevertheless, we want to share our approach, experiences and feedback questions with you </i>:smile:.
 
 **Creators' recommendation:**<br>
-In order to increase the response rate and to guarantee that every learner is heard, we dedicate 10 min at the end of each lesson day to an anonymous and instantaneous feedback poll. Our preferred online polling tool is [AHA slides](https://ahaslides.com/). We share the link to the poll with the participants and allow for some time, so that the learners can navigate the feedback poll in their own pace.<br>
+In order to increase the response rate and to guarantee that every learner is heard, we dedicate 10 min at the end of each lesson day to an anonymous and instantaneous feedback poll. Our preferred online polling tool is [AHA slides](https://ahaslides.com/). We share the link to the poll with the participants and allow for some time, so that the learners can navigate the feedback poll in their own pace. We **do not** recommend sharing the results (i.e. presentation mode of the poll) with the learners in order to get individual and unbiased feedback.<br>
 
 <u>QUESTIONS</u><br><br>
+
 1. How do you feel after the first day of scientific metadata?
     - :frowning_face:
     - :confused:
@@ -592,8 +591,15 @@ In order to increase the response rate and to guarantee that every learner is he
 **Slide set**: <i>not provided in slide set</i><br>
 **Time estimate**: 1 min
 
-<i>You are done for today! But if you like, you can use the last minutes of the first half of the session to take a group picture with the learners :wink: </i>
+<i>You are done for today! But if you like, you can use the last minutes of the first half of the session to take a group picture with the learners</i>  :wink:. 
 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: checklist
+## After day 1
+
+- prepare **group handouts** for the second day by adding the challenges 4 and 5. 
+- review the feedback slides and implement the wishes of the learners in the content for the second day as far as possible. Some wishes might lie outside of the scope of the lesson. In this case, we recommend providing informative links for further reading (e.g. in the group handouts).
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 <br><br>
@@ -604,9 +610,269 @@ In order to increase the response rate and to guarantee that every learner is he
 
 ---
 
-<br><br>
+## Episode 0: Housekeeping
+<div class="overview card">
+  <h2 class="card-header">Episode Schedule</h2>
+  <div class="row g-0">
+|<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> | Content type | Title |
+| :-----: | ---------- | ----------------------------------------- |
+| 5 min | **Lecture** | [Welcome back](#accordionInstructor21) |
+| 10 min | **Group activity** | [Learners' Warm-up](#accordionInstructor22) |
+
+</div>
+</div>
+
+**Total time:** 15 min <br>
+**Teaching methods:** direct teaching, group activity <br>
+**Learning types:** acquisition, practice <br><br>
+
+**Learning Objectives:**<br>
+<u>REMEMBER</u><br> 
+<ul>
+  <li>The learners are warmed up and remember the content of the previous day.</li>
+</ul>
+
+**Description:**<br>
+The learners get a brief recap of the contents of day 1 and an outlook on day 2. In the warm-up session, the learners actively apply their knowledge acquired on day 1 by completing a personal JSON template.
+
+**Talking Points:**
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Lecture: Welcome back
+
+**Slide set**: <i>not provided in slide set</i><br>
+**Time estimate**: 5 min
+
+<i>In this section, the content and topics of the first day are summarized. Take some time to review the wishes collected in the feedback session of day 1. Answer questions that might have come up in the feedback. Give a brief outlook on what lies ahead on day 2.</i>
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Group activity: Learners' warm-up
+
+**Slide set:** [ADD SLIDE]
+
+**Time:** 10 min
+
+**Challenge type:** individual practice
+
+**Objective:** <br>
+The learners are playfully reminded of the content of day one and practice their knowledge on JSON object literals by writing a JSON data record about themselves based on a provided template.
+
+**Implementation:** <br>
+Supply the learners with a JSON object literal template with pre-defined keys. The learners add their individual values to this template and share it with the rest of the group. We like to use the free-text option of [AHA slides](https://ahaslides.com/) for this task and present the incoming results on the shared screen. This adds a bit to the interactive and gamified nature of this task but you can use any other collaborative tool (i.e. whiteboard or shared notes) to share results among the learners. While results are coming in, you can use the postings to engage the learners in conversations and comment on their entries. Also, use this opportunity to comment on similarities and differences between the entries in terms of, e.g. how the "key" was understood and the chosen data types.
+
+**Example JSON object literal:**
+```json
+{
+    "firstName": ,
+    "ORCID": ,
+    "favoriteCake": ,
+    "hobbies": ,
+    "city"
+}
+```
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Episode 4. Enabling technologies with schemas and standards
+<div class="overview card">
+  <h2 class="card-header">Episode Schedule</h2>
+  <div class="row g-0">
+|<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> | Content type | Title |
+| :-----: | ---------- | ----------------------------------------- |
+| 10 min | **Lecture** | [A brief history of the World Wide Web](#accordionInstructor23) |
+| 10 min | **Lecture** | [Metadata schemas](#accordionInstructor24) |
+| 8 min | **Guided confrontation** | [Live coding a JSON schema](#accordionInstructor25) |
+| 2 min | **Lecture** | [Challenge introduction](#accordionInstructor26) |
+| 20 min | **Challenge** | [JSON schema](#accordionInstructor27) |
+| 10 min | **Challenge** | [Form input & validation with JSON schema](#accordionInstructor27) |
+| 10 min | **Discussion** | [Challenge reflection](#accordionInstructor28) |
+| 5 min | **Lecture** | [Annotating the example data](#accordionInstructor29) |
+| 15 min |  | :coffee: Break :coffee: |
+
+</div>
+</div>
+
+**Total time:** 120 min <br>
+**Teaching methods:** direct teaching, group activity <br>
+**Learning types:** acquisition, practice, collaboration, production <br><br>
+
+**Learning Objectives:**<br>
+<u>REMEMBER</u>
+<ul>
+  <li>The learners memorize the meaning of the World Wide Web as a product of and tool for the scientific community.</li>
+  <li>The learners are familiar with online registries for metadata terminologies</li> 
+</ul>
+<u>UNDERSTAND</u>
+<ul>
+  <li>The learners contrast the terms "metadata schema" and "metadata standard."</li>
+</ul>
+<u>APPLY</u><br> 
+<ul>
+  <li>The learners understand, read and write XML and JSON schema.</li>
+  <li>The learners navigate online terminology restries. </li>
+</ul>
+
+**Description:**<br>
+
+
+**Talking Points:**
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Lecture: A brief history of the World Wide Web
+
+**Slide set**: <i>not provided in slide set</i><br>
+**Time estimate**: 5 min
+
+- Talking point
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Lecture: Metadata schemas
+
+**Slide set**: <i>not provided in slide set</i><br>
+**Time estimate**: 5 min
+
+- Talking point
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+# Guided confrontation: Live coding a JSON schema
+
+The concept of a schema can be overwhelming for learners with little to no prior knowledge. To prepare the learners for Challenge 4, we recommend to include an **interactive live coding session**. The following instructions and suggestions are based on the narrative we follow in our course set-up.
+
+**Time**: 8 min
+
+**Instructor material**: <br>
+<ul>
+  <li><a href="../../../episodes/files/customerInformationForm.png" target="_blank">customerInformationForm.png</a></li> 
+  <li><a href="../../../episodes/files/customerInformationForm_solution.json" target="_blank">customerInformationForm_schemaSolution.json</a></li>
+</ul>
+
+**Creators recommendation**: <br>
+<ul>
+  <li>Introduce a customer information form as an example for data validation / enforcement in your lecture (see also: */include teaching script anchor/*).</li>
+  <li>Open the image of the customer information form and an empty JSON file in **split-screen view**.</li>
+</ul>
+![](files/liveCodingScreenshot.png){alt="Screenshot of the recommended live coding session."}
+<ul>
+  <li>For live coding, we recommend using an **IDE** with **JSON syntax highlighting** (e.g. VS Code)</li>
+</ul>
+
+**Narrative / Teaching script**: <br>
+<ul>
+  <li>*start off with 2 indentations*</li>
+  <li>demonstrate specifying the first property in the form `"Full Name"` by entering a meaningful `"description"` and `"type":"string"`</li>
+  <li> encourage the learners to shout out the values (and keys), that specify the subsequent form properties.</li>
+  <li> highlight the following aspects: </li>
+    <ul>
+      <li>`"Country/Region"`: to restrict a value to a fixed set of values, the keyword `"enum"` is used. Fixed values are specified in an `array` of unique elements.</li>
+      <li>`"Number of super powers"`: introduce `"type":"number"`</li>
+      <li>`"E-mail"`: introduce the `"format"`-keyword. `"format":"email"` validates against the correct formatting of an e-mail address (`someString` - `@-sign` - `domain name`). However, it does check, whether the e-mail address exists.</li>
+      <li>`"Date of birth"`: specify `date`-format.</li>
+    </ul>
+  <li> **The specified keywords represent the `"properties"` of the `customerInformation`-object**</li>
+  <li> the `"properties"`-key of a JSON schema object takes a value of data type `object` -> *enclose the specified field-objects in curly brackets*</li>
+  <li> collaboratively define the JSON schema keys `"title"`, `"description"`, and `"type"`</li>
+  <li> highlight, that a JSON schema is a **JSON object literal** -> *enclose the schema-object in curly brackets*</li>
+  <li> Finally, draw the learners attention to the **mandatory** fields in the customer information form and introduce the `"required"`-keyword</li>
+</ul>
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Lecture: Challenge introduction
+
+**Slide set**: <i>not provided in slide set</i><br>
+**Time estimate**: 5 min
+
+- Talking point
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Challenge notes
+
+The following challenges 4 & 5 will be processed **consecutively in groups of 5 - 6 learners**.
+We made the experience, that changing the group composition for these tasks benefits the overall collaborative atmosphere. 
+
+**Total time:** 30 min
+
+**Implementation:** <br>
+In accordance with challenges 2 & 3, we recommend using a pre-structured shared notes document with the gorups.
+
+**Shared notes:** <br>
+You can find an example Markdown file for the group handouts <a href="../../../episodes/files/exampleGroupHandout.txt" target="_blank">**HERE**</a>. This document is optimized for use in a Hedgedoc document. 
+
+##### <u>Challenge 4: JSON Schema</u>
+
+**Time:** 20 min
+
+**Challenge type:** group activity, production
+
+**Objective:** <br>
+By writing a short excerpt of a JSON schema, the learner get familiar with the schema syntax, gain the ability to read and understand a schema, and get to know some important JSON schema keywords. By writing the schema in a group set-up, the learner experience the discussion process as a crucial part of schema development.
+
+##### <u>Challenge 5: Form input & validation with JSON schema</u>
+
+**Time:** 10 min
+
+**Challenge type:** group activity **OR** individual exploration
+
+**Objective:** <br>
+By downloading and inspecting the final JSON schema, the learners comprehend the complexity a metadata schema can acquire. With the implementation of the schema in the UI of the react-jsonschema-form playground, the learners bring the developed schema into use, get to know a software tool, they can benefit from, and experience relieve of the frustration after Challenge 3.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Discussion: Challenge reflection
+
+**Time:** 10 min
+
+**Implementation:** <br>
+<ul>
+  <li>share the [react-jsonschema-form playground](https://rjsf-team.github.io/react-jsonschema-form/){target="_blank"} pre-filled with the final schema and metadata values in your browser **OR**</li>
+  <li>share the final **JSON schema** on your screen **OR**</li>
+  <li>display the final **JSON metadata records** (`exampleDataObject.json`) of each group next to each other</li>
+</ul>
+
+**Objective:** <br>
+The learners are aware of the advantages of a metadata schema and metadata record validation, pay attention to interface interpretations in the proposed tool and feel relieve of the frustration experienced after challenge 3 based on the metadata record harmonization.
+
+**Leading questions:**<br>
+<ul>
+  <li>How does the browser display lists of pre-defined values (specified as `enum` in the schema)?</li>
+  <li>How are `arrays` and `objects` interpreted in the form interface?</li>
+  <li>What happens if you enter an invalid value (e.g. try to enter a string for the test persons `height`)</li>
+  <li>What happens if you enter a nonsense value (e.g. try to enter a nonsense string for `rideName`)</li>
+  <li>How does the web service respond if you click on submit without filling all the "required" fields?</li>
+</ul>
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Lecture: Annotating the example data
+
+**Slide set**: <i>not provided in slide set</i><br>
+**Time estimate**: 5 min
+
+- Talking point
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+<br><br>
+
+---
+
+### :coffee: 15 min Break :coffee:
+
+---
+
+<br><br>
 
 ## Episode 5: (Web) Location & Identifiers
 
