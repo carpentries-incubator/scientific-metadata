@@ -50,4 +50,3 @@ We recommend collecting the learners' statements in bullet points on a white boa
 **The subject of the example data will be revealed after the introductory lecture on "What is data?" and bridges over to the topic of metadata.**
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
-

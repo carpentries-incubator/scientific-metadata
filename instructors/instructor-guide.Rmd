@@ -17,8 +17,22 @@ title: Instructor guide
 |<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> | Episode | Content |
 | ----- | :---: | ------------------------------- |
 | 35 min | [0](#episode-0-housekeeping) | Introduction bla bla bla lorem impsum bla bla blank !!! build this table based on the content of the instructor guide !!! Don't forget to place the anchors !!! |
-| 65 min | [2](#episode-2-data-metadata) |  |
-| 15 min |  | :coffee: Break :coffee: |
+| 80 min | [2](#episode-2-data-metadata) |  |
+| 105 min | [3](#episode-3-structured-metadata---from-markup-to-json) |  |
+| 20 min | [0](#episode-0-housekeeping-1) |  |
+</div>
+</div>
+<div class="overview card">
+  <h2 class="card-header">Day 2</h2>
+  <div class="row g-0">
+|<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> | Episode | Content |
+| ----- | :---: | ------------------------------- |
+| 15 min | [0](#episode-0-housekeeping-2) | Introduction bla bla bla lorem impsum bla bla blank !!! build this table based on the content of the instructor guide !!! Don't forget to place the anchors !!! |
+| 120 min | [4]() |  |
+| 55 min | [5]() |  |
+| xx min | [6]() |  |
+| 30 min | [0](#episode-0-lightning-talk) | Lightning Talk |
+| 20 min | [0](#episode-0-housekeeping-3) |  |
 </div>
 </div>
 
@@ -107,11 +121,12 @@ While the learners share their ideas about the example data object, take notes o
 | 15 min | **Challenge** | [Real World Metadata](#accordionInstructor8) |
 | 10 min | **Lecture** | [Metadata in the scientific context](#accordionInstructor9)  |
 | 10 min | **Guided confrontation** | [Metadata in scientific publications](#accordionInstructor10) |
+| 15 min |  | :coffee: Break :coffee: |
 
 </div>
 </div>
 
-**Total time:**  65 min<br>
+**Total time:**  80 min<br>
 **Teaching methods:**  direct teaching, guided confrontation<br>
 **Learning types:**  acquisition, investigation, discussion<br><br>
 
@@ -288,6 +303,308 @@ Use a white board application to display the journal publication. This allows fo
 ---
 
 ## Episode 3: Structured metadata - from Markup to JSON
+
+<div class="overview card">
+  <h2 class="card-header">Episode Schedule</h2>
+  <div class="row g-0">
+|&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> |Content type | Title |
+| :-----: | ---------- | ----------------------------------------- |
+| 20 min | **Lecture** | [Introduction to information transfer](#accordionInstructor11)<br>[What is Markup, XML & JSON?](#accordionInstructor12) |
+| 10 min | **Lecture** | [JSON step-by-step](#accordionInstructor13)<br>[Challenge Introduction](#accordionInstructor14)|
+| 15 min | **Challenge** | [Identify metadata in README.txt](#accordionInstructor15) |
+| 20 min | **Challenge** | [Write JSON metadata record](#accordionInstructor15) |
+| 15 min |  | :coffee: Break :coffee: |
+| 20 min | **Discussion** | [Challenge reflection](#accordionInstructor16)  |
+
+</div>
+</div>
+
+**Total time:**  105 min<br>
+**Teaching methods:**  direct teaching, guided confrontation, live demonstration, group activity<br>
+**Learning types:**  acquisition, discussion, practice, production<br><br>
+
+**Learning Objectives:**<br>
+<u>UNDERSTAND</u><br> 
+<ul>
+  <li>The learners explain the importance of semi-structured metadata for machine readability.</li></ul>
+<u>APPLY</u><br> 
+<ul>
+  <li>The learners understand, read, and write basic Markdown / HTML / XML / JSON.</li>
+</ul>
+
+**Description:**<br>
+This episode introduces the concept of semi-structured metadata in regards to machine accessibility and interoperability. After defining the term "Markup", the learners will be confronted with XML and JSON as data exchance formats. In the challenges 2 & 3, the learners will apply the lecture content to the example data object by extracting metadata from an accompanying Readme file and annotating the example data object in a JSON object literal. Challenges will be tackled in groups of 5 - 7 learners. Group results are compared and discussed in a plenary discussion. Ideally, the learners will experience light frustration during result comparison, realizing, that structuring their metadata will result in valid machine interpretable data objects, yet lack of comparability and reusability.
+
+**Talking Points:**
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Lecture: Introduction to information transfer
+
+**Slide set**: 59 - 62<br>
+**Time estimate**: 5 min
+
+- With the next episode, we are diving deaper into the topic of structured data and enhancing machine readability of our metadata records.
+- So far we have been talking about natural language communication. When the senior doctor gives a status update about a patient's condition to his colleague, the information is clear. Let's take this message apart and structure it...
+- The message is concering a subject, namely the specific patient in room 305. It includes a location, the room number and it gives information about the current condition, unchanged. Let's assume that both doctors were machines. Extracting these information from the natural language text wouldn't be as straight forward...
+- And the information needs to be structured in particular ways to make it easily transferrable and accessible for the receiving end. One such leightweight data structure is JSON, JavaScript Object Notation. We will take an in depth look at JSON in the upcoming lectures.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Lecture: What is Markup, XML & JSON
+
+**Slide set**: <br>
+**Time estimate**: 15
+
+- The first term, that we will come across regularly throughout this lesson is Markup.
+- You encounter markup continuously, when you read a text. A period, for example, indicates the end of a declarative or imperative sentence, which results in the speaker briefly stopping to talk, when read out loud. The question mark, on the other hand, declares a question and a speaker will raise their voice before pausing. In this sense, the punctuation - or Markup - is not part of the text or information by itself. It rather give some additional information about the text.
+- Essential for functional markup is that the sender - in case of a text the writer - and the recipient - the reader - agree on the interpretation of the symbols used to markup the text. Shown here is an interrobang, a combination of questionmark and exclamation point. (<i>You can reactivate the audience by asking them, whether someone is familiar with the definition of the interrobang or if they would know how to interprete it.</i>) The interrobang was proposed in the 1960s as a new punctuation mark to indicate a rhetorical question. As you might have guessed already, the proposal did not come very far.
+- Markup can be distinguished into four different types:
+  - punctuational markup, as seen in the previous examples.
+  - presentational markup gives information on how the text should be displayed, which includes vertical or horizontal spacing, page breaks, and enumerations of lists. When enclosing text between two asterisks while writing Markdown, a Markdown interpreter will display this text in bold font face.
+  - descriptive or declarative markup gives information on the type or class the enclosed text belongs to. In this example, the text was enclosed by an H1 opening and closing tag. HTML interpreters will now know, that this sentence is the most important headline on the page, regardless of how it is displayed.
+  - referential markup refers to entities external to the document. On ta website, this marked up sentence would appear as a link and redirect the user to the specified URL, when activated.
+- I'm certain all of us have manually marked up a document in one way or another, using a text marker while reading a journal publication or commenting a manuscript while reviewing it. These markups give information to the human reader: What is important in this text? Whis information are missing? Markup in computer files, however, is targetting a machine for interpretation. It declares how the content should be formatted or printed, or give additional information on the written words.
+- So from now on in this lecture, the term markup will refer to markup that targets computers, mainly descriptive and referential markup.
+- Descriptive and referential markup, used rigorously, is a way to make data and natural text more accessible for computer analysis and can provide additional information for the human user as well. But we will come to that in a bit.
+- We will first shift our focus on the importance of the interoperability of the data formats that we want to use to document our data and metadata. In the 1980s, roughly 10 years before the birth of the world wide web, the internet was already a thing and national and international data networks were emerging fast. This increased the need for standardized data transfer formats to facilitate the data exchange and interpretability on various machines in one networt. One of the first insdustry standards for electronic publishing was the Standard Generalized **Markup** Language or SGML.
+- With the implementation of the World Wide Web, HTML - the HyperText **Markup** Language - became the standard language for web pages and has its roots in SGML. The markup tags of HTML and their interpretation are well-defined.  XML - the eXtensible **Markup** Language - on the other hand, was developed to transfer and store data on the World Wide Web. The tags are arbitrary, descriptive and can be defined by the user. Let's take a closer look.
+- This XML example stores data in form of natural text (<i>point to the two sentences</i>) and a number (<i>highlight the "1"</i>). Each of these data elements is enclosed in a start and end end tag. As mentioned before, these tags can be defined arbitrarily, so we state, that the first sentence is the title, the second sentence is a description and the number one represents a word count. We can now introduce a data hierarchy, declaring that all these data elements describe one example. We could now look for the "title" of the "example" and retrieve the data stored between those tags. XML is software- and hardware-independent and still widely used as a data exchange format. Though XML is human-readable, enclosing the data between start and end tags is quite an effort and meddles with the clarity of this format. So we are leaving the realm of markup languages...
+- to introduce another data exchange format, which is recommended as a standard from the W3 consortium: JSON. JSON is short for JavaScript Object notation. It is inspired by the JavaScript representation for data objects and bears all the advantages XML has shown - like lightweight data exchange, software- and hardware-independency, and hierarchical structure - with an increased human-readability. For the remainder of this lesson, we will learn how to read, write and standardize JSON object literals.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Lecture: JSON step-by-step
+
+**Slide set**: <br>
+**Time estimate**:
+
+- Let's have a closer look on the structure and syntax of JSON object literals. In this example we have a JSON object, which describes a person named John.
+- Objects are enclosed in curly braces.
+- Within these objects, data entities are stored in key-value-pairs.
+- Keys are always of the data type "string."
+- Data values can be given as strings, numbers, booleans, arrays, objects, or null.
+- Don't worry, if not all of these terms ring a bell. We will go through them step by step.
+- String values can contain any kind of characters and are characteristically enclosed in parentheses. Each string, no matter how long it is, will be interpreted as a single value.
+- Numbers...
+- can be either integers or floats.
+- Boolean values in JSON...
+- has one of two possible values. It is either true or false, or 1 for true and 0 for false, respectively.
+- Assigning the data type NULL does not mean the same as zero but rather that no value was assigned to this variable. You might be familiar with other representations, such as NA or nan. If you read a JSON object into Python, for example, NULL will be parsed as nan.
+- Values in JSON can also be arrays. For example, John has two parents, Anna and Michael.
+- An array is a collection of multiple elements and can be understood as a list of values. The data elements within an array can have the same data type or vary in their data types.
+- Last but not least, a value can be another object. John has a pet and the value of the key "pet" is an object describing John's dog Brutus.
+- Again, an object contains key-value pairs. These key-value-paris ar seperated by commata and enclosed by curly braces. 
+- The seperation of data entities by commata in a JSON object literal is crucial.
+- Let's compare the JSON representation of this object with its XML representation...
+- Both representations contain the same information. In XML the data value is stored between start and end tags, whereas in JSON, the value is assigned to a property and separated from other entries with a comma. Both representations allow for hierarchical data storage as seen for the description of John's pet. In JSON this is done by nesting objects, in XML the data entries are enclosed by `<pet>` tags. A difference can be seen in the representation for John's parents. Whereas an array is given in the JSON object literal, comparable lists do not exist in XML. Here the parents' names are enclosed individually with the same start and end tag.
+- Besides XML and JSON, the third widely used standard data exchange format is YAML. All three formats can be parsed into one another.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Lecture: Challenge introduction
+
+**Slide set**: <br>
+**Time estimate**:
+
+- In the following challenges, we will apply what we have learned in the lectures so far to our example data set. You have inspected the data and realised quite rapidly, that you need more information on the data to make sense of it. So you ask your collaborators for additional meta-information.
+- They reply by sending you a README-style metadata file.
+- However, your funding agency requires that you upload every data set in your project to their public repository and attach a structured metadata record.
+- In challenge 2, you will review the README-style metadata record and highlight all the information that you deem relevant to understand the data and reproduce the experiment.
+- In challenge 3, you will then take these information and transform it into a JSON object literal.
+- (<i>The challenges are designed as group challenges. We like to add a slide here, on which we list the randomized groups and give additional technical and administrative information.</i>)
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Challenge: Identify metadata in README.txt / Write JSON metadata record
+
+The following challenges 2 & 3 will be processed **consecutively in groups of 5 - 6 learners**.
+
+**Total time:** 35 min
+
+**Implementation:** <br>
+Prepare shared notes documents for each group of learners attending the lesson. We have good experiences with copying the challenges into the documents and make space for collaborative working on the tasks. <br>
+Try to be present with as many instructors as break-out rooms to moderate the discussions and answer questions.
+
+**Shared notes:** <br>
+You can find an example Markdown file for the group handouts <a href="../../../episodes/files/exampleGroupHandout.txt" target="_blank">**HERE**</a>. This document is optimized for use in a Hedgedoc document. 
+
+##### <u>Challenge 2: Identify metadata in README.txt</u>
+
+**Time:** 15 min
+
+**Challenge type:** group activity
+
+**Objective:** <br>
+The learners practice the acquired knowledge of metadata identification in README style text formats.
+
+##### <u>Challenge 3: Write JSON metadata record</u>
+
+**Time:** 20 min
+
+**Challenge type:** group activity
+
+**Objective:** <br>
+The learners create a structured JSON object literal, experience the difficulties in choosing meaningful key strings and value representations. 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+<br><br>
+
+---
+
+### :coffee: 15 min Break :coffee:
+
+---
+
+<br><br>
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Discussion: Challenge reflection
+
+**Time:** 20 min
+
+**Implementation:** <br> 
+Display the final JSON object literals of the different groups next to each other. Allow for some time, so that the learners can compare the different results and identify similarities and differences. 
+
+**Objective:** <br>
+At this point, the learners should experience some form of frustration - the metadata is now structured and machine readable, yet interoperability and reusability haven't been achieved. This frustration is relieved in the next episode "**Enabling technolgy & Schemas**", when schemas and standards are introduced.
+
+**Leading questions:**<br>
+<ul>
+  <li>What was easy generating the structured metadata record?</li>
+  <li>What was hard? Which points were intensely discussed in the group?</li>
+  <li>Which differences do you see between the different JSON metadata records?</li>
+  <li>How do you feel after comparing the results?</li>
+</ul>
+
+**Creator's recommendation:** <br>
+While moderating the discussion, pay attention to and highlight the following characteristics of the created JSON object literals:
+<ul>
+  <li>(if done correctly) all JSON object literals are **valid**, **functional** and **machine readable**</li>
+  <li>representation of key strings (e.g. camel case vs. snake case, capitalization)</li>
+  <li>structure of the JSON object literal (e.g. nested objects vs. flat structure)</li>
+  <li>value representation</li>
+</ul>
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+## Episode 0: Housekeeping
+<div class="overview card">
+  <h2 class="card-header">Episode Schedule</h2>
+  <div class="row g-0">
+|<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> | Content type | Title |
+| :-----: | ---------- | ----------------------------------------- |
+| 5 min | **Lecture** | [Refelction Day 1](#accordionInstructor17) |
+| 10 min | **Group activity** | [Feedback Day 1](#accordionInstructor18) |
+| 4 min | **Lecture** | [Outlook Day 2](#accordionInstructor19) |
+| 1 min |  | [Farewell](#accordionInstructor20)
+</div>
+</div>
+
+**Total time:** 20 min <br>
+**Teaching methods:** direct teaching, group activity, discussion <br>
+**Learning types:** acquisition, collaboration <br><br>
+
+**Learning Objectives:**<br>
+<u>REMEMBER</u><br> 
+<ul>
+  <li>The learners are familiar with online resources to deepen their knowledge on research (meta)data handling.</li>
+  <li>The learners are aware of the content of day 2.</li></ul>
+
+**Description:**<br>
+Day 1 concludes with a brief recap on the topics of the first day. Feedback is gathered from the learners and eventually implemented in day 2. An outlook on the contet of the second day is presented.
+
+**Talking Points:**
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Lecture: Reflection Day 1
+
+**Slide set**: <i>not provided in slide set</i><br>
+**Time estimate**: 5 min
+
+<i>In this section, the content and topics of the first day are summarized. Use this opportunity to inform / remind the learners of the references / further reading section.</i>
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Lecture: Feedback Day 1
+
+**Slide set**: <i>not provided in slide set</i><br>
+**Time estimate**: 10 min
+
+<i>We like to include feedback sessions on each day of the lesson. Of course you are free to skip this part or design it according to your liking. Nevertheless, we want to share our approach, experiences and feedback questions with you </i>:smile:.
+
+**Creators' recommendation:**<br>
+In order to increase the response rate and to guarantee that every learner is heard, we dedicate 10 min at the end of each lesson day to an anonymous and instantaneous feedback poll. Our preferred online polling tool is [AHA slides](https://ahaslides.com/). We share the link to the poll with the participants and allow for some time, so that the learners can navigate the feedback poll in their own pace.<br>
+
+<u>QUESTIONS</u><br><br>
+1. How do you feel after the first day of scientific metadata?
+    - :frowning_face:
+    - :confused:
+    - :neutral_face:
+    - :slightly_smiling_face:
+    - :smiley: 
+    
+2. Please rate the difficulty level of the lecture content.
+    - too easy
+    - fairly easy
+    - just right
+    - rather hard
+    - too hard
+
+3. Please rate the difficulty level of the hands-on sessions.
+    - too easy
+    - fairly easy
+    - just right
+    - rather hard
+    - too hard
+
+(<i>After day 1, the questions 2 and 3 usually result in an average between "fairly easy" and "just right", which - for us - is the ideal outcome. The first day is intended to get all the participants, regardless of their scientific background, on the same page and prepare everyone for day 2.</i>)
+    
+4. I would have liked to learn more about...<br>
+    [FREE TEXT]
+
+<img src="../docs/files/exampleFeedbackDay1.png"/>
+    
+(<i>Question 4 is, in our opinion, the most important question of this feedback session. It gives you an insight, which topics might need to be revisited on day 2 and help you to add additional literature recommendation to the references adressing the specific needs of your group of learners. </i>)
+
+ 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Lecture: Outlook Day2
+
+**Slide set**: <i>not provided in slide set</i><br>
+**Time estimate**: 4 min
+
+<i>Provide a brief outlook on the topics and schedule of the second day.</i>
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Lecture: Farewell
+
+**Slide set**: <i>not provided in slide set</i><br>
+**Time estimate**: 1 min
+
+<i>You are done for today! But if you like, you can use the last minutes of the first half of the session to take a group picture with the learners :wink: </i>
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+<br><br>
+
+---
+
+### Day 2
+
+---
+
+<br><br>
 
 ## Episode 4. Enabling technologies with schemas and standards
 
