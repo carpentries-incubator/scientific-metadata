@@ -553,7 +553,7 @@ During the discussion, ask the group of learners, whether someone encountered a 
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- The WWW was developed in a **research context** to connect researchers worldwide and enable **sharing information**
+- The WWW was developed in from and for the **scientific community** to connect researchers worldwide and enable **sharing information**
 - Metadata schemas serve as **template** and **validation matrix** for metadata records 
 - JSON schemas are **JSON object literals**
 - Well-established metadata schemas have the potential to become a (community) **standard**

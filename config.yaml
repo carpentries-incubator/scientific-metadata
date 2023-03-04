@@ -66,15 +66,19 @@ episodes:
 - web-location-identifiers.Rmd
 - conclusion-outlook.Rmd
 
+
 # Information for Learners
 learners: 
+- meet-the-creators.Rmd
+- acknowledgements.Rmd
 
 # Information for Instructors
 instructors: 
 - instructor-notes.md
 - general-lesson-information.Rmd
 - instructor-guide.Rmd
-
+- meet-the-creators.Rmd
+- acknowledgements.Rmd
 # Learner Profiles
 profiles: 
 - learner-profiles.Rmd
@@ -83,3 +87,5 @@ profiles:
 #
 # This space below is where custom yaml items (e.g. pinning
 # sandpaper and varnish versions) should live
+
+

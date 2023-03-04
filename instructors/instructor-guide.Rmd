@@ -14,25 +14,26 @@ title: Instructor guide
 <div class="overview card">
   <h2 class="card-header">Day 1</h2>
   <div class="row g-0">
-|<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> | Episode | Description |
-| ----- | :---: | ------------------------------- |
-| 35 min | [0](#episode-0-housekeeping) | The lesson starts with an introduction by the instructors, and i.a. the hosting organization, to the learners to the instructors. The learners introduce themselves to briefly and report on their first impressions of the example data object. Scope and schedule of the lesson are outlined. |
-| 80 min | [2](#episode-2-data-metadata) | The learners get an introduction into data and metadata in everyday life and research contexts. Descriptive, administrative, and structural metadata are distinguished. The learners conduct a guided online search (URLs are provided) and explore the metadata tagging in selected web pages. Good (enough) and worst practices of metadata annotation will be covered in the fina talk of this module. The presentation is complemented with a live demonstration, collaboratively extracting metadata from scientific publications. |
-| 105 min | [3](#episode-3-structured-metadata---from-markup-to-json) | This episode introduces the concept of semi-structured metadata in regards to machine accessibility and interoperability. After defining the term "Markup", the learners will be confronted with XML and JSON as data exchance formats. In the challenges 2 & 3, the learners will apply the lecture content to the example data object by extracting metadata from an accompanying Readme file and annotating the example data object in a JSON object literal. Challenges will be tackled in groups of 5 - 7 learners. Group results are compared and discussed in a plenary discussion. Ideally, the learners will experience light frustration during result comparison, realizing, that structuring their metadata will result in valid machine interpretable data objects, yet lack of comparability and reusability. |
-| 20 min | [0](#episode-0-housekeeping-1) | Day 1 concludes with a brief recap on the topics of the first day. Feedback is gathered from the learners and eventually implemented in day 2. An outlook on the contet of the second day is presented. |
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> | Episode | Description |
+| :-----: | :---: | ------------------------------- |
+| 35 min | [0](#episode-0-housekeeping) | <u>**Housekeeping**</u><br>The lesson starts with an introduction by the instructors, and i.a. the hosting organization, to the learners to the instructors. The learners introduce themselves to briefly and report on their first impressions of the example data object. Scope and schedule of the lesson are outlined. |
+| --- | [1](#episode-1-getting-started) | <u>**Getting started**</u><br><i>This episode is not part of the actual teaching content. It will be send to the learners prior to the lesson. It contains one brief challenge, that encourages the learners to engage with the example data object. The learners's experience will be shared during the first Episode 0: Housekeeping session.</i> |
+| 80 min | [2](#episode-2-data-metadata) | <u>**Data & Metadata**</u><br>The learners get an introduction into data and metadata in everyday life and research contexts. Descriptive, administrative, and structural metadata are distinguished. The learners conduct a guided online search (URLs are provided) and explore the metadata tagging in selected web pages. Good (enough) and worst practices of metadata annotation will be covered in the fina talk of this module. The presentation is complemented with a live demonstration, collaboratively extracting metadata from scientific publications. |
+| 105 min | [3](#episode-3-structured-metadata---from-markup-to-json) | <u>**Structured metadata - from Markup to JSON**</u><br>This episode introduces the concept of semi-structured metadata in regards to machine accessibility and interoperability. After defining the term "Markup", the learners will be confronted with XML and JSON as data exchance formats. In the challenges 2 & 3, the learners will apply the lecture content to the example data object by extracting metadata from an accompanying Readme file and annotating the example data object in a JSON object literal. Challenges will be tackled in groups of 5 - 7 learners. Group results are compared and discussed in a plenary discussion. Ideally, the learners will experience light frustration during result comparison, realizing, that structuring their metadata will result in valid machine interpretable data objects, yet lack of comparability and reusability. |
+| 20 min | [0](#episode-0-housekeeping-1) | <u>**Housekeeping**</u><br>Day 1 concludes with a brief recap on the topics of the first day. Feedback is gathered from the learners and eventually implemented in day 2. An outlook on the contet of the second day is presented. |
 </div>
 </div>
 <div class="overview card">
   <h2 class="card-header">Day 2</h2>
   <div class="row g-0">
-|<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> | Episode | Description |
-| ----- | :---: | ------------------------------- |
-| 15 min | [0](#episode-0-housekeeping-2) | The learners get a brief recap of the contents of day 1 and an outlook on day 2. In the warm-up session, the learners actively apply their knowledge acquired on day 1 by completing a personal JSON template. |
-| 120 min | [4](#episode-4.-enabling-technologies-with-schemas-and-standards) |  |
-| 55 min | [5](#episode-5-web-location-identifiers) |  |
-| xx min | [6](#episode-6-outlook---linked-data) |  |
-| 30 min | [0](#episode-0-lightning-talk) | Lightning Talk |
-| 20 min | [0](#episode-0-housekeeping-3) |  |
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> | Episode | Description |
+| :-----: | :---: | ------------------------------- |
+| 15 min | [0](#episode-0-housekeeping-2) | <u>**Housekeeping**</u><br>The learners get a brief recap of the contents of day 1 and an outlook on day 2. In the warm-up session, the learners actively apply their knowledge acquired on day 1 by completing a personal JSON template. |
+| 120 min | [4](#episode-4.-enabling-technologies-with-schemas-and-standards) | <u>**Enabling technologies with schemas and standars**</u><br>The episodes starts with a short history of the World Wide Web from a scholarly perspective, highlighting the benefits of this technology for sharing information. Metadata schemas are introduced in depth by lectures and live coding. JSON schema development is further practiced by the learners in a group challenge. Subsequently, the written schema is applied in web interfaces. The concept of metadata standards is introduced and distinguished from metadata schemas. Widely used and scientific community independent standards are investigated. In the following challenge, the learners are introduced to terminology registries, practice their navigation and get the opportunity to identify metadata terminologies relevant for their fields of research. |
+| 55 min | [5](#episode-5-web-location-identifiers) | <u>**(Web) Location and identifiers**</u><br>This episode is an introduction to the concept and technology of Persistent Identifiers (PIDs) on the World Wide Web. The learners are familiarized with the technology of client-server communication on the web, learn to differenciate between URN, URL, URI, and PID, and get to know  PID services commonly used in the scientific community. Further, the application of (Persistent) Identifiers in metadata records is discussed. |
+| xx min | [6](#episode-6-outlook---linked-data) | <u>**Outlook - Linked Data**</u><br> :construction: UNDER CONSTRUCTION :construction: |
+| 30 min | [0](#episode-0-lightning-talk) | <u>**Lightning Talk**</u><br>An invited speaker presents a real world research example and demonstrates how applied metadata can shape research.  |
+| 20 min | [0](#episode-0-housekeeping-3) | <u>**Housekeeping**</u><br>This module concludes the lesson. An overview about the past two days is given. The learners provide their feedback on the lesson. The instructors feedback the learners. |
 </div>
 </div>
 
@@ -41,7 +42,7 @@ title: Instructor guide
 <div class="overview card">
   <h2 class="card-header">Episode Schedule</h2>
   <div class="row g-0">
-|<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> | Content type | Title |
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> | Content type | Title |
 | :-----: | ---------- | ----------------------------------------- |
 | 5 min | **Lecture** | [Instructor introduction](#accordionInstructor1) |
 | 28 min | **Group activity** | [Learner introduction](#accordionInstructor2) |
@@ -113,13 +114,13 @@ While the learners share their ideas about the example data object, take notes o
 <div class="overview card">
   <h2 class="card-header">Episode Schedule</h2>
   <div class="row g-0">
-|<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> |Content type | Title |
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> |Content type | Title |
 | :-----: | ---------- | ----------------------------------------- |
 | 30 min | **Lecture** | [What is data?](#accordionInstructor4)<br>[The example data object](#accordionInstructor5)<br>[What is metadata?](#accordionInstructor6)<br>[Descriptive, administrative, structural metadata](#accordionInstructor7) |
 | 15 min | **Challenge** | [Real World Metadata](#accordionInstructor8) |
 | 10 min | **Lecture** | [Metadata in the scientific context](#accordionInstructor9)  |
 | 10 min | **Guided confrontation** | [Metadata in scientific publications](#accordionInstructor10) |
-| 15 min |  | :coffee: Break :coffee: |
+| 15 min |  | :coffee: **Break** :coffee: |
 
 </div>
 </div>
@@ -149,17 +150,17 @@ The learners get an introduction into data and metadata in everyday life and res
 **Slide set**: 3 - 14<br>
 **Time estimate**:
 
-- What is data? (<i>direct this question to the audience and allow them to just shout in. Wait a little, it might be quiet</i> :wink:)
-- We start with an example: Imagine a satellite transmitting data back to earth.
-- This is what actually arrives at the machine receiving the transmission...
-- just a concatenation of signs...
-- we call these **glyphs**. To a human being, this sequence of glyphs is not understandable and it needs some processing by a machine to make it interpretable for humans. And this is data...
-- a **potentially informative object**. 
-- If the data is now processed by the receiving machine, it will be converted in this picture. (<i>The satellite image shows the city center of Cologne, Germany. Feel free to substitute it with a place your learners are familiar with and activate them by asking "Does anyone know, what is depicted?"</i>) In this processed form, the data becomes human-readable. In information science, this is what we call information.
-- Knowledge is intrinsified information. For example, knowing where on the image the cathedral is located.
-- The highest level of information content is wisdom, which means putting the acquired knowledge into context, the bigger picture. You might use the satellite image to navigate between to locations, for example. Naturally, as researchers, we strive to reach wisdom with our work.
-- We have seen, that the information content increases by adding context, meaning, and insight to data.
--The take-away message is: Data is **potential information** and needs to be processed and contextualized** to make it accessible for the human audience.
+1. What is data? (<i>direct this question to the audience and allow them to just shout in. Wait a little, it might be quiet</i> :wink:)
+2. We start with an example: Imagine a satellite transmitting data back to earth.
+3. This is what actually arrives at the machine receiving the transmission...
+4. just a concatenation of signs...
+5. we call these **glyphs**. To a human being, this sequence of glyphs is not understandable and it needs some processing by a machine to make it interpretable for humans. And this is data...
+6. a **potentially informative object**. 
+7. If the data is now processed by the receiving machine, it will be converted in this picture. (<i>The satellite image shows the city center of Cologne, Germany. Feel free to substitute it with a place your learners are familiar with and activate them by asking "Does anyone know, what is depicted?"</i>) In this processed form, the data becomes human-readable. In information science, this is what we call information.
+8. Knowledge is intrinsified information. For example, knowing where on the image the cathedral is located.
+9. The highest level of information content is wisdom, which means putting the acquired knowledge into context, the bigger picture. You might use the satellite image to navigate between to locations, for example. Naturally, as researchers, we strive to reach wisdom with our work.
+10. We have seen, that the information content increases by adding context, meaning, and insight to data.
+11. The take-away message is: Data is **potential information** and needs to be processed and contextualized** to make it accessible for the human audience.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -169,12 +170,12 @@ The learners get an introduction into data and metadata in everyday life and res
 **Slide set**: 15 - 19<br>
 **Time estimate**:
 
-- Now back to the example data you received from us. (<i>Here you can reflect on some of the statements made during the introduction session.</i>) What actually is represented in the data is this...
-- (<i>Empty slide: open <a href="https://www.youtube.com/watch?v=KeKIBSN2F5c" target="_blank">https://www.youtube.com/watch?v=KeKIBSN2F5c</a> in a new tab or window and play the video. We start the video from 0:30. </i>)
-- Shown in the data is the ride time (t)...
-- the biomechanical acceleration of a human body during the rollercoaster ride in x, y, and z axis... (<i>Yes, the image of the toy bunny is really taken from a peer reviewed journal publication.</i>)
-- and a boolean value, stating whether a scream of the test person could be detected or not.
-- (<i>allow some time for questions</i>)
+1. Now back to the example data you received from us. (<i>Here you can reflect on some of the statements made during the introduction session.</i>) What actually is represented in the data is this...
+2. (<i>Empty slide: open <a href="https://www.youtube.com/watch?v=KeKIBSN2F5c" target="_blank">https://www.youtube.com/watch?v=KeKIBSN2F5c</a> in a new tab or window and play the video. We start the video from 0:30. </i>)
+3. Shown in the data is the ride time (t)...
+4. the biomechanical acceleration of a human body during the rollercoaster ride in x, y, and z axis... (<i>Yes, the image of the toy bunny is really taken from a peer reviewed journal publication.</i>)
+5. and a boolean value, stating whether a scream of the test person could be detected or not.
+6. (<i>allow some time for questions</i>)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -184,15 +185,15 @@ The learners get an introduction into data and metadata in everyday life and res
 **Slide set**: 20 - 28<br>
 **Time estimate**:
 
-- What is metadata? (<i>Direct this questions to the learners and wait for them to reply. They might come up with the generic "Data about data".</i>)
-- Often metadata is described as "data about data", or - as Merriam Webster puts it - "metadata is data that provides information about other data". But this is extremely unspecific.
-- If you look a bit further, you can find more detailed description of the term "metadata". Admittedly, these text are seldomly...
-- fun to read.
-- Let's start - again - with an example. Let's say, you are looking for an informative book about the topic of metadata and decide to look for recommendations online...
-- your search will result in about 1,5 million results. But you remember a colleague, that has recently talked about a very good book on metadata...
-- you ask him about it and he gives you a well-meaning description of said book. "It is black and the title is 'metadata'. It was written by Jeff... Jeff... Something."
-- Okay, this is not really precise but you take these information to your favourite search engine and you will most likely come up with this ...
-- book. Metadata by Jeffrey Pomerantz published in the MIT Press Essential Knowledge series. So far, you have absolutely no idea about the content of the book - the actually data that is hold by it. However, with just a few clues on the title, author, and design, you can identify the ressource. You did this by using "metadata". Let's stay with this example for a bit and take a look inside... 
+1. What is metadata? (<i>Direct this questions to the learners and wait for them to reply. They might come up with the generic "Data about data".</i>)
+2. Often metadata is described as "data about data", or - as Merriam Webster puts it - "metadata is data that provides information about other data". But this is extremely unspecific.
+3. If you look a bit further, you can find more detailed description of the term "metadata". Admittedly, these text are seldomly...
+4. fun to read.
+5. Let's start - again - with an example. Let's say, you are looking for an informative book about the topic of metadata and decide to look for recommendations online...
+6. your search will result in about 1,5 million results. But you remember a colleague, that has recently talked about a very good book on metadata...
+7. you ask him about it and he gives you a well-meaning description of said book. "It is black and the title is 'metadata'. It was written by Jeff... Jeff... Something."
+8. Okay, this is not really precise but you take these information to your favourite search engine and you will most likely come up with this ...
+9. book. Metadata by Jeffrey Pomerantz published in the MIT Press Essential Knowledge series. So far, you have absolutely no idea about the content of the book - the actually data that is hold by it. However, with just a few clues on the title, author, and design, you can identify the ressource. You did this by using "metadata". Let's stay with this example for a bit and take a look inside... 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -202,18 +203,18 @@ The learners get an introduction into data and metadata in everyday life and res
 **Slide set**: 29 - 37<br>
 **Time estimate**:
 
-- On one of first pages, you will find a lot of information about the book...
-- You will get information on author, publisher, keywords and so on, that are descriptive in nature and can help you - or librarians - to successfully identify this specific book. Among these is a very important descriptor...
-- The persistent identifier. In the example of a book, this is the ISBN number. Whenever you look up this number, the result will unambiguously point to this specific title.
-- Furthermore, you will get information about how the book is administered: How it is distributed, who is responsible for its distribution and which conditions need to apply.
-- You can also find information on legal conditions that apply to this resource, such as copyright issues and the terms of distribution. Legal information can be considered as a subset of administrative information.
-- And - really important - you will get a precise idea about the book's structure and how you can navigate it: the chapters, its general content and how it is distributed over the pages. But still: we have not yet read a single word, that actually delivers the content of the book - its data.
-- So, metadata - or metainformation - is more or less structured data, that contains information about characteristics of other data (objects).
-- Let's briefly reflect on the types of metadata, that we came across so far, before we apply these concepts in the first challenge for today: 
+1. On one of first pages, you will find a lot of information about the book...
+2. You will get information on author, publisher, keywords and so on, that are descriptive in nature and can help you - or librarians - to successfully identify this specific book. Among these is a very important descriptor...
+3. The persistent identifier. In the example of a book, this is the ISBN number. Whenever you look up this number, the result will unambiguously point to this specific title.
+4. Furthermore, you will get information about how the book is administered: How it is distributed, who is responsible for its distribution and which conditions need to apply.
+5. You can also find information on legal conditions that apply to this resource, such as copyright issues and the terms of distribution. Legal information can be considered as a subset of administrative information.
+6. And - really important - you will get a precise idea about the book's structure and how you can navigate it: the chapters, its general content and how it is distributed over the pages. But still: we have not yet read a single word, that actually delivers the content of the book - its data.
+7. So, metadata - or metainformation - is more or less structured data, that contains information about characteristics of other data (objects).
+8. Let's briefly reflect on the types of metadata, that we came across so far, before we apply these concepts in the first challenge for today: 
   - descriptive metadata holds information about the intellectual content, such as title, author, abstract...
   - administrative metadata specifies how a resource is managed. This can be terms of distribution and copyright information. Regarding published data, this also applies to technical information on the files included in a data set or versioning...
   - structural metadata describe, for example chapters in a book, file in a data set, or software components.
-- (<i>allow some time for questions</i>)
+9. (<i>allow some time for questions</i>)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -249,23 +250,23 @@ Allow for some time for the learners to navigate the websites and explore the me
 **Slide set**: 39 - 56<br>
 **Time estimate**: 10 min
 
-- Now let's shift our focus on metadata annotation in the scientific context.
-- I'm sure many of us have been in a similar situation. You start a new project that is based on the work of your predecessor or collaborators and you are supposed to start with reproducing the published results...
-- You take a look at the accompnying publication and the data looks neat...
-- But as soon as you open the underlying data sets, understanding the process on how this data was acquired is not so straight forward anymore. The variables might be hard to understand, there might be missing values, and the data cleaning is not necessarily apparent.
-- So you take a look at the experiment's documentation...
-- A study by Monya Baker, that was published in Nature in 2016 was able to show, that more than 70% of researchers have tried and failed to reproduce another scientis's experiments. And more than half have even failed to reproduce their own experiments.
-- The worst practice that you can encounter in your scientific life is surely data, saved under an inexplicit file name with no documentation whatsoever.
-- Slightly better practice are lab notes, which are still widely used as the go-to documentation method in experimental scientific areas. Using lab notes as documentation method, you can facilitate the findability by assigning meaningful file names to your data. However...
-- lab notes come with various disadvantages. Lab notes are usually taken continuously and over the course of a 3-year contract, several hundred pages of lab notes can accumulate.
-- so even though lab notes allow for some kind of documentation, they are largely unstructured and subjective, rarely following templates or guidelines. The continous note taking makes the documentation hard to retrieve. They are physically seperated from the data they describe and remain in the hand of the experimentator or institution hosting the experiments, which makes them hard to share. And let's admit it, handwriting can be a pain to read.
-- One way to store your documentation with your data, is README-style metadata. 
-- Just like taking lab notes, Readme-style files can be subjectively written natural text documents. 
-- You can also find templates for Readme-style metadata records. Sticking to these templates will allow for increased structure in your documentation records. Now that we document our data digitally, we have increased options to link the metadata record to the described data set, for example by naming them accordingly...
-- if you now want to find the results of a specific experiment on your computer, a local keyword search can help you to identify the data set.
-- To sum up, digital documentation of your metadata in form of Readme-style metadata records, facilitates the linkage of data and metadata, allows for local searchability and increased readability, and the digital nature of the Readme file simplifies targeted sharing of the documentation. However, these records are still rather unstructured and subjective, and only allow for keyword searches.
-- If you want to have a look on a well-designed template for Readme-style metadata records, a recommended link is provided in the Episode description.
-- (<i>allow some time for questions</i>)
+1. Now let's shift our focus on metadata annotation in the scientific context.
+2. I'm sure many of us have been in a similar situation. You start a new project that is based on the work of your predecessor or collaborators and you are supposed to start with reproducing the published results...
+3. You take a look at the accompnying publication and the data looks neat...
+4. But as soon as you open the underlying data sets, understanding the process on how this data was acquired is not so straight forward anymore. The variables might be hard to understand, there might be missing values, and the data cleaning is not necessarily apparent.
+5. So you take a look at the experiment's documentation...
+6. A study by Monya Baker, that was published in Nature in 2016 was able to show, that more than 70% of researchers have tried and failed to reproduce another scientis's experiments. And more than half have even failed to reproduce their own experiments.
+7. The worst practice that you can encounter in your scientific life is surely data, saved under an inexplicit file name with no documentation whatsoever.
+8. Slightly better practice are lab notes, which are still widely used as the go-to documentation method in experimental scientific areas. Using lab notes as documentation method, you can facilitate the findability by assigning meaningful file names to your data. However...
+9. lab notes come with various disadvantages. Lab notes are usually taken continuously and over the course of a 3-year contract, several hundred pages of lab notes can accumulate.
+10. so even though lab notes allow for some kind of documentation, they are largely unstructured and subjective, rarely following templates or guidelines. The continous note taking makes the documentation hard to retrieve. They are physically seperated from the data they describe and remain in the hand of the experimentator or institution hosting the experiments, which makes them hard to share. And let's admit it, handwriting can be a pain to read.
+11. One way to store your documentation with your data, is README-style metadata. 
+12. Just like taking lab notes, Readme-style files can be subjectively written natural text documents. 
+13. You can also find templates for Readme-style metadata records. Sticking to these templates will allow for increased structure in your documentation records. Now that we document our data digitally, we have increased options to link the metadata record to the described data set, for example by naming them accordingly...
+14. if you now want to find the results of a specific experiment on your computer, a local keyword search can help you to identify the data set.
+15. To sum up, digital documentation of your metadata in form of Readme-style metadata records, facilitates the linkage of data and metadata, allows for local searchability and increased readability, and the digital nature of the Readme file simplifies targeted sharing of the documentation. However, these records are still rather unstructured and subjective, and only allow for keyword searches.
+16. If you want to have a look on a well-designed template for Readme-style metadata records, a recommended link is provided in the Episode description.
+17. (<i>allow some time for questions</i>)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -305,13 +306,13 @@ Use a white board application to display the journal publication. This allows fo
 <div class="overview card">
   <h2 class="card-header">Episode Schedule</h2>
   <div class="row g-0">
-|&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> |Content type | Title |
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> |Content type | Title |
 | :-----: | ---------- | ----------------------------------------- |
 | 20 min | **Lecture** | [Introduction to information transfer](#accordionInstructor11)<br>[What is Markup, XML & JSON?](#accordionInstructor12) |
 | 10 min | **Lecture** | [JSON step-by-step](#accordionInstructor13)<br>[Challenge Introduction](#accordionInstructor14)|
 | 15 min | **Challenge** | [Identify metadata in README.txt](#accordionInstructor15) |
 | 20 min | **Challenge** | [Write JSON metadata record](#accordionInstructor15) |
-| 15 min |  | :coffee: Break :coffee: |
+| 15 min |  | :coffee: **Break** :coffee: |
 | 20 min | **Discussion** | [Challenge reflection](#accordionInstructor16)  |
 
 </div>
@@ -341,10 +342,10 @@ This episode introduces the concept of semi-structured metadata in regards to ma
 **Slide set**: 59 - 62<br>
 **Time estimate**: 5 min
 
-- With the next episode, we are diving deaper into the topic of structured data and enhancing machine readability of our metadata records.
-- So far we have been talking about natural language communication. When the senior doctor gives a status update about a patient's condition to his colleague, the information is clear. Let's take this message apart and structure it...
-- The message is concering a subject, namely the specific patient in room 305. It includes a location, the room number and it gives information about the current condition, unchanged. Let's assume that both doctors were machines. Extracting these information from the natural language text wouldn't be as straight forward...
-- And the information needs to be structured in particular ways to make it easily transferrable and accessible for the receiving end. One such leightweight data structure is JSON, JavaScript Object Notation. We will take an in depth look at JSON in the upcoming lectures.
+1. With the next episode, we are diving deaper into the topic of structured data and enhancing machine readability of our metadata records.
+2. So far we have been talking about natural language communication. When the senior doctor gives a status update about a patient's condition to his colleague, the information is clear. Let's take this message apart and structure it...
+3. The message is concering a subject, namely the specific patient in room 305. It includes a location, the room number and it gives information about the current condition, unchanged. Let's assume that both doctors were machines. Extracting these information from the natural language text wouldn't be as straight forward...
+5. And the information needs to be structured in particular ways to make it easily transferrable and accessible for the receiving end. One such leightweight data structure is JSON, JavaScript Object Notation. We will take an in depth look at JSON in the upcoming lectures.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -354,21 +355,21 @@ This episode introduces the concept of semi-structured metadata in regards to ma
 **Slide set**: <br>
 **Time estimate**: 15
 
-- The first term, that we will come across regularly throughout this lesson is Markup.
-- You encounter markup continuously, when you read a text. A period, for example, indicates the end of a declarative or imperative sentence, which results in the speaker briefly stopping to talk, when read out loud. The question mark, on the other hand, declares a question and a speaker will raise their voice before pausing. In this sense, the punctuation - or Markup - is not part of the text or information by itself. It rather give some additional information about the text.
-- Essential for functional markup is that the sender - in case of a text the writer - and the recipient - the reader - agree on the interpretation of the symbols used to markup the text. Shown here is an interrobang, a combination of questionmark and exclamation point. (<i>You can reactivate the audience by asking them, whether someone is familiar with the definition of the interrobang or if they would know how to interprete it.</i>) The interrobang was proposed in the 1960s as a new punctuation mark to indicate a rhetorical question. As you might have guessed already, the proposal did not come very far.
-- Markup can be distinguished into four different types:
+1. The first term, that we will come across regularly throughout this lesson is Markup.
+2. You encounter markup continuously, when you read a text. A period, for example, indicates the end of a declarative or imperative sentence, which results in the speaker briefly stopping to talk, when read out loud. The question mark, on the other hand, declares a question and a speaker will raise their voice before pausing. In this sense, the punctuation - or Markup - is not part of the text or information by itself. It rather give some additional information about the text.
+3. Essential for functional markup is that the sender - in case of a text the writer - and the recipient - the reader - agree on the interpretation of the symbols used to markup the text. Shown here is an interrobang, a combination of questionmark and exclamation point. (<i>You can reactivate the audience by asking them, whether someone is familiar with the definition of the interrobang or if they would know how to interprete it.</i>) The interrobang was proposed in the 1960s as a new punctuation mark to indicate a rhetorical question. As you might have guessed already, the proposal did not come very far.
+4. Markup can be distinguished into four different types:
   - punctuational markup, as seen in the previous examples.
   - presentational markup gives information on how the text should be displayed, which includes vertical or horizontal spacing, page breaks, and enumerations of lists. When enclosing text between two asterisks while writing Markdown, a Markdown interpreter will display this text in bold font face.
   - descriptive or declarative markup gives information on the type or class the enclosed text belongs to. In this example, the text was enclosed by an H1 opening and closing tag. HTML interpreters will now know, that this sentence is the most important headline on the page, regardless of how it is displayed.
   - referential markup refers to entities external to the document. On ta website, this marked up sentence would appear as a link and redirect the user to the specified URL, when activated.
-- I'm certain all of us have manually marked up a document in one way or another, using a text marker while reading a journal publication or commenting a manuscript while reviewing it. These markups give information to the human reader: What is important in this text? Whis information are missing? Markup in computer files, however, is targetting a machine for interpretation. It declares how the content should be formatted or printed, or give additional information on the written words.
-- So from now on in this lecture, the term markup will refer to markup that targets computers, mainly descriptive and referential markup.
-- Descriptive and referential markup, used rigorously, is a way to make data and natural text more accessible for computer analysis and can provide additional information for the human user as well. But we will come to that in a bit.
-- We will first shift our focus on the importance of the interoperability of the data formats that we want to use to document our data and metadata. In the 1980s, roughly 10 years before the birth of the world wide web, the internet was already a thing and national and international data networks were emerging fast. This increased the need for standardized data transfer formats to facilitate the data exchange and interpretability on various machines in one networt. One of the first insdustry standards for electronic publishing was the Standard Generalized **Markup** Language or SGML.
-- With the implementation of the World Wide Web, HTML - the HyperText **Markup** Language - became the standard language for web pages and has its roots in SGML. The markup tags of HTML and their interpretation are well-defined.  XML - the eXtensible **Markup** Language - on the other hand, was developed to transfer and store data on the World Wide Web. The tags are arbitrary, descriptive and can be defined by the user. Let's take a closer look.
-- This XML example stores data in form of natural text (<i>point to the two sentences</i>) and a number (<i>highlight the "1"</i>). Each of these data elements is enclosed in a start and end end tag. As mentioned before, these tags can be defined arbitrarily, so we state, that the first sentence is the title, the second sentence is a description and the number one represents a word count. We can now introduce a data hierarchy, declaring that all these data elements describe one example. We could now look for the "title" of the "example" and retrieve the data stored between those tags. XML is software- and hardware-independent and still widely used as a data exchange format. Though XML is human-readable, enclosing the data between start and end tags is quite an effort and meddles with the clarity of this format. So we are leaving the realm of markup languages...
-- to introduce another data exchange format, which is recommended as a standard from the W3 consortium: JSON. JSON is short for JavaScript Object notation. It is inspired by the JavaScript representation for data objects and bears all the advantages XML has shown - like lightweight data exchange, software- and hardware-independency, and hierarchical structure - with an increased human-readability. For the remainder of this lesson, we will learn how to read, write and standardize JSON object literals.
+5. I'm certain all of us have manually marked up a document in one way or another, using a text marker while reading a journal publication or commenting a manuscript while reviewing it. These markups give information to the human reader: What is important in this text? Whis information are missing? Markup in computer files, however, is targetting a machine for interpretation. It declares how the content should be formatted or printed, or give additional information on the written words.
+6. So from now on in this lecture, the term markup will refer to markup that targets computers, mainly descriptive and referential markup.
+7. Descriptive and referential markup, used rigorously, is a way to make data and natural text more accessible for computer analysis and can provide additional information for the human user as well. But we will come to that in a bit.
+8. We will first shift our focus on the importance of the interoperability of the data formats that we want to use to document our data and metadata. In the 1980s, roughly 10 years before the birth of the world wide web, the internet was already a thing and national and international data networks were emerging fast. This increased the need for standardized data transfer formats to facilitate the data exchange and interpretability on various machines in one networt. One of the first insdustry standards for electronic publishing was the Standard Generalized **Markup** Language or SGML.
+9. With the implementation of the World Wide Web, HTML - the HyperText **Markup** Language - became the standard language for web pages and has its roots in SGML. The markup tags of HTML and their interpretation are well-defined.  XML - the eXtensible **Markup** Language - on the other hand, was developed to transfer and store data on the World Wide Web. The tags are arbitrary, descriptive and can be defined by the user. Let's take a closer look.
+10. This XML example stores data in form of natural text (<i>point to the two sentences</i>) and a number (<i>highlight the "1"</i>). Each of these data elements is enclosed in a start and end end tag. As mentioned before, these tags can be defined arbitrarily, so we state, that the first sentence is the title, the second sentence is a description and the number one represents a word count. We can now introduce a data hierarchy, declaring that all these data elements describe one example. We could now look for the "title" of the "example" and retrieve the data stored between those tags. XML is software- and hardware-independent and still widely used as a data exchange format. Though XML is human-readable, enclosing the data between start and end tags is quite an effort and meddles with the clarity of this format. So we are leaving the realm of markup languages...
+11. to introduce another data exchange format, which is recommended as a standard from the W3 consortium: JSON. JSON is short for JavaScript Object notation. It is inspired by the JavaScript representation for data objects and bears all the advantages XML has shown - like lightweight data exchange, software- and hardware-independency, and hierarchical structure - with an increased human-readability. For the remainder of this lesson, we will learn how to read, write and standardize JSON object literals.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -378,26 +379,26 @@ This episode introduces the concept of semi-structured metadata in regards to ma
 **Slide set**: <br>
 **Time estimate**:
 
-- Let's have a closer look on the structure and syntax of JSON object literals. In this example we have a JSON object, which describes a person named John.
-- Objects are enclosed in curly braces.
-- Within these objects, data entities are stored in key-value-pairs.
-- Keys are always of the data type "string."
-- Data values can be given as strings, numbers, booleans, arrays, objects, or null.
-- Don't worry, if not all of these terms ring a bell. We will go through them step by step.
-- String values can contain any kind of characters and are characteristically enclosed in parentheses. Each string, no matter how long it is, will be interpreted as a single value.
-- Numbers...
-- can be either integers or floats.
-- Boolean values in JSON...
-- has one of two possible values. It is either true or false, or 1 for true and 0 for false, respectively.
-- Assigning the data type NULL does not mean the same as zero but rather that no value was assigned to this variable. You might be familiar with other representations, such as NA or nan. If you read a JSON object into Python, for example, NULL will be parsed as nan.
-- Values in JSON can also be arrays. For example, John has two parents, Anna and Michael.
-- An array is a collection of multiple elements and can be understood as a list of values. The data elements within an array can have the same data type or vary in their data types.
-- Last but not least, a value can be another object. John has a pet and the value of the key "pet" is an object describing John's dog Brutus.
-- Again, an object contains key-value pairs. These key-value-paris ar seperated by commata and enclosed by curly braces. 
-- The seperation of data entities by commata in a JSON object literal is crucial.
-- Let's compare the JSON representation of this object with its XML representation...
-- Both representations contain the same information. In XML the data value is stored between start and end tags, whereas in JSON, the value is assigned to a property and separated from other entries with a comma. Both representations allow for hierarchical data storage as seen for the description of John's pet. In JSON this is done by nesting objects, in XML the data entries are enclosed by `<pet>` tags. A difference can be seen in the representation for John's parents. Whereas an array is given in the JSON object literal, comparable lists do not exist in XML. Here the parents' names are enclosed individually with the same start and end tag.
-- Besides XML and JSON, the third widely used standard data exchange format is YAML. All three formats can be parsed into one another.
+1. Let's have a closer look on the structure and syntax of JSON object literals. In this example we have a JSON object, which describes a person named John.
+2. Objects are enclosed in curly braces.
+3. Within these objects, data entities are stored in key-value-pairs.
+4. Keys are always of the data type "string."
+5. Data values can be given as strings, numbers, booleans, arrays, objects, or null.
+6. Don't worry, if not all of these terms ring a bell. We will go through them step by step.
+7. String values can contain any kind of characters and are characteristically enclosed in parentheses. Each string, no matter how long it is, will be interpreted as a single value.
+8. Numbers...
+9. can be either integers or floats.
+10. Boolean values in JSON...
+11. has one of two possible values. It is either true or false, or 1 for true and 0 for false, respectively.
+12. Assigning the data type NULL does not mean the same as zero but rather that no value was assigned to this variable. You might be familiar with other representations, such as NA or nan. If you read a JSON object into Python, for example, NULL will be parsed as nan.
+13. Values in JSON can also be arrays. For example, John has two parents, Anna and Michael.
+14. An array is a collection of multiple elements and can be understood as a list of values. The data elements within an array can have the same data type or vary in their data types.
+15. Last but not least, a value can be another object. John has a pet and the value of the key "pet" is an object describing John's dog Brutus.
+16. Again, an object contains key-value pairs. These key-value-paris ar seperated by commata and enclosed by curly braces. 
+17. The seperation of data entities by commata in a JSON object literal is crucial.
+18. Let's compare the JSON representation of this object with its XML representation...
+19. Both representations contain the same information. In XML the data value is stored between start and end tags, whereas in JSON, the value is assigned to a property and separated from other entries with a comma. Both representations allow for hierarchical data storage as seen for the description of John's pet. In JSON this is done by nesting objects, in XML the data entries are enclosed by `<pet>` tags. A difference can be seen in the representation for John's parents. Whereas an array is given in the JSON object literal, comparable lists do not exist in XML. Here the parents' names are enclosed individually with the same start and end tag.
+20. Besides XML and JSON, the third widely used standard data exchange format is YAML. All three formats can be parsed into one another.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -407,12 +408,12 @@ This episode introduces the concept of semi-structured metadata in regards to ma
 **Slide set**: <br>
 **Time estimate**:
 
-- In the following challenges, we will apply what we have learned in the lectures so far to our example data set. You have inspected the data and realised quite rapidly, that you need more information on the data to make sense of it. So you ask your collaborators for additional meta-information.
-- They reply by sending you a README-style metadata file.
-- However, your funding agency requires that you upload every data set in your project to their public repository and attach a structured metadata record.
-- In challenge 2, you will review the README-style metadata record and highlight all the information that you deem relevant to understand the data and reproduce the experiment.
-- In challenge 3, you will then take these information and transform it into a JSON object literal.
-- (<i>The challenges are designed as group challenges. We like to add a slide here, on which we list the randomized groups and give additional technical and administrative information.</i>)
+1. In the following challenges, we will apply what we have learned in the lectures so far to our example data set. You have inspected the data and realised quite rapidly, that you need more information on the data to make sense of it. So you ask your collaborators for additional meta-information.
+2. They reply by sending you a README-style metadata file.
+3. However, your funding agency requires that you upload every data set in your project to their public repository and attach a structured metadata record.
+4. In challenge 2, you will review the README-style metadata record and highlight all the information that you deem relevant to understand the data and reproduce the experiment.
+5. In challenge 3, you will then take these information and transform it into a JSON object literal.
+6. (<i>The challenges are designed as group challenges. We like to add a slide here, on which we list the randomized groups and give additional technical and administrative information.</i>)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -495,7 +496,7 @@ While moderating the discussion, pay attention to and highlight the following ch
 <div class="overview card">
   <h2 class="card-header">Episode Schedule</h2>
   <div class="row g-0">
-|<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> | Content type | Title |
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> | Content type | Title |
 | :-----: | ---------- | ----------------------------------------- |
 | 5 min | **Lecture** | [Refelction Day 1](#accordionInstructor17) |
 | 10 min | **Group activity** | [Feedback Day 1](#accordionInstructor18) |
@@ -542,21 +543,21 @@ In order to increase the response rate and to guarantee that every learner is he
 
 <u>QUESTIONS</u><br><br>
 
-1. How do you feel after the first day of scientific metadata?
+1. **How do you feel after the first day of scientific metadata?**
     - :frowning_face:
     - :confused:
     - :neutral_face:
     - :slightly_smiling_face:
     - :smiley: 
     
-2. Please rate the difficulty level of the lecture content.
+2. **Please rate the difficulty level of the lecture content.**
     - too easy
     - fairly easy
     - just right
     - rather hard
     - too hard
 
-3. Please rate the difficulty level of the hands-on sessions.
+3. **Please rate the difficulty level of the hands-on sessions.**
     - too easy
     - fairly easy
     - just right
@@ -565,7 +566,7 @@ In order to increase the response rate and to guarantee that every learner is he
 
 (<i>After day 1, the questions 2 and 3 usually result in an average between "fairly easy" and "just right", which - for us - is the ideal outcome. The first day is intended to get all the participants, regardless of their scientific background, on the same page and prepare everyone for day 2.</i>)
     
-4. I would have liked to learn more about...<br>
+4. **I would have liked to learn more about...**<br>
     [FREE TEXT]
 
 <img src="../docs/files/exampleFeedbackDay1.png"/>
@@ -614,7 +615,7 @@ In order to increase the response rate and to guarantee that every learner is he
 <div class="overview card">
   <h2 class="card-header">Episode Schedule</h2>
   <div class="row g-0">
-|<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> | Content type | Title |
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> | Content type | Title |
 | :-----: | ---------- | ----------------------------------------- |
 | 5 min | **Lecture** | [Welcome back](#accordionInstructor21) |
 | 10 min | **Group activity** | [Learners' Warm-up](#accordionInstructor22) |
@@ -679,7 +680,7 @@ Supply the learners with a JSON object literal template with pre-defined keys. T
 <div class="overview card">
   <h2 class="card-header">Episode Schedule</h2>
   <div class="row g-0">
-|<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> | Content type | Title |
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> | Content type | Title |
 | :-----: | ---------- | ----------------------------------------- |
 | 10 min | **Lecture** | [A brief history of the World Wide Web](#accordionInstructor23) |
 | 10 min | **Lecture** | [Metadata schemas](#accordionInstructor24) |
@@ -688,8 +689,11 @@ Supply the learners with a JSON object literal template with pre-defined keys. T
 | 20 min | **Challenge** | [JSON schema](#accordionInstructor27) |
 | 10 min | **Challenge** | [Form input & validation with JSON schema](#accordionInstructor27) |
 | 10 min | **Discussion** | [Challenge reflection](#accordionInstructor28) |
-| 5 min | **Lecture** | [Annotating the example data](#accordionInstructor29) |
-| 15 min |  | :coffee: Break :coffee: |
+| 5 min | **Lecture** | [Summary - Annotating the example data](#accordionInstructor29) |
+| 15 min |  | :coffee: **Break** :coffee: |
+| 4 min | **Lecture** | [Metadata standards](#accordionInstructor30) |
+| 1 min | **Lecture** | [Challenge introduction](#accordionInstructor31) |
+| 4 min | **Challenge** | [Metadata standards](#accordionInstructor32) |
 
 </div>
 </div>
@@ -711,21 +715,30 @@ Supply the learners with a JSON object literal template with pre-defined keys. T
 <u>APPLY</u><br> 
 <ul>
   <li>The learners understand, read and write XML and JSON schema.</li>
-  <li>The learners navigate online terminology restries. </li>
+  <li>The learners navigate online terminology registries. </li>
 </ul>
 
 **Description:**<br>
-
+The episodes starts with a short history of the World Wide Web from a scholarly perspective, highlighting the benefits of this technology for sharing information. Metadata schemas are introduced in depth by lectures and live coding. JSON schema development is further practiced by the learners in a group challenge. Subsequently, the written schema is applied in web interfaces. The concept of metadata standards is introduced and distinguished from metadata schemas. Widely used and scientific community independent standards are investigated. In the following challenge, the learners are introduced to terminology registries, practice their navigation and get the opportunity to identify metadata terminologies relevant for their fields of research.
 
 **Talking Points:**
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Lecture: A brief history of the World Wide Web
 
-**Slide set**: <i>not provided in slide set</i><br>
-**Time estimate**: 5 min
+**Slide set**: ADD SLIDES
 
-- Talking point
+**Time estimate**: 10 min
+
+1. Before we dive deeper into the topic of metadata and how we can make it more accessible, we would like to travel a few decades back to the beginnings of the World Wide Web.
+2. After three decades, browsing the internet, catching up with friends and family on social media, online shopping and streaming the latest shows, we tend to forget that the World Wide Web was actually created by and for the scientific community. When the researchers Tim Berners-Lee and Robert Cailliau - both working at the CERN research centre - proposed their idea of the World Wide Web, they intended to meet the demand for automated information-sharing between **scientists in universities and institutes around the world**. 
+3. So the World Wide Web was, from its beginning, meant to facilitate scientific data exchange.
+4. And even long before the World Wide Web, the scientific community developed protocols that enabled the digital sharing of data, such as hypertext in the 1960s, the Transmission Control Protocol/Internet Protocol (TCP/IP) in the 1970s and Mail Transfer Protocols in the 1980s.
+5. Based on these early protocols, the building blocks of todays World Wide Web were developed. HTML is still the standard markup language for documents designed to be interpreted by and displayed in web browsers. The HyperText Transfer Protocol, which is an application layer protocol to ensure client server communication on the Web. And URIs, Uniform Resource Identifiers, which uniquely identify resources on the web and ensure their accessibility and retrievability.
+6. We will come back to this technology later in this lesson in more detail.
+7. A crucial element for the broad implementation of the World Wide Web was the creation of a web browser to interpret and display HTML documents that is compatible across various operating systems. This actually achieved Nicola Pellow in 1990, who, at this time, was an undergraduate intern at CERN (<i>little feminist side note</i> :wink:).
+8. Within the scientific community, the World Wide Web was an immediate success. Already in 1991, the arXiv preprint repository switched from email dissemination of manuscripts to HTTP. The picture on the right gives an insight how scientific article were distributed before the World Wide Web. You couldn't simply click on any article that you found on Google Scholar and download it - provided it isn't hidden behind a pay wall - and decide later, whether it was helpful or not. You needed to exactly know, which article you want to study, contact the archiving repository, wait for an actual human being to retrieve the article, scan it and send it back to you. (<i>To reactivate the learners, you can ask them at this point, who has a folder on their drive for "unread articles" or "articles to read".</i>). The first German institute to connect a web server to the Web, was the "Deutsches Elektronen-Synchrotron DESY. (<i>Well, the lesson was created within the Helmholtz Association in Germany, which makes this a nice Fun Fact for the original audience.</i>). 
+9. Today the web hosts so many repositories - for research articles and data, global, local, research field overarching or specific - that it becomes hard to find the right repository for the resource you want to retrieve or upload. Needless to say that you can find several repositories for repositories online. To sum it up, the World Wide Web was originally created to share data between scientists and scientific institutions and it succeeded so well, that today it is barely imaginable to conduct research without the web.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -733,9 +746,25 @@ Supply the learners with a JSON object literal template with pre-defined keys. T
 ## Lecture: Metadata schemas
 
 **Slide set**: <i>not provided in slide set</i><br>
-**Time estimate**: 5 min
+**Time estimate**: 10 min
 
-- Talking point
+1. Even though the World Wide Web has provided the means of sharing information with individuals and broad communities easily, we have experienced yesterday and in our daily live as researchers, that simply sharing data does not guarantee the reusability of these information. And we have all experienced the yearning for guidelines on how these information should be provided. So we will now introduce you to metadata schemas.
+2. With a metadata schema, it is possible to express expectations on how a metadata record should be structured and even enforce this structure.
+3. An example for enforced - or validated - data submission we are probably all familiar with, is the classic customer information form, that you need to fill, when you are placing an order in an online shop. 
+4. We know these asterisks, that tell us, that these data entries are required. Some entries only allow string values, like the name, or specific formats, like e-mail addresses and will throw an error as soon as you diverge from the expected data type or format. Or you have a fixed subset of values, which you can pick from a drop-down list.
+5. If you press submit, the data in this form will be validated and, if it passes this validation, stored or used in other applications. Which means, that it will be stored and transmitted in a lightweight data format, such as JSON.
+6. The titles of the fields, specify the keys - or properties of the JSON object...
+7. which are assigned their respective values.
+8. For metadata records in general, these conventions or constrains can be set by metadata schemas. These schemas are defined in the same data format as the expected metadata record, such as XML or JSON. Again, this allows for parsing and automated validation.
+9. This means, XML schemas are written in XML and JSON schema is written in JSON. So far, we have written JSON object literals and we will be further focusing on JSON...
+10. so we will take a deeper look on JSON Schema.
+11. On the right, you see a simple JSON schema, which follows the JSON schema conventions. This is indicated by the "$schema"-key. The `$`-sign in JSON indicates to a reference and we can give the schema-specifications as URL. We will tackle the topic of referencing in metadata records later in this lesson.
+12. The schema specifies keys - or properties - that require to enter a data value. In this case...
+13. The superhero property is required and expects an entry of data type: string.
+14. A second property is defined: power. However, power is not listed in the required properties, so it is optional.
+15. Coming back to the data types: This schema describes a JSON **object** in which the superhero-value should be a **string** and the power-value needs to be of data type **integer**. And for the human reader, some meaningful descriptions are added to describe the individual properties.
+16. So based on this example schema, the object on top would be valid. A string-value is assigned to the required property. The bottom object, however, does not conform with the schema and would throw an error, as the value data type is not a string. **It is important to know, that schema validation only checks for syntactical validity. In this case, it only checks, whether the object contains the required property:value pair and whether the value conforms with the expected data type. To prevent nonsensical values, a meaningful property description can be of great help."
+17. Before we write a JSON schema for our roller coaster experiment data, let's get back to the customer information form and design a JSON schema, that enforces the data entries for this form together.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -757,7 +786,7 @@ The concept of a schema can be overwhelming for learners with little to no prior
   <li>Introduce a customer information form as an example for data validation / enforcement in your lecture (see also: */include teaching script anchor/*).</li>
   <li>Open the image of the customer information form and an empty JSON file in **split-screen view**.</li>
 </ul>
-![](files/liveCodingScreenshot.png){alt="Screenshot of the recommended live coding session."}
+<img src="files/liveCodingScreenshot.png" alt="Screenshot of the recommended live coding session." width="800"/>
 <ul>
   <li>For live coding, we recommend using an **IDE** with **JSON syntax highlighting** (e.g. VS Code)</li>
 </ul>
@@ -790,12 +819,25 @@ The concept of a schema can be overwhelming for learners with little to no prior
 **Slide set**: <i>not provided in slide set</i><br>
 **Time estimate**: 5 min
 
-- Talking point
+1. Let's briefly recap on the most important characteristics of a JSON schema.
+  - each of the properties in the schema are described in objects.
+  - the data type of a property is specified by the key `type`.
+  - if you want to further specify the format of a data entry, use the key `format`.
+  - mandatory data entries are given by the key `required` in an array.
+  - for controlled lists, you specify the given values in an array and the key `enum`.
+2. The complete specifications for JSON schema can be found on json-schema.org.
+3. If you develop a schema, that is supposed to be used by a group of people, the most challenging part can be to have everyone agree on the same expectations.
+3. <i>(Allow for some time for questions.)</i>
+4. We will now head back to our roller coaster data. In your collaboration you spend some time in discussing your expectations on the metadata, that is necessary to record with the data. But finally you have created an example JSON object, basically the ideal metadata record for the experiment within your collaboration. To enforce this metadata structure, you want to write a JSON schema. As this can get very lengthy...
+5. you agree to distribute the schema definition amongst the collaborators.
+6. We will now head back to the breakout rooms in groups and work on Challenge 4 and 5. In challenge 4 you will discuss and develop an excerpt of the roller coaster JSON schema.
+7. And in Challenge 5 you will be introduced to an online tool, with which you can put your work invested into the schema into use.
+8. (<i>Specify the time, when the learners are expected to be back in the lecture setting.</i>)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-## Challenge notes
+## Challenge: JSON schema / Form input & validation with JSON schema
 
 The following challenges 4 & 5 will be processed **consecutively in groups of 5 - 6 learners**.
 We made the experience, that changing the group composition for these tasks benefits the overall collaborative atmosphere. 
@@ -855,12 +897,22 @@ The learners are aware of the advantages of a metadata schema and metadata recor
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-## Lecture: Annotating the example data
+## Lecture: Summary - Annotating the example data
 
 **Slide set**: <i>not provided in slide set</i><br>
 **Time estimate**: 5 min
 
-- Talking point
+(<i>Challenge 5 concludes the work with the example data set. At this point we like to give a brief summary about the metadata annotation process</i>)
+
+1. Let's have a last look on our roller coaster data.
+2. Yesterday morning, we started with a cryptic data set, that was simply not understandable without further information. We were even guessing the meaning of the chosen variable names...
+3. after putting the data set in context, we did not only know, how to read the data...
+4. but also who recorded the data, the test object and when it was recorded...
+5. and which conditions applied to this particular experiment.
+6. By structuring our metadata records as JSON objects...
+7. we made the information not only findable but also accessible to machines. As we put some effort into developing a schema for the metadata records, we can make sure, that experiments in the same study and collaboration, are recorded and annotated in the same way, which increases its reusability...
+8. and ensures, that metadata records can be validated.
+9. (<i>If you like, recommend some tools that support and facilitate metadata annotation and validation.</i>)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -874,6 +926,432 @@ The learners are aware of the advantages of a metadata schema and metadata recor
 
 <br><br>
 
-## Episode 5: (Web) Location & Identifiers
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Lecture: Metadata standards
 
-## Episode 6: Outlook - Linked Data
+**Slide set**: <i>not provided in slide set</i><br>
+**Time estimate**: 4 min
+
+1. We have been discussion metadata schemas to enforce, harmonize and validate metadata records. But you might have heard the term metadata standards. So where is the difference?
+2. Basically, a metadata standard is a metadata schema. And a schema can become a standard, when it is well established, endorsed and widely accepted by its user community.
+3. One of the best known, generic and widely used metadata standard for online resources, is the Dublin Core. The Dublin Core was developed by a consortium of researchers, librarians and web technologists in 1995 during a meetin in Dublin, Ohio, and was born by the need for a unified description of resources on the web. The design of the Dublin Core was inspired by the library cards as they are still used to catalog book resources in physical libraries.
+4. When we are talking about online resources, we talk any information entity that can be retrieved from the web, such as websites, metadata and data files, images, videos and so on. In the scientific context, "resource" can also refer to experimental data, protocols, or software code. Have you published anything under your name online. Guess what: in terms of the world wide web, you are a resource, too!
+5. To enhance the identification and findability of these resources, the Dublin Core Initiative have specified a set of 15 metadata elements to describe any type of resource on the Web. These core elements hold information on the creators, format and type, and detailed descriptions of the resource.
+6. Remember the first challenge we approached yesterday. When looking up metadata elements in the head-elements of websites, some properties were given as `dc:`, such as - in this example - `dc:creator`, directly stating, that this entry conforms with the `creator` element of the `Dublin Core` metadata standard.
+7. The Dublin Core is just one of many implemented and endorsed metadata standards. On the general online resource description, Facebooks Open Graph and schema.org became industry metadata standards. But, you guessed it, there are multiple community specific and scientific metadata standards, that describe scientific resources in more detail.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Lecture: Challenge introduction
+
+**Slide set**: <i>not provided in slide set</i><br>
+**Time estimate**: 1 min
+
+- In the next challenge, we will introduce you to some online metadata standard registries: FAIRsharing.org, the RDA Metadata Directory and the RDA Metadata Standards Catalog. Head over to one or more of these registries and make yourself familiar with their navigation and content. Look specificly for metadata standards, that are associated for your field of research and inspect the information that is provided on the standards. 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Challenge: Metadata standards
+
+**Time:** 25 min
+
+**Challenge type:** individual exploration, guided confrontation
+
+**Objective:** <br>
+The learners are aware of metadata standard registries and know how to navigate them.
+
+**Creator's recommendation:** <br>
+After giving the challenge instructions, allow for some time for the learners to explore the registries (ca. 15 min). Start a screen share of one on the metadata registries and navigate to a metadata standard of your liking. Talking points could be:
+<ul>
+  <li>different representations of metadata standards (JSON / XML schema, RDF, SKOS, OWL)</li>
+  <li>granularity of representation (e.g. high level standard vs. application specific standard)</li>
+  <li>terms, properties, specifications</li>
+  <li>accompanying journal publications</li>
+</ul>
+
+**Transition to "(Web) Locations & Identifiers":**
+During the discussion, ask the group of learners, whether someone encountered a `404 Error` while exploring a metadata standard. If you are working with a heterogeneous group in regard of their scientific background, chances are high, that at least one of the learners made this experience (-> it is not unusual that research field specific metadata standard development was concluded and the maintenance of the web representation was terminated with the end of the funding period.)
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Episode 5: (Web) Location & Identifiers
+<div class="overview card">
+  <h2 class="card-header">Episode Schedule</h2>
+  <div class="row g-0">
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> | Content type | Title |
+| :-----: | ---------- | ----------------------------------------- |
+| 2 min | **Group activity** | [PID poll](#accordionInstructor33) |
+| XX min | **Lecture** | [Identifier & Web Locations](#accordionInstructor34) |
+| XX min | **Guided confrontation** | [Error 404](#accordionInstructor35)
+| XX min | **Lecture** | [Persistent Identifier](#accordionInstructor36) |
+| XX min | **Lecture** | [PIDs and metadata records](#accordionInstructor37) |
+
+</div>
+</div>
+
+**Total time:** 30 min <br>
+**Teaching methods:** direct teaching, group activity <br>
+**Learning types:** acquisition <br><br>
+
+**Learning Objectives:**<br>
+<u>REMEMBER</u>
+<ul>
+  <li>The learners memorize the technology of resource retrieval and client-server communication on the Web.</li>
+  <li>The learners are familiar with PIDs and can name examples relevant for research.</li> 
+  <li>The learners discover the usage of URLs and PIDs in metadata records.</li>
+</ul>
+<u>UNDERSTAND</u>
+<ul>
+  <li>The learners explain the difference between URL, URN, URI and PID(s)</li>
+  <li>The learners indicate the advantages of assigning web publications with PIDs in the scientific context.</li>
+</ul>
+
+**Description:**<br>
+This episode is an introduction to the concept and technology of Persistent Identifiers (PIDs) on the World Wide Web. The learners are familiarized with the technology of client-server communication on the web, learn to differenciate between URN, URL, URI, and PID, and get to know  PID services commonly used in the scientific community. Further, the application of (Persistent) Identifiers in metadata records is discussed.
+
+**Talking Points:**
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Group activity: PID poll
+
+**Slide set**: <i>not provided in slide set</i><br>
+**Time estimate**: 2 min
+
+<i>Up to this point, the lesson followed a consistent silver lining. In the last episode, the learners "finished" annotating the example data. The following episode on (persistent) identifiers might seem somewhat disconnected to the previous lesson content at first before the connection is drawn to PIDs in metadata records. Therefore, we like to start off this episode with a quick live poll on PIDs in the scientific content. Together with the previous discussion on 404 Errors during the search for scientific metadata standards, this will prepare the learner for and engage them in the following content.</i>:smile:.
+
+**Creators' recommendation:**<br>
+We use [AHA slides](https://ahaslides.com/) for live polling. Share the link to the poll with the learners and open the presentation mode of the poll on your shared screen.<br>
+
+<u>QUESTION</u><br><br>
+
+1. Does it ring a bell? Which of these terms do you know?
+    - DOI
+    - ORCID
+    - ROR
+    - URN
+    - PURL
+    - IRI
+
+<img src="files/exampleAhaslidesPid.png" alt="Screenshot of the recommended live polling session on PIDs."/>
+
+(<i>As you can see in the example image above, DOI and ORCID are usually the best known PIDs among the learners. Take a few moments, to comment and reflect on the polling results.</i>)
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Lecture: Identifier & Web Locations
+
+**Slide set**: <i>not provided in slide set</i><br>
+**Time estimate**: 5 min
+
+1. (<i>Bridge from polling results to "Identifier & Web Locations"</i>)
+2. Remember the first lecture from yesterday? We have had a close look on the metadata in a book. Now if a librarian want to identify a specific publication...
+3. they will use its ISBN number for unambiguous identification. This ISBN number follows a standardized structure, which gives valuable information about the resource, such as the group and publisher of the book. This ISBN number is globally unique. Which means it only exists for one specific book and will always lead to the same result, whereever you retrieve it.
+4. And these uniform resource identifiers also exist in the scientific context. Let me give you an example from molecular biology. Let's say, this scientists its is working on genetics and is interested in the functions of a specific gene in the model plant...
+5. <i>Arabidopsis thaliana</i>. Every gene in the genome / DNA is assigned with a unique identifier, that follows representation conventions. In the case of this model plant, the gene identifier holds information on the species, the chromosome, the type of sequence as well as its location on the chromosome. 
+6. To generalize, unique identification codes enable globally unique and persistent identification of a resource. These codes follow conventions in their representation and are registered centrally, enabling a uniform structure of these identifiers globally or in the user community. This makes unique identification codes unambiguous and referencable.
+7. (<i>Use this slide to collect unique identification codes in the research fields of the learners. We like to do this in a brief plenary discussion, asking the learners to share unique identifiers, they use regularly and what they represent.</i>)
+8. Now we will take this concept of uniform identifiers to the web.
+9. But first, we will need to define and distinguish between a few terms, that come up frequently in this context. The examples we have seen a couple of minutes ago, are - simply put - a series of structurally harmonized characters that uniquely identify a resource...
+10. The gene identifier we have seen, is basically just a synonym for the gene, which is actually called SULFITE REDUCTASE. In the same sense, your Orcid is just a name for a metadata record describing your academic personality. This is, what we call a URN, Uniform Resource **Name**. We know, what the resource is called, but the name gives no clue, on how we can retrieve the information stored behind this name.
+11. To do so on the web, we need the address...
+12. where we can find the resource with a specific name. The address alone is not enough, though. We also need information on how we can retrieve the resource...
+13. the communication protocol. We will focus on this technology in a minute. These information are given as a Uniform Resource Locator, URL: a series of characters, that specify the address of a resource and the protocol necessary to retrieve this ressource.
+14. Both, URN and URL, can be used to identify a specific resource. You either need the name or the location, to identify data on the web. So URN and URL **are** Uniform Resource Identifier.
+15. We will further focus on URLs and the technology hidden behind this string of characters, that we enter to open a resource on the web.
+16. And for this we take the URL that retrieves the information for our gene example.
+17. So let's decode this character set: The resource we are looking for, is...
+18. hosted on a specific server. On this server, a certain file path needs to be followed, that will lead to the resource. The final resource might be stored in a data base structure. So the necessary query parameter are specified that lead to the data base entry for the requested resource. And don't forget, we will need to follow a specific protocol, in this case HTTPS, in order to communicate with the host server. HTTPS is an extension of the Hypertext Transfer Protocol, that uses encryption technology for secure communication on the network.
+19. If we now enter this URL in our browser, the browser sends a HTTP request to the host server.
+20. This request specifies, that the browser wants to **GET** a resource stored under a **specific path** from the **host** and follows the specific HTTP protocol that is used for communication, so which is also expected by the browser of the server response.
+21. The host server than looks up the specified file path locally. Finds the requested file and...
+22. sends back the HTTP response, with the requested resource.
+23. The response also includes a status code. The code "200: ok" tells the client server, that send the request, "I have found the file you requested. Here you go!". There are various status codes for server-client communication, but for now, we will focus on the most common ones. The client, your browser, receives the response with the resource attached and..
+24. displays it.
+25. But I'm fairly sure, we have all experienced this situation: You are looking for publications online, be it data or a journal article. The abstract is super promising and you want to retrieve the PDF...
+26. but instead of the publication, you are faced with an **Error 404**. 
+27. So what happened here? You click on the link and the familiar HTTP request is send by your browser to the host server.
+28. Again, the browser follows the file path but it is leading into the void. No file with this path. 
+29. And this is, what the host server communicates back to your browser. The HTTP response now contains the status code **404 Not Found**. Let's take a look on this client-server communication in action.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+# Guided confrontation: Error 404
+
+**Time**: 2 min
+
+**Narrative / Teaching script**: <br>
+<ul>
+  <li><i>Share an empty browser tap on your screen.</i></li> 
+  <li><i>Open the network editor.</i> </li>
+  <li><i>Open any desired website in your browser. This might be a good point to share your organizational, institutional, or personal homepage with the learners for some "hidden" marketing</i> :wink:.</li>
+  <li><i>You can whitness all the requests and responses in the network editor, while the page is loading</i>.</li>
+  <li><i>Highlight that each element - html documents, images, etc - require individual requests in order to build the website and the `200: ok` status codes that are send back with the resources.</i></li>
+  <li>**Optional:** <i>Take a closer look on the different status codes or the HTTP responses.</i></li>
+  <li><i>Enforce an Error 404, e.g. by deleting one character in the file path. The status code 404 will appear in the status code column of the network editor.</i></li>
+</ul>
+
+<img src="files/exampleError404.png" alt="Screenshot of the recommended live coding session."/>
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Lecture: Persistent Identifier
+
+**Slide set**: <i>not provided in slide set</i><br>
+**Time estimate**: 5 min
+
+1. Simplified, there could be two reasons, why you end up with a 404 status code: Either you can't spell, or the resource path is broken.
+2. How do path's break.
+3. The URL you want to retrieve points to specific resources, stored on the host server. But within the life cycle of an online resource, several events can take place.
+4. The file path on the host server might change, the resource might be migrated to a different host server, or the resource might simply be deleted. In any of these cases, the URL does not specify the exact location of the resource any longer and will no longer be retrievable by the server adressed by the GET-request you send from your browser. This process is also referred to as "link rot". Remember, that we classified the URL as a form of Uniform Resource Identifier? This means, that link rot leads results in the resource loosing a very important identifier!
+5. Web technology has a solution for this issue: Persistent Identifiers or short, PIDs.
+6. Like our other persistent and unique identifiers, such as ISBN numbers, PIDs are long-lasting references to digital objects on the web. Any resource that has a representation on the web - articles, data sets, persons, instruments - can have a PID assigned. These PIDs remain constant over time, lead directly to the resource - so they also give information on the location and protocol - and, thus, ensure permanent identifiability, refencabilty and retrievability of online resources.
+7. The technology behind PIDs is fairly trivial. In PID databases, a PID is mapped to a URL, that retrieves a resource. Even though the URL changes, due to server migration or changes in the file path, the PID remains consistent.
+8. If you activate a hyperlink in your browser to retrieve a resource without a PID service included, your browser will directly communicate with the host server to retrieve a resource.
+9. If the requested resource is identified by a PID, the underlying PID service will be contacted by the browser. The PID service will then query its database for the PID, identify the current URL of the resource and redirect the request to the host server.
+10. So when the location of the resource changes...
+11. a PID will not lead to unretrievable resources and rotten links...
+12. as the new URL is stored in the PID database and the activated link will redirect the request to the new location.
+13. It is important to know, that the PID service **only** provides the **technical infrastructure** for redirections. The owner of the host server of the requeste resource - which could be a privat person, a journal that published an article or a repository that holds a data set - **is responsible for updating the URL**. For example: You publish an article and one of the journals features is, that they assign a DOI to this article. If the journal now changes the digital location of your article on their server, the journal is responsible to inform the PID provider - DOI - about the changes and update the location.
+14. As we have seen in our poll at the beginning of this lecture, many of you are already familiar with Digital Object Identifiers and ORCID Ids. Other PIDs that ar frequently used in the scientific context are Persisten Uniform Resource Locators, RORs - the Research Organization Registry, and ARKS - Archival Resource Keys.
+15. <i>allow for some time for questions</i>
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Lecture: PIDs and metadata records
+
+**Slide set**: <i>not provided in slide set</i><br>
+**Time estimate**: 5 min
+
+:construction: **UNDER CONSTRUCTION** :construction:
+
+IN THIS LECTURE WE WILL FOCUS ON:
+- Assigning (meta)data publications with PIDs
+- URLs as data values
+- Why you should have an ORCID Id
+- referencing metadata standard properties
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Episode 6: Outlook - Linked Data 
+<div class="overview card">
+  <h2 class="card-header">Episode Schedule</h2>
+  <div class="row g-0">
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> | Content type | Title |
+| :-----: | ---------- | ----------------------------------------- |
+| XX min | **Lecture** | [Linked Data & JSON Ld](#accordionInstructor38) |
+| XX min | **Lecture** | [Graph Data Bases & the Semantic Web](#accordionInstructor39) |
+| 15 min |  | :coffee: **Break** :coffee: |
+
+</div>
+</div>
+
+**Total time:** 30 min <br>
+**Teaching methods:** direct teaching, group activity <br>
+**Learning types:** acquisition <br><br>
+
+**Learning Objectives:**<br>
+<u>REMEMBER</u>
+<ul>
+  <li>The learners are familiar with PIDs and can name examples relevant for research.</li> 
+</ul>
+<u>UNDERSTAND</u>
+<ul>
+  <li>The learners explain the difference between URL, URI and PID(s)</li>
+</ul>
+
+**Description:**<br>
+
+
+**Talking Points:**
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Lecture: Linked Data & JSON Ld
+
+**Slide set**: <i>not provided in slide set</i><br>
+**Time estimate**: 5 min
+
+:construction: **UNDER CONSTRUCTION** :construction:
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Lecture: Graph Data Bases & the Semantic Web
+
+**Slide set**: <i>not provided in slide set</i><br>
+**Time estimate**: 5 min
+
+:construction: **UNDER CONSTRUCTION** :construction:
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+<br><br>
+
+---
+
+### :coffee: 15 min Break :coffee:
+
+---
+
+## Episode 0: Lightning Talk
+<div class="overview card">
+  <h2 class="card-header">Episode Schedule</h2>
+  <div class="row g-0">
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> | Content type | Title |
+| :-----: | ---------- | ----------------------------------------- |
+| 30 min | **Lecture** | [Lightning Talk](#accordionInstructor40) |
+| 15 min | **Group activity** | [Q&A with invited speaker](#accordionInstructor40) |
+
+</div>
+</div>
+
+**Total time:** 45 min <br>
+**Teaching methods:** direct teaching, group activity <br>
+**Learning types:** acquisition <br><br>
+
+**Learning Objectives:**<br>
+<u>REMEMBER</u>
+<ul>
+  <li>The learners discover a real world example of a research metadata topic.</li> 
+</ul>
+<u>APPLY</u>
+<ul>
+  <li>The learners feel motivated to improve their (meta)data handling.</li>
+</ul>
+
+**Description:**<br>
+An invited speaker presents a real world research example and demonstrates how applied metadata can shape research. 
+
+**Talking Points:**
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Lecture: Lightning Talk / Q&A with invided speaker
+
+**Time estimate**: 45 min (<i>30 min lecture + 15 min Q&A</i>)
+
+**Suitable topics**:<br>
+<ul>
+  <li>Metadata and Machine Learning / AI</li>
+  <li>Metadata Schema / Standard development</li>
+  <li>Knowledge Graphs & the Semantic Web</li>
+</ul>
+
+For more information go to the <a href="general-lesson-information.html#lightning-talk" target="_blank">Lightning talk section in our General Lesson Information.</a>
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+## Episode 0: Housekeeping
+<div class="overview card">
+  <h2 class="card-header">Episode Schedule</h2>
+  <div class="row g-0">
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> | Content type | Title |
+| :-----: | ---------- | ----------------------------------------- |
+| 5 min | **Lecture** | [Reflection](#accordionInstructor41) |
+| 10 min | **Group activity** | [Feedback poll](#accordionInstructor42) |
+| 5 min | **Feedback** | [Instructor feedback & farewell](#accordionInstructor43) |
+
+</div>
+</div>
+
+**Total time:** 20 min <br>
+**Teaching methods:** direct teaching, group activity <br>
+**Learning types:** acquisition, reflection <br><br>
+
+**Learning Objectives:**<br>
+<u>REMEMBER</u>
+<ul>
+  <li>The learners reflect on the lesson and give their feedback.</li> 
+</ul>
+<u>UNDERSTAND</u>
+<ul>
+  <li>The learners voice thir wishes for future lessons.</li>
+</ul>
+
+**Description:**<br>
+This module concludes the lesson. An overview about the past two days is given. The learners provide their feedback on the lesson. The instructors feedback the learners.
+
+**Talking Points:**
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Lecture: Reflection
+
+**Slide set**: <i>not provided in slide set</i><br>
+**Time estimate**: 5 min
+
+<i>In this section, the content and topics of the lesson are summarized. Use this opportunity to inform / remind the learners of the references / further reading section as well as - if applicable - contact information.</i>
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Group activity: Feedback Day 2
+
+**Slide set**: <i>not provided in slide set</i><br>
+**Time estimate**: 10 min
+
+**Creators' recommendation:**<br>
+see also [Feedback Day 1](#accordionInstructor18)
+
+<u>QUESTIONS</u><br><br>
+
+1. **How do you generally feel about the lesson "Fundamentals of scientific metadata"?**
+    - :frowning_face:
+    - :confused:
+    - :neutral_face:
+    - :slightly_smiling_face:
+    - :smiley: 
+    
+2. **Please rate the difficulty level of the lecture content.**
+    - too easy
+    - fairly easy
+    - just right
+    - rather hard
+    - too hard
+
+3. **Please rate the difficulty level of the hands-on sessions.**
+    - too easy
+    - fairly easy
+    - just right
+    - rather hard
+    - too hard
+    
+4. **I really liked about this training...**<br>
+    [FREE TEXT]
+    
+5. **This could be improved:**<br>
+    [FREE TEXT]
+
+6. **I would have liked to learn more about...**<br>
+    [FREE TEXT]
+    
+7. **Dear Instructors...**<br>
+    [FREE TEXT]
+ 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Lecture: Instructor Feedback & Farewell
+
+**Slide set**: <i>not provided in slide set</i><br>
+**Time estimate**: 5 min
+
+<i>We do believe, that giving feedback is important for instructors as well as learners. So we would like to encourage you to reflect your experiences with the closing lesson and communicate them to your group of learners</i> :relaxed: .
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: checklist
+## After the lesson
+
+- If you used shared documents during the lesson, restrict editing rights in these documents.
+- Feel free to share the slides with the learners.
+- Internally evaluate the event (all instructors and teaching supports). If you like, you can use our Internal Evaluation Form as a guideline.
+
+**And as we are already talking about feedback and evaluation, your lesson feedback and contributions are most welcome! You can get in touch via the channels provided in the <a href="general-lesson-information.html#get-in-touch" target="_blank">General Lesson Information.</a>**
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
