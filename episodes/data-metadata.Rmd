@@ -2,71 +2,191 @@
 title: 'Data & Metadata'
 teaching: 50
 exercises: 15
+editor_options: 
+  markdown: 
+    wrap: 72
 ---
 
-![Pomerantz, J. (2015). Metadata. Cambridge, MA: MIT Press.](fig/jeffreyPomerantzQuote.png){alt="Quote by Monya Baker saying 'Data is stuff. It is raw, unprocessed, possibly even untouched by human hands, unviewed by human eyes,, un-thought-about by human minds.'"}
+![Pomerantz, J. (2015). Metadata. Cambridge, MA: MIT
+Press.](fig/jeffreyPomerantzQuote.png){alt="Quote by Monya Baker saying 'Data is stuff. It is raw, unprocessed, possibly even untouched by human hands, unviewed by human eyes,, un-thought-about by human minds.'"}
 <br>
 
-:::::::::::::::::::::::::::::::::::::: questions 
+::: questions
+-   What is data and what is metadata?
+-   How is metadata classified?
+-   Where can I find (meta)data in every day examples?
+-   What are worst and good enough practices of metadata handling in the
+    scientific context?
+:::
 
-- What is data and what is metadata?
-- How is metadata classified?
-- Where can I find (meta)data in every day examples?
-- What are worst and good enough practices of metadata handling in the scientific context?
-
-::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::::::::::::::::::::::::::: objectives
-
-- Recognize and describe examples of (meta)data
-- Name best and worst practice situations in research (meta)data handling
-- Getting familiar with the example data set
-
-::::::::::::::::::::::::::::::::::::::::::::::::
-
+::: objectives
+-   Recognize and describe examples of (meta)data
+-   Name best and worst practice situations in research (meta)data
+    handling
+-   Getting familiar with the example data set
+:::
 
 ## Data -- Information -- Knowledge -- Wisdom
-The question “What is data?” seems trivial at first, but if we look at the definition, it is apparent that the question is not that easy to answer. In information science, we distinguish between Glyphs (or symbols), data, information, knowledge and wisdom. **GLYPHS** are the smallest unit of data representation. Glyphs represent the symbols of which data can be composed.
 
-To cite the information scientist Jeffrey Pomerantz, “**DATA** is stuff. It is raw, unprocessed, possibly even untouched by human hands, unviewed by human eyes, un-thought-about by human minds”[^1]. In other words, data is potential information, that requires processing and context to extract the information held within. 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Lecture: What is data?
 
-Accordingly, **INFORMATION** is processed, human-consumable data. If this information is internalized by a human being, it is called **KNOWLEDGE**. This knowledge can be applied in a broader context by the human being. Applied knowledge is called **WISDOM**.
-The key to reaching wisdom from data is processing and contextualizing data to extract information. To achieve this goal we often need to add a description to the data: **metadata**.
+**Slide set**: <a href="../files/slideSet/WhatIsData_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>WhatIsData.pdf</a>
 
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: callout
-## Information pyramid
+**Time estimate**:
 
-![](fig/informationPyramid.png){alt='Information pyramid from glyphs to wisdom highlighting the data fracture. Text reads: Data is potential information and needs to be processed and contextualized to make it accessible for the human audience.'}
+1. What is data? (<i>direct this question to the audience and allow them to just shout in. Wait a little, it might be quiet</i> :wink:)
+2. We start with an example: Imagine a satellite transmitting data back to earth.
+3. This is what actually arrives at the machine receiving the transmission...
+4. just a concatenation of signs...
+5. we call these **glyphs**. To a human being, this sequence of glyphs is not understandable and it needs some processing by a machine to make it interpretable for humans. And this is data...
+6. a **potentially informative object**. 
+7. If the data is now processed by the receiving machine, it will be converted in this picture. (<i>The satellite image shows the city center of Cologne, Germany. Feel free to substitute it with a place your learners are familiar with and activate them by asking "Does anyone know, what is depicted?"</i>) In this processed form, the data becomes human-readable. In information science, this is what we call information.
+8. Knowledge is intrinsified information. For example, knowing where on the image the cathedral is located.
+9. The highest level of information content is wisdom, which means putting the acquired knowledge into context, the bigger picture. You might use the satellite image to navigate between to locations, for example. Naturally, as researchers, we strive to reach wisdom with our work.
+10. We have seen, that the information content increases by adding context, meaning, and insight to data.
+11. The take-away message is: Data is **potential information** and needs to be processed and contextualized** to make it accessible for the human audience.
+
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Lecture: The example data object
 
-The transition between "Data -- Information -- Knowledge -- Wisdom" and 
-"Metadata" is used to have a first look at the example data set, revealing 
-subject, variables and data types.
-\\see also teaching script\\
+**Slide set**: <a href="../files/slideSet/TheExampleDataObject_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>TheExampleDataObject.pdf</a>
+
+**Time estimate**:
+
+1. Now back to the example data you received from us. (<i>Here you can reflect on some of the statements made during the introduction session.</i>) What actually is represented in the data is this...
+2. (<i>Empty slide: open <a href="https://www.youtube.com/watch?v=KeKIBSN2F5c" target="_blank">https://www.youtube.com/watch?v=KeKIBSN2F5c</a> in a new tab or window and play the video. We start the video from 0:30. </i>)
+3. Shown in the data is the ride time (t)...
+4. the biomechanical acceleration of a human body during the rollercoaster ride in x, y, and z axis... (<i>Yes, the image of the toy bunny is really taken from a peer reviewed journal publication.</i>)
+5. and a boolean value, stating whether a scream of the test person could be detected or not.
+6. (<i>allow some time for questions</i>)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+The question "What is data?" seems trivial at first, but if we look at
+the definition, it is apparent that the question is not that easy to
+answer. In information science, we distinguish between Glyphs (or
+symbols), data, information, knowledge and wisdom. **GLYPHS** are the
+smallest unit of data representation. Glyphs represent the symbols of
+which data can be composed.
+
+To cite the information scientist Jeffrey Pomerantz, "**DATA** is stuff.
+It is raw, unprocessed, possibly even untouched by human hands, unviewed
+by human eyes, un-thought-about by human minds"[^1]. In other words,
+data is potential information, that requires processing and context to
+extract the information held within.
+
+[^1]: Pomerantz, J. (2015). Metadata. Cambridge, MA: MIT Press.
+
+Accordingly, **INFORMATION** is processed, human-consumable data. If
+this information is internalized by a human being, it is called
+**KNOWLEDGE**. This knowledge can be applied in a broader context by the
+human being. Applied knowledge is called **WISDOM**. The key to reaching
+wisdom from data is processing and contextualizing data to extract
+information. To achieve this goal we often need to add a description to
+the data: **metadata**.
+
+::: callout
+## Information pyramid
+
+<img src="../docs/fig/informationPyramid.png" name="informationPyramid" alt="Information pyramid from glyphs to wisdom highlighting the data fracture. Text reads: Data is potential information and needs to be processed and contextualized to make it accessible for the human audience."/>
+
+:::
+
 ## Metadata
 
-::::::::::::::::::::::::::::::::::::::: callout
+::: callout
 Metadata is **a statement** about a potentially informative object.
-:::::::::::::::::::::::::::::::::::::::::::::::
+:::
 
-Metadata is **(semi-)structured data** that provides information about characteristics of other (more complex) data objects (e.g. files or documents). Regarding research data, metadata gives the observer the necessary context to interpret the data and derive information from it. Although metadata is data itself, it can only exist in connection with a data object that is described by the metadata record (e.g. the meta-information in a book about said book). Metadata can be found inside of a data object (e.g. in a book, in a data record) or as a separate object (e.g. library catalogue, separate file).
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Lecture: What is metadata?
 
-[National Information Standards Organization](https://groups.niso.org/higherlogic/ws/public/download/17446/Understanding%20Metadata.pdf) (NISO, 2004, from "Big Data, Little Data, No Data", Christine L. Borgman, 2015): "_Metadata is structured information that describes, explains, locates, or otherwise makes it easier to retrieve, use or manage an information resource_".
+**Slide set**: <a href="../files/slideSet/WhatIsMetadata_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>WhatIsMetadata.pdf</a>
+
+**Time estimate**:
+
+1. What is metadata? (<i>Direct this questions to the learners and wait for them to reply. They might come up with the generic "Data about data".</i>)
+2. Often metadata is described as "data about data", or - as Merriam Webster puts it - "metadata is data that provides information about other data". But this is extremely unspecific.
+3. If you look a bit further, you can find more detailed description of the term "metadata". Admittedly, these text are seldomly...
+4. fun to read.
+5. Let's start - again - with an example. Let's say, you are looking for an informative book about the topic of metadata and decide to look for recommendations online...
+6. your search will result in about 1,5 million results. But you remember a colleague, that has recently talked about a very good book on metadata...
+7. you ask him about it and he gives you a well-meaning description of said book. "It is black and the title is 'metadata'. It was written by Jeff... Jeff... Something."
+8. Okay, this is not really precise but you take these information to your favourite search engine and you will most likely come up with this ...
+9. book. Metadata by Jeffrey Pomerantz published in the MIT Press Essential Knowledge series. So far, you have absolutely no idea about the content of the book - the actually data that is hold by it. However, with just a few clues on the title, author, and design, you can identify the ressource. You did this by using "metadata". Let's stay with this example for a bit and take a look inside... 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Lecture: Descriptive, administrative, structural metadata
+
+**Slide set**: <a href="../files/slideSet/DescriptiveAdministrativeStructuralMetadata_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>DescriptiveAdministrativeStructuralMetadata.pdf</a>
+
+**Time estimate**:
+
+1. On one of first pages, you will find a lot of information about the book...
+2. You will get information on author, publisher, keywords and so on, that are descriptive in nature and can help you - or librarians - to successfully identify this specific book. Among these is a very important descriptor...
+3. The persistent identifier. In the example of a book, this is the ISBN number. Whenever you look up this number, the result will unambiguously point to this specific title.
+4. Furthermore, you will get information about how the book is administered: How it is distributed, who is responsible for its distribution and which conditions need to apply.
+5. You can also find information on legal conditions that apply to this resource, such as copyright issues and the terms of distribution. Legal information can be considered as a subset of administrative information.
+6. And - really important - you will get a precise idea about the book's structure and how you can navigate it: the chapters, its general content and how it is distributed over the pages. But still: we have not yet read a single word, that actually delivers the content of the book - its data.
+7. So, metadata - or metainformation - is more or less structured data, that contains information about characteristics of other data (objects).
+8. Let's briefly reflect on the types of metadata, that we came across so far, before we apply these concepts in the first challenge for today: 
+  - descriptive metadata holds information about the intellectual content, such as title, author, abstract...
+  - administrative metadata specifies how a resource is managed. This can be terms of distribution and copyright information. Regarding published data, this also applies to technical information on the files included in a data set or versioning...
+  - structural metadata describe, for example chapters in a book, file in a data set, or software components.
+9. (<i>allow some time for questions</i>)
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Metadata is **(semi-)structured data** that provides information about
+characteristics of other (more complex) data objects (e.g. files or
+documents). Regarding research data, metadata gives the observer the
+necessary context to interpret the data and derive information from it.
+Although metadata is data itself, it can only exist in connection with a
+data object that is described by the metadata record (e.g. the
+meta-information in a book about said book). Metadata can be found
+inside of a data object (e.g. in a book, in a data record) or as a
+separate object (e.g. library catalogue, separate file).
+
+<a href="https://groups.niso.org/higherlogic/ws/public/download/17446/Understanding%20Metadata.pdf" target="_blank">National Information Standards
+Organization</a>
+(NISO, 2004, from "Big Data, Little Data, No Data", Christine L.
+Borgman, 2015): "*Metadata is structured information that describes,
+explains, locates, or otherwise makes it easier to retrieve, use or
+manage an information resource*".
 
 ## Types of metadata
-**Descriptive metadata** provides information about the intellectual content of a (digital) object (e.g. title, author, date of publication, subject, description, unique identifier). [^2]
 
-**Administrative metadata** provides information to support the management of a resource (e.g. technical information regarding the file's creation and format, version, information about copyright, licence and intellectual property rights). [^2]
+**Descriptive metadata** provides information about the intellectual
+content of a (digital) object (e.g. title, author, date of publication,
+subject, description, unique identifier). [^2]
 
-**Structural metadata** specifies the relationships between components of a (digital) object and between different (digital) objects (e.g. chapters in a book). [^2]
+[^2]: Zhang, A. B., Gourley, D. (2008). "Metadata strategy" in Creating
+    Digital Collections. Sawston, UK: Woodhead Publishing.
+
+**Administrative metadata** provides information to support the
+management of a resource (e.g. technical information regarding the
+file's creation and format, version, information about copyright,
+licence and intellectual property rights). [^3]
+
+[^3]: Zhang, A. B., Gourley, D. (2008). "Metadata strategy" in Creating
+    Digital Collections. Sawston, UK: Woodhead Publishing.
+
+**Structural metadata** specifies the relationships between components
+of a (digital) object and between different (digital) objects (e.g.
+chapters in a book). [^4]
+
+[^4]: Zhang, A. B., Gourley, D. (2008). "Metadata strategy" in Creating
+    Digital Collections. Sawston, UK: Woodhead Publishing.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-## Challenge notes
+## Challenge 1: Real world metadata
+
+**Slide set**: <a href="../files/slideSet/Challenge1RealWorldMetadata_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>Challenge1RealWorldMetadata.pdf</a>
 
 **Time:** 15 min 
 
@@ -85,61 +205,108 @@ Allow for some time for the learners to navigate the websites and explore the me
   <li>**Fun fact:** *The Guardian* regularly uses a comment in the `head` of their html documents to advertise IT jobs :grin: </li>
 </ul>
 
-**White board:** <a href="../../../episodes/files/exampleChallenge1Whiteboard.pdf">example set-up</a>
+**White board:** <a href="../files/exampleChallenge1Whiteboard.pdf" target="_blank" download>example set-up</a>
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-::::::::::::::::::::::::::::::::::::: challenge 
+::: challenge
 ## Challenge 1: Real world metadata
-1. Open one of these web pages in your preferred browser: <br> 
-[<i class='fa fa-external-link-square'></i> Science Journal](https://www.science.org/)<br> 
-[<i class='fa fa-external-link-square'></i> The Guardian](https://www.theguardian.com/international)<br> 
-[<i class='fa fa-external-link-square'></i> German Federal Government](https://www.bundesregierung.de/breg-en). <br>
-2. Open **one of the articles** linked on the main page.
-3. Inspect the **web page source code**.
 
+1.  Open one of these web pages in your preferred browser: <br>
+    <a href="https://www.science.org/" target="_blank">Science
+    Journal</a><br>
+    <a href="https://www.theguardian.com/international" target="_blank">The
+    Guardian</a><br>
+    <a href="https://www.bundesregierung.de/breg-en" target="_blank">German Federal Government</a><br>
+2.  Open **one of the articles** linked on the main page.
+3.  Inspect the **web page source code**.
 
-| Browser            | Shortcut to Source Code |
-| ------------------ | ----------------------- |
-| Firefox            | Ctrl + u                |
-| Chrome             | Ctrl + u                |
-| Safari             | Option + Command + u    |
-| Opera              | Ctrl + u                |
-| Edge               | Ctrl + u                |
-| Internet Explorer  | Ctrl + u                |
+| Browser           | Shortcut to Source Code |
+|-------------------|-------------------------|
+| Firefox           | Ctrl + u                |
+| Chrome            | Ctrl + u                |
+| Safari            | Option + Command + u    |
+| Opera             | Ctrl + u                |
+| Edge              | Ctrl + u                |
+| Internet Explorer | Ctrl + u                |
 
-4. Look for [**meta tags**](https://www.w3schools.com/tags/tag_meta.asp) in the HTML source code **`<head>`** element. 
-5. Assign some **`<meta>`** tags to one of the categories **descriptive**, **administrative**, **structural** 
-:::::::::::::::::::::::::::::::::::::::::::::::
-
+4.  Look for <a href="https://www.w3schools.com/tags/tag_meta.asp" target="_blank">**meta tags**</a> in the HTML
+    source code **`<head>`** element.
+5.  Assign some **`<meta>`** tags to one of the categories
+    **descriptive**, **administrative**, **structural**
+:::
 
 ## Metadata records
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
-This section represents the introduction into **scientific** metadata. It kicks off with the most common metadata records, that can be found in a reseach context: **handwritten notes** and **Readme style documents**.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Lecture: Metadata in the scientific context
+
+**Slide set**: <a href="../files/slideSet/MetadataInScience_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>MetadataInScience.pdf</a>
+
+**Time estimate**: 10 min
+
+1. Now let's shift our focus on metadata annotation in the scientific context.
+2. I'm sure many of us have been in a similar situation. You start a new project that is based on the work of your predecessor or collaborators and you are supposed to start with reproducing the published results...
+3. You take a look at the accompnying publication and the data looks neat...
+4. But as soon as you open the underlying data sets, understanding the process on how this data was acquired is not so straight forward anymore. The variables might be hard to understand, there might be missing values, and the data cleaning is not necessarily apparent.
+5. So you take a look at the experiment's documentation...
+6. A study by Monya Baker, that was published in Nature in 2016 was able to show, that more than 70% of researchers have tried and failed to reproduce another scientis's experiments. And more than half have even failed to reproduce their own experiments.
+7. The worst practice that you can encounter in your scientific life is surely data, saved under an inexplicit file name with no documentation whatsoever.
+8. Slightly better practice are lab notes, which are still widely used as the go-to documentation method in experimental scientific areas. Using lab notes as documentation method, you can facilitate the findability... 
+9. by assigning meaningful file names to your data. However...
+10. lab notes come with various disadvantages. Lab notes are usually taken continuously and over the course of a 3-year contract, several hundred pages of lab notes can accumulate.
+11. so even though lab notes allow for some kind of documentation, they are largely unstructured and subjective, rarely following templates or guidelines. The continous note taking makes the documentation hard to retrieve. They are physically seperated from the data they describe and remain in the hand of the experimentator or institution hosting the experiments, which makes them hard to share. And let's admit it, handwriting can be a pain to read.
+12. One way to store your documentation with your data, is README-style metadata... 
+13. Just like taking lab notes, Readme-style files can be subjectively written natural text documents. 
+14. You can also find templates for Readme-style metadata records. Sticking to these templates will allow for increased structure in your documentation records. Now that we document our data digitally, we have increased options to link the metadata record to the described data set, for example by naming them accordingly...
+15. if you now want to find the results of a specific experiment on your computer, a local keyword search can help you to identify the data set.
+16. To sum up, digital documentation of your metadata in form of Readme-style metadata records, facilitates the linkage of data and metadata, allows for local searchability and increased readability, and the digital nature of the Readme file simplifies targeted sharing of the documentation. However, these records are still rather unstructured and subjective, and only allow for keyword searches.
+17. If you want to have a look on a well-designed template for Readme-style metadata records, a recommended link is provided in the Episode description.
+18. (<i>allow some time for questions</i>)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-**Handwritten (lab) notes**
-Handwritten (lab) notes are still a common practice in many scientific disciplines. These notes are easy to take during data generation. The greatest disadvantage, however, is the physical separation from the data itself and the difficulty to find, store and share these information. Often, handwritten lab notes do not follow a predictable structure and, hence, are hard to interpret and sometimes even hard to read.
+**Handwritten (lab) notes** Handwritten (lab) notes are still a common
+practice in many scientific disciplines. These notes are easy to take
+during data generation. The greatest disadvantage, however, is the
+physical separation from the data itself and the difficulty to find,
+store and share these information. Often, handwritten lab notes do not
+follow a predictable structure and, hence, are hard to interpret and
+sometimes even hard to read.
 
-**Readme style text documents**
-Recording your metadata (additionally) in a digital readme style text document comes with one great advantage: the metadata can be associated and stored directly with the experimental data. Readme style metadata best practices include:[^3]
+**Readme style text documents** Recording your metadata (additionally)
+in a digital readme style text document comes with one great advantage:
+the metadata can be associated and stored directly with the experimental
+data. Readme style metadata best practices include:[^5]
+
+[^5]: Chadwick, I. (2016). "Research Data Management: guide to
+    writing"readme" type metadata." The Open University.
+    <https://www.open.ac.uk/library-research-support/sites/www.open.ac.uk.library-research-support/files/files/RDM-Guidelines-for-creating-readme-style-metadata.pdf>
 
 <ul>
-  <li>creating one readme file for each data file, whenever possible.</li>
-  <li>naming the readme in a way that it is easily associated with the data file(s) it describes.</li>
-  <li>writing the readme document as a plain text file for interoperability.</li>
-  <li>formatting multiple readme files identically.</li>
-  <li>where possible follow established conventions for scientific vocabulary (i.e. from glossaries or resources such as the [IUPAC Gold book](https://goldbook.iupac.org/))</li>
+
+<li>creating one readme file for each data file, whenever possible.</li>
+
+<li>naming the readme in a way that it is easily associated with the
+data file(s) it describes.</li>
+
+<li>writing the readme document as a plain text file for
+interoperability.</li>
+
+<li>formatting multiple readme files identically.</li>
+
+<li>where possible follow established conventions for scientific
+vocabulary (i.e. from glossaries or resources such as the <a href="https://goldbook.iupac.org/" target="_blank">IUPAC Gold
+book</a>)</li>
+
 </ul>
 
-We strongly recommend to use [**this template**](https://cornell.app.box.com/v/ReadmeTemplate) for readme style metadata documents.
+We strongly recommend to use <a href="https://cornell.app.box.com/v/ReadmeTemplate" target="_blank">**this template**</a> for readme style metadata documents.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 # Guided confrontation: Metadata in scientific publications
 
-We recommend to include an interactive exercise at this point to further focus on metadata in the scientific context.
+**Slide set:** -
 
 **Time:** 10 min
 
@@ -159,21 +326,17 @@ The learners apply their acquired knowledge about metadata identification and ty
 Use a white board application to display the journal publication. This allows for simultaneous highlighting / annotation of the findings and thus gives a visual response and documentation of the discussion. 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-## Break :coffee:
+::: instructor
+## :coffee: Break :coffee:
 
 We recommend a **15 min break** at this point.
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::
 
-
-::::::::::::::::::::::::::::::::::::: keypoints 
-
-- **Data** is potential information.
-- Borders between **data** and **metadata** are fluid and depend on the context.
-- **Scientific meta information** is often recorded in handwritten (lab) notes, README style records, or the like, limiting its accessibility to humans and computers.
-
-::::::::::::::::::::::::::::::::::::::::::::::::
-
-[^1]: Pomerantz, J. (2015). Metadata. Cambridge, MA: MIT Press.
-[^2]:Zhang, A. B., Gourley, D. (2008). "Metadata strategy" in Creating Digital Collections. Sawston, UK: Woodhead Publishing.
-[^3]: Chadwick, I. (2016). "Research Data Management: guide to writing "readme" type metadata." The Open University. https://www.open.ac.uk/library-research-support/sites/www.open.ac.uk.library-research-support/files/files/RDM-Guidelines-for-creating-readme-style-metadata.pdf
+::: keypoints
+-   **Data** is potential information.
+-   Borders between **data** and **metadata** are fluid and depend on
+    the context.
+-   **Scientific meta information** is often recorded in handwritten
+    (lab) notes, README style records, or the like, limiting its
+    accessibility to humans and computers.
+:::

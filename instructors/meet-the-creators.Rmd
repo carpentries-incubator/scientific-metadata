@@ -1,11 +1,20 @@
 ---
 title: 'Meet the creators'
-teaching: 10
-exercises: 2
 ---
 
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: callout
+<span style="display: flex;">
+<img src="fig/portraitSilke.png" height="300px" alt="Smiling young man in lab coat." class="figure mx-auto d-block">
+<span>
+<h4 style="display:flex">Silke Gerlich</h4>
+Silke studied Biology at RWTH Aachen and University of Cologne, Germany and holds a PhD in Molecular Plant Biology. After graduation, she gathered several years of experience as an educational consultant. Silke joined the Helmholtz Metadata Collaboration in 2021, acting as a data steward and trainer. 
+In her free time, you can find Silke in the Bouldering gym, giving Yoga classes or hiking in the mountains. She understands herself as a life-long learner and volunteers as a mentor for "Arbeiterkind", a NGO supporting students from educationally disadvantaged families.</span>
+</span>
 
-:construction: Under Construction :construction:
+<br>
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+<span style="display:flex;">
+<span>
+<h4 style="display:flex;">Annika Strupp</h4>
+turpis tincidunt id aliquet risus feugiat in ante metus dictum at tempor commodo ullamcorper a lacus vestibulum sed arcu non odio euismod lacinia at quis risus sed vulputate odio ut enim blandit volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum non consectetur a erat nam at lectus urna duis convallis convallis tellus id interdum velit laoreet id donec ultrices tincidunt arcu non sodales neque sodales ut etiam sit amet nisl purus in mollis nunc sed id semper risus in hendrerit gravida rutrum quisque non tellus orci ac auctor augue mauris augue neque gravida </span>
+<img src="fig/portraitAnnika.png" align="right" height="300px" alt="Young woman with a friendly smile and crossed arms." class="figure mx-auto d-block"></span>
+

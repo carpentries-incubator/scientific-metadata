@@ -2,7 +2,6 @@
 site: sandpaper::sandpaper_site
 ---
 
-
 <img src="https://github.com/carpentries-incubator/scientific-metadata/blob/awesome_dev/episodes/fig/Welcome.png?raw=true/" alt="Welcome." height="75" align="left">
 <br><br><br><br>
 
@@ -41,12 +40,12 @@ This course is targeted at scientific staff and researchers from all fields, who
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Dear instructor
 
-we prepared some <a href="../general-lesson-information"> General Lesson Information</a> for you as a starting point :smile:
+we prepared some <a href="general-lesson-information.html"> General Lesson Information</a> for you as a starting point :smile:
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 <p>This lesson was created by the **Helmholtz Medatada Collaboration** Hub Information.</p>
-<img src="https://github.com/carpentries-incubator/scientific-metadata/blob/awesome_dev/episodes/fig/HMC_Logo_RGB_Blue.png?raw=true" alt="HMC logo" height="30" style="float:left"/> <br><br>
+<a href="https://helmholtz-metadaten.de/en" target="_blank"><span><img src="https://github.com/carpentries-incubator/scientific-metadata/blob/awesome_dev/episodes/fig/HMC_Logo_RGB_Blue.png?raw=true" alt="HMC logo" height="30" style="float:left"/></span></a> <br><br>
 
 This is a new lesson built with [The Carpentries Workbench][workbench]. 
 <br><br>
