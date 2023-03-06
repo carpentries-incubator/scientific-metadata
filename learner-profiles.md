@@ -1,30 +1,5 @@
 ---
-title: Learner profiles
+title: FIXME
 ---
 
-<span style="display:flex;">
-<span>
-<h4 style="display:flex;">Berni Hughes</h4>
-Berni is a first-year PhD candidate in Computer Science. She is really excited about her new research topic: deep learning and computer vision. To kick-off her project, she attends a variety of classes focusing on good scientific practice and research data management. Her supervisor recommended to include a class on scientific data annotation and metadata to her. <br>
-Berni is fluent in C++, JavaScript and Python. She is familiar with the structure of Markup, XML, YAML and JSON, yet she is new to annotating her scientific work and looking for solutions to validate her data objects. </span>
-<img src="https://github.com/carpentries-incubator/scientific-metadata/blob/awesome_dev/profiles/bernyHughesPersona.png?raw=true" height="300px" alt="Young woman with a friendly smile and crossed arms." class="figure mx-auto d-block"></span>
-
-<br>
-
-<span style="display: flex;">
-<img src="https://github.com/carpentries-incubator/scientific-metadata/blob/awesome_dev/profiles/robertMedinaPersona.png?raw=true" height="300px" alt="Smiling young man in lab coat." class="figure mx-auto d-block">
-<span>
-<h4 style="display:flex">Robert Medina</h4>
-Robert earned his PhD in Biochemistry and currently holds a postdoc position in a biotechnology lab. In his research he conducts multiple proteomic studies, resulting in large amounts of data. <br>
-While writing his PhD thesis, Robert got frustrated about his own experiment documentation and realized how hard it is to remember details and protocols of experiments that date back three years and longer. Hence, he decided to change his documentation and data annotation habits.<br>
-Robert analyzes his data in MS Excel and basic R-scripts and has never heard about XML, YAML or JSON.</span>
-</span>
-
-<br>
-
-<span style="display: flex;">
-<span>
-<h4 style="display:flex">Linda Sievers</h4>
-Linda is a mechanical engineer who recently joined the research data management (RDM) department of a large research institute as a data steward. Previously, she gained several years of experience in R&D and consulting in academia as well as a corporate context.<br>
-Fairly new to the topic, Linda currently works her way through literature on RDM. She is familiar with the FAIR principles on a theoretical level but wants to gain more experience on the application level. Additionally, Linda is keen on getting to know helpful tools and resources for research metadata handling, which could make her, her colleagues', and her stakeholder's work life easier. </span>
-<img src="https://github.com/carpentries-incubator/scientific-metadata/blob/awesome_dev/profiles/lindaSieversPersona.png?raw=true" height="300px" alt="Confident looking middle-aged woman." class="figure mx-auto d-block"></span>
+This is a placeholder file. Please add content here. 
