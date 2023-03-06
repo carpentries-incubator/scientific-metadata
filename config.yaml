@@ -64,12 +64,10 @@ episodes:
 - structure-schema.Rmd
 - enabling-technologies-standards.Rmd
 - web-location-identifiers.Rmd
-- conclusion-outlook.Rmd
 
 
 # Information for Learners
 learners: 
-- meet-the-creators.Rmd
 - acknowledgements.Rmd
 
 # Information for Instructors
@@ -77,8 +75,8 @@ instructors:
 - instructor-notes.md
 - general-lesson-information.Rmd
 - instructor-guide.Rmd
-- meet-the-creators.Rmd
 - acknowledgements.Rmd
+
 # Learner Profiles
 profiles: 
 - learner-profiles.Rmd
