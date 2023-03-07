@@ -186,10 +186,10 @@ Data exchange formats such as the **markup language XML** or **JSON** can be rea
 
 **Time estimate**:
 
-1. In the following challenges, we will apply what we have learned in the lectures so far to our example data set. 
+1. In the following challenges, we will apply what we have learned in the lectures so far to our example dataset. 
 2.You have inspected the data and realised quite rapidly, that you need more information on the data to make sense of it. So you ask your collaborators for additional meta-information.
 3. They reply by sending you a README-style metadata file.
-4. However, your funding agency requires that you upload every data set in your project to their public repository and attach a structured metadata record.
+4. However, your funding agency requires that you upload every dataset in your project to their public repository and attach a structured metadata record.
 5. In challenge 2, you will review the README-style metadata record and highlight all the information that you deem relevant to understand the data and reproduce the experiment.
 6. In challenge 3, you will then take these information and transform it into a JSON object literal.
 7. (<i>The challenges are designed as group challenges. We like to add a slide here, on which we list the randomized groups and give additional technical and administrative information.</i>)

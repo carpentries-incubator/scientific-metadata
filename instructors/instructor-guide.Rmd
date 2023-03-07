@@ -228,8 +228,8 @@ The learners get an introduction into data and metadata in everyday life and res
 7. So, metadata - or metainformation - is more or less structured data, that contains information about characteristics of other data (objects).
 8. Let's briefly reflect on the types of metadata, that we came across so far, before we apply these concepts in the first challenge for today: 
   - descriptive metadata holds information about the intellectual content, such as title, author, abstract...
-  - administrative metadata specifies how a resource is managed. This can be terms of distribution and copyright information. Regarding published data, this also applies to technical information on the files included in a data set or versioning...
-  - structural metadata describe, for example chapters in a book, file in a data set, or software components.
+  - administrative metadata specifies how a resource is managed. This can be terms of distribution and copyright information. Regarding published data, this also applies to technical information on the files included in a dataset or versioning...
+  - structural metadata describe, for example chapters in a book, file in a dataset, or software components.
 9. (<i>allow some time for questions</i>)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -270,7 +270,7 @@ Allow for some time for the learners to navigate the websites and explore the me
 1. Now let's shift our focus on metadata annotation in the scientific context.
 2. I'm sure many of us have been in a similar situation. You start a new project that is based on the work of your predecessor or collaborators and you are supposed to start with reproducing the published results...
 3. You take a look at the accompnying publication and the data looks neat...
-4. But as soon as you open the underlying data sets, understanding the process on how this data was acquired is not so straight forward anymore. The variables might be hard to understand, there might be missing values, and the data cleaning is not necessarily apparent.
+4. But as soon as you open the underlying datasets, understanding the process on how this data was acquired is not so straight forward anymore. The variables might be hard to understand, there might be missing values, and the data cleaning is not necessarily apparent.
 5. So you take a look at the experiment's documentation...
 6. A study by Monya Baker, that was published in Nature in 2016 was able to show, that more than 70% of researchers have tried and failed to reproduce another scientis's experiments. And more than half have even failed to reproduce their own experiments.
 7. The worst practice that you can encounter in your scientific life is surely data, saved under an inexplicit file name with no documentation whatsoever.
@@ -280,8 +280,8 @@ Allow for some time for the learners to navigate the websites and explore the me
 11. so even though lab notes allow for some kind of documentation, they are largely unstructured and subjective, rarely following templates or guidelines. The continous note taking makes the documentation hard to retrieve. They are physically seperated from the data they describe and remain in the hand of the experimentator or institution hosting the experiments, which makes them hard to share. And let's admit it, handwriting can be a pain to read.
 12. One way to store your documentation with your data, is README-style metadata... 
 13. Just like taking lab notes, Readme-style files can be subjectively written natural text documents. 
-14. You can also find templates for Readme-style metadata records. Sticking to these templates will allow for increased structure in your documentation records. Now that we document our data digitally, we have increased options to link the metadata record to the described data set, for example by naming them accordingly...
-15. if you now want to find the results of a specific experiment on your computer, a local keyword search can help you to identify the data set.
+14. You can also find templates for Readme-style metadata records. Sticking to these templates will allow for increased structure in your documentation records. Now that we document our data digitally, we have increased options to link the metadata record to the described dataset, for example by naming them accordingly...
+15. if you now want to find the results of a specific experiment on your computer, a local keyword search can help you to identify the dataset.
 16. To sum up, digital documentation of your metadata in form of Readme-style metadata records, facilitates the linkage of data and metadata, allows for local searchability and increased readability, and the digital nature of the Readme file simplifies targeted sharing of the documentation. However, these records are still rather unstructured and subjective, and only allow for keyword searches.
 17. If you want to have a look on a well-designed template for Readme-style metadata records, a recommended link is provided in the Episode description.
 18. (<i>allow some time for questions</i>)
@@ -435,10 +435,10 @@ This episode introduces the concept of semi-structured metadata in regards to ma
 
 **Time estimate**:
 
-1. In the following challenges, we will apply what we have learned in the lectures so far to our example data set. 
+1. In the following challenges, we will apply what we have learned in the lectures so far to our example dataset. 
 2.You have inspected the data and realised quite rapidly, that you need more information on the data to make sense of it. So you ask your collaborators for additional meta-information.
 3. They reply by sending you a README-style metadata file.
-4. However, your funding agency requires that you upload every data set in your project to their public repository and attach a structured metadata record.
+4. However, your funding agency requires that you upload every dataset in your project to their public repository and attach a structured metadata record.
 5. In challenge 2, you will review the README-style metadata record and highlight all the information that you deem relevant to understand the data and reproduce the experiment.
 6. In challenge 3, you will then take these information and transform it into a JSON object literal.
 7. (<i>The challenges are designed as group challenges. We like to add a slide here, on which we list the randomized groups and give additional technical and administrative information.</i>)
@@ -939,11 +939,11 @@ The learners are aware of the advantages of a metadata schema and metadata recor
 
 **Time estimate**: 5 min
 
-(<i>Challenge 5 concludes the work with the example data set. At this point we like to give a brief summary about the metadata annotation process</i>)
+(<i>Challenge 5 concludes the work with the example dataset. At this point we like to give a brief summary about the metadata annotation process</i>)
 
 1. Let's have a last look on our roller coaster data.
-2. Yesterday morning, we started with a cryptic data set, that was simply not understandable without further information. We were even guessing the meaning of the chosen variable names...
-3. after putting the data set in context, we did not only know, how to read the data...
+2. Yesterday morning, we started with a cryptic dataset, that was simply not understandable without further information. We were even guessing the meaning of the chosen variable names...
+3. after putting the dataset in context, we did not only know, how to read the data...
 4. but also who recorded the data, the test object and when it was recorded...
 5. and which conditions applied to this particular experiment.
 6. By structuring our metadata records as JSON objects...
@@ -1152,14 +1152,14 @@ We use [AHA slides](https://ahaslides.com/){target="_blank"} for live polling. S
 3. The URL you want to retrieve points to specific resources, stored on the host server. But within the life cycle of an online resource, several events can take place.
 4. The file path on the host server might change, the resource might be migrated to a different host server, or the resource might simply be deleted. In any of these cases, the URL does not specify the exact location of the resource any longer and will no longer be retrievable by the server adressed by the GET-request you send from your browser. This process is also referred to as "link rot". Remember, that we classified the URL as a form of Uniform Resource Identifier? This means, that link rot leads results in the resource loosing a very important identifier!
 5. Web technology has a solution for this issue: Persistent Identifiers or short, PIDs.
-6. Like our other persistent and unique identifiers, such as ISBN numbers, PIDs are long-lasting references to digital objects on the web. Any resource that has a representation on the web - articles, data sets, persons, instruments - can have a PID assigned. These PIDs remain constant over time, lead directly to the resource - so they also give information on the location and protocol - and, thus, ensure permanent identifiability, refencabilty and retrievability of online resources.
+6. Like our other persistent and unique identifiers, such as ISBN numbers, PIDs are long-lasting references to digital objects on the web. Any resource that has a representation on the web - articles, datasets, persons, instruments - can have a PID assigned. These PIDs remain constant over time, lead directly to the resource - so they also give information on the location and protocol - and, thus, ensure permanent identifiability, refencabilty and retrievability of online resources.
 7. The technology behind PIDs is fairly trivial. In PID databases, a PID is mapped to a URL, that retrieves a resource. Even though the URL changes, due to server migration or changes in the file path, the PID remains consistent.
 8. If you activate a hyperlink in your browser to retrieve a resource without a PID service included, your browser will directly communicate with the host server to retrieve a resource.
 9. If the requested resource is identified by a PID, the underlying PID service will be contacted by the browser. The PID service will then query its database for the PID, identify the current URL of the resource and redirect the request to the host server.
 10. So when the location of the resource changes...
 11. a PID will not lead to unretrievable resources and rotten links...
 12. as the new URL is stored in the PID database and the activated link will redirect the request to the new location.
-13. It is important to know, that the PID service **only** provides the **technical infrastructure** for redirections. The owner of the host server of the requeste resource - which could be a privat person, a journal that published an article or a repository that holds a data set - **is responsible for updating the URL**. For example: You publish an article and one of the journals features is, that they assign a DOI to this article. If the journal now changes the digital location of your article on their server, the journal is responsible to inform the PID provider - DOI - about the changes and update the location.
+13. It is important to know, that the PID service **only** provides the **technical infrastructure** for redirections. The owner of the host server of the requeste resource - which could be a privat person, a journal that published an article or a repository that holds a dataset - **is responsible for updating the URL**. For example: You publish an article and one of the journals features is, that they assign a DOI to this article. If the journal now changes the digital location of your article on their server, the journal is responsible to inform the PID provider - DOI - about the changes and update the location.
 14. As we have seen in our poll at the beginning of this lecture, many of you are already familiar with Digital Object Identifiers and ORCID Ids. Other PIDs that ar frequently used in the scientific context are Persisten Uniform Resource Locators, RORs - the Research Organization Registry, and ARKS - Archival Resource Keys.
 15. <i>allow for some time for questions</i>
 
