@@ -1343,7 +1343,7 @@ see also [Feedback Day 1](#accordionInstructor18)
 
 <u>QUESTIONS</u><br><br>
 
-1. **How do you generally feel about the lesson "Fundamentals of scientific metadata"?**
+1. **How do you generally feel about the lesson "Fundamentals of Scientific Metadata"?**
     - :frowning_face:
     - :confused:
     - :neutral_face:
