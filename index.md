@@ -13,7 +13,7 @@ Have you ever struggled to make sense of scientific data provided by a collabora
 
 Precise and structured description of research data is key for scientific exchange and progress - and also for the recognition of your effort in data collection. The solution: make your data findable, accessible, interoperable and reusable by describing them with metadata.
 
-This course is targeted at scientific staff and researchers from all fields, who would like to better understand research data annotation with metadata.<br><br>
+This course is targeted at scientific staff and researchers from all fields who are interested in annotating their research data with well-structured and useful metadata.<br><br>
 
 <img src="https://github.com/carpentries-incubator/scientific-metadata/blob/awesome_dev/episodes/fig/youWillLearn.png?raw=true"/ alt="Content overview. In this lesson you will learn, of the differences between and the importance of data and metadata, how to annotate your research data with structured metadata, how to find and evaluate suitable metadata frameworks, how to use basic Markdown, JSON, and JSON Schema, about available tools that you can use to up your metadata annotation game, why structured metadata is important and how it can increase your scientific visibility.">
 <br>
