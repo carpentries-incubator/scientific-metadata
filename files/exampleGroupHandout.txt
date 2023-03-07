@@ -1,0 +1,246 @@
+# Fundamentals of scientific metadata - Group handout
+## Challenge 2: Identify metadata in README.txt (15 min)
+
+:::warning
+<i class='fa fa-pencil fa-2x'></i>
+You cannot make sense of the data you got from your collaborators. You ask them for supplemental information and they send you the following [**README file**](#README) (see below).
+- Read the README carefully.
+- In the group, **discuss**, **decide** and **prioritize** which information in the text are valuable experimental metadata. 
+- **Mark up the valuable information** in HedgeDoc source code on the left. Mark up the respective words with "==". <br>**Example**: (`==This text will be highlighted==`)
+:::
+
+<h2 id="README">README_exampleDataObject.txt</h2>
+
+This README file describes the data in exampleDataObject.csv
+
+The data describes the biomechanical acceleration and screams detected of a test person during the ride of the roller coaster "Flight of the Bat" in Gotham City. 
+
+The data was collected by Bruce Wayne and Selina Kyle (Institute for Vigilance and Nightly Motion -- Justice League) on 2022-02-28 in Gotham City, New Jersey.
+
+The test person (male) is 5'11 tall and weighs 187 lbs.
+
+The test person strapped the recording device (iPhone X) with a running armband to their left upper arm and activated the biomechanical acceleration and scream detection of the application "Physics Toolbox Suite" by Vieyra Software.
+
+- "t" describes the ride time at which measurements were taken upon activating the recording in seconds.
+- "ax" describes the biomechanical acceleration of the test person on the x axis in m/s².
+- "ay" describes the biomechanical acceleration of the test person on the y axis in m/s².
+- "az" describes the biomechanical acceleration of the test person on the z axis in m/s².
+- "scr" is a boolean indicating a detected scream of the test person.
+
+:::info
+You can download the README as TXT file[ <i class='fa fa-download'></i> **HERE**]() 
+:::
+
+## Challenge 3: Write JSON metadata record (20 min)
+
+:::warning
+<i class='fa fa-pencil fa-2x'></i>
+You have manually marked up the relevant information in the README. However, your project requires you to provide metadata in the form of a machine-readable JSON metadata record. The project provides you with a simple example JSON object (remember, that curly braces hold objects):
+
+- Based on the information identified in the README; write a well-formed, descriptive JSON object.
+- Collaboratively, find suitable keys (aka names) to your values.
+- You can use the **code block** provided **below** (input source code on the left).
+- You may want to use some [JSON formatter web service](https://jsonformatter.org/) to check and pretty-print your output
+
+<br>
+
+```json
+{
+  "key":"value",
+  "key":"value"
+}
+``` 
+:::danger
+
+<i class='fa fa-exclamation-triangle fa-2x'></i>
+
+**Keep in mind**, that values in JSON must be one of the following data types:
+
+- a string `""`
+- a number `42`
+- a boolean `True`
+- null `null`
+- an array `[]`
+- an object `{}`
+
+**Example:**
+```json
+{
+    "key":"value",
+    "aString":"string",
+    "anInteger":5,
+    "aFloat":0.5,
+    "aBoolean":true,
+    "anArray": ["item1", "item2", "item3"],
+    "anObject": {
+        "key1":"value1",
+        "key2":"value2",
+        "key3":"value3"
+    }
+}
+```
+:::
+
+## Challenge 4: JSON Schema (20 min)
+    
+:::warning
+<i class='fa fa-pencil fa-2x'></i>
+After a couple of researchers upload their JSON metadata records to the project repository it becomes obvious that well-formed JSON metadata describing similar experiments can still be expressed in myriad ways.
+
+Your collaboration decides to develop a metadata schema to standardize metadata records across the project. Consensus is encoded in a JSON Schema.
+
+**Now its your task to help with the subschema for experimental conditions!**
+
+In this **code block** you see valid JSON metadata that describes experimental conditions as agreed on in the project.
+<br>
+```json
+{
+  "experimentalConditions": {
+    "ride": {
+      "rideType": "roller coaster",
+      "rideName": "Flight of the Bat",
+      "location": "Gotham City, New Jersey"
+    },
+    "testPerson": {
+      "sex": "male",
+      "height": 180
+    },
+    "recording": {
+      "testDevice": "iPhone X",
+      "testDeviceFixture": "left upper arm",
+      "testApp": "Physics Toolbox Suite by Vieyra Software"
+    }
+  }
+}
+```
+In this code block you see the JSON Schema draft for the experimental conditions. Your collaborators already modelled constraints and valid values for `ride` and `testPerson`.<br>
+
+**Discuss and add constraints to `recording` property above.**
+
+- `testDevice`, `testDeviceFixture` and `testApp` are **mandatory properties** for the **`recording`** object
+- **`testDevice`** value must be one of:
+    - `iPhone X`
+    - `iPhone 6`
+    - `iPhone 6s`
+    - `other`
+    
+- **`testApp`** value must be one of:
+    - `Physics Toolbox Suite by Vieyra Software`
+    - `Bunny Rollercoaster Physics App`
+    
+- **`testDeviceFixture`** value must be one of:
+    - `left upper arm`
+    - `right upper arm`
+    - `mouth fixture device`
+    - `other`
+<br>
+```json
+{
+  "experimentalConditions": {
+    "description": "A summary of the experimental conditions. Include sufficient detail to facilitate search and discovery.",
+    "type": "object",
+    "required": [
+      "recording",
+      "ride",
+      "testPerson"
+      ],
+    "properties": {
+    
+      "recording": {
+      /* Insert your schema here and delete this comment */
+        },
+      
+      "ride": {
+        "description": "Properties of the ride.",
+        "type": "object",
+        "required": [
+          "rideType",
+          "rideName"
+        ],
+        "properties": {
+          "rideType": {
+            "description": "Ride type.",
+            "type": "string",
+            "enum": [
+              "roller coaster",
+              "water slide",
+              "bob sled"
+            ]
+          },
+          "rideName": {
+            "description": "Official name of the ride.",
+            "type": "string",
+            "minLength": 3
+          },
+          "location": {
+            "description": "City and State in which ride is located.",
+            "type": "string",
+            "minLength": 10
+          }
+        }
+      }
+    },
+    "testPerson": {
+      "description": "Properties of person carrying the test device.",
+      "type": "object",
+      "required": [
+        "height",
+        "sex"
+      ],
+      "properties": {
+        "height": {
+          "description": "Height of test person in cm (SI unit of length).",
+          "type": "number",
+          "minimum": 120,
+          "exclusiveMaximum": 220
+        },
+        "sex": {
+          "description": "Sex of test person.",
+          "type": "string",
+          "enum": [
+            "female",
+            "male",
+            "non-binary",
+            "not disclosed"
+          ]
+        }
+      }
+    }
+  }
+}
+```
+:::::::
+
+
+## Challenge 5: Form input & validation with JSON schema (10 min)
+
+:::warning
+<i class='fa fa-pencil fa-2x'></i>
+**Congratulations, you finished your metadata schema!
+Now, collecting interoperable metadata will be a lot easier in your collaboration.**
+
+We must admit: writing a valid JSON metadata record for each and every experiment that you perform is tedious and time consuming. But now that you have a JSON Schema at hand, things will get a lot easier! The project sets up a user-friendly HTML form interface for the input of JSON metadata.
+
+**Let's try this**:
+- Download the full JSON schema [ <i class='fa fa-download'></i> **HERE**]()
+- Inspect the JSON schema briefly
+- In your browser go to [<i class='fa fa-external-link-square'></i> react-jsonschema-form playground](https://rjsf-team.github.io/react-jsonschema-form/). 
+- Delete sample content in `JSONschema` and `formData`
+- Copy and paste the full schema into the `JSONschema` box
+- Check again if Chuck Norris properties reappeared in `formData` results; he can be tough :smile:
+- Inspect the form interface thoroughly, enter some values and discuss the following questions
+    - How does the browser display lists of pre-defined values (specified as `enum` in the schema)?
+    - How are `arrays` and `objects` interpreted in the form interface?
+    - What happens if you enter an invalid value (e.g. try to enter a string for the test persons `height`)
+    - What happens if you enter a nonsense value (e.g. try to enter a nonsense string for `rideName`)
+    - How does the web service respond if you click on submit without filling all the "required" fields?
+<br>
+
+```txt
+/* Some space for your questions and thoughts */
+
+```
+:::danger
+<i class='fa fa-exclamation-triangle fa-2x'></i>
+Note that the JSON Schema used for this demo **lacks the recommended `$schema` keyword**: this is because the playground will reject the keyword.
+:::
