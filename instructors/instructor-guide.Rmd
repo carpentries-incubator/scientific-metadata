@@ -1,26 +1,26 @@
 ---
-title: Instructor guide
+title: Instructor Guide
 ---
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: checklist
 ## To Do: Before the lesson
 
-- send the link to the "**Episode 1: Getting started**" 2-3 days before the lesson starts. 
+- send the link to the "**Episode 1: Getting Started**" 2-3 days before the lesson starts. 
 - prepare **group handouts** for the first day by including the challenges 2 and 3. You can find a Markdown template here: LINK
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Lesson schedule
+## Lesson Schedule
 
 <div class="overview card">
   <h2 class="card-header">Day 1</h2>
   <div class="row g-0">
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> | Episode | Description |
 | :-----: | :---: | ------------------------------- |
-| 35 min | [0](#episode-0-housekeeping) | <u>[**Housekeeping**](#episode-0-housekeeping)</u><br>The lesson starts with an introduction by the instructors, and i.a. the hosting organization, to the learners to the instructors. The learners introduce themselves to briefly and report on their first impressions of the example data object. Scope and schedule of the lesson are outlined. |
-| --- | [1](#episode-1-getting-started) | <u>[**Getting started**](#episode-1-getting-started)</u><br><i>This episode is not part of the actual teaching content. It will be send to the learners prior to the lesson. It contains one brief challenge, that encourages the learners to engage with the example data object. The learners's experience will be shared during the first Episode 0: Housekeeping session.</i> |
-| 80 min | [2](#episode-2-data-metadata) | <u>[**Data & Metadata**](#episode-2-data-metadata)</u><br>The learners get an introduction into data and metadata in everyday life and research contexts. Descriptive, administrative, and structural metadata are distinguished. The learners conduct a guided online search (URLs are provided) and explore the metadata tagging in selected web pages. Good (enough) and worst practices of metadata annotation will be covered in the fina talk of this module. The presentation is complemented with a live demonstration, collaboratively extracting metadata from scientific publications. |
-| 105 min | [3](#episode-3-structured-metadata---from-markup-to-json) | <u>[**Structured metadata - from Markup to JSON**](#episode-3-structured-metadata---from-markup-to-json)</u><br>This episode introduces the concept of semi-structured metadata in regards to machine accessibility and interoperability. After defining the term "Markup", the learners will be confronted with XML and JSON as data exchance formats. In the challenges 2 & 3, the learners will apply the lecture content to the example data object by extracting metadata from an accompanying Readme file and annotating the example data object in a JSON object literal. Challenges will be tackled in groups of 5 - 7 learners. Group results are compared and discussed in a plenary discussion. Ideally, the learners will experience light frustration during result comparison, realizing, that structuring their metadata will result in valid machine interpretable data objects, yet lack of comparability and reusability. |
-| 20 min | [0](#episode-0-housekeeping-1) | <u>[**Housekeeping**](#episode-0-housekeeping-1)</u><br>Day 1 concludes with a brief recap on the topics of the first day. Feedback is gathered from the learners and eventually implemented in day 2. An outlook on the contet of the second day is presented. |
+| 35 min | [0](#episode-0-housekeeping) | <u>[**Housekeeping**](#episode-0-housekeeping)</u><br>The lesson starts with an introduction by the instructors, and usually the hosting organization, to the learners. The learners introduce themselves briefly and report on their first impressions of the example data object. Scope and schedule of the lesson are outlined. |
+| --- | [1](#episode-1-getting-started) | <u>[**Getting Started**](#episode-1-getting-started)</u><br><i>This episode is not part of the actual teaching content. It will be sent to the learners prior to the lesson. It contains one brief challenge that encourages the learners to engage with the example data object. The learners' experience will be shared during the first Episode 0: Housekeeping session.</i> |
+| 80 min | [2](#episode-2-data-metadata) | <u>[**Data & Metadata**](#episode-2-data-metadata)</u><br>The learners get an introduction into data and metadata in everyday life and research contexts. Descriptive, administrative, and structural metadata are distinguished. The learners conduct a guided online search (URLs are provided) and explore the metadata tagging in selected web pages. Good (enough) and worst practices of metadata annotation will be covered in the final talk of this module. The presentation is complemented by a live demonstration, collaboratively extracting metadata from scientific publications. |
+| 105 min | [3](#episode-3-structured-metadata---from-markup-to-json) | <u>[**Structured Metadata - from Markup to JSON**](#episode-3-structured-metadata---from-markup-to-json)</u><br>This episode introduces the concept of semi-structured metadata in the context of machine accessibility and interoperability. After defining the term *Markup*, the learners will be confronted with XML and JSON as (meta)data exchange formats. In the challenges 2 & 3, the learners will apply the lecture content to the example data object by extracting metadata from an accompanying `README` file and annotating the example data object using JSON. Challenges will be tackled in groups of 5 - 7 learners. Group results are compared and discussed in a plenary discussion. Ideally, the learners will experience light frustration during result comparison, realizing, that structuring their metadata will result in valid machine-interpretable data objects, yet lack comparability and reusability. |
+| 20 min | [0](#episode-0-housekeeping-1) | <u>[**Housekeeping**](#episode-0-housekeeping-1)</u><br>Day 1 concludes with a brief recap on the topics of the first day. Feedback is gathered from the learners and eventually implemented in day 2. An outlook on the content of the second day is presented. |
 |  |  | [**To Do: After Day 1**](#checklist2) |
 </div>
 </div>
@@ -30,12 +30,12 @@ title: Instructor guide
   <div class="row g-0">
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> | Episode | Description |
 | :-----: | :---: | ------------------------------- |
-| 15 min | [0](#episode-0-housekeeping-2) | <u>[**Housekeeping**](#episode-0-housekeeping-2)</u><br>The learners get a brief recap of the contents of day 1 and an outlook on day 2. In the warm-up session, the learners actively apply their knowledge acquired on day 1 by completing a personal JSON template. |
-| 120 min | [4](#episode-4.-enabling-technologies-with-schemas-and-standards) | <u>[**Enabling technologies with schemas and standars**](#episode-4.-enabling-technologies-with-schemas-and-standards)</u><br>The episodes starts with a short history of the World Wide Web from a scholarly perspective, highlighting the benefits of this technology for sharing information. Metadata schemas are introduced in depth by lectures and live coding. JSON schema development is further practiced by the learners in a group challenge. Subsequently, the written schema is applied in web interfaces. The concept of metadata standards is introduced and distinguished from metadata schemas. Widely used and scientific community independent standards are investigated. In the following challenge, the learners are introduced to terminology registries, practice their navigation and get the opportunity to identify metadata terminologies relevant for their fields of research. |
+| 15 min | [0](#episode-0-housekeeping-2) | <u>[**Housekeeping**](#episode-0-housekeeping-2)</u><br>The learners get a brief recap of the contents of day 1 and an outlook on day 2. In the warm-up session, the learners actively apply their knowledge acquired on day 1 by completing a personal JSON object using a provided template. |
+| 120 min | [4](#episode-4.-enabling-technologies-with-schemas-and-standards) | <u>[**Enabling Technologies & Standards**](#episode-4.-enabling-technologies-with-schemas-and-standards)</u><br>The episode starts with a short history of the World Wide Web from a scholarly perspective, highlighting the benefits of this technology for sharing information. Metadata schemas are introduced in depth by lectures and live coding. Learners practice writing a *JSON Schema* in a group challenge. Subsequently, the written schema is visualized in a web interface, illustrating a possible application. The concept of *metadata standards* is introduced and distinguished from metadata schemas. Some community-independent standards with wide adoption in the scientific context and beyond are investigated. In the following challenge, the learners are introduced to *terminology registries*, practice their navigation and get the opportunity to identify metadata terminologies relevant for their fields of research. |
 | 55 min | [5](#episode-5-web-location-identifiers) | <u>[**(Web) Location and identifiers**](#episode-5-web-location-identifiers)</u><br>This episode is an introduction to the concept and technology of Persistent Identifiers (PIDs) on the World Wide Web. The learners are familiarized with the technology of client-server communication on the web, learn to differenciate between URN, URL, URI, and PID, and get to know  PID services commonly used in the scientific community. Further, the application of (Persistent) Identifiers in metadata records is discussed. |
 | xx min | [6](#episode-6-outlook---linked-data) | <u>[**Outlook - Linked Data**](#episode-6-outlook---linked-data)</u><br> :construction: UNDER CONSTRUCTION :construction: |
 | 30 min | [0](#episode-0-lightning-talk) | <u>[**Lightning Talk**](#episode-0-lightning-talk)</u><br>An invited speaker presents a real world research example and demonstrates how applied metadata can shape research.  |
-| 20 min | [0](#episode-0-housekeeping-3) | <u>[**Housekeeping**](#episode-0-housekeeping-3)</u><br>This module concludes the lesson. An overview about the past two days is given. The learners provide their feedback on the lesson. The instructors feedback the learners. |
+| 20 min | [0](#episode-0-housekeeping-3) | <u>[**Housekeeping**](#episode-0-housekeeping-3)</u><br>This module concludes the lesson. A summarizing overview of the past two days is given. The learners provide their feedback on the lesson. The instructors give feedback to the learners. |
 |  |  | [**To Do: After the lesson**](#checklist3) |
 </div>
 </div>
@@ -352,7 +352,7 @@ Use a white board application to display the journal publication. This allows fo
 </ul>
 
 **Description:**<br>
-This episode introduces the concept of semi-structured metadata in regards to machine accessibility and interoperability. After defining the term "Markup", the learners will be confronted with XML and JSON as data exchance formats. In the challenges 2 & 3, the learners will apply the lecture content to the example data object by extracting metadata from an accompanying Readme file and annotating the example data object in a JSON object literal. Challenges will be tackled in groups of 5 - 7 learners. Group results are compared and discussed in a plenary discussion. Ideally, the learners will experience light frustration during result comparison, realizing, that structuring their metadata will result in valid machine interpretable data objects, yet lack of comparability and reusability.
+This episode introduces the concept of semi-structured metadata in regards to machine accessibility and interoperability. After defining the term "Markup", the learners will be confronted with XML and JSON as data exchange formats. In the challenges 2 & 3, the learners will apply the lecture content to the example data object by extracting metadata from an accompanying Readme file and annotating the example data object in a JSON object literal. Challenges will be tackled in groups of 5 - 7 learners. Group results are compared and discussed in a plenary discussion. Ideally, the learners will experience light frustration during result comparison, realizing, that structuring their metadata will result in valid machine interpretable data objects, yet lack of comparability and reusability.
 
 **Talking Points:**
 
@@ -716,10 +716,10 @@ Supply the learners with a JSON object literal template with pre-defined keys. T
 | :-----: | ---------- | ----------------------------------------- |
 | 10 min | **Lecture** | [A brief history of the World Wide Web](#accordionInstructor23) |
 | 10 min | **Lecture** | [Metadata schemas](#accordionInstructor24) |
-| 8 min | **Guided confrontation** | [Live coding a JSON schema](#accordionInstructor25) |
+| 8 min | **Guided confrontation** | [Live coding a JSON Schema](#accordionInstructor25) |
 | 2 min | **Lecture** | [Challenge introduction](#accordionInstructor26) |
-| 20 min | **Challenge** | [JSON schema](#accordionInstructor27) |
-| 10 min | **Challenge** | [Form input & validation with JSON schema](#accordionInstructor27) |
+| 20 min | **Challenge** | [JSON Schema](#accordionInstructor27) |
+| 10 min | **Challenge** | [Form input & validation with JSON Schema](#accordionInstructor27) |
 | 10 min | **Discussion** | [Challenge reflection](#accordionInstructor28) |
 | 5 min | **Lecture** | [Summary - Annotating the example data](#accordionInstructor29) |
 | 15 min |  | :coffee: **Break** :coffee: |
@@ -746,12 +746,12 @@ Supply the learners with a JSON object literal template with pre-defined keys. T
 </ul>
 <u>APPLY</u><br> 
 <ul>
-  <li>The learners understand, read and write XML and JSON schema.</li>
+  <li>The learners understand, read and write XML and JSON Schema.</li>
   <li>The learners navigate online terminology registries. </li>
 </ul>
 
 **Description:**<br>
-The episodes starts with a short history of the World Wide Web from a scholarly perspective, highlighting the benefits of this technology for sharing information. Metadata schemas are introduced in depth by lectures and live coding. JSON schema development is further practiced by the learners in a group challenge. Subsequently, the written schema is applied in web interfaces. The concept of metadata standards is introduced and distinguished from metadata schemas. Widely used and scientific community independent standards are investigated. In the following challenge, the learners are introduced to terminology registries, practice their navigation and get the opportunity to identify metadata terminologies relevant for their fields of research.
+The episodes starts with a short history of the World Wide Web from a scholarly perspective, highlighting the benefits of this technology for sharing information. Metadata schemas are introduced in depth by lectures and live coding. JSON Schema development is further practiced by the learners in a group challenge. Subsequently, the written schema is applied in web interfaces. The concept of metadata standards is introduced and distinguished from metadata schemas. Widely used and scientific community independent standards are investigated. In the following challenge, the learners are introduced to terminology registries, practice their navigation and get the opportunity to identify metadata terminologies relevant for their fields of research.
 
 **Talking Points:**
 
@@ -789,21 +789,21 @@ The episodes starts with a short history of the World Wide Web from a scholarly 
 6. The titles of the fields, specify the keys - or properties of the JSON object...
 7. which are assigned their respective values.
 8. For metadata records in general, these conventions or constrains can be set by metadata schemas. These schemas are defined in the same data format as the expected metadata record, such as XML or JSON. Again, this allows for parsing and automated validation.
-9. This means, XML schemas are written in XML and JSON schema is written in JSON. So far, we have written JSON object literals and we will be further focusing on JSON...
+9. This means, XML schemas are written in XML and JSON Schema is written in JSON. So far, we have written JSON object literals and we will be further focusing on JSON...
 10. so we will take a deeper look on JSON Schema.
-11. On the right, you see a simple JSON schema, which follows the JSON schema conventions. This is indicated by the "$schema"-key. The `$`-sign in JSON indicates to a reference and we can give the schema-specifications as URL. We will tackle the topic of referencing in metadata records later in this lesson.
+11. On the right, you see a simple JSON Schema, which follows the JSON Schema conventions. This is indicated by the "$schema"-key. The `$`-sign in JSON indicates to a reference and we can give the schema-specifications as URL. We will tackle the topic of referencing in metadata records later in this lesson.
 12. The schema specifies keys - or properties - that require to enter a data value. In this case...
 13. The superhero property is required and expects an entry of data type: string.
 14. A second property is defined: power. However, power is not listed in the required properties, so it is optional.
 15. Coming back to the data types: This schema describes a JSON **object** in which the superhero-value should be a **string** and the power-value needs to be of data type **integer**. And for the human reader, some meaningful descriptions are added to describe the individual properties.
 16. So based on this example schema, the object on top would be valid. A string-value is assigned to the required property. The bottom object, however, does not conform with the schema and would throw an error, as the value data type is not a string. **It is important to know, that schema validation only checks for syntactical validity. In this case, it only checks, whether the object contains the required property:value pair and whether the value conforms with the expected data type. To prevent nonsensical values, a meaningful property description can be of great help."
 17. <i>(allow for some time for questions)</i>
-18v. Before we write a JSON schema for our roller coaster experiment data, let's get back to the customer information form and design a JSON schema, that enforces the data entries for this form together.
+18v. Before we write a JSON Schema for our roller coaster experiment data, let's get back to the customer information form and design a JSON Schema, that enforces the data entries for this form together.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-# Guided confrontation: Live coding a JSON schema
+# Guided confrontation: Live coding a JSON Schema
 
 The concept of a schema can be overwhelming for learners with little to no prior knowledge. To prepare the learners for Challenge 4, we recommend to include an **interactive live coding session**. The following instructions and suggestions are based on the narrative we follow in our course set-up.
 
@@ -839,9 +839,9 @@ The concept of a schema can be overwhelming for learners with little to no prior
       <li>`"Date of birth"`: specify `date`-format.</li>
     </ul>
   <li> **The specified keywords represent the `"properties"` of the `customerInformation`-object**</li>
-  <li> the `"properties"`-key of a JSON schema object takes a value of data type `object` -> *enclose the specified field-objects in curly brackets*</li>
-  <li> collaboratively define the JSON schema keys `"title"`, `"description"`, and `"type"`</li>
-  <li> highlight, that a JSON schema is a **JSON object literal** -> *enclose the schema-object in curly brackets*</li>
+  <li> the `"properties"`-key of a JSON Schema object takes a value of data type `object` -> *enclose the specified field-objects in curly brackets*</li>
+  <li> collaboratively define the JSON Schema keys `"title"`, `"description"`, and `"type"`</li>
+  <li> highlight, that a JSON Schema is a **JSON object literal** -> *enclose the schema-object in curly brackets*</li>
   <li> Finally, draw the learners attention to the **mandatory** fields in the customer information form and introduce the `"required"`-keyword</li>
 </ul>
 
@@ -855,13 +855,13 @@ The concept of a schema can be overwhelming for learners with little to no prior
 
 **Time estimate**: 5 min
 
-1. Let's briefly recap on the most important characteristics of a JSON schema.
+1. Let's briefly recap on the most important characteristics of a JSON Schema.
   - each of the properties in the schema are described in objects.
   - the data type of a property is specified by the key `type`.
   - if you want to further specify the format of a data entry, use the key `format`.
   - mandatory data entries are given by the key `required` in an array.
   - for controlled lists, you specify the given values in an array and the key `enum`.
-2. The complete specifications for JSON schema can be found on json-schema.org.
+2. The complete specifications for JSON Schema can be found on json-schema.org.
 3. If you develop a schema, that is supposed to be used by a group of people, the most challenging part can be to have everyone agree on the same expectations.
 3. <i>(Allow for some time for questions.)</i>
 4. We will now head back to our roller coaster data. In your collaboration you spend some time in discussing your expectations on the metadata, that is necessary to record with the data. But finally you have created an example JSON object, basically the ideal metadata record for the experiment within your collaboration. To enforce this metadata structure, you want to write a JSON schema. As this can get very lengthy...
@@ -1049,7 +1049,7 @@ During the discussion, ask the group of learners, whether someone encountered a 
 </ul>
 
 **Description:**<br>
-This episode is an introduction to the concept and technology of Persistent Identifiers (PIDs) on the World Wide Web. The learners are familiarized with the technology of client-server communication on the web, learn to differenciate between URN, URL, URI, and PID, and get to know  PID services commonly used in the scientific community. Further, the application of (Persistent) Identifiers in metadata records is discussed.
+This episode is an introduction to the concept and technology of *persistent identifiers* (PIDs) on the World Wide Web. The learners are familiarized with the technology of client-server communication on the web, learn to differentiate between URN, URL, URI, and PID, and get to know  PID services commonly used in the scientific community. Further, the application of (persistent) identifiers in metadata records is discussed.
 
 **Talking Points:**
 
@@ -1318,7 +1318,7 @@ For more information go to the <a href="general-lesson-information.html#lightnin
 </ul>
 
 **Description:**<br>
-This module concludes the lesson. An overview about the past two days is given. The learners provide their feedback on the lesson. The instructors feedback the learners.
+This module concludes the lesson. An summarizing overview of the past two days is given. The learners provide their feedback on the lesson. The instructors give feedback to the learners.
 
 **Talking Points:**
 
