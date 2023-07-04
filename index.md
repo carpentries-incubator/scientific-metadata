@@ -40,7 +40,7 @@ This course is targeted at scientific staff and researchers from all fields who 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Dear instructor
 
-we prepared some <a href="general-lesson-information.html"> General Lesson Information</a> for you as a starting point :smile:
+We prepared some <a href="general-lesson-information.html"> General Lesson Information</a> for you as a starting point :smile:
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

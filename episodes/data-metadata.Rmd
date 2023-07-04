@@ -14,7 +14,7 @@ Press.](fig/jeffreyPomerantzQuote.png){alt="Quote by Monya Baker saying 'Data is
 ::: questions
 -   What is data and what is metadata?
 -   How is metadata classified?
--   Where can I find (meta)data in every day examples?
+-   Where can I find (meta)data in everyday examples?
 -   What are worst and good enough practices of metadata handling in the
     scientific context?
 :::
@@ -45,7 +45,7 @@ Press.](fig/jeffreyPomerantzQuote.png){alt="Quote by Monya Baker saying 'Data is
 8. Knowledge is intrinsified information. For example, knowing where on the image the cathedral is located.
 9. The highest level of information content is wisdom, which means putting the acquired knowledge into context, the bigger picture. You might use the satellite image to navigate between to locations, for example. Naturally, as researchers, we strive to reach wisdom with our work.
 10. We have seen, that the information content increases by adding context, meaning, and insight to data.
-11. The take-away message is: Data is **potential information** and needs to be processed and contextualized** to make it accessible for the human audience.
+11. The take-away message is: Data is **potential information** and needs to be processed and **contextualized** to make it accessible for the human audience.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -108,15 +108,15 @@ Metadata is **a statement** about a potentially informative object.
 
 **Time estimate**:
 
-1. What is metadata? (<i>Direct this questions to the learners and wait for them to reply. They might come up with the generic "Data about data".</i>)
+1. What is metadata? (<i>Direct this question to the learners and wait for them to reply. They might come up with the generic "Data about data".</i>)
 2. Often metadata is described as "data about data", or - as Merriam Webster puts it - "metadata is data that provides information about other data". But this is extremely unspecific.
 3. If you look a bit further, you can find more detailed description of the term "metadata". Admittedly, these text are seldomly...
 4. fun to read.
 5. Let's start - again - with an example. Let's say, you are looking for an informative book about the topic of metadata and decide to look for recommendations online...
 6. your search will result in about 1,5 million results. But you remember a colleague, that has recently talked about a very good book on metadata...
-7. you ask him about it and he gives you a well-meaning description of said book. "It is black and the title is 'metadata'. It was written by Jeff... Jeff... Something."
-8. Okay, this is not really precise but you take these information to your favourite search engine and you will most likely come up with this ...
-9. book. Metadata by Jeffrey Pomerantz published in the MIT Press Essential Knowledge series. So far, you have absolutely no idea about the content of the book - the actually data that is hold by it. However, with just a few clues on the title, author, and design, you can identify the ressource. You did this by using "metadata". Let's stay with this example for a bit and take a look inside... 
+7. you ask him about it, and he gives you a well-meaning description of said book - "It is black, and the title is 'metadata'. It was written by Jeff... Jeff... Something."
+8. Okay, this is not really precise, but you take this information to your favourite search engine, and it will most likely come back with this ...
+9. book: "Metadata" by Jeffrey Pomerantz, published in the MIT Press Essential Knowledge series. So far, you have absolutely no idea about the content of the book - the actually data it contains. However, with just a few clues on the title, author, and design, you can identify the resource. You did this by using "metadata". Let's stay with this example for a bit and take a look inside... 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -127,17 +127,17 @@ Metadata is **a statement** about a potentially informative object.
 
 **Time estimate**:
 
-1. On one of first pages, you will find a lot of information about the book...
-2. You will get information on author, publisher, keywords and so on, that are descriptive in nature and can help you - or librarians - to successfully identify this specific book. Among these is a very important descriptor...
+1. On one of the first pages, you will find a lot of information about the book...
+2. You will get information about the author, publisher, relevant keywords and so on, that are descriptive in nature and can help you - or librarians - to successfully identify this specific book. Among these there is a very important descriptor...
 3. The persistent identifier. In the example of a book, this is the ISBN number. Whenever you look up this number, the result will unambiguously point to this specific title.
 4. Furthermore, you will get information about how the book is administered: How it is distributed, who is responsible for its distribution and which conditions need to apply.
 5. You can also find information on legal conditions that apply to this resource, such as copyright issues and the terms of distribution. Legal information can be considered as a subset of administrative information.
 6. And - really important - you will get a precise idea about the book's structure and how you can navigate it: the chapters, its general content and how it is distributed over the pages. But still: we have not yet read a single word, that actually delivers the content of the book - its data.
 7. So, metadata - or metainformation - is more or less structured data, that contains information about characteristics of other data (objects).
 8. Let's briefly reflect on the types of metadata, that we came across so far, before we apply these concepts in the first challenge for today: 
-  - descriptive metadata holds information about the intellectual content, such as title, author, abstract...
-  - administrative metadata specifies how a resource is managed. This can be terms of distribution and copyright information. Regarding published data, this also applies to technical information on the files included in a dataset or versioning...
-  - structural metadata describe, for example chapters in a book, file in a dataset, or software components.
+  - *descriptive metadata* holds information about the intellectual content, such as title, author, abstract...
+  - *administrative metadata* specifies how a resource is managed. This includes things such as the terms of (re-)distribution and copyright information. This also includes technical information about the data (such as files included in a dataset) or versioning information...
+  - *structural metadata* describe, for example chapters in a book, file in a dataset, or software components.
 9. (<i>allow some time for questions</i>)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -159,7 +159,7 @@ Borgman, 2015): "*Metadata is structured information that describes,
 explains, locates, or otherwise makes it easier to retrieve, use or
 manage an information resource*".
 
-## Types of metadata
+## Types of Metadata
 
 **Descriptive metadata** provides information about the intellectual
 content of a (digital) object (e.g. title, author, date of publication,
@@ -205,7 +205,7 @@ Allow for some time for the learners to navigate the websites and explore the me
   <li>**Fun fact:** *The Guardian* regularly uses a comment in the `head` of their html documents to advertise IT jobs :grin: </li>
 </ul>
 
-**White board:** <a href="../files/exampleChallenge1Whiteboard.pdf" target="_blank" download>example set-up</a>
+**Whiteboard:** <a href="../files/exampleChallenge1Whiteboard.pdf" target="_blank" download>example setup</a>
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -248,20 +248,20 @@ Allow for some time for the learners to navigate the websites and explore the me
 1. Now let's shift our focus on metadata annotation in the scientific context.
 2. I'm sure many of us have been in a similar situation. You start a new project that is based on the work of your predecessor or collaborators and you are supposed to start with reproducing the published results...
 3. You take a look at the accompnying publication and the data looks neat...
-4. But as soon as you open the underlying datasets, understanding the process on how this data was acquired is not so straight forward anymore. The variables might be hard to understand, there might be missing values, and the data cleaning is not necessarily apparent.
+4. But as soon as you open the underlying datasets, understanding the process on how this data was acquired is not so straight-forward anymore. The variables might be hard to understand, there might be missing values, and the performed data cleaning is not necessarily apparent.
 5. So you take a look at the experiment's documentation...
-6. A study by Monya Baker, that was published in Nature in 2016 was able to show, that more than 70% of researchers have tried and failed to reproduce another scientis's experiments. And more than half have even failed to reproduce their own experiments.
-7. The worst practice that you can encounter in your scientific life is surely data, saved under an inexplicit file name with no documentation whatsoever.
+6. A study by Monya Baker, that was published in Nature in 2016 was able to show, that more than 70% of researchers have tried and failed to reproduce another scientist's experiments. And more than half have even failed to reproduce their *own* experiments.
+7. The worst practice that you can encounter in your scientific life is surely data, saved under an uninformative file name, with no documentation whatsoever.
 8. Slightly better practice are lab notes, which are still widely used as the go-to documentation method in experimental scientific areas. Using lab notes as documentation method, you can facilitate the findability... 
 9. by assigning meaningful file names to your data. However...
 10. lab notes come with various disadvantages. Lab notes are usually taken continuously and over the course of a 3-year contract, several hundred pages of lab notes can accumulate.
-11. so even though lab notes allow for some kind of documentation, they are largely unstructured and subjective, rarely following templates or guidelines. The continous note taking makes the documentation hard to retrieve. They are physically seperated from the data they describe and remain in the hand of the experimentator or institution hosting the experiments, which makes them hard to share. And let's admit it, handwriting can be a pain to read.
+11. so even though lab notes allow for some kind of documentation, they are largely unstructured and subjective, rarely following templates or guidelines. The continuous note-taking makes the documentation hard to retrieve. They are physically seperated from the data they describe and remain in the hand of the experimentor or institution hosting the experiments, which makes them hard to share. And let's admit it - handwriting can be a *pain* to read.
 12. One way to store your documentation with your data, is README-style metadata... 
-13. Just like taking lab notes, Readme-style files can be subjectively written natural text documents. 
-14. You can also find templates for Readme-style metadata records. Sticking to these templates will allow for increased structure in your documentation records. Now that we document our data digitally, we have increased options to link the metadata record to the described dataset, for example by naming them accordingly...
-15. if you now want to find the results of a specific experiment on your computer, a local keyword search can help you to identify the dataset.
-16. To sum up, digital documentation of your metadata in form of Readme-style metadata records, facilitates the linkage of data and metadata, allows for local searchability and increased readability, and the digital nature of the Readme file simplifies targeted sharing of the documentation. However, these records are still rather unstructured and subjective, and only allow for keyword searches.
-17. If you want to have a look on a well-designed template for Readme-style metadata records, a recommended link is provided in the Episode description.
+13. Just like taking lab notes, README-style files can be simple, subjectively written natural text documents. 
+14. You can also find templates for README-style metadata records. Sticking to these templates will allow for increased structure in your documentation records. Now that we document our data digitally, we have increased options to link the metadata to the described dataset, for example by naming them accordingly...
+15. If you now want to find the results of a specific experiment on your computer, a local keyword search can help you to identify the dataset.
+16. To sum up, digital documentation of your metadata in form of README-style metadata records, facilitates the linkage of data and metadata, allows for local searchability and increased readability, and the digital nature of the README file simplifies targeted sharing of the documentation. However, these records are still rather unstructured and subjective, and only allow for keyword searches.
+17. If you want to have a look on a well-designed template for README-style metadata records, a recommended link is provided in the episode description.
 18. (<i>allow some time for questions</i>)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -270,14 +270,14 @@ Allow for some time for the learners to navigate the websites and explore the me
 practice in many scientific disciplines. These notes are easy to take
 during data generation. The greatest disadvantage, however, is the
 physical separation from the data itself and the difficulty to find,
-store and share these information. Often, handwritten lab notes do not
+store and share this information. Often, handwritten lab notes do not
 follow a predictable structure and, hence, are hard to interpret and
 sometimes even hard to read.
 
 **Readme style text documents** Recording your metadata (additionally)
-in a digital readme style text document comes with one great advantage:
+in a digital `README`-style text document comes with one great advantage:
 the metadata can be associated and stored directly with the experimental
-data. Readme style metadata best practices include:[^5]
+data. `README`-style metadata best practices include:[^5]
 
 [^5]: Chadwick, I. (2016). "Research Data Management: guide to
     writing"readme" type metadata." The Open University.
@@ -313,7 +313,7 @@ We strongly recommend to use <a href="https://cornell.app.box.com/v/ReadmeTempla
 **Type:** guided confrontation, collaboration
 
 **Objective:** <br>
-The learners apply their acquired knowledge about metadata identification and types on a familiar work situation.
+The learners apply their acquired knowledge about metadata identification and types in the context of a familiar work situation.
 
 **Implementation:** <br>
 <ul>
@@ -323,7 +323,7 @@ The learners apply their acquired knowledge about metadata identification and ty
 </ul>
 
 **Creator's recommendation**: <br>
-Use a white board application to display the journal publication. This allows for simultaneous highlighting / annotation of the findings and thus gives a visual response and documentation of the discussion. 
+Use a whiteboard application to display the journal publication. This allows for simultaneous highlighting / annotation of the findings and thus gives a visual response and documentation of the discussion. 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::: instructor

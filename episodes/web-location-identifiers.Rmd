@@ -59,10 +59,10 @@ We use [AHA slides](https://ahaslides.com/){target="_blank"} for live polling. S
 **Time estimate**: XX min
 
 1. (<i>Bridge from polling results to "Identifier & Web Locations"</i>)
-2. Remember the first lecture from yesterday? We have had a close look on the metadata in a book. Now if a librarian want to identify a specific publication...
+2. Remember the first lecture from yesterday? We have had a close look on the metadata in a book. Now if a librarian wants to identify a specific publication...
 3. they will use its ISBN number for unambiguous identification. This ISBN number follows a standardized structure, which gives valuable information about the resource, such as the group and publisher of the book. This ISBN number is globally unique. Which means it only exists for one specific book and will always lead to the same result, whereever you retrieve it.
-4. And these uniform resource identifiers also exist in the scientific context. Let me give you an example from molecular biology. Let's say, this scientists its is working on genetics and is interested in the functions of a specific gene in the model plant...
-5. <i>Arabidopsis thaliana</i>. Every gene in the genome / DNA is assigned with a unique identifier, that follows representation conventions. In the case of this model plant, the gene identifier holds information on the species, the chromosome, the type of sequence as well as its location on the chromosome. 
+4. And these uniform resource identifiers also exist in the scientific context. Let me give you an example from molecular biology. Let's say, this scientist is working on genetics and is interested in the functions of a specific gene in the model plant...
+5. <i>Arabidopsis thaliana</i>. Every gene in the genome / DNA is assigned a unique identifier that follows certain representation conventions. In the case of this model plant, the gene identifier holds information on the species, the chromosome, the type of sequence as well as its location on the chromosome. 
 6. To generalize, unique identification codes enable globally unique and persistent identification of a resource. These codes follow conventions in their representation and are registered centrally, enabling a uniform structure of these identifiers globally or in the user community. This makes unique identification codes unambiguous and referencable.
 7. (<i>Use this slide to collect unique identification codes in the research fields of the learners. We like to do this in a brief plenary discussion, asking the learners to share unique identifiers, they use regularly and what they represent.</i>)
 8. Now we will take this concept of uniform identifiers to the web.
@@ -76,7 +76,7 @@ We use [AHA slides](https://ahaslides.com/){target="_blank"} for live polling. S
 16. And for this we take the URL that retrieves the information for our gene example.
 17. So let's decode this character set: The resource we are looking for, is...
 18. hosted on a specific server. On this server, a certain file path needs to be followed, that will lead to the resource. The final resource might be stored in a data base structure. So the necessary query parameter are specified that lead to the data base entry for the requested resource. And don't forget, we will need to follow a specific protocol, in this case HTTPS, in order to communicate with the host server. HTTPS is an extension of the Hypertext Transfer Protocol, that uses encryption technology for secure communication on the network.
-19. If we now enter this URL in our browser, the browser sends a HTTP request to the host server.
+19. If we now enter this URL in our browser, the browser sends a HTTP request to the server.
 20. This request specifies, that the browser wants to **GET** a resource stored under a **specific path** from the **host** and follows the specific HTTP protocol that is used for communication, so which is also expected by the browser of the server response.
 21. The host server than looks up the specified file path locally. Finds the requested file and...
 22. sends back the HTTP response, with the requested resource.
@@ -97,10 +97,10 @@ We use [AHA slides](https://ahaslides.com/){target="_blank"} for live polling. S
 
 **Narrative / Teaching script**: <br>
 <ul>
-  <li><i>Share an empty browser tap on your screen.</i></li> 
+  <li><i>Share an empty browser tab on your screen.</i></li> 
   <li><i>Open the network editor.</i> </li>
   <li><i>Open any desired website in your browser. This might be a good point to share your organizational, institutional, or personal homepage with the learners for some "hidden" marketing</i> :wink:.</li>
-  <li><i>You can whitness all the requests and responses in the network editor, while the page is loading</i>.</li>
+  <li><i>You can witness all the requests and responses in the network editor, while the page is loading</i>.</li>
   <li><i>Highlight that each element - html documents, images, etc - require individual requests in order to build the website and the `200: ok` status codes that are send back with the resources.</i></li>
   <li>**Optional:** <i>Take a closer look on the different status codes or the HTTP responses.</i></li>
   <li><i>Enforce an Error 404, e.g. by deleting one character in the file path. The status code 404 will appear in the status code column of the network editor.</i></li>
@@ -111,7 +111,7 @@ We use [AHA slides](https://ahaslides.com/){target="_blank"} for live polling. S
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-## Lecture: Persistent Identifier
+## Lecture: Persistent Identifiers
 
 **Slide set**: <a href="../files/slideSet/PersistentIdentifier_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>PersistentIdentifier.pdf</a>
 
@@ -119,18 +119,18 @@ We use [AHA slides](https://ahaslides.com/){target="_blank"} for live polling. S
 
 1. Simplified, there could be two reasons, why you end up with a 404 status code: Either you can't spell, or the resource path is broken.
 2. How do path's break.
-3. The URL you want to retrieve points to specific resources, stored on the host server. But within the life cycle of an online resource, several events can take place.
+3. The URL you want to retrieve points to specific resources, stored on the server. But within the life cycle of an online resource, several events can take place.
 4. The file path on the host server might change, the resource might be migrated to a different host server, or the resource might simply be deleted. In any of these cases, the URL does not specify the exact location of the resource any longer and will no longer be retrievable by the server adressed by the GET-request you send from your browser. This process is also referred to as "link rot". Remember, that we classified the URL as a form of Uniform Resource Identifier? This means, that link rot leads results in the resource loosing a very important identifier!
 5. Web technology has a solution for this issue: Persistent Identifiers or short, PIDs.
 6. Like our other persistent and unique identifiers, such as ISBN numbers, PIDs are long-lasting references to digital objects on the web. Any resource that has a representation on the web - articles, datasets, persons, instruments - can have a PID assigned. These PIDs remain constant over time, lead directly to the resource - so they also give information on the location and protocol - and, thus, ensure permanent identifiability, refencabilty and retrievability of online resources.
-7. The technology behind PIDs is fairly trivial. In PID databases, a PID is mapped to a URL, that retrieves a resource. Even though the URL changes, due to server migration or changes in the file path, the PID remains consistent.
+7. The technology behind PIDs is fairly simple. In PID databases, a PID is mapped to a URL, that retrieves a resource. Even though the URL changes, due to server migration or changes in the file path, the PID remains consistent.
 8. If you activate a hyperlink in your browser to retrieve a resource without a PID service included, your browser will directly communicate with the host server to retrieve a resource.
 9. If the requested resource is identified by a PID, the underlying PID service will be contacted by the browser. The PID service will then query its database for the PID, identify the current URL of the resource and redirect the request to the host server.
 10. So when the location of the resource changes...
 11. a PID will not lead to unretrievable resources and rotten links...
 12. as the new URL is stored in the PID database and the activated link will redirect the request to the new location.
-13. It is important to know, that the PID service **only** provides the **technical infrastructure** for redirections. The owner of the host server of the requeste resource - which could be a privat person, a journal that published an article or a repository that holds a dataset - **is responsible for updating the URL**. For example: You publish an article and one of the journals features is, that they assign a DOI to this article. If the journal now changes the digital location of your article on their server, the journal is responsible to inform the PID provider - DOI - about the changes and update the location.
-14. As we have seen in our poll at the beginning of this lecture, many of you are already familiar with Digital Object Identifiers and ORCID Ids. Other PIDs that ar frequently used in the scientific context are Persisten Uniform Resource Locators, RORs - the Research Organization Registry, and ARKS - Archival Resource Keys.
+13. It is important to know, that the PID service **only** provides the **technical infrastructure** for redirections. The owner of the server of the requested resource - which could be a private person, a journal that published an article or a repository that holds a dataset - **is responsible for updating the URL**. For example: You publish an article and one of the journals features is that they assign a DOI to this article. If the journal now changes the digital location of your article on their server, the journal is responsible to inform the PID provider - DOI - about the changes and update the location.
+14. As we have seen in our poll at the beginning of this lecture, many of you are already familiar with Digital Object Identifiers and ORCIDs. Other PIDs that are frequently used in the scientific context are Persistent Uniform Resource Locators, RORs - the Research Organization Registry, and ARKS - Archival Resource Keys.
 15. <i>allow for some time for questions</i>
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -199,20 +199,20 @@ A **Persistent Identifier (PID)** is a long-lasting reference to digital objects
 ## PID services
 
 A **PID service** operate as a persistent look-up service that redirects GET requests for digital resources to the latest URL of this resource.<br>
-**The host of the digital resource is responsible to update the resource's location with the PID service after the location changed.** <br><br>
+**The host of the digital resource is responsible for updating the resource's location wiith the PID service after the location changed.** <br><br>
 
 **Frequently used PIDs in the scientific context are:**
 <ul>
   <li>Digital Object Identifier (<a href="https://www.doi.org/index.html" target="_blank">DOI</a>)</li>
   <li>Persistent Uniform Resource Locator (PURL, e.g. <a href="https://purls.helmholtz-metadaten.de/" target="_blank">PIDA</a>)</li>
   <li>International Standard Book Number (<a href="https://www.isbn-international.org/content/what-isbn" target="_blank">ISBN</a>)</li>
-  <li><a href="https://orcid.org/0000-0002-1825-0097" target="_blank">ORCID iD</a></li>
+  <li>Open Researcher and Contributor ID(<a href="https://orcid.org/0000-0002-1825-0097" target="_blank">ORCID</a>)</li>
   <li>Research Organization Registry(<a href="https://ror.org/" target="_blank">ROR</a>)</li>
 </ul>
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Web locations and scientific (meta)data
+## Web Locations and Scientific (Meta)data
 
 ::::::::::::::::::: callout
 

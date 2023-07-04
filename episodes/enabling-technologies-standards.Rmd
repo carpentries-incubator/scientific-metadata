@@ -12,20 +12,20 @@ output:
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- What are the benefits of creating / using a metadata schema / standard?
+- What are the benefits of creating or using standards and metadata schemas?
 - How do you find a suitable metadata standard or terminology for your research field online?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Understand, read and write XML / JSON schema.
-- Find research field specific metadata standards and terminologies.
+- Understand, read and write XML / JSON Schema.
+- Find metadata standards and terminologies relevant to your scientific domain.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 
-## The Web is not the internet
+## The Web Is Not the Internet
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Lecture: A brief history of the World Wide Web
@@ -35,14 +35,14 @@ output:
 **Time estimate**: 10 min
 
 1. Before we dive deeper into the topic of metadata and how we can make it more accessible, we would like to travel a few decades back to the beginnings of the World Wide Web.
-2. After three decades, browsing the internet, catching up with friends and family on social media, online shopping and streaming the latest shows, we tend to forget that the World Wide Web was actually created by and for the scientific community. 
+2. After three decades of browsing the internet, catching up with friends and family on social media, online shopping and streaming the latest shows, we tend to forget that the World Wide Web was actually created by and for the scientific community. 
 3.When the researchers Tim Berners-Lee and Robert Cailliau - both working at the CERN research centre - proposed their idea of the World Wide Web, they intended to meet the demand for automated information-sharing between **scientists in universities and institutes around the world**. So the World Wide Web was, from its beginning, meant to facilitate scientific data exchange.
 4. And even long before the World Wide Web, the scientific community developed protocols that enabled the digital sharing of data, such as hypertext in the 1960s, the Transmission Control Protocol/Internet Protocol (TCP/IP) in the 1970s and Mail Transfer Protocols in the 1980s.
-5. Based on these early protocols, the building blocks of todays World Wide Web were developed. HTML is still the standard markup language for documents designed to be interpreted by and displayed in web browsers. The HyperText Transfer Protocol, which is an application layer protocol to ensure client server communication on the Web. And URIs, Uniform Resource Identifiers, which uniquely identify resources on the web and ensure their accessibility and retrievability.
+5. Based on these early protocols, the building blocks of todays World Wide Web were developed - HTML, which is still the standard markup language for documents designed to be interpreted by and displayed in web browsers. The HyperText Transfer Protocol, which is an application layer protocol to ensure client server communication on the Web. And URIs, Uniform Resource Identifiers, which uniquely identify resources on the web and ensure their accessibility and retrievability.
 6. We will come back to this technology later in this lesson in more detail.
-7. A crucial element for the broad implementation of the World Wide Web was the creation of a web browser to interpret and display HTML documents that is compatible across various operating systems. This actually achieved Nicola Pellow in 1990, who, at this time, was an undergraduate intern at CERN (<i>little feminist side note</i> :wink:).
-8. Within the scientific community, the World Wide Web was an immediate success. Already in 1991, the arXiv preprint repository switched from email dissemination of manuscripts to HTTP. The picture on the right gives an insight how scientific article were distributed before the World Wide Web. You couldn't simply click on any article that you found on Google Scholar and download it - provided it isn't hidden behind a pay wall - and decide later, whether it was helpful or not. You needed to exactly know, which article you want to study, contact the archiving repository, wait for an actual human being to retrieve the article, scan it and send it back to you. (<i>To reactivate the learners, you can ask them at this point, who has a folder on their drive for "unread articles" or "articles to read".</i>). The first German institute to connect a web server to the Web, was the "Deutsches Elektronen-Synchrotron DESY. (<i>Well, the lesson was created within the Helmholtz Association in Germany, which makes this a nice Fun Fact for the original audience.</i>). 
-9. Today the web hosts so many repositories - for research articles and data, global, local, research field overarching or specific - that it becomes hard to find the right repository for the resource you want to retrieve or upload. Needless to say that you can find several repositories for repositories online. To sum it up, the World Wide Web was originally created to share data between scientists and scientific institutions and it succeeded so well, that today it is barely imaginable to conduct research without the web.
+7. A crucial element for the broad implementation of the World Wide Web was the creation of an application that can interpret and display HTML documents - a web browser - that  is compatible across various operating systems. This was actually achieved Nicola Pellow in 1990, who, at this time, was an undergraduate intern at CERN (<i>little feminist side note</i> :wink:).
+8. Within the scientific community, the World Wide Web was an immediate success. Already in 1991, the arXiv preprint repository switched from email dissemination of manuscripts to HTTP. The picture on the right gives an insight how scientific article were distributed before the World Wide Web. You couldn't simply click on any article that you found on Google Scholar and download it - provided it isn't hidden behind a paywall - and decide later, whether it was helpful or not. You needed to exactly know which article you want to study, contact the archiving repository, wait for an actual human being to retrieve the article, scan it and send it back to you. (<i>To reactivate the learners, you can ask them at this point, who has a folder on their drive for "unread articles" or "articles to read".</i>). The first German institute to connect a web server to the Web was the "Deutsches Elektronen-Synchrotron DESY. (<i>Well, the lesson was created within the Helmholtz Association in Germany, which makes this a nice Fun Fact for the original audience. Feel free to substitute with some other relevant institution relevant to your learners</i>). 
+9. Today the web hosts so many repositories for research articles and data - global, local, very general or highly domain-specific - that it becomes hard to find the right repository for the resource you want to retrieve or upload. Needless to say that you can find several repositories for repositories online. To sum it up, the World Wide Web was originally created to share data between scientists and scientific institutions, and it succeeded so well, that today it is barely imaginable to conduct research without the Web.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -50,8 +50,8 @@ In 1989 researchers Tim Berners-Lee and Robert Cailliau started their HyperText 
 
 The WWW is a service on the application layer of the internet protocol stack TCP/IP (**T**ransmission **C**ontrol **P**rotocol/**I**nternet **P**rotocol) -- invented by Vint Cerf and Robert (Bob) Elliot Kahn in the 1970s.
 
-The World Wide Web main building blocks are:
-- HTML markup language with "hyperlinks"
+The main building blocks of the World Wide Web are:
+- HTML (**H**yper**T**ext **M**arkup **L**anguage) with "hyperlinks"
 - HTTP (**H**yper**T**ext **T**ransfer **P**rotocol)
 - URI (**U**niform **R**esource **I**dentifier)
 
@@ -72,41 +72,41 @@ So-called **web repositories** store and publish (scholarly) digital objects -- 
 
 ## Metadata Schemas
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: callout 
-**A metadata schema is a template** which exemplifies the metadata elements expected and how they should be structured.
+**A metadata schema is a template** which precisely describes the metadata elements expected and how they should be structured.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-## Lecture: Metadata schemas
+## Lecture: Metadata Schemas
 
 **Slide set**: <a href="../files/slideSet/MetadataSchemas_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>MetadataSchemas.pdf</a>
 
 **Time estimate**: 10 min
 
-1. Even though the World Wide Web has provided the means of sharing information with individuals and broad communities easily, we have experienced yesterday and in our daily live as researchers, that simply sharing data does not guarantee the reusability of these information. And we have all experienced the yearning for guidelines on how these information should be provided. So we will now introduce you to metadata schemas. (<i>You can also show a slide with the JSON object literal results from day 1 at this point or learner quotes from the result discussion of Challenge 3.</i>)
-2. With a metadata schema, it is possible to express expectations on how a metadata record should be structured and even enforce this structure.
-3. An example for enforced - or validated - data submission we are probably all familiar with, is the classic customer information form, that you need to fill, when you are placing an order in an online shop. 
+1. Even though the World Wide Web has provided the means of sharing information with individuals and broad communities easily, we have experienced yesterday and in our daily life as researchers, that simply sharing data does not guarantee the reusability of this information. And we have all experienced the yearning for guidelines on how these information should be provided. So we will now introduce you to metadata schemas. (<i>You can also show a slide with the JSON object literal results from day 1 at this point or learner quotes from the result discussion of Challenge 3.</i>)
+2. With a metadata schema, it is possible to express requirements on how a metadata record should be structured and even enforce this structure.
+3. An example for validated and enforced data submission we are probably all familiar with is the classic customer information form that you need to fill if you want to order something in an online shop. 
 4. We know these asterisks, that tell us, that these data entries are required. Some entries only allow string values, like the name, or specific formats, like e-mail addresses and will throw an error as soon as you diverge from the expected data type or format. Or you have a fixed subset of values, which you can pick from a drop-down list.
-5. If you press submit, the data in this form will be validated and, if it passes this validation, stored or used in other applications. Which means, that it will be stored and transmitted in a lightweight data format, such as JSON.
-6. The titles of the fields, specify the keys - or properties of the JSON object...
+5. If you press submit, the data in this form will be validated and, if it passes this validation, stored or used in other applications. Which means, that it will be stored and transmitted in some suitable common data format such as JSON.
+6. The names of the fields specify the keys - or properties of the JSON object...
 7. which are assigned their respective values.
 8. For metadata records in general, these conventions or constrains can be set by metadata schemas. These schemas are defined in the same data format as the expected metadata record, such as XML or JSON. Again, this allows for parsing and automated validation.
 9. This means, XML schemas are written in XML and JSON schema is written in JSON. So far, we have written JSON object literals and we will be further focusing on JSON...
 10. so we will take a deeper look on JSON Schema.
-11. On the right, you see a simple JSON schema, which follows the JSON schema conventions. This is indicated by the "$schema"-key. The `$`-sign in JSON indicates to a reference and we can give the schema-specifications as URL. We will tackle the topic of referencing in metadata records later in this lesson.
+11. On the right, you see a simple JSON Schema, which is a JSON object that is following the JSON Schema standard. This is indicated by the "$schema"-key. The `$`-sign in JSON indicates to a reference and we can give the schema-specifications as URL. We will tackle the topic of referencing in metadata records later in this lesson.
 12. The schema specifies keys - or properties - that require to enter a data value. In this case...
 13. The superhero property is required and expects an entry of data type: string.
 14. A second property is defined: power. However, power is not listed in the required properties, so it is optional.
 15. Coming back to the data types: This schema describes a JSON **object** in which the superhero-value should be a **string** and the power-value needs to be of data type **integer**. And for the human reader, some meaningful descriptions are added to describe the individual properties.
 16. So based on this example schema, the object on top would be valid. A string-value is assigned to the required property. The bottom object, however, does not conform with the schema and would throw an error, as the value data type is not a string. **It is important to know, that schema validation only checks for syntactical validity. In this case, it only checks, whether the object contains the required property:value pair and whether the value conforms with the expected data type. To prevent nonsensical values, a meaningful property description can be of great help."
 17. <i>(allow for some time for questions)</i>
-18v. Before we write a JSON schema for our roller coaster experiment data, let's get back to the customer information form and design a JSON schema, that enforces the data entries for this form together.
+18. Before we write a JSON schema for our roller coaster experiment data, let's get back to the customer information form and design a JSON schema that enforces the data entries for this form together.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 # Guided confrontation: Live coding a JSON schema
 
-The concept of a schema can be overwhelming for learners with little to no prior knowledge. To prepare the learners for Challenge 4, we recommend to include an **interactive live coding session**. The following instructions and suggestions are based on the narrative we follow in our course set-up.
+The concept of a schema can be overwhelming for learners with little to no prior knowledge. To prepare the learners for Challenge 4, we recommend to include an **interactive live coding session**. The following instructions and suggestions are based on the narrative we follow in our course setup.
 
 **Time**: 8 min
 
@@ -130,13 +130,13 @@ The concept of a schema can be overwhelming for learners with little to no prior
 **Narrative / Teaching script**: <br>
 <ul>
   <li>*start off with 2 indentations*</li>
-  <li>demonstrate specifying the first property in the form `"Full Name"` by entering a meaningful `"description"` and `"type":"string"`</li>
+  <li>demonstrate specifying the first property in the form `"Full Name"` by entering a meaningful `"description"` and `"type": "string"`</li>
   <li> encourage the learners to shout out the values (and keys), that specify the subsequent form properties.</li>
   <li> highlight the following aspects: </li>
     <ul>
       <li>`"Country/Region"`: to restrict a value to a fixed set of values, the keyword `"enum"` is used. Fixed values are specified in an `array` of unique elements.</li>
-      <li>`"Number of super powers"`: introduce `"type":"number"`</li>
-      <li>`"E-mail"`: introduce the `"format"`-keyword. `"format":"email"` validates against the correct formatting of an e-mail address (`someString` - `@-sign` - `domain name`). However, it does check, whether the e-mail address exists.</li>
+      <li>`"Number of super powers"`: introduce `"type": "number"`</li>
+      <li>`"E-mail"`: introduce the `"format"`-keyword. `"format": "email"` validates against the correct formatting of an e-mail address (`someString` - `@-sign` - `domain name`). However, it does **not** check whether the e-mail address exists.</li>
       <li>`"Date of birth"`: specify `date`-format.</li>
     </ul>
   <li> **The specified keywords represent the `"properties"` of the `customerInformation`-object**</li>
@@ -185,7 +185,7 @@ There are also some `descriptions` added for the human reader.
 }
 
 ```
-A JSON instance is syntactically valid, if it conforms to the definition described by the JSON schema. Note, that the JSON Schema `required` keyword holds a list of keys that must be present for a JSON object to be considered a valid instance of this schema.
+A JSON entity is syntactically valid and is called **instance** of a schema, if it conforms to the definition described by the JSON schema. Note, that the JSON Schema `required` keyword holds a list of keys that must be present for a JSON object to be considered a valid instance of this schema.
 
 ```json
 {
@@ -205,18 +205,18 @@ The most challenging part of schema development can be to **have everyone agree 
 **Time estimate**: 5 min
 
 1. Let's briefly recap on the most important characteristics of a JSON schema.
-  - each of the properties in the schema are described in objects.
+  - each of the properties in the schema is described in a separate object.
   - the data type of a property is specified by the key `type`.
   - if you want to further specify the format of a data entry, use the key `format`.
-  - mandatory data entries are given by the key `required` in an array.
+  - mandatory data entries are given by the key `required` in an array, and **not** inside the `properties` section, but parallel to it
   - for controlled lists, you specify the given values in an array and the key `enum`.
 2. The complete specifications for JSON schema can be found on json-schema.org.
-3. If you develop a schema, that is supposed to be used by a group of people, the most challenging part can be to have everyone agree on the same expectations.
+3. If you develop a schema that is supposed to be used by a group of people, the most challenging part can be to have everyone agree on the same expectations.
 3. <i>(Allow for some time for questions.)</i>
 4. We will now head back to our roller coaster data. In your collaboration you spend some time in discussing your expectations on the metadata, that is necessary to record with the data. But finally you have created an example JSON object, basically the ideal metadata record for the experiment within your collaboration. To enforce this metadata structure, you want to write a JSON schema. As this can get very lengthy...
 5. you agree to distribute the schema definition amongst the collaborators.
 6. We will now head back to the breakout rooms in groups and work on Challenge 4 and 5. In challenge 4 you will discuss and develop an excerpt of the roller coaster JSON schema.
-7. And in Challenge 5 you will be introduced to an online tool, with which you can put your work invested into the schema into use.
+7. After that, in Challenge 5, you will be introduced to an online tool that shows how you can benefit from the work you invested into writing the schema.
 8. (<i>Specify the time, when the learners are expected to be back in the lecture setting.</i>)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -225,12 +225,12 @@ The most challenging part of schema development can be to **have everyone agree 
 ## Challenge: JSON schema / Form input & validation with JSON schema
 
 The following challenges 4 & 5 will be processed **consecutively in groups of 5 - 6 learners**.
-We made the experience, that changing the group composition for these tasks benefits the overall collaborative atmosphere. 
+We made the experience that changing the group composition for these tasks benefits the overall collaborative atmosphere. 
 
 **Total time:** 30 min
 
 **Implementation:** <br>
-In accordance with challenges 2 & 3, we recommend using a pre-structured shared notes document with the gorups.
+As for the challenges 2 & 3, we recommend using a pre-structured shared notes document with the groups.
 
 **Shared notes:** <br>
 You can find an example Markdown file for the group handouts <a href="../files/exampleGroupHandout.txt" target="_blank">**HERE**</a>. This document is optimized for use in a Hedgedoc document. 
@@ -242,27 +242,27 @@ You can find an example Markdown file for the group handouts <a href="../files/e
 **Challenge type:** group activity, production
 
 **Objective:** <br>
-By writing a short excerpt of a JSON schema, the learner get familiar with the schema syntax, gain the ability to read and understand a schema, and get to know some important JSON schema keywords. By writing the schema in a group set-up, the learner experience the discussion process as a crucial part of schema development.
+By writing a short excerpt of a JSON Schema, the learner gets familiar with the schema syntax, gains the ability to read and understand a schema, and gets to know some important JSON Schema keywords. By writing the schema in a group setup, the learners experience the discussion process as a crucial part of schema development.
 
-##### <u>Challenge 5: Form input & validation with JSON schema</u>
+##### <u>Challenge 5: Form Input & Validation with JSON Schema</u>
 
 **Time:** 10 min
 
 **Challenge type:** group activity **OR** individual exploration
 
 **Objective:** <br>
-By downloading and inspecting the final JSON schema, the learners comprehend the complexity a metadata schema can acquire. With the implementation of the schema in the UI of the react-jsonschema-form playground, the learners bring the developed schema into use, get to know a software tool, they can benefit from, and experience relieve of the frustration after Challenge 3.
+By downloading and inspecting the final JSON Schema, the learners comprehend the complexity a metadata schema can acquire. With the implementation of the schema in the UI of the react-jsonschema-form playground, the learners bring the developed schema into use, get to know a software tool they can benefit from, and experience relief of the frustration after Challenge 3.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: challenge
 ## Challenge 4: JSON Schema
     
-After a couple of researchers upload their JSON metadata records to the project repository it becomes obvious that well-formed JSON metadata describing similar experiments can still be expressed in myriad ways.
+After a couple of researchers upload their JSON metadata records to the project repository, it becomes obvious that well-formed JSON metadata describing similar experiments can still be expressed in a myriad of ways.
 
 Your collaboration decides to develop a metadata schema to standardize metadata records across the project. Consensus is encoded in a JSON Schema.
 
-**Now its your task to help with the subschema for experimental conditions!**
+**Now it is your task to help with the subschema for experimental conditions!**
 
 In the following **code block** you see valid JSON metadata that describes experimental conditions as agreed on in the project.
 <br>
@@ -290,7 +290,7 @@ In the following **code block** you see valid JSON metadata that describes exper
 
 In the following code block you see the JSON schema draft for the experimental conditions. Your collaborators already modelled constraints and valid values for `ride` and `testPerson`.<br>
 
-**Discuss and add constraints to `recording` property.**
+**Discuss and add constraints to the `recording` property.**
 
 - `testDevice`, `testDeviceFixture` and `testApp` are **mandatory properties** for the **`recording`** object
 - **`testDevice`** value must be one of:
@@ -521,8 +521,8 @@ We must admit: writing a valid JSON metadata record for each and every experimen
 <ul>
   <li>Download the full JSON schema here: <a href="files/exampleDataObject_schema.json" target="_blank" download>exampleDataObject_Schema.json</a></li>
   <li>Inspect the JSON schema briefly</li>
-  <li>In your browser go to <a href="https://rjsf-team.github.io/react-jsonschema-form/" target="_blank">react-jsonschema-form playground</a>.</li> 
-  <li>Delete sample content in `JSONschema` and `formData`</li>
+  <li>In your browser, go to the <a href="https://rjsf-team.github.io/react-jsonschema-form/" target="_blank">react-jsonschema-form playground</a>.</li> 
+  <li>Delete the sample content in `JSONschema` and `formData`</li>
   <li>Copy and paste the full schema into the `JSONschema` box</li>
   <li>Check again if Chuck Norris properties reappeared in `formData` results; he can be tough :smile:</li>
   <li>Inspect the form interface thoroughly.</li>
@@ -530,7 +530,7 @@ We must admit: writing a valid JSON metadata record for each and every experimen
 </ul>  
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: hint
 ## Good to know
-Note that the JSON Schema used for this demo **lacks the recommended `$schema` keyword**: this is because the playground will reject the keyword.
+Note that the JSON Schema used for this demo **lacks the recommended `$schema` keyword**: this is because the playground will unfortunately reject the keyword. You should always follow the best practices when writing a schema, but sometimes some adaptations are needed to make them work in different situations.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -575,7 +575,7 @@ The learners are aware of the advantages of a metadata schema and metadata recor
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-## Lecture: Summary - Annotating the example data
+## Lecture: Summary - Annotating the Example Data
 
 **Slide set**: <a href="../files/slideSet/SummaryExampleDataAnnotation_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>SummaryExampleDataAnnotation.pdf</a>
 
@@ -686,7 +686,7 @@ During the discussion, ask the group of learners, whether someone encountered a 
 
 - The WWW was developed in from and for the **scientific community** to connect researchers worldwide and enable **sharing information**
 - Metadata schemas serve as **template** and **validation matrix** for metadata records 
-- JSON schemas are **JSON object literals**
+- JSON Schemas are special **JSON object literals** describing how other JSON must look like
 - Well-established metadata schemas have the potential to become a (community) **standard**
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
