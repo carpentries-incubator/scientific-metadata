@@ -15,6 +15,6 @@ In her free time, you can find Silke in the bouldering gym, giving yoga classes 
 <span style="display:flex;">
 <span>
 <h4 style="display:flex;">Annika Strupp</h4>
-turpis tincidunt id aliquet risus feugiat in ante metus dictum at tempor commodo ullamcorper a lacus vestibulum sed arcu non odio euismod lacinia at quis risus sed vulputate odio ut enim blandit volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum non consectetur a erat nam at lectus urna duis convallis convallis tellus id interdum velit laoreet id donec ultrices tincidunt arcu non sodales neque sodales ut etiam sit amet nisl purus in mollis nunc sed id semper risus in hendrerit gravida rutrum quisque non tellus orci ac auctor augue mauris augue neque gravida </span>
+Annika is currently pursuing a master's degree in Digital Data Management at Humboldt-Universität zu Berlin and Potsdam University of Applied Sciences. From 2021 to 2023, she worked as a data steward (and trainer) in the Helmholtz Metadata Collaboration Hub Information, hosted at Forschungszentrum Jülich. Previously, she was a web analytics consultant in marketing technology, but she has also been a specialist journalist in the fashion industry and a seamstress. Annika holds an engineering degree in textile and clothing technology. In her free time, she is an avid reader and internet history enthusiast. </span>
 <img src="fig/portraitAnnika.png" align="right" height="300px" alt="Young woman with a friendly smile and crossed arms." class="figure mx-auto d-block"></span>
 
