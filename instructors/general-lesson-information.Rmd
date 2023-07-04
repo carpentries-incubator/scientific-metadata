@@ -32,7 +32,7 @@ title: General Lesson Information
 
 thank you for your interest in our training course **"Fundamentals of Scientific Metadata"**. 
 
-On this page, we would like to give you a brief overview on the course material. Detailed teaching instructions can be found in the <a href="instructor-guide.html" target="_blank">instructor guide</a>.
+On this page, we would like to give you a brief overview of the course material. Detailed teaching instructions can be found in the <a href="instructor-guide.html" target="_blank">instructor guide</a>.
 
 This lesson was designed to be taught on two consecutive days, spanning 4 hours a day.
 A detailed schedule is included in the instructor guide.
@@ -42,7 +42,7 @@ A detailed schedule is included in the instructor guide.
 ### Instructor Guide
 In the instructor guide, we will provide you with all the detailed information on lesson structure and schedule, additional content, and recommendations necessary to teach this lesson. 
 
-Also included in the instructor guide, you can find `talking points` for lectures, challenges, live coding and other content. Lecture talking points contain download links for the accompanying slide sets. Of course you are free to use your own slides and take our talking points as a guide line. All of these `Talking points` can also be found in the instructor notes of the individual episodes.
+Also included in the instructor guide, you can find `talking points` for lectures, challenges, live coding and other content. Lecture talking points contain download links for the accompanying slide sets. Of course, you are free to use your own slides and take our talking points as a guideline. All of these `Talking points` can also be found in the instructor notes of the individual episodes.
 
 **Examples of talking points:**
 (<i>Additional information for instructors is written in italics</i>)
@@ -96,7 +96,8 @@ For these challenges, we prepare handouts for each group in Markdown-based share
 ### Example Data
 The lesson starts by introducing a barely annotated dataset, which operates as the base of the whole lesson. Throughout the episodes, the learners will gradually be supplied with more information about this dataset, annotate it with the given information and continuously improve the accompanying metadata to improve its findability, accessibility, interoperability and reusability.
 
-This lesson was designed for a heterogenous group of learners from diverse research areas. Hence we decided to use a dataset, that is unlikely to appear in the scientific context, yet has the possibility to be applied as such.<br>
+This lesson was designed for a heterogeneous group of learners from diverse research areas. Hence, we decided to use a dataset that is unlikely to appear in the scientific context, yet has the possibility to be applied as such.
+
 The attached dataset holds information on the biomechanical acceleration of a human body experienced througout the ride of the roller coaster "Colossus" at Thorpe Park, Surrey, England (you can find more information [here](https://apparentlysew.weebly.com/stem-blog/using-accelerometers-on-roller-coasters-thorpe-park){target="_blank"}). 
 
 We added variable names, transformed the time values and added a mock "scream detected" variable with boolean values based on [this onride video](https://www.youtube.com/watch?v=KeKIBSN2F5c){target="_blank"}.
@@ -118,9 +119,9 @@ In the Instructor guide, we included sections labelled "Episode 0: Housekeeping"
 <br>
 
 ### Lightning Talk
-We made very good experiences with closing the lesson with a **lightning talk**, that focusses on the application of structured metadata in research, gives an insight into data annotation with metadata in practice, or demonstrates a recent (scientific) software development in the metadata field. For this section, we usually invite an external speaker and assign **45 min** including discussions to the schedule of day 2. 
+We had very good experiences closing the lesson with a **lightning talk** that either focuses on the application of structured metadata in research, gives an insight into data annotation with metadata in practice, or demonstrates a recent (scientific) software development in the metadata field. For this section, we usually invite an external speaker and assign **45 min** including discussions to the schedule of day 2. 
 
-In our 2 day approach, we end at lunch time on the second day, which allows for extra time for discussions with the speaker. The lightning talk so far got great feedback from the learners.
+In our 2 day approach, we end at lunchtime on the second day, which allows for extra time for discussions with the speaker. The lightning talk so far got great feedback from the learners.
 
 <br>
 
