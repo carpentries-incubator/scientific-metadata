@@ -84,7 +84,7 @@ exercises: 60
 11. Booleans... 
 12. Boolean values in JSON have one of two possible values. It is either true or false.
 13. Null...
-14. Assigning the data type NULL does not mean the same as zero but rather that no value was assigned to this variable. You might be familiar with other representations, such as NA or nan. If you read a JSON object into Python, for example, NULL will be parsed as nan.
+14. Assigning the data type NULL does not mean the same as zero but rather that no value was assigned to this variable. You might be familiar with other representations, such as NA or nan. If you read a JSON object into Python, for example, NULL will be parsed as `None`.
 15. Values in JSON can also be arrays. For example, John has two parents, Anna and Michael.
 16. An array is a collection of multiple elements and can be understood as a list of values. The data elements within an array can have the same data type or vary in their data types.
 17. Last but not least, a value can be another object. John has a pet and the value of the key "pet" is an object describing John's dog Brutus.

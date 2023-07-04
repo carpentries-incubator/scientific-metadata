@@ -64,7 +64,7 @@ HTML applies the ideas of HyperText and HyperMedia -- terms coined by <a href="h
 
 <br>
 
-HTTP is a simple protocol that sets communication rules for client and server software on the World Wide Web. For URI see chapter [(Web) Location & Identifiers](web-location-identifiers.html){target="_blank"}.
+HTTP is a simple protocol for communication between devices that store and provide resources ("server") and devices that want to access and update them ("clients") and is still the main protocol used on the World Wide Web. For URI see chapter [(Web) Location & Identifiers](web-location-identifiers.html){target="_blank"}.
 
 In 1992 Deutsches Elektronen-Synchrotron DESY in Hamburg connected a web server to the WWW. An even earlier adopter was the **arXiv preprint repository**. They switched from email to HTTP for manuscript dissemination in 1991.[^11]
 
@@ -118,7 +118,7 @@ The concept of a schema can be overwhelming for learners with little to no prior
 
 **Creators recommendation**: <br>
 <ul>  
-  <li>Introduce a customer information form as an example for data validation / enforcement in your lecture (see also: */include teaching script anchor/*).</li>
+  <li>Introduce a customer information form as an example for data validation / enforcement in your lecture.</li>
   <li>Open the image of the customer information form and an empty JSON file in **split-screen view**.</li>
 </ul>
 <a href="../../docs/files/liveCodingScreenshot.png" target="popup" onclick="window.open('../docs/files/liveCodingScreenshot.png,'popup','width=1200'); return false;" onMouseOver="document.liveCoding.src='../../docs/files/CLICKliveCodingScreenshot.png';" onMouseOut="document.liveCoding.src='../../docs/files/liveCodingScreenshot.png';"><span>
@@ -156,8 +156,7 @@ The <a href="https://json-schema.org/" target="_blank">**JSON Schema vocabulary*
 A simple JSON schema could look like the one below. It declares:
 <ul>
   <li>JSON Schema version with `$schema`</li>
-  <li>a list (an array) of required (i. e. mandatory) properties</li>
-  <li>one required property (i.e. ``"superhero"``)</li>
+  <li>a list (an array) of required (i. e. mandatory) properties with one required property (i.e. ``"superhero"``)</li>
   <li>one optional property (i.e. ``"power"``)</li>
   <li>data type constraints for record values (e.g. ``"type": "integer"``)</li>
 </ul>

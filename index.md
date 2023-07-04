@@ -27,7 +27,7 @@ This course is targeted at scientific staff and researchers from all fields who 
   <li>... you are looking for metadata standards and tools.</li>
 </ul><br>
 
-**You might want to look for advanced lessons, if...**
+**This lesson may not be what you are looking for if...**
 <ul style="list-style:none">
   <li>... you know the difference between a metadata schema and a standard.</li>
   <li>... you annotate your research data with structured metadata (XML, JSON, YAML).</li>
