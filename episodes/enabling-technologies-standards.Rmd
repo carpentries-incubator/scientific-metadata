@@ -48,8 +48,6 @@ output:
 
 In 1989 researchers Tim Berners-Lee and Robert Cailliau started their HyperText project called the WWW (**W**orld-**W**ide **W**eb, short Web) at the CERN research center in Geneva, Switzerland. The Web was developed to "meet the demand for automated information-sharing between scientists in universities and institutes around the world".[^10]
 
-The WWW is a service on the application layer of the internet protocol stack TCP/IP (**T**ransmission **C**ontrol **P**rotocol/**I**nternet **P**rotocol) -- invented by Vint Cerf and Robert (Bob) Elliot Kahn in the 1970s.
-
 The main building blocks of the World Wide Web are:
 - HTML (**H**yper**T**ext **M**arkup **L**anguage) with "hyperlinks"
 - HTTP (**H**yper**T**ext **T**ransfer **P**rotocol)
@@ -149,7 +147,7 @@ The concept of a schema can be overwhelming for learners with little to no prior
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-**XML Schemas (.xsd)** are written in XML and used to describe & syntactically validate the structure of XML documents or (meta)data records.[^12]
+**XML Schemas (.xsd)** are written in XML and used to describe & syntactically validate the structure of XML documents or (meta)data records.[^12] You might encounter XML Schemas while looking for certain standards relevant to your field of research. However, `xsd` is less frequently used for modern standards.
 
 The <a href="https://json-schema.org/" target="_blank">**JSON Schema vocabulary**</a> is used to describe & syntactically validate the structure of JSON (meta)data records. We will focus on **JSON Schema** in our next hands-on task. Each JSON schema is a JSON object literal by itself.[^13] 
     
