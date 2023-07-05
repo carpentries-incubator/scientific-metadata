@@ -92,7 +92,7 @@ exercises: 60
 19. The separation of data entities by commas in a JSON object literal is crucial.
 20. JSON is not sensitive to indentations and line breaks. However, indentation and line breaks can significantly increase the human readability of the JSON object literal. Now let's compare the JSON representation of this object with its XML representation...
 21. Both representations contain the same information. In XML the data value is stored between start and end tags, whereas in JSON, the value is assigned to a property and separated from other entries with a comma. Both representations allow for hierarchical data storage as seen for the description of John's pet. In JSON this is done by nesting objects, in XML the data entries are enclosed by `<pet>` tags. A difference can be seen in the representation for John's parents. Whereas an array is given in the JSON object literal, comparable lists do not exist in XML. Here the parents' names are enclosed individually with the same start and end tag.
-22. Besides XML and JSON, the third widely used standard data exchange format is YAML. All three formats can be parsed into one another.
+22. Besides XML and JSON, the third widely used standard data exchange format is YAML. JSON and YAML can be parsed into one another. 
 23. (<i>allow for some time for questions</i>)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
