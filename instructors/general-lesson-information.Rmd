@@ -7,16 +7,14 @@ title: General Lesson Information
   <div class="row g-0">
   |  | |
   | ------------ | -------------------------------------------------------- |
-  |  | :construction: **UNDER CONSTRUCTION** :construction: <br>will be adapted to `schema.org/Course` |
   | **Title** | Fundamentals of Scientific Metadata: Why Context Matters |
-  | **Abstract** | URL |
   |**Event format**| webinar / workshop |
   |**Environment**| online, makes use of breakout rooms (not adjusted/tested in physical setting yet) |
-  |**Scientific discipline**| generic (HMC Hub Information) |
+  |**Scientific discipline**| generic |
   |**Level**| beginner |
   |**Target group**| PhD candidates and early career postdocs, little prior knowledge of metadata (annotation), RDM - Bloom Level 1 / 2, participants do not know each other |
   |**Duration** | 420 min learning time, 4 breaks of 15 min |
-  |**Group size**| 15 (recommended for 2 instructors) |
+  |**Group size**| 15 (recommended for 2 - 3 instructors) |
   |**Prior knowledge**| none |
   |**Required equipment** | text editor, web browser |
   |**License** | https://creativecommons.org/licenses/by/4.0/ |
@@ -56,11 +54,10 @@ Also included in the instructor guide, you can find `talking points` for lecture
 
 **Talking points**:
 
-- In lecture talking points each bullet refers to one slide in the provided slide set 
-- So this point would be referring to slide 2.
+- In lecture talking points each bullet refers to one slide in the provided slide set.
+- The numbering of the bullets corresponds to the number of the slide in the slide set.
 - If a bullet ends with `...` ...
-- several slides are used to bring across the statement ...
-- in this case, ending with slide 5. 
+- several slides are used to bring across the statement.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
