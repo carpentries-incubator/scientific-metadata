@@ -136,7 +136,7 @@ Rigorous markup can make text (character strings) more accessible for computer a
 
 ## XML
 
-In contrast, the main purpose of **XML** (e**X**tensible **M**arkup **L**anguage) is **the transfer and storage of arbitrary data** on the World Wide Web.  XML is software- and hardware-independent. It is considered human-readable and allows for hierarchical (tree-like) structures. Data elements are wrapped in start `<...>` and end `</...>` "tags". XML tags can be customized by the author of the document, its markup is extensible.[^7]
+In contrast, the main purpose of **XML** (e**X**tensible **M**arkup **L**anguage) is **the transfer and storage of arbitrary data** on the World Wide Web.  XML is software- and hardware-independent. It is considered human-readable and allows for hierarchical (tree-like) structures. Data elements are wrapped in start `<...>` and end `</...>` "tags". XML tags can be customized by the author of the document, its markup is therefore not limited to a set of rules but **extensible**.[^7]
 
 ```xml
 <example>
