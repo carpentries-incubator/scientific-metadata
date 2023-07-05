@@ -285,15 +285,15 @@ data. `README`-style metadata best practices include:[^5]
 
 <ul>
 
-<li>creating one readme file for each data file, whenever possible.</li>
+<li>creating one `README` file for each data file, whenever possible.</li>
 
-<li>naming the readme in a way that it is easily associated with the
+<li>naming the `README` in a way that it is easily associated with the
 data file(s) it describes.</li>
 
-<li>writing the readme document as a plain text file for
+<li>writing the `README` document as a plain text file for
 interoperability.</li>
 
-<li>formatting multiple readme files identically.</li>
+<li>formatting multiple `README` files identically.</li>
 
 <li>where possible follow established conventions for scientific
 vocabulary (i.e. from glossaries or resources such as the <a href="https://goldbook.iupac.org/" target="_blank">IUPAC Gold
@@ -337,5 +337,5 @@ We recommend a **15 min break** at this point.
 -   Borders between **data** and **metadata** are fluid and depend on
     the context.
 -   **Scientific meta information** is often recorded in handwritten
-    (lab) notes. A better - though still limited - solution, is the documentation of scientific metadata in accompanying README-files
+    (lab) notes. A better - though still limited - solution, is the documentation of scientific metadata in accompanying `README` files
 :::
