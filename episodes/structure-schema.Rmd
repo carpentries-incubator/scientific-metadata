@@ -28,53 +28,53 @@ exercises: 60
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Lecture: Introduction to information transfer
 
-**Slide set**: <a href="../files/slideSet/DataTransfertIntro_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>DataTransfertIntro.pdf</a>
+**Slide set**: <a href="../files/slideSet/7_DataTransfertIntro_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>DataTransfertIntro.pdf</a>
 
 **Time estimate**: 5 min
 
-1. With the next episode, we are diving deaper into the topic of structured data and enhancing machine readability of our metadata records.
+1. With the next episode, we are diving deeper into the topic of structured data and enhancing machine readability of our metadata records.
 2. So far we have been talking about natural language communication. When the senior doctor gives a status update about a patient's condition to his colleague, the information is clear. Let's take this message apart and structure it...
-3. The message is concering a subject, namely the specific patient in room 305. It includes a location, the room number and it gives information about the current condition, "unchanged". Let's assume that both doctors were machines. Extracting this information from the natural language text wouldn't be as straight-forward...
-5. And the information needs to be structured in particular ways to make it easily transferrable and accessible for the receiving end. One popular and lightweight format to structure data is JSON, JavaScript Object Notation. We will take an in-depth look at JSON in the upcoming lectures.
+3. The message is concerning a subject, namely the specific patient in room 305. It includes a location, the room number and it gives information about the current condition, "unchanged". Let's assume that both doctors were machines. Extracting this information from the natural language text wouldn't be as straightforward...
+4. And the information needs to be structured in particular ways to make it easily transferrable and accessible for the receiving end. One popular and lightweight format to structure data is JSON, JavaScript Object Notation. We will take an in-depth look at JSON in the upcoming lectures.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Lecture: What is Markup, XML & JSON
 
-**Slide set**: <a href="../files/slideSet/WhatIsMarkupXmlJson_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>WhatIsMarkupXmlJson.pdf</a>
+**Slide set**: <a href="../files/slideSet/8_WhatIsMarkupXmlJson_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>WhatIsMarkupXmlJson.pdf</a>
 
 **Time estimate**: 15 min
 
 1. The first term that we will come across regularly throughout this lesson is *Markup*.
 2. You encounter markup continuously when you read a text. A period, for example, indicates the end of a declarative or imperative sentence, which results in the speaker briefly stopping to talk, if reading out loud. The question mark, on the other hand, declares a question and a speaker will, in many languages, raise their voice before pausing at the end of the sentence. In this sense, the punctuation - or Markup - is not part of the text or information by itself. It rather provides some additional information about the text.
-3. Essential for functional markup is that the sender, in case of a text - the writer, and the recipient - the reader - agree on the interpretation of the symbols used to markup the text. Shown here is an *interrobang*, a combination of question mark and exclamation point. (<i>You can reactivate the audience by asking them, whether someone is familiar with the definition of the interrobang or if they would know how to interprete it.</i>) The interrobang was proposed in the 1960s as a new punctuation mark to indicate a rhetorical question. As you might have guessed already, the proposal did not come very far.
+3. Essential for functional markup is that the sender, in the case of a text, the writer and the recipient - the reader - agree on the interpretation of the symbols used to markup the text. Shown here is an *interrobang*, a combination of a question mark and an exclamation point. (<i>You can reactivate the audience by asking them, whether someone is familiar with the definition of the interrobang or if they would know how to interpret it.</i>) The interrobang was proposed in the 1960s as a new punctuation mark to indicate a rhetorical question. As you might have guessed already, the proposal did not come very far.
 4. Markup can be distinguished into four different types:
   - punctuational markup, as seen in the previous examples.
   - presentational markup gives information on how the text should be displayed, which includes vertical or horizontal spacing, page breaks, and enumerations of lists. When enclosing text between two asterisks while writing Markdown, a Markdown interpreter will display this text in bold font face.
   - descriptive or declarative markup gives information on the type or class the enclosed text belongs to. In this example, the text was enclosed by an H1 opening and closing tag. HTML interpreters will now know, that this sentence is the most important headline on the page, regardless of how it is displayed.
-  - referential markup refers to entities external to the document. On a website, this marked up sentence would appear as a link and redirect the user to the specified URL, when activated.
-5. I'm certain all of us have manually marked up a document in one way or another, using a text marker while reading a journal publication or commenting a manuscript while reviewing it. These markups give information to the human reader: What is important in this text? Whis information are missing? Markup in computer files, however, is targetting a machine for interpretation. It declares how the content should be formatted or printed, or give additional information on the written words.
+  - referential markup refers to entities external to the document. On a website, this marked-up sentence would appear as a link and redirect the user to the specified URL, when activated.
+5. I'm certain all of us have manually marked up a document in one way or another, using a text marker while reading a journal publication or commenting on a manuscript while reviewing it. These markups give information to the human reader: What is important in this text? What information is missing? Markup in computer files, however, is targeting a machine for interpretation. It declares how the content should be formatted or printed, or give additional information on the written words.
 6. So from now on in this lecture, the term markup will refer to markup that targets computers, mainly descriptive and referential markup.
 7. Descriptive and referential markup, used rigorously, is a way to make data and natural text more accessible for computer analysis and can provide additional information for the human user as well. But we will come to that in a bit.
-8. We will first shift our focus to the importance of the interoperability of the data formats that we want to use to document our data and metadata. In the 1980s, roughly 10 years before the birth of the World Wide Web, the internet was already a thing and national and international data networks were emerging fast. This increased the need for standardized data transfer formats to facilitate the data exchange and interpretability on various machines in one network. One of the first industry standards for electronic publishing was the "Standard Generalized **Markup** Language", or SGML.
+8. We will first shift our focus to the importance of the interoperability of the data formats that we want to use to document our data and metadata. In the 1980s, roughly 10 years before the birth of the World Wide Web, the internet was already a thing and national and international data networks were emerging fast. This increased the need for standardized data transfer formats to facilitate data exchange and interpretability on various machines in one network. One of the first industry standards for electronic publishing was the "Standard Generalized **Markup** Language", or SGML.
 9. With the implementation of the World Wide Web, HTML - the HyperText **Markup** Language - became the standard language for web pages and has its roots in SGML. The markup tags of HTML and their interpretation are well-defined.  XML - the eXtensible **Markup** Language - on the other hand, was developed to transfer and store data on the World Wide Web. The tags are arbitrary, descriptive and can be defined by the user. Let's take a closer look.
-10. This XML example stores data in form of natural text (<i>point to the two sentences</i>) and a number (<i>highlight the "1"</i>). Each of these data elements is enclosed in a start and end end tag. As mentioned before, these tags can be defined arbitrarily, so we state, that the first sentence is the title, the second sentence is a description and the number one represents a word count. We can now introduce a data hierarchy, declaring that all these data elements describe one example. We could now look for the "title" of the "example" and retrieve the data stored between those tags. XML is software- and hardware-independent and still widely used as a data exchange format. Though XML is human-readable, enclosing the data between start and end tags is quite an effort and meddles with the clarity of this format. So we are leaving the realm of markup languages...
-11. to introduce another data exchange format, which is recommended as a standard from the W3 consortium: JSON. JSON is short for JavaScript Object notation. It is based on the representation for data objects in JavaScript - the main programming language of the Web - and bears all the advantages XML has shown, such as lightweight data exchange, software- and hardware-independence, and hierarchical structure - with an increased human-readability. For the remainder of this lesson, we will learn how to read, write and standardize JSON object literals.
+10. This XML example stores data in form of natural text (<i>point to the two sentences</i>) and a number (<i>highlight the "1"</i>). Each of these data elements is enclosed in a start and end tag. As mentioned before, these tags can be defined arbitrarily, so we state, that the first sentence is the title, the second sentence is a description and the number one represents a word count. We can now introduce a data hierarchy, declaring that all these data elements describe one example. We could now look for the "title" of the "example" and retrieve the data stored between those tags. XML is software- and hardware-independent and still widely used as a data exchange format. Though XML is human-readable, enclosing the data between start and end tags is quite an effort and meddles with the clarity of this format. So we are leaving the realm of markup languages...
+11. to introduce another data exchange format, which is recommended as a standard from the W3 consortium: JSON. JSON is short for JavaScript Object notation. It is based on the representation for data objects in JavaScript - the main programming language of the Web - and bears all the advantages XML has shown, such as lightweight data exchange, software and hardware independence, and hierarchical structure - with an increased human readability. For the remainder of this lesson, we will learn how to read, write and standardize JSON object literals.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Lecture: JSON Step-By-Step
 
-**Slide set**: <a href="../files/slideSet/JsonStepByStep_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>JsonStepByStep.pdf</a>
+**Slide set**: <a href="../files/slideSet/9_JsonStepByStep_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>JsonStepByStep.pdf</a>
 
-**Time estimate**:
+**Time estimate**: 7 min
 
-1. Let's have a closer look on the structure and syntax of JSON object literals. 
+1. Let's have a closer look at the structure and syntax of JSON object literals. 
 2. In this example we have a JSON object, which describes a person named John.
 3. Objects are enclosed in curly braces.
-4. Within these objects, data entities are stored in key-value-pairs.
+4. Within these objects, data entities are stored in key-value pairs.
 5. Keys are always of the data type "string"
 6. Data values can be given as one of the following data types. They can be given as...
 7. strings. 
@@ -88,12 +88,12 @@ exercises: 60
 15. Values in JSON can also be arrays. For example, John has two parents, Anna and Michael.
 16. An array is a collection of multiple elements and can be understood as a list of values. The data elements within an array can have the same data type or vary in their data types.
 17. Last but not least, a value can be another object. John has a pet and the value of the key "pet" is an object describing John's dog Brutus.
-18. Again, an object contains key-value pairs. These key-value-pairs are separated by commas and enclosed by curly braces. 
+18. Again, an object contains key-value pairs. These key-value pairs are separated by commas and enclosed by curly braces.
 19. The separation of data entities by commas in a JSON object literal is crucial.
 20. JSON is not sensitive to indentations and line breaks. However, indentation and line breaks can significantly increase the human readability of the JSON object literal. Now let's compare the JSON representation of this object with its XML representation...
-21. Both representations contain the same information. In XML the data value is stored between start and end tags, whereas in JSON, the value is assigned to a property and separated from other entries with a comma. Both representations allow for hierarchical data storage as seen for the description of John's pet. In JSON this is done by nesting objects, in XML the data entries are enclosed by `<pet>` tags. A difference can be seen in the representation for John's parents. Whereas an array is given in the JSON object literal, comparable lists do not exist in XML. Here the parents' names are enclosed individually with the same start and end tag.
+21. Both representations contain the same information. In XML the data value is stored between start and end tags, whereas in JSON, the value is assigned to a property and separated from other entries with a comma. Both representations allow for hierarchical data storage as seen for the description of John's pet. In JSON this is done by nesting objects, in XML the data entries are enclosed by `<pet>` tags. A difference can be seen in the representation for John's parents. Whereas an array is given in the JSON object literal, comparable lists do not exist in XML. Here the parents' names are enclosed individually with the same start and end tags.
 22. Besides XML and JSON, the third widely used standard data exchange format is YAML. JSON and YAML can be parsed into one another. 
-23. (<i>allow for some time for questions</i>)
+23. (<i>Allow some time for questions.</i>)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -182,12 +182,12 @@ Data exchange formats such as **XML** or **JSON** can be read and processed not 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Lecture: Challenge introduction
 
-**Slide set**: <a href="../files/slideSet/Challenge2and3_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>Challenge2and3.pdf</a>
+**Slide set**: <a href="../files/slideSet/10_challengeIntroduction_2_3_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>Challenge2and3.pdf</a>
 
-**Time estimate**:
+**Time estimate**: 3 min
 
 1. In the following challenges, we will apply what we have learned in the lectures so far to our example dataset. 
-2.You have inspected the data and realised quite rapidly, that you need more information on the data to make sense of it. So you ask your collaborators for additional meta-information.
+2.You have inspected the data and realized quite rapidly, that you need more information on the data to make sense of it. So you ask your collaborators for additional meta-information.
 3. They reply by sending you a README-style metadata file.
 4. However, your funding agency requires that you upload every dataset in your project to their public repository and attach a structured metadata record.
 5. In challenge 2, you will review the README-style metadata record and highlight all the information that you deem relevant to understand the data and reproduce the experiment.
@@ -199,12 +199,12 @@ Data exchange formats such as **XML** or **JSON** can be read and processed not 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Challenge: Identify metadata in README.txt / Write JSON metadata record
 
-The following challenges 2 & 3 will be processed **consecutively in groups of 5 - 6 learners**.
+The following challenges 2 & 3 will be processed **consecutively in groups of 4 - 6 learners**.
 
 **Total time:** 35 min
 
 **Implementation:** <br>
-Prepare shared notes documents for each group of learners attending the lesson. We have good experiences with copying the challenges into the documents and make space for collaborative working on the tasks. <br>
+Prepare shared notes documents for each group of learners attending the lesson. We have good experiences with copying the challenges into the documents and adding space for collaborative working on the tasks. <br>
 Try to be present with as many instructors as there are break-out rooms to moderate the discussions and answer questions.
 
 **Shared notes:** <br>
@@ -217,7 +217,7 @@ You can find an example Markdown file for the group handouts <a href="../files/e
 **Challenge type:** group activity
 
 **Objective:** <br>
-The learners practice the acquired knowledge of metadata identification in README style text formats.
+The learners practice the acquired knowledge of metadata identification in `README` style text formats.
 
 ##### <u>Challenge 3: Write JSON metadata record</u>
 
@@ -226,7 +226,7 @@ The learners practice the acquired knowledge of metadata identification in READM
 **Challenge type:** group activity
 
 **Objective:** <br>
-The learners create a structured JSON object literal, experience the difficulties in choosing meaningful key strings and value representations. 
+The learners create a structured JSON object literal and experience the difficulties in choosing meaningful key strings and value representations. 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -417,7 +417,7 @@ You can use this time to set up the plenary discussion.
 Display the final JSON object literals of the different groups next to each other. Allow for some time, so that the learners can compare the different results and identify similarities and differences. 
 
 **Objective:** <br>
-At this point, the learners should experience some form of frustration - the metadata is now structured and machine readable, yet interoperability and reusability haven't been achieved. This frustration is relieved in the next episode "**Enabling technolgy & Schemas**", when schemas and standards are introduced.
+At this point, the learners should experience some form of frustration - the metadata is now structured and machine-readable, yet interoperability and reusability haven't been achieved. This frustration is relieved in the next episode "**Enabling Technolgy & Standards**", when schemas and standards are introduced.
 
 **Leading questions:**<br>
 <ul>
@@ -430,7 +430,7 @@ At this point, the learners should experience some form of frustration - the met
 **Creator's recommendation:** <br>
 While moderating the discussion, pay attention to and highlight the following characteristics of the created JSON object literals:
 <ul>
-  <li>(if done correctly) all JSON object literals are **valid**, **functional** and **machine readable**</li>
+  <li>(if done correctly) all JSON object literals are **valid**, **functional** and **machine-readable**</li>
   <li>representation of key strings (e.g. camel case vs. snake case, capitalization)</li>
   <li>structure of the JSON object literal (e.g. nested objects vs. flat structure)</li>
   <li>value representation</li>

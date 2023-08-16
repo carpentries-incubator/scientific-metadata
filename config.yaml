@@ -17,23 +17,23 @@ title: 'Fundamentals of Scientific Metadata'
 created: ~
 
 # Comma-separated list of keywords for the lesson
-keywords: 'software, data, lesson, The Carpentries'
+keywords: 'metadata, JSON, schema, lesson, Helmholtz Metadata collaboration, HMC, scientific metadata, PID'
 
 # Life cycle stage of the lesson
 # possible values: pre-alpha, alpha, beta, stable
-life_cycle: 'pre-alpha'
+life_cycle: 'beta'
 
 # License of the lesson
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/carpentries/workbench-template-md'
+source: 'https://github.com/carpentries-incubator/scientific-metadata'
 
 # Default branch of your lesson
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'team@carpentries.org'
+contact: 'hmc@fz-juelich.de'
 
 # Navigation ------------------------------------------------
 #
@@ -68,6 +68,8 @@ episodes:
 
 # Information for Learners
 learners: 
+- reference.Rmd
+- meet-the-creators.Rmd
 - acknowledgements.Rmd
 
 # Information for Instructors
@@ -75,6 +77,7 @@ instructors:
 - instructor-notes.md
 - general-lesson-information.Rmd
 - instructor-guide.Rmd
+- meet-the-creators.Rmd
 - acknowledgements.Rmd
 
 # Learner Profiles

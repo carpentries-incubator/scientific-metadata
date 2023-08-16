@@ -2,8 +2,10 @@
 title: 'Acknowledgements'
 ---
 
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: callout
+The creators thank [Abril Azócar Guzmán](https://orcid.org/0000-0001-7564-7990), [Anton Pirogov](https://orcid.org/0000-0002-5077-7497), and Pedro Videgain-Barranco for their thorough review and helpful comments of this lesson. 
 
-:construction: Under Construction :construction:
+Special thanks go to [Volker Hofmann](https://orcid.org/0000-0002-5149-603X) und [Stefan Sandfeld](https://orcid.org/0000-0001-9560-4728) for their continuous support, supervision and feedback.
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+We are grateful to our dear colleagues within the Helmholtz Metadata Collaboration, for their feedback and discussions throughout the creation process.
+
+Thank you so much, to all our past and future learners for providing honest and open feedback. You made the creation and improvement process fun and helped a lot by sharing your wishes and opinions.

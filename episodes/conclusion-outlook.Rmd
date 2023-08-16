@@ -1,5 +1,5 @@
 ---
-title: 'Outlook: Linked Data'
+title: 'Outlook: Linked Data and the Semantic Web'
 teaching: 10
 exercises: 2
 ---
@@ -25,6 +25,14 @@ exercises: 2
 
 
 ## Linked Data & the Semantic Web
+
+Most search engines are based on keywords:
+<ul>
+  <li>results are high recall and low precision</li>
+  <li>results are highly sensitive to vocabulary</li>
+  <li>results are single human-readable web pages</li>
+  <li>**results do not support logical reasoning and query answering**</li>
+</ul>
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Lecture: Linked Data & JSON Ld
