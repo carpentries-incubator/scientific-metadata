@@ -4,7 +4,7 @@ teaching: 25
 exercises: 60
 ---
 
-![**Baker, M.** (2016) "1,500 scientists lift the lid on reproducibility.", _Nature_ **533**, 452 - 454. <a href="https://doi.org/10.1038/533452a" target="_blank">https://doi.org/10.1038/533452a</a>](fig/monyaBakerQuote.png){alt="Quote by Monya Baker in Nature from 2016, saying 'More than 70% of researchers have tried and failed to reproduce another scientist's experiments. More than half have failed to reproduce their own experiments.'"}
+![**Baker, M.** (2016) "1,500 scientists lift the lid on reproducibility.", _Nature_ **533**, 452 - 454.<a href="https://doi.org/10.1038/533452a" target="_blank">https://doi.org/10.1038/533452a</a>](fig/monyaBakerQuote.png){alt="Quote by Monya Baker in Nature from 2016, saying 'More than 70% of researchers have tried and failed to reproduce another scientist's experiments. More than half have failed to reproduce their own experiments.'"}
 <br>
 
 :::::::::::::::::::::::::::::::::::::: questions 
@@ -97,7 +97,7 @@ exercises: 60
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-**Markup** is not part of the natural text or content but tells something **about it** [^4], [^5]. By "marking up" a text document additional information on the structure, formatting and relationships within the document can be given. A familiar example are the annotations left by a teacher in a student's assay with a red pen [^5].  In order to make Markup work it is essential, that it follows determined rules, that are understood by the entity marking up the document and the interpreter alike. Markup languages in the digital context establish sets of rules that allow the machine to interpret the building blocks of the document. Some categories of markup are: 
+**Markup** is not part of the natural text or content but tells something **about it** [^4], [^5]. By "marking up" a text document additional information on the structure, formatting and relationships within the document can be given. A familiar example are the annotations left by a teacher in a student's assay with a red pen.[<sup>2</sup>](#fn2)  In order to make Markup work it is essential, that it follows determined rules, that are understood by the entity marking up the document and the interpreter alike. Markup languages in the digital context establish sets of rules that allow the machine to interpret the building blocks of the document. Some categories of markup are: 
 
 **Punctuational markup** -- for example -- is placing periods or question marks at the end of sentences.
 
@@ -132,7 +132,8 @@ Rigorous markup can make text (character strings) more accessible for computer a
 
 **HTML** (**H**yper**T**ext **M**arkup **L**anguage) is the standard markup language for web pages.
 
-![ [*] **Zender, C.** (2005) "Markup 101: Markup Basics.", SAS Institute. <a href="https://www.lexjansen.com/pharmasug/2005/Tutorials/tu12.pdf" target="_blank">https://www.lexjansen.com/pharmasug/2005/Tutorials/tu12.pdf</a>](fig/cynthiaZenderQuote.png){alt="Quote by Cynthia Zender, SAS Institue, saying 'To make markup work, the writer and the interpreter of the marked up content have to agree on the interpretation of the markup symbols.'"}
+![ * **Zender, C.** (2005) Cynthia Zender (2005). Markup 101: Markup Basics. <i>SAS Institute</i>. 
+<a href="https://www.lexjansen.com/pharmasug/2005/Tutorials/tu12.pdf" target="_blank">https://www.lexjansen.com/pharmasug/2005/Tutorials/tu12.pdf</a>](fig/cynthiaZenderQuote.png){alt="Quote by Cynthia Zender, SAS Institue, saying 'To make markup work, the writer and the interpreter of the marked up content have to agree on the interpretation of the markup symbols.'"}
 
 ## XML
 
@@ -459,6 +460,6 @@ While moderating the discussion, pay attention to and highlight the following ch
 [^4]: James H. Coombs et al. (November 1987). Markup Systems and the Future of Scholarly Text Processing. Communications of the ACM 30. http://xml.coverpages.org/coombs.html#Note1
 [^5]: Cynthia Zender (2005). Markup 101: Markup Basics. SAS Institute. https://www.lexjansen.com/pharmasug/2005/Tutorials/tu12.pdf
 [^6]: https://www.iso.org/standard/16387.html
-[^7]: "XML Tutorial". (C) 1999-2022. Refsnes Data, W3Schools. https://www.w3schools.com/xml/
-[^8]: https://www.ecma-international.org/publications-and-standards/standards/ecma-404/
-[^9]: "JSON Introduction". (C) 1999-2022. Refsnes Data, W3Schools. https://www.w3schools.com/js/js_json_intro.asp
+[^7]: <i>XML Tutorial.</i> (C) 1999-2022. Refsnes Data, W3Schools. https://www.w3schools.com/xml/
+[^8]: <i>ECMA-404 - ECMA International.</i> (2021, February 4). Ecma International. https://www.ecma-international.org/publications-and-standards/standards/ecma-404/
+[^9]: <i>JSON Introduction.</i> (C) 1999-2022. Refsnes Data, W3Schools. https://www.w3schools.com/js/js_json_intro.asp

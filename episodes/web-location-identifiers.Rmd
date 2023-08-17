@@ -274,4 +274,4 @@ A **PID service** operate as a persistent look-up service that redirects GET req
 - PIDs can be used to identify and retrieve metadata records.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
-[^16]: John Kunze (2018). "Ten persistent myths about persistent identifiers". https://escholarship.org/uc/item/73m910w8
+[^16]: Kunze, J. (2018, August 24). <i>Ten persistent myths about persistent identifiers.</i> https://escholarship.org/uc/item/73m910w8

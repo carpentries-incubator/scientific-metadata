@@ -707,9 +707,9 @@ During the discussion, ask the group of learners, whether someone encountered a 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-[^10]: https://home.cern/science/computing/birth-web
-[^11]: https://ar5iv.labs.arxiv.org/html/1709.07020
-[^12]: "XML Schema Tutorial". (C) 1999-2022. Refsnes Data, W3Schools. https: //www.w3schools.com/xml/schema_intro.asp
-[^13]: "Understanding JSON Schema. The basics", © Copyright 2013-2016 Michael Droettboom, Space Telescope Science Institute; Last updated on Feb 07, 2022. https://json-schema.org/understanding-json-schema/basics.html
-[^14]: https://www.dublincore.org/resources/metadata-basics/
-[^15]: https://www.iso.org/standard/71339.html
+[^10]: <i>The birth of the Web | CERN.</i> (2023, August 11). https://home.cern/science/computing/birth-web
+[^11]: <i>The arXiv of the future will not look like the arXiv.</i> (n.d.). Ar5iv. https://ar5iv.labs.arxiv.org/html/1709.07020
+[^12]: <i>XML Schema Tutorial.</i> (C) 1999-2022. Refsnes Data, W3Schools. https: //www.w3schools.com/xml/schema_intro.asp
+[^13]: <i>Understanding JSON Schema. The basics.</i> © Copyright 2013-2016 Michael Droettboom, Space Telescope Science Institute; Last updated on Feb 07, 2022. https://json-schema.org/understanding-json-schema/basics.html
+[^14]: <i>Metadata Basics.</i> (2018, December 15). https://www.dublincore.org/resources/metadata-basics/
+[^15]: <i>ISO 15836-1:2017.</i> (n.d.). ISO. https://www.iso.org/standard/71339.html

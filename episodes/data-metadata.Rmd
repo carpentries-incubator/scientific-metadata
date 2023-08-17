@@ -8,7 +8,7 @@ editor_options:
 ---
 
 ![Pomerantz, J. (2015). Metadata. Cambridge, MA: MIT
-Press.](fig/jeffreyPomerantzQuote.png){alt="Quote by Monya Baker saying 'Data is stuff. It is raw, unprocessed, possibly even untouched by human hands, unviewed by human eyes,, un-thought-about by human minds.'"}
+Press.](fig/jeffreyPomerantzQuote.png){alt="Quote by Jeffrey Pomerantz saying 'Data is stuff. It is raw, unprocessed, possibly even untouched by human hands, unviewed by human eyes,, un-thought-about by human minds.'"}
 <br>
 
 ::: questions
@@ -79,7 +79,7 @@ by human eyes, un-thought-about by human minds"[^1]. In other words,
 data is potential information, that requires processing and context to
 extract the information held within.
 
-[^1]: Pomerantz, J. (2015). Metadata. Cambridge, MA: MIT Press.
+[^1]: Pomerantz, J. (2015). <i>Metadata</i>. The MIT Press. https://doi.org/10.7551/mitpress/10237.001.0001
 
 Accordingly, **INFORMATION** is processed, human-consumable data. If
 this information is internalized by a human being, it is called
@@ -166,23 +166,17 @@ manage an information resource*".
 content of a (digital) object (e.g. title, author, date of publication,
 subject, description, unique identifier). [^2]
 
-[^2]: Zhang, A. B., Gourley, D. (2008). "Metadata strategy" in Creating
-    Digital Collections. Sawston, UK: Woodhead Publishing.
+[^2]: Zhang, A. B., Gourley, D. (2008). <i>Metadata strategy</i> in Creating Digital Collections: a practical Guide. Sawston, UK: Woodhead Publishing.
 
 **Administrative metadata** provides information to support the
 management of a resource (e.g. technical information regarding the
 file's creation and format, version, information about copyright,
-licence and intellectual property rights). [^3]
-
-[^3]: Zhang, A. B., Gourley, D. (2008). "Metadata strategy" in Creating
-    Digital Collections. Sawston, UK: Woodhead Publishing.
+licence and intellectual property rights). [<sup>2</sup>](#fn2)
 
 **Structural metadata** specifies the relationships between components
 of a (digital) object and between different (digital) objects (e.g.
-chapters in a book). [^4]
+chapters in a book). [<sup>2</sup>](#fn2)
 
-[^4]: Zhang, A. B., Gourley, D. (2008). "Metadata strategy" in Creating
-    Digital Collections. Sawston, UK: Woodhead Publishing.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Challenge 1: Real-world Metadata
@@ -280,9 +274,7 @@ in a digital `README`-style text document comes with one great advantage:
 the metadata can be associated and stored directly with the experimental
 data. `README`-style metadata best practices include:[^5]
 
-[^5]: Chadwick, I. (2016). "Research Data Management: guide to
-    writing"readme" type metadata." The Open University.
-    <https://www.open.ac.uk/library-research-support/sites/www.open.ac.uk.library-research-support/files/files/RDM-Guidelines-for-creating-readme-style-metadata.pdf>
+[^5]: Chadwick, I. (2016). <i>Research Data Management: guide to writing ”readme” type metadata.</i> The Open University. https://www.open.ac.uk/library-research-support/sites/www.open.ac.uk.library-research-support/files/files/RDM-Guidelines-for-creating-readme-style-metadata.pdf
 
 <ul>
 
