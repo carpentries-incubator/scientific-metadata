@@ -132,7 +132,7 @@ You want to contribute to this lesson? Please open an issue in this lesson's Git
 </a>
 <br>
 You want to share your experiences or have questions on this lesson? You can get in touch with the creators and maintainers by mail:<br>
-<a href="mailto:HMC@fz-juelich.de?subject=[Carpentries Incubator] Fundamentals of Scientific Metadata - get in touch"><span><img src="fig/mail.svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#383838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="float:left; padding-right:5px;"/> HMC at fz-juelich.de</span></a>
+<a href="mailto:HMC@fz-juelich.de?subject=[Carpentries Incubator] Fundamentals of Scientific Metadata - get in touch"><span><img src="fig/mail.svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#383838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="float:left; padding-right:5px;"/> HMC@fz-juelich.de</span></a>
 <br>
 For more information on the Helmholtz Metadata Collaboration (HMC) visit our homepage:
 <a href="https://helmholtz-metadaten.de/en" target="_blank">

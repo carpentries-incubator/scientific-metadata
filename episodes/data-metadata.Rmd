@@ -92,7 +92,7 @@ the data: **metadata**.
 ::: callout
 ## Information pyramid
 
-<img src="../docs/fig/informationPyramid.png" name="informationPyramid" alt="Information pyramid from glyphs to wisdom highlighting the data fracture. Text reads: Data is potential information and needs to be processed and contextualized to make it accessible for the human audience."/>
+![](fig/informationPyramid.png){name="informationPyramid" alt="Information pyramid from glyphs to wisdom highlighting the data fracture. Text reads: Data is potential information and needs to be processed and contextualized to make it accessible for the human audience."}
 
 :::
 
