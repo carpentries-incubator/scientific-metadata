@@ -265,7 +265,106 @@ A **PID service** operate as a persistent look-up service that redirects GET req
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+Assigning your Web publications (journal articles, datasets, code, etc.) with a PID holds more advantages than persistent retrievability of the resource. Many PID providers ask you to provide metadata for the published resource and **store the metadata record alongside the resource**. This metadata in return is accessible by machines via the PID.
 
+PIDs can be used in metadata records as a **synonym** for an associated resource (e.g. a dataset, a person). In case of the researcher's ORCiD ID, the ORCiD record stores all the metadata about a person that this person has provided and can be retrieved by the ORCiD API. In the metadata record, that is associated with this researcher, the ORCiD can be specified in the description.
+
+```json
+{
+  "fileName": "exampleData.csv",
+  "date": "2022-02-28",
+  "type": "dataset",
+  "creator": {
+    "creatorName": "Bruce Wayne",
+    "ORCID": "https://orcid.org/0000-0002-1201-3114"
+  }
+}
+```
+
+The metadata stored in the ORCID record would resolve to:
+
+```json
+{
+	"given-names": "Bruce",
+	"family-name": "Wayne",
+	"credit-name": "Bruce Wayne",
+	"other-names": "Batman",
+	"researcher-urls": [{
+			"type": "researcher-url",
+			"url": "https://www.dc.com/characters/batman",
+			"url-name": "Justice League"
+		},
+		{
+			"type": "researcher-url",
+			"url": "https://twitter.com/Batman",
+			"url-name": "Twitter"
+		}
+	],
+	"email": [
+		"b.wayne@ivnm-gotham.com",
+		"batman@justic-league.org"
+	],
+	"address": {
+		"country": "USA",
+		"state": "New Jersey",
+		"city": "Gotham City",
+		"zip-code": "08302",
+		"street": "Wayne Rd 1"
+	},
+	"employment": [{
+			"department-name": "Institute for Vigilance and Nightly Motion",
+			"start-date": {
+				"year": 1955,
+				"month": 8,
+				"day": 15
+			},
+			"organization": {
+				"name": "Justice League",
+				"address": {
+					"city": "Gotham City",
+					"region": "New Jersey",
+					"country": "USA",
+					"disambiguated-organization-identifier": "https://ror.org/05jl9bm63"
+				}
+			}
+		},
+		{
+			"department-name": "Board of leaders",
+			"start-date": {
+				"year": 1939,
+				"month": 3,
+				"day": 30
+			},
+			"organization": {
+				"name": "Wayne Enterprises",
+				"address": {
+					"city": "Gotham City",
+					"region": "New Jersey",
+					"country": "USA",
+					"disambiguated-organization-identifier": "https://ror.org/04we5bw33"
+				}
+			}
+		},
+		{
+			"department-name": "Executive Office",
+			"start-date": {
+				"year": 1945,
+				"month": 4,
+				"day": 1
+			},
+			"organization": {
+				"name": "Wayne Foundation",
+				"address": {
+					"city": "Gotham City",
+					"region": "New Jersey",
+					"country": "USA",
+					"disambiguated-organization-identifier": "https://ror.org/02eo4wf52"
+				}
+			}
+		}
+	]
+}
+```
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
