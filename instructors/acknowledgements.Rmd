@@ -2,10 +2,14 @@
 title: 'Acknowledgements'
 ---
 
-The creators thank [Abril Azócar Guzmán](https://orcid.org/0000-0001-7564-7990), [Anton Pirogov](https://orcid.org/0000-0002-5077-7497), and Pedro Videgain-Barranco for their thorough review and helpful comments of this lesson. 
+We thank our colleagues at the [Institute for Advanced Simulation - Materials Data Science and Informatics (IAS-9) at Forschungszentrum Jülich](https://www.fz-juelich.de/de/ias/ias-9) and within the [Helmholtz Metadata Collaboration](https://helmholtz-metadaten.de/en), for their feedback on the course content, helpful comments and thorough review of the lesson. Specifically we thank [Abril Azócar Guzmán](https://orcid.org/0000-0001-7564-7990), [Anton Pirogov](https://orcid.org/0000-0002-5077-7497), [Pedro Videgain-Barranco](https://orcid.org/0000-0003-0000-4784), and [Said Fathalla](https://orcid.org/0000-0002-2818-5890).
 
-Special thanks go to [Volker Hofmann](https://orcid.org/0000-0002-5149-603X) und [Stefan Sandfeld](https://orcid.org/0000-0001-9560-4728) for their continuous support, supervision and feedback.
+Thanks to all participants of past and future courses for providing honest and open feedback. You made the creation and improvement process fun and helped a lot by sharing your wishes and opinions.
 
-We are grateful to our dear colleagues within the Helmholtz Metadata Collaboration, for their feedback and discussions throughout the creation process.
+This training course was created by the [Hub Information](https://helmholtz-metadaten.de/en/information/uebersicht) of the [Helmholtz Metadata Collaboration (HMC)](https://helmholtz-metadaten.de/en) at [Forschungszentrum Jülich](https://www.fz-juelich.de/de/ias/ias-9), an incubator-platform of the Helmholtz Association within the framework of the Information and Data Science strategic initiative]
 
-Thank you so much, to all our past and future learners for providing honest and open feedback. You made the creation and improvement process fun and helped a lot by sharing your wishes and opinions.
+<div style="display:flex;">
+<img src="https://github.com/Materials-Data-Science-and-Informatics/Logos/raw/main/HMC/HMC_Logo_M.png" alt="HMC" style="height:86px; padding:20px;" float/>
+
+<img src="https://github.com/Materials-Data-Science-and-Informatics/Logos/blob/main/FZJ/Logo_FZ_Juelich_898x261_rgb_jpg.jpg?raw=true" alt="FZJ" style="width:200px; padding:20px;"/>
+</div>

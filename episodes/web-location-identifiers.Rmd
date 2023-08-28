@@ -227,7 +227,7 @@ Each of these events will result in the **404 error** response. To avoid these b
 A **Persistent Identifier (PID)** is a long-lasting reference to digital objects such as websites, articles, datasets, persons or organizations. PIDs are **globally unique** and **persistent over time**. Assigning a PID to a digital resource ensures its permanent indentifiability, accessibility, and referenciability.[^16] <br><br>
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: callout
-## PID services
+## PID Services
 
 A **PID service** operate as a persistent look-up service that redirects GET requests for digital resources to the latest URL of this resource.<br>
 **The host of the digital resource is responsible for updating the resource's location wiith the PID service after the location changed.** <br><br>

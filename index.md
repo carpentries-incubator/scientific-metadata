@@ -44,10 +44,13 @@ We prepared some <a href="general-lesson-information.html"> General Lesson Infor
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-<p>This lesson was created by the **Helmholtz Medatada Collaboration** Hub Information.</p>
-<a href="https://helmholtz-metadaten.de/en" target="_blank"><span><img src="https://github.com/carpentries-incubator/scientific-metadata/blob/awesome_dev/episodes/fig/HMC_Logo_RGB_Blue.png?raw=true" alt="HMC logo" height="30" style="float:left"/></span></a> <br><br>
-
-This is a new lesson built with [The Carpentries Workbench][workbench]. 
 <br><br>
 
-[workbench]: https://carpentries.github.io/sandpaper-docs
+<p>This training course was created by the [Hub Information](https://helmholtz-metadaten.de/en/information/uebersicht) of the [Helmholtz Metadata Collaboration (HMC)](https://helmholtz-metadaten.de/en) at [Forschungszentrum Jülich](https://www.fz-juelich.de/de/ias/ias-9), an incubator-platform of the Helmholtz Association within the framework of the Information and Data Science strategic initiative]
+
+<div style="display:flex;">
+<img src="https://github.com/Materials-Data-Science-and-Informatics/Logos/raw/main/HMC/HMC_Logo_M.png" alt="HMC" style="height:86px; padding:20px;" float/>
+
+<img src="https://github.com/Materials-Data-Science-and-Informatics/Logos/blob/main/FZJ/Logo_FZ_Juelich_898x261_rgb_jpg.jpg?raw=true" alt="FZJ" style="width:200px; padding:20px;"/>
+</div><br><br>
+

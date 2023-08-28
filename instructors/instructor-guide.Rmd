@@ -16,7 +16,7 @@ title: Instructor Guide
   <div class="row g-0">
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> | Episode | Description |
 | :-----: | :---: | ------------------------------- |
-| --- | [1](#episode-1-getting-started) | <u>[**Getting Started**](#episode-1-getting-started)</u><br><i>This episode is not part of the actual teaching content. It will be sent to the learners prior to the lesson. It contains one brief challenge that encourages the learners to engage with the example data object. The learners' experience will be shared during the first Episode 0: Housekeeping session.</i> |
+| --- | 1 | <u>**Getting Started**</u><br><i>This episode is not part of the actual teaching content. It will be sent to the learners prior to the lesson. It contains one brief challenge that encourages the learners to engage with the example data object. The learners' experience will be shared during the first Episode 0: Housekeeping session.</i> |
 </div>
 </div>
 
@@ -27,7 +27,7 @@ title: Instructor Guide
 | :-----: | :---: | ------------------------------- |
 | 35 min | [0](#episode-0-housekeeping) | <u>[**Housekeeping**](#episode-0-housekeeping)</u><br>The lesson starts with an introduction by the instructors, and usually the hosting organization, to the learners. The learners introduce themselves briefly and report on their first impressions of the example data object. Scope and schedule of the lesson are outlined. |
 | 80 min | [2](#episode-2-data-metadata) | <u>[**Data and Metadata**](#episode-2-data-metadata)</u><br>The learners get an introduction to data and metadata in everyday life and research contexts. Descriptive, administrative, and structural metadata are distinguished. The learners conduct a guided online search (URLs are provided) and explore the metadata tagging in selected web pages. Good (enough) and worst practices of metadata annotation will be covered in the final talk of this module. The presentation is complemented by a live demonstration, collaboratively extracting metadata from scientific publications. |
-| 105 min | [3](#episode-3-structured-metadata---from-markup-to-json) | <u>[**Structured Metadata: From Markup to JSON**](#episode-3-structured-metadata---from-markup-to-json)</u><br>This episode introduces the concept of semi-structured metadata in the context of machine accessibility and interoperability. After defining the term *Markup*, the learners will be confronted with XML and JSON as (meta)data exchange formats. In the challenges 2 & 3, the learners will apply the lecture content to the example data object by extracting metadata from an accompanying `README` file and annotating the example data object using JSON. Challenges will be tackled in groups of 4 - 6 learners. Group results are compared and discussed in a plenary discussion. Ideally, the learners will experience light frustration during result comparison, realizing, that structuring their metadata will result in valid machine-interpretable data objects, yet lack comparability and reusability. |
+| 105 min | [3](#episode-3-structured-metadata-from-markup-to-json) | <u>[**Structured Metadata: From Markup to JSON**](##episode-3-structured-metadata-from-markup-to-json)</u><br>This episode introduces the concept of semi-structured metadata in the context of machine accessibility and interoperability. After defining the term *Markup*, the learners will be confronted with XML and JSON as (meta)data exchange formats. In the challenges 2 & 3, the learners will apply the lecture content to the example data object by extracting metadata from an accompanying `README` file and annotating the example data object using JSON. Challenges will be tackled in groups of 4 - 6 learners. Group results are compared and discussed in a plenary discussion. Ideally, the learners will experience light frustration during result comparison, realizing, that structuring their metadata will result in valid machine-interpretable data objects, yet lack comparability and reusability. |
 | 20 min | [0](#episode-0-housekeeping-1) | <u>[**Housekeeping**](#episode-0-housekeeping-1)</u><br>Day 1 concludes with a brief recap on the topics of the first day. Feedback is gathered from the learners and eventually implemented in day 2. An outlook on the content of the second day is presented. |
 |  |  | [**To Do: After Day 1**](#checklist2) |
 </div>
@@ -175,13 +175,15 @@ The learners get an introduction to data and metadata in everyday life and resea
 3. We start with an example: Imagine a satellite transmitting data back to earth.
 4. This is what actually arrives at the machine receiving the transmission...
 5. just a concatenation of signs...
-6. we call these **glyphs**. To a human being, this sequence of glyphs is not understandable and it needs some processing by a machine to make it interpretable for humans. And this is data...
+6. we call these **glyphs**. To a human being, this sequence of glyphs is not understandable and it needs some processing by a machine to make it interpretable for humans. And this is data, ...
 7. a **potentially informative object**. 
-8. If the data is now processed by the receiving machine, it will be converted in this picture. (<i>The satellite image shows the city center of Cologne, Germany. Feel free to substitute it with a place your learners are familiar with and activate them by asking "Does anyone know, what is depicted?"</i>) In this processed form, the data becomes human-readable. In information science, this is what we call information.
-9. Knowledge is internalized information. For example, knowing where on the image the cathedral is located.
-10. The highest level of information content is wisdom, which means putting the acquired knowledge into context, the bigger picture. You might use the satellite image to navigate between two locations, for example. Naturally, as researchers, we strive to reach wisdom with our work.
-11. We have seen, that the information content increases by adding context, meaning, and insight to data.
-12. The takeaway message is: Data is **potential information** and needs to be processed and **contextualized** to make it accessible for the human audience.
+8. If the data is now processed by the receiving machine, it will be converted in this picture. (<i>The satellite image shows the city center of Cologne, Germany. Feel free to substitute it with a place your learners are familiar with and activate them by asking "Does anyone know, what is depicted?"</i>) This processed form allows humans to interpret and analyze the data to gain information, ...
+9. for example, identifying the cathedral on the image and...
+10. finding the shortest way from the opera to the cathedral.
+11. Knowledge is internalized information, like navigating through the streets of Cologne from the opera to the cathedral based on the satellite image you have seen. 
+12. The highest level of information content is wisdom, which means putting the acquired knowledge into context, the bigger picture. Let's say, you have explored Cologne's city center for a couple of days and you are approached by a person asking you for the shortest way to the main station. You show them the way on a map - that is wisdom. Naturally, as researchers, we strive to reach wisdom with our work.
+13. We have seen, that the information content increases by adding context, meaning, and insight to data.
+14. The takeaway message is: Data is **potential information** and needs to be processed and **contextualized** to make it accessible for the human audience.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

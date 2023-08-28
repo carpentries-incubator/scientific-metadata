@@ -13,9 +13,9 @@ Press.](fig/jeffreyPomerantzQuote.png){alt="Quote by Jeffrey Pomerantz saying 'D
 
 ::: questions
 -   What is data and what is metadata?
--   How is metadata classified?
+-   Which types of metadata exist?
 -   Where can I find (meta)data in everyday examples?
--   What are worst and good enough practices of metadata handling in the
+-   What are bad and good enough practices of metadata handling in the
     scientific context?
 :::
 
@@ -23,7 +23,7 @@ Press.](fig/jeffreyPomerantzQuote.png){alt="Quote by Jeffrey Pomerantz saying 'D
 -   Recognize and describe examples of (meta)data
 -   Name best and worst practice situations in research (meta)data
     handling
--   Familiarize with the example dataset
+-   Getting familiar with the example dataset
 :::
 
 ## Data -- Information -- Knowledge -- Wisdom
@@ -40,13 +40,15 @@ Press.](fig/jeffreyPomerantzQuote.png){alt="Quote by Jeffrey Pomerantz saying 'D
 3. We start with an example: Imagine a satellite transmitting data back to earth.
 4. This is what actually arrives at the machine receiving the transmission...
 5. just a concatenation of signs...
-6. we call these **glyphs**. To a human being, this sequence of glyphs is not understandable and it needs some processing by a machine to make it interpretable for humans. And this is data...
+6. we call these **glyphs**. To a human being, this sequence of glyphs is not understandable and it needs some processing by a machine to make it interpretable for humans. And this is data, ...
 7. a **potentially informative object**. 
-8. If the data is now processed by the receiving machine, it will be converted in this picture. (<i>The satellite image shows the city center of Cologne, Germany. Feel free to substitute it with a place your learners are familiar with and activate them by asking "Does anyone know, what is depicted?"</i>) In this processed form, the data becomes human-readable. In information science, this is what we call information.
-9. Knowledge is internalized information. For example, knowing where on the image the cathedral is located.
-10. The highest level of information content is wisdom, which means putting the acquired knowledge into context, the bigger picture. You might use the satellite image to navigate between two locations, for example. Naturally, as researchers, we strive to reach wisdom with our work.
-11. We have seen, that the information content increases by adding context, meaning, and insight to data.
-12. The takeaway message is: Data is **potential information** and needs to be processed and **contextualized** to make it accessible for the human audience.
+8. If the data is now processed by the receiving machine, it will be converted in this picture. (<i>The satellite image shows the city center of Cologne, Germany. Feel free to substitute it with a place your learners are familiar with and activate them by asking "Does anyone know, what is depicted?"</i>) This processed form allows humans to interpret and analyze the data to gain information, ...
+9. for example, identifying the cathedral on the image and...
+10. finding the shortest way from the opera to the cathedral.
+11. Knowledge is internalized information, like navigating through the streets of Cologne from the opera to the cathedral based on the satellite image you have seen. 
+12. The highest level of information content is wisdom, which means putting the acquired knowledge into context, the bigger picture. Let's say, you have explored Cologne's city center for a couple of days and you are approached by a person asking you for the shortest way to the main station. You show them the way on a map - that is wisdom. Naturally, as researchers, we strive to reach wisdom with our work.
+13. We have seen, that the information content increases by adding context, meaning, and insight to data.
+14. The takeaway message is: Data is **potential information** and needs to be processed and **contextualized** to make it accessible for the human audience.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -97,10 +99,6 @@ the data: **metadata**.
 :::
 
 ## Metadata
-
-::: callout
-Metadata is **a statement** about a potentially informative object.
-:::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Lecture: What is metadata?
