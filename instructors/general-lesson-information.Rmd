@@ -18,39 +18,43 @@ title: General Lesson Information
   |**Prior knowledge**| none |
   |**Required equipment** | text editor, web browser |
   |**License** | https://creativecommons.org/licenses/by/4.0/ |
-  |**Creator**| Silke Christine Gerlich, https://orcid.org/0000-0003-3043-5657 |
-  |**Creator**|  Annika Strupp, https://orcid.org/0000-0002-0070-4337 |
+  |**Creators**| See [Citation File](https://github.com/carpentries-incubator/scientific-metadata/CITATION.cff) |
   </div>
 </div>
 
-<br><br>
-
-<img src="fig/dearInstructors.png/" height="75" align="left">
-<br><br><br><br>
+![Dear instructors,](fig/dearInstructors.png)
 
 thank you for your interest in our training course **"Fundamentals of Scientific Metadata"**. 
 
-On this page, we would like to give you a brief overview of the course material. Detailed teaching instructions can be found in the <a href="instructor-guide.html" target="_blank">instructor guide</a>.
+On this page, we would like to give you a brief overview of the course material.
+Detailed teaching instructions can be found in the
+[instructor guide](instructor-guide.html).
 
 This lesson was designed to be taught on two consecutive days, spanning 4 hours a day.
 A detailed schedule is included in the instructor guide.
 
-<br>
-
 ### Instructor Guide
-In the instructor guide, we will provide you with all the detailed information on lesson structure and schedule, additional content, and recommendations necessary to teach this lesson. 
+In the instructor guide, we will provide you with all the detailed information
+on lesson structure and schedule, additional content, and recommendations
+necessary to teach this lesson. 
 
-Also included in the instructor guide, you can find `talking points` for lectures, challenges, live coding and other content. Lecture talking points contain download links for the accompanying slide sets. Of course, you are free to use your own slides and take our talking points as a guideline. All of these `Talking points` can also be found in the instructor notes of the individual episodes.
+Also included in the instructor guide, you can find `talking points` for
+lectures, challenges, live coding and other content. Lecture talking points
+contain download links for the accompanying slide sets. Of course, you are free
+to use your own slides and take our talking points as a guideline. All of these
+`Talking points` can also be found in the instructor notes of the individual
+episodes.
 
 **Examples of talking points:**
-(<i>Additional information for instructors is written in italics</i>)
+(*Additional information for instructors is written in italics*)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+
 ## Lecture: This is a talking points example for a lecture
 
-**Slide set**: LINK (<i>Download link to lecture slide set</i>)
+**Slide set** (*<- download link to lecture slide set*)
 
-**Time estimate**: XX min. (<i>approx. time needed to deliver this content<i>)
+**Time estimate**: XX min. (*approx. time needed to deliver this content*)
 
 **Talking points**:
 
@@ -64,7 +68,7 @@ Also included in the instructor guide, you can find `talking points` for lecture
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Challenge: Structure of challenge notes
 
-**Time:** 15 min (<i>time assigned for this challenge</i>)
+**Time:** 15 min (*time assigned for this challenge*)
 
 **Challenge type:** guided confrontation, individual investigation, discussion
 
@@ -78,17 +82,14 @@ Detailed information and talking points to guide instructors and learners throug
 Additional material needed for this challenge, including downloads and example setups.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-<br>
 
 ### Group Challenges and Handouts
 The **challenges 2 - 4** are designed as **group work challenges**. Challenge 5 can be tackled in a group or individually. We recommend group sizes of 4 - 6 learners that work together in breakout rooms and one instructor or teaching support per group. 
 For these challenges, we prepare handouts for each group in Markdown-based shared documents (e.g. [HedgeDoc](https://hedgedoc.org/)). These handouts allow for immediate and collaborative work on the challenges. Pre-defined code blocks can be used to collect and discuss the results.
 
-**Group handout Markdown:** <a href="../files/exampleGroupHandout.txt" target="_blank">exampleGroupHandout.md</a> (optimised for HedgeDoc) <br>
+**Group handout Markdown:** [exampleGroupHandout.md](../files/exampleGroupHandout.txt){target="_blank"} (optimised for HedgeDoc)
 
 <a href="../files/exampleGroupHandoutPreview.png" target="popup" onclick="window.open('../docs/files/exampleAhaslidesPid.png,'popup','width=1200'); return false;" onMouseOver="document.groupHandout.src='../../docs/files/CLICKexampleGroupHandoutPreview.png';" onMouseOut="document.groupHandout.src='../../docs/files/exampleGroupHandoutPreview.png';"><span><img src="files/exampleGroupHandoutPreview.png" alt="Screenshot of the HedgeDoc Markdown group handout." name="groupHandout"/></span></a>
-
-<br>
 
 ### Example Data
 The lesson starts by introducing a barely annotated dataset, which operates as the base of the whole lesson. Throughout the episodes, the learners will gradually be supplied with more information about this dataset, annotate it with the given information and continuously improve the accompanying metadata to improve its findability, accessibility, interoperability and reusability.
@@ -103,42 +104,41 @@ We added variable names, transformed the time values and added a mock "scream de
 
 <a href="../files/exampleDataObjectColor.png" target="popup" onclick="window.open('../docs/files/exampleDataObjectColor.png,'popup','width=1200'); return false;" onMouseOver="document.exampleData.src='../../docs/files/CLICKexampleDataObjectColor.png';" onMouseOut="document.exampleData.src='../../docs/files/exampleDataObjectColor.png';"><span><img src="files/exampleDataObjectColor.png" alt="Screenshot of example data object." name="exampleData"/></span></a>
 
-<br>
-
 ### Learning Objectives
 Our learning objectives follow the model of <a href="https://archive.org/details/taxonomyofeducat0000bloo_o9o7" target="_blank">Bloom <i>et al.</i> (1956)</a> and use the measurable verbs proposed by <a href="https://doi.org/10.3390/educsci6040037" target="_blank">Stanny <i>et al.</i> (2016)</a>.
 
-<br>
-
 ### Episode 0: Housekeeping
 In the Instructor guide, we included sections labelled "Episode 0: Housekeeping". These sections are not directly related to the lesson subject, but are important (to us) for the overall teaching experience. Episode 0 sections include activities like learner warm-ups and feedback and can be found in the detailed lesson schedule.
-
-<br>
 
 ### Lightning Talk
 We had very good experiences closing the lesson with a **lightning talk** that either focuses on the application of structured metadata in research, gives an insight into data annotation with metadata in practice, or demonstrates a recent (scientific) software development in the metadata field. For this section, we usually invite an external speaker and assign **45 min** including discussions to the schedule of day 2. 
 
 In our 2 day approach, we end at lunchtime on the second day, which allows for extra time for discussions with the speaker. The lightning talk so far got great feedback from the learners.
 
-<br>
-
 ### Get in Touch 
 
 You want to contribute to this lesson? Please open an issue in this lesson's Github repository:<br>
 <a href="https://github.com/carpentries-incubator/scientific-metadata" target="_blank">
   <span>
-    <img src="fig/github.svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#383838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="float:left; padding-right:5px;"/>Github Repository
+    <img src="fig/github.svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#383838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="float:left; padding-right:5px;"/>
+    Github Repository
   </span>
 </a>
 <br>
 You want to share your experiences or have questions on this lesson? You can get in touch with the creators and maintainers by mail:<br>
-<a href="mailto:HMC@fz-juelich.de?subject=[Carpentries Incubator] Fundamentals of Scientific Metadata - get in touch"><span><img src="fig/mail.svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#383838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="float:left; padding-right:5px;"/> HMC@fz-juelich.de</span></a>
-<br>
-For more information on the Helmholtz Metadata Collaboration (HMC) visit our homepage:
-<a href="https://helmholtz-metadaten.de/en" target="_blank">
+<a href="mailto:HMC@fz-juelich.de?subject=[Carpentries Incubator] Fundamentals of Scientific Metadata - get in touch">
   <span>
-    <img src="fig/home.svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="float:left; padding-right:5px;"/>  helmholtz-metadaten.de
+    <img src="fig/mail.svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#383838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="float:left; padding-right:5px;"/>
+    HMC@fz-juelich.de
   </span>
 </a>
 <br>
+For more information on the Helmholtz Metadata Collaboration (HMC) visit our homepage:<br>
+<a href="https://helmholtz-metadaten.de/en" target="_blank">
+  <span>
+    <img src="fig/home.svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="float:left; padding-right:5px;"/>
+    helmholtz-metadaten.de
+  </span>
+</a>
+
 **We are always happy to connect with fellow instructors, researchers and metadata enthusiasts!**

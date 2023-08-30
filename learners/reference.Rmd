@@ -35,11 +35,4 @@ XML
 : XML (Extensible Markup Language) is an open standard file format and data interchange  format that uses human-readable text to store and transmit data objects.
 
 [^first]: Helmholtz Medatada Collaboration, Glossary, https://helmholtz-metadaten.de/en/glossary
-[^second]: HMC CCT7
-
-
-
-
-
-
-
+[^second]: Helmholtz Digitization Ontology, https://codebase.helmholtz.cloud/hmc/hmc-public/hob/hdo

@@ -5,7 +5,6 @@ exercises: 60
 ---
 
 ![**Baker, M.** (2016) "1,500 scientists lift the lid on reproducibility.", _Nature_ **533**, 452 - 454.<a href="https://doi.org/10.1038/533452a" target="_blank">https://doi.org/10.1038/533452a</a>](fig/monyaBakerQuote.png){alt="Quote by Monya Baker in Nature from 2016, saying 'More than 70% of researchers have tried and failed to reproduce another scientist's experiments. More than half have failed to reproduce their own experiments.'"}
-<br>
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
@@ -26,9 +25,10 @@ exercises: 60
 ## Markup?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+
 ## Lecture: Introduction to information transfer
 
-**Slide set**: <a href="../files/slideSet/7_DataTransfertIntro_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>DataTransfertIntro.pdf</a>
+**[Slide set](../files/slideSet/7_DataTransfertIntro_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}**
 
 **Time estimate**: 5 min
 
@@ -40,15 +40,16 @@ exercises: 60
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-## Lecture: What is Markup, XML & JSON
 
-**Slide set**: <a href="../files/slideSet/8_WhatIsMarkupXmlJson_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>WhatIsMarkupXmlJson.pdf</a>
+## Lecture: What is Markup, XML and JSON
+
+**[Slide set](../files/slideSet/8_WhatIsMarkupXmlJson_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}**
 
 **Time estimate**: 15 min
 
 1. The first term that we will come across regularly throughout this lesson is *Markup*.
 2. You encounter markup continuously when you read a text. A period, for example, indicates the end of a declarative or imperative sentence, which results in the speaker briefly stopping to talk, if reading out loud. The question mark, on the other hand, declares a question and a speaker will, in many languages, raise their voice before pausing at the end of the sentence. In this sense, the punctuation - or Markup - is not part of the text or information by itself. It rather provides some additional information about the text.
-3. Essential for functional markup is that the sender, in the case of a text, the writer and the recipient - the reader - agree on the interpretation of the symbols used to markup the text. Shown here is an *interrobang*, a combination of a question mark and an exclamation point. (<i>You can reactivate the audience by asking them, whether someone is familiar with the definition of the interrobang or if they would know how to interpret it.</i>) The interrobang was proposed in the 1960s as a new punctuation mark to indicate a rhetorical question. As you might have guessed already, the proposal did not come very far.
+3. Essential for functional markup is that the sender, in the case of a text, the writer and the recipient - the reader - agree on the interpretation of the symbols used to markup the text. Shown here is an *interrobang*, a combination of a question mark and an exclamation point. (*You can reactivate the audience by asking them, whether someone is familiar with the definition of the interrobang or if they would know how to interpret it.*) The interrobang was proposed in the 1960s as a new punctuation mark to indicate a rhetorical question. As you might have guessed already, the proposal did not come very far.
 4. Markup can be distinguished into four different types:
   - punctuational markup, as seen in the previous examples.
   - presentational markup gives information on how the text should be displayed, which includes vertical or horizontal spacing, page breaks, and enumerations of lists. When enclosing text between two asterisks while writing Markdown, a Markdown interpreter will display this text in bold font face.
@@ -59,15 +60,16 @@ exercises: 60
 7. Descriptive and referential markup, used rigorously, is a way to make data and natural text more accessible for computer analysis and can provide additional information for the human user as well. But we will come to that in a bit.
 8. We will first shift our focus to the importance of the interoperability of the data formats that we want to use to document our data and metadata. In the 1980s, roughly 10 years before the birth of the World Wide Web, the internet was already a thing and national and international data networks were emerging fast. This increased the need for standardized data transfer formats to facilitate data exchange and interpretability on various machines in one network. One of the first industry standards for electronic publishing was the "Standard Generalized **Markup** Language", or SGML.
 9. With the implementation of the World Wide Web, HTML - the HyperText **Markup** Language - became the standard language for web pages and has its roots in SGML. The markup tags of HTML and their interpretation are well-defined.  XML - the eXtensible **Markup** Language - on the other hand, was developed to transfer and store data on the World Wide Web. The tags are arbitrary, descriptive and can be defined by the user. Let's take a closer look.
-10. This XML example stores data in form of natural text (<i>point to the two sentences</i>) and a number (<i>highlight the "1"</i>). Each of these data elements is enclosed in a start and end tag. As mentioned before, these tags can be defined arbitrarily, so we state, that the first sentence is the title, the second sentence is a description and the number one represents a word count. We can now introduce a data hierarchy, declaring that all these data elements describe one example. We could now look for the "title" of the "example" and retrieve the data stored between those tags. XML is software- and hardware-independent and still widely used as a data exchange format. Though XML is human-readable, enclosing the data between start and end tags is quite an effort and meddles with the clarity of this format. So we are leaving the realm of markup languages...
+10. This XML example stores data in form of natural text (*point to the two sentences*) and a number (*highlight the "1"*). Each of these data elements is enclosed in a start and end tag. As mentioned before, these tags can be defined arbitrarily, so we state, that the first sentence is the title, the second sentence is a description and the number one represents a word count. We can now introduce a data hierarchy, declaring that all these data elements describe one example. We could now look for the "title" of the "example" and retrieve the data stored between those tags. XML is software- and hardware-independent and still widely used as a data exchange format. Though XML is human-readable, enclosing the data between start and end tags is quite an effort and meddles with the clarity of this format. So we are leaving the realm of markup languages...
 11. to introduce another data exchange format, which is recommended as a standard from the W3 consortium: JSON. JSON is short for JavaScript Object notation. It is based on the representation for data objects in JavaScript - the main programming language of the Web - and bears all the advantages XML has shown, such as lightweight data exchange, software and hardware independence, and hierarchical structure - with an increased human readability. For the remainder of this lesson, we will learn how to read, write and standardize JSON object literals.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+
 ## Lecture: JSON Step-By-Step
 
-**Slide set**: <a href="../files/slideSet/9_JsonStepByStep_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>JsonStepByStep.pdf</a>
+**[Slide set](../files/slideSet/9_JsonStepByStep_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}**
 
 **Time estimate**: 7 min
 
@@ -93,7 +95,7 @@ exercises: 60
 20. JSON is not sensitive to indentations and line breaks. However, indentation and line breaks can significantly increase the human readability of the JSON object literal. Now let's compare the JSON representation of this object with its XML representation...
 21. Both representations contain the same information. In XML the data value is stored between start and end tags, whereas in JSON, the value is assigned to a property and separated from other entries with a comma. Both representations allow for hierarchical data storage as seen for the description of John's pet. In JSON this is done by nesting objects, in XML the data entries are enclosed by `<pet>` tags. A difference can be seen in the representation for John's parents. Whereas an array is given in the JSON object literal, comparable lists do not exist in XML. Here the parents' names are enclosed individually with the same start and end tags.
 22. Besides XML and JSON, the third widely used standard data exchange format is YAML. JSON and YAML can be parsed into one another. 
-23. (<i>Allow some time for questions.</i>)
+23. (*Allow some time for questions.*)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -124,6 +126,7 @@ If design rules for headlines change, the document structure remains intact and 
 ```html
 <a href="url">link text displayed to reader</a>
 ```
+
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: callout
 Rigorous markup can make text (character strings) more accessible for computer analysis.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -132,8 +135,8 @@ Rigorous markup can make text (character strings) more accessible for computer a
 
 **HTML** (**H**yper**T**ext **M**arkup **L**anguage) is the standard markup language for web pages.
 
-![ * **Zender, C.** (2005) Cynthia Zender (2005). Markup 101: Markup Basics. <i>SAS Institute</i>. 
-<a href="https://www.lexjansen.com/pharmasug/2005/Tutorials/tu12.pdf" target="_blank">https://www.lexjansen.com/pharmasug/2005/Tutorials/tu12.pdf</a>](fig/cynthiaZenderQuote.png){alt="Quote by Cynthia Zender, SAS Institue, saying 'To make markup work, the writer and the interpreter of the marked up content have to agree on the interpretation of the markup symbols.'"}
+![ * **Zender, C.** (2005) Cynthia Zender (2005). Markup 101: Markup Basics. *SAS Institute*. 
+<a href="https://www.lexjansen.com/pharmasug/2005/Tutorials/tu12.pdf" target="_blank">https://www.lexjansen.com/pharmasug/2005/Tutorials/tu12.pdf</a>](fig/cynthiaZenderQuote.png){alt="Quote by Cynthia Zender, SAS Institue, saying 'To make markup work, the writer and the interpreter of the marked up content have to agree on the interpretation of the markup symbols.'" target="_blank"}
 
 ## XML
 
@@ -146,7 +149,6 @@ In contrast, the main purpose of **XML** (e**X**tensible **M**arkup **L**anguage
     <wordCount>1</wordCount>
 </example>
 ```
-
 
 ## JSON
 
@@ -181,23 +183,25 @@ Data exchange formats such as **XML** or **JSON** can be read and processed not 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+
 ## Lecture: Challenge introduction
 
-**Slide set**: <a href="../files/slideSet/10_challengeIntroduction_2_3_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>Challenge2and3.pdf</a>
+**[Slide set](../files/slideSet/10_challengeIntroduction_2_3_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}**
 
 **Time estimate**: 3 min
 
 1. In the following challenges, we will apply what we have learned in the lectures so far to our example dataset. 
-2.You have inspected the data and realized quite rapidly, that you need more information on the data to make sense of it. So you ask your collaborators for additional meta-information.
+2. You have inspected the data and realized quite rapidly, that you need more information on the data to make sense of it. So you ask your collaborators for additional meta-information.
 3. They reply by sending you a README-style metadata file.
 4. However, your funding agency requires that you upload every dataset in your project to their public repository and attach a structured metadata record.
 5. In challenge 2, you will review the README-style metadata record and highlight all the information that you deem relevant to understand the data and reproduce the experiment.
 6. In challenge 3, you will then take this information and transform it into a JSON object literal.
-7. (<i>The challenges are designed as group challenges. We like to add a slide here, on which we list the randomized groups and give additional technical and administrative information.</i>)
+7. (*The challenges are designed as group challenges. We like to add a slide here, on which we list the randomized groups and give additional technical and administrative information.*)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+
 ## Challenge: Identify metadata in README.txt / Write JSON metadata record
 
 The following challenges 2 & 3 will be processed **consecutively in groups of 4 - 6 learners**.
@@ -209,9 +213,10 @@ Prepare shared notes documents for each group of learners attending the lesson. 
 Try to be present with as many instructors as there are break-out rooms to moderate the discussions and answer questions.
 
 **Shared notes:** <br>
-You can find an example Markdown file for the group handouts <a href="../files/exampleGroupHandout.md" target="_blank">**HERE**</a>. This document is optimized for use in a Hedgedoc document. 
+You can find an example Markdown file for the group handouts 
+**[HERE](../files/exampleGroupHandout.md){target="_blank"}**. This document is optimized for use in a Hedgedoc document. 
 
-##### <u>Challenge 2: Identify metadata in README.txt</u>
+##### Challenge 2: Identify metadata in README.txt
 
 **Time:** 15 min
 
@@ -220,7 +225,7 @@ You can find an example Markdown file for the group handouts <a href="../files/e
 **Objective:** <br>
 The learners practice the acquired knowledge of metadata identification in `README` style text formats.
 
-##### <u>Challenge 3: Write JSON metadata record</u>
+##### Challenge 3: Write JSON metadata record
 
 **Time:** 20 min
 
@@ -232,19 +237,21 @@ The learners create a structured JSON object literal and experience the difficul
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: challenge
+
 ## Challenge 2: Identify metadata in README.txt
 
 <i class='fa fa-pencil fa-2x'></i>
 You cannot make sense of the data you got from your collaborators. You ask them for supplemental information and they send you the following **README file** (see below).
-<ul>
-  <li>Read the README carefully.</li>
-  <li>In the group, **discuss**, **decide** and **prioritize** which information in the text are valuable experimental metadata.</li> 
-  <li>**Mark up the valuable information.** In markdown you can mark up the respective words with "==". <br> **Example**: `==This text will be highlighted==`</li>
-</ul>
 
-You can download the README as TXT file here: <a href="data/README_exampleDataObject.txt" target="_blank" download>README_exampleDataObject.txt</a> 
+- Read the README carefully.
+- In the group, **discuss**, **decide** and **prioritize** which information in the text are valuable experimental metadata.
+- **Mark up the valuable information.** In markdown you can mark up the respective words with "==". <br> **Example**: `==This text will be highlighted==`
 
-##### <u>README_exampleDataObject.txt</u>
+You can download the README as TXT file here: 
+[README_exampleDataObject.txt](data/README_exampleDataObject.txt){target="_blank"}
+
+##### README_exampleDataObject.txt
+
 ```text
 This README file describes the data in trainingObject.csv
 
@@ -262,7 +269,9 @@ The test person strapped the recording device (iPhone X) with a running armband 
 - "az" describes the biomechanical acceleration of the test person on the z axis in m/s².
 - "scr" is a boolean indicating a detected scream of the test person.
 ```
+
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: solution
+
 This README describes the data in **trainingObject.csv**
 
 
@@ -282,11 +291,14 @@ During the ride, the test person was instructed to firmly hold on to the safety 
 "**ay**" describes the **biomechanical acceleration of the test person on the y axis** in **m/s²**.
 "**az**" describes the **biomechanical acceleration of the test person on the z axis** in **m/s²**.
 "**scr**" is a **boolean** indicating a **detected scream of the test person**.
+
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: challenge
+
 ## Challenge 3: Write JSON metadata record
 
 You have manually marked up the relevant information in the README. However, your project requires you to provide metadata in the form of a **machine-readable JSON metadata record**. The project provides you with a simple example JSON object (remember, that curly braces hold objects):
@@ -300,7 +312,7 @@ You have manually marked up the relevant information in the README. However, you
 
 - Based on the information identified in the README, write a well-formed, descriptive JSON object.
 - Collaboratively, find suitable keys (aka variable names) to your values.
-- You may want to use some <a href="https://jsonformatter.org/" target="_blank">JSON formatter web service</a> to check and pretty-print your output.
+- You may want to use some  [JSON formatter web service](https://jsonformatter.org/){target="_blank"} to check and pretty-print your output.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: hint
 
@@ -329,8 +341,11 @@ You have manually marked up the relevant information in the README. However, you
     }
 }
 ```
+
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: solution
+
 This is just one (of many) valid solutions.
 
 ```json
@@ -400,16 +415,20 @@ This is just one (of many) valid solutions.
 }
 ```
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+
 ## :coffee: Break :coffee:
 
 We recommend a **15 min break** at this point. <br>
 You can use this time to set up the plenary discussion.
+
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+
 ## Discussion: Challenge reflection
 
 **Time:** 20 min
@@ -421,25 +440,24 @@ Display the final JSON object literals of the different groups next to each othe
 At this point, the learners should experience some form of frustration - the metadata is now structured and machine-readable, yet interoperability and reusability haven't been achieved. This frustration is relieved in the next episode "**Enabling Technolgy & Standards**", when schemas and standards are introduced.
 
 **Leading questions:**<br>
-<ul>
-  <li>What was easy while generating the structured metadata record?</li>
-  <li>What was hard? Which points were intensely discussed in the group?</li>
-  <li>Which differences do you see between the different JSON metadata records?</li>
-  <li>How do you feel after comparing the results?</li>
-</ul>
+
+- What was easy while generating the structured metadata record?
+- What was hard? Which points were intensely discussed in the group?
+- Which differences do you see between the different JSON metadata records?
+- How do you feel after comparing the results?
 
 **Creator's recommendation:** <br>
 While moderating the discussion, pay attention to and highlight the following characteristics of the created JSON object literals:
-<ul>
-  <li>(if done correctly) all JSON object literals are **valid**, **functional** and **machine-readable**</li>
-  <li>representation of key strings (e.g. camel case vs. snake case, capitalization)</li>
-  <li>structure of the JSON object literal (e.g. nested objects vs. flat structure)</li>
-  <li>value representation</li>
-</ul>
+
+- (if done correctly) all JSON object literals are **valid**, **functional** and **machine-readable**
+- representation of key strings (e.g. camel case vs. snake case, capitalization)
+- structure of the JSON object literal (e.g. nested objects vs. flat structure)
+- value representation
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: discussion
+
 ## Plenary result discussion
 
 - What was easy while generating the structured metadata record?
@@ -460,6 +478,6 @@ While moderating the discussion, pay attention to and highlight the following ch
 [^4]: James H. Coombs et al. (November 1987). Markup Systems and the Future of Scholarly Text Processing. Communications of the ACM 30. http://xml.coverpages.org/coombs.html#Note1
 [^5]: Cynthia Zender (2005). Markup 101: Markup Basics. SAS Institute. https://www.lexjansen.com/pharmasug/2005/Tutorials/tu12.pdf
 [^6]: https://www.iso.org/standard/16387.html
-[^7]: <i>XML Tutorial.</i> (C) 1999-2022. Refsnes Data, W3Schools. https://www.w3schools.com/xml/
-[^8]: <i>ECMA-404 - ECMA International.</i> (2021, February 4). Ecma International. https://www.ecma-international.org/publications-and-standards/standards/ecma-404/
-[^9]: <i>JSON Introduction.</i> (C) 1999-2022. Refsnes Data, W3Schools. https://www.w3schools.com/js/js_json_intro.asp
+[^7]: *XML Tutorial.* (C) 1999-2022. Refsnes Data, W3Schools. https://www.w3schools.com/xml/
+[^8]: *ECMA-404 - ECMA International.* (2021, February 4). Ecma International. https://www.ecma-international.org/publications-and-standards/standards/ecma-404/
+[^9]: *JSON Introduction.* (C) 1999-2022. Refsnes Data, W3Schools. https://www.w3schools.com/js/js_json_intro.asp

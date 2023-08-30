@@ -1,10 +1,10 @@
 ---
 title: '(Web) Location and Identifiers'
 teaching: 35
+exercises: 0
 ---
 
 ![**Bugeja, M., Dimitrova, D.** (2010) in "_Vanishing Act: The Erosion of Online Footnotes and Implications for Scholarship in the Digital Age_." Litwin Books. <a href="https://dr.lib.iastate.edu/handle/20.500.12876/96527" target="_blank">https://dr.lib.iastate.edu/handle/20.500.12876/96527</a>](fig/dimitrovaBugejaQuote.png){alt="Quote from the Book Vanishing Act: The Erosion of Online Footnotes and Implications for Schlolarship in the Digital Age by Daniela Dimitrova and Michael Bugeja, saying 'Vanishing online footnotes undermine the building blocks of research, and their disappearance raises concerns about the reliability and replicability of scholarship.'"}
-<br>
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
@@ -30,37 +30,36 @@ teaching: 35
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Group activity: PID poll
 
-**Slide set**: -
-
 **Time estimate**: 2 min
 
-<i>Up to this point, the lesson followed a consistent silver lining. In the last episode, the learners "finished" annotating the example data. The following episode on (persistent) identifiers might seem somewhat disconnected to the previous lesson content at first before the connection is drawn to PIDs in metadata records. Therefore, we like to start off this episode with a quick live poll on PIDs in the scientific content. Together with the previous discussion on 404 Errors during the search for scientific metadata standards, this will prepare the learner for and engage them in the following content.</i>:smile:.
+*Up to this point, the lesson followed a consistent silver lining. In the last episode, the learners "finished" annotating the example data. The following episode on (persistent) identifiers might seem somewhat disconnected to the previous lesson content at first before the connection is drawn to PIDs in metadata records. Therefore, we like to start off this episode with a quick live poll on PIDs in the scientific content. Together with the previous discussion on 404 Errors during the search for scientific metadata standards, this will prepare the learner for and engage them in the following content.*:smile:.
 
 **Creators' recommendation:**<br>
-We use [AHA slides](https://ahaslides.com/){target="_blank"} for live polling. Share the link to the poll with the learners and open the presentation mode of the poll on your shared screen.<br>
+We use [AHA slides](https://ahaslides.com/){target="_blank"} for live polling. Share the link to the poll with the learners and open the presentation mode of the poll on your shared screen.
 
-<u>QUESTION</u><br><br>
+**QUESTION:** Which of these terms do you know? Do any of these ring a bell? 
 
-1. Does it ring a bell? Which of these terms do you know?
-    - DOI
-    - ORCID
-    - ROR
-    - URN
-    - URL
-    - URI
+- DOI
+- ORCID
+- ROR
+- URN
+- URL
+- URI
 
-<a href="../../docs/files/exampleAhaslidesPid.png" target="popup" onclick="window.open('../docs/files/exampleAhaslidesPid.png,'popup','width=1200'); return false;" onMouseOver="document.PIDpoll.src='../../docs/files/CLICKexampleAhaslidesPid.png';" onMouseOut="document.PIDpoll.src='../../docs/files/exampleAhaslidesPid.png';"><span><img src="files/exampleAhaslidesPid.png" alt="Screenshot of the recommended live polling session on PIDs." name="PIDpoll"/></span></a>
+<a href="../../docs/files/exampleAhaslidesPid.png" target="popup" onclick="window.open('../docs/files/exampleAhaslidesPid.png,'popup','width=1200'); return false;" onMouseOver="document.PIDpoll.src='../../docs/files/CLICKexampleAhaslidesPid.png';" onMouseOut="document.PIDpoll.src='../../docs/files/exampleAhaslidesPid.png';">
+<img src="files/exampleAhaslidesPid.png" alt="Screenshot of the recommended live polling session on PIDs." name="PIDpoll"/>
+</a>
 
-(<i>As you can see in the example image above, DOI and ORCID are usually the best known PIDs among the learners. Take a few moments, to comment and reflect on the polling results.</i>)
+(*As you can see in the example image above, DOI and ORCID are usually the best known PIDs among the learners. Take a few moments, to comment and reflect on the polling results.*)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Lecture: The Web of Today
 
-**Slide set**: <a href="../files/slideSet/17_TheWebOfToday_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>TheWebOfToday.pdf</a>
+**[Slide set](../files/slideSet/17_TheWebOfToday_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}**
 
-**Time extimate**: 4 min
+**Time estimate**: 4 min
 
 1. Let’s get back to the World Wide Web.
 2. Today we take a look at the Web and all information stored on it, that we carry in our pockets.
@@ -89,9 +88,10 @@ A web resource is any entity (digital, physical or abstract), that is represente
 ## Web Identifiers
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-## Lecture: Identifier & Web Locations
 
-**Slide set**: <a href="../files/slideSet/18_IdentifierWebLocations_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>IdentifierWebLocations.pdf</a>
+## Lecture: Identifier and Web Locations
+
+**[Slide set](../files/slideSet/18_IdentifierWebLocations_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}**
 
 **Time estimate**: 14 min
 
@@ -101,9 +101,9 @@ A web resource is any entity (digital, physical or abstract), that is represente
 4. Remember the first lecture from yesterday? We have had a close look on the metadata in a book. Now if a librarian wants to identify a specific publication...
 5. they will use its ISBN for unambiguous identification. This ISBN follows a standardized structure, which gives valuable information about the resource, such as the group and publisher of the book. This ISBN is globally unique. Which means it only exists for one specific book and will always lead to the same result, where ever you retrieve it.
 6. And these uniform resource identifiers also exist in the scientific context. Let me give you an example from molecular biology. Let's say, this scientist is working on genetics and she is interested in the functions of a specific gene in the model plant...
-7. <i>Arabidopsis thaliana</i>. Every gene of this plant has an unique identifier assigned, that follows certain representative conventions. In the case of this model plant, the gene identifier holds information on the species, the chromosome, the type of sequence as well as its location on the chromosome. 
+7. *Arabidopsis thaliana*. Every gene of this plant has an unique identifier assigned, that follows certain representative conventions. In the case of this model plant, the gene identifier holds information on the species, the chromosome, the type of sequence as well as its location on the chromosome. 
 8. To generalize, unique identification codes enable globally unique and persistent identification of a resource. These codes follow conventions in their representation and are registered centrally, enabling a uniform structure of these identifiers globally or in the user community. This makes unique identification codes unambiguous and referencable.
-9. (<i>Use this slide to collect unique identification codes in the research fields of the learners. We like to do this in a brief plenary discussion, asking the learners to share unique identifiers, they use regularly and what they represent.</i>)
+9. (*Use this slide to collect unique identification codes in the research fields of the learners. We like to do this in a brief plenary discussion, asking the learners to share unique identifiers, they use regularly and what they represent.*)
 10. Now we will take this concept of uniform identifiers to the Web.
 11. But first, we will need to define and distinguish between a few terms, that come up frequently in this context. The examples we have seen a couple of minutes ago, are - simply put - a series of structurally harmonized characters that uniquely identify a resource...
 12. The ISBN number we have seen, is basically just a synonym for a book. This is, what we call a URN, Uniform Resource **Name**. We know, what the resource is called. 
@@ -132,22 +132,26 @@ A web resource is any entity (digital, physical or abstract), that is represente
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+
 # Guided confrontation: Error 404
 
 **Time**: 2 min
 
-**Narrative / Teaching script**: <br>
-<ul>
-  <li><i>Share an empty browser tab on your screen.</i></li> 
-  <li><i>Open the network editor.</i> </li>
-  <li><i>Open any desired website in your browser. This might be a good point to share your organizational, institutional, or personal homepage with the learners for some "hidden" marketing</i> :wink:.</li>
-  <li><i>You can witness all the requests and responses in the network editor, while the page is loading</i>.</li>
-  <li><i>Highlight that each element - HTML documents, images, etc - require individual requests in order to build the website and the `200: ok` status codes that are send back with the resources.</i></li>
-  <li>**Optional:** <i>Take a closer look at the different status codes or the HTTP responses.</i></li>
-  <li><i>Enforce an Error 404, e.g. by deleting one character in the file path. The status code 404 will appear in the status code column of the network editor.</i></li>
-</ul>
+**Narrative / Teaching script**: 
 
-<a href="../../docs/files/exampleError404.png" target="popup" onclick="window.open('../docs/files/exampleError404.png,'popup','width=1200'); return false;" onMouseOver="document.Error404.src='../../docs/files/CLICKexampleError404.png';" onMouseOut="document.Error404.src='../../docs/files/exampleError404.png';"><span><img src="files/exampleError404.png" alt="Screenshot of the recommended live coding session." name="Error404"/></span></a>
+- *Share an empty browser tab on your screen.*
+- *Open the network editor.*
+- *Open any desired website in your browser. This might be a good point to share your organizational, institutional, or personal homepage with the learners for some "hidden" marketing.* :wink:
+- *You can witness all the requests and responses in the network editor, while the page is loading.*
+- *Highlight that each element - HTML documents, images, etc - require individual requests in order to build the website and the `200: ok` status codes that are send back with the resources.*
+- **Optional:** *Take a closer look at the different status codes or the HTTP responses.*
+- *Enforce an Error 404, e.g. by deleting one character in the file path. The status code 404 will appear in the status code column of the network editor.*
+
+<a href="../../docs/files/exampleError404.png" target="popup" onclick="window.open('../docs/files/exampleError404.png,'popup','width=1200'); return false;" onMouseOver="document.Error404.src='../../docs/files/CLICKexampleError404.png';" onMouseOut="document.Error404.src='../../docs/files/exampleError404.png';">
+<span>
+<img src="files/exampleError404.png" alt="Screenshot of the recommended live coding session." name="Error404"/>
+</span>
+</a>
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -159,16 +163,15 @@ Unique identification codes enable **globally unique** and **persistent** identi
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-<br>
 <span>
-<img src="fig/uriUrnUrl.png" alt="" height="300px" style="float:right;" alt="Relationship between URI, URN and URL. URN and URL are seperated entities but both are a subtype of URI."/>
+![Relationship between URI, URN and URL. URN and URL are seperated entities but both are a subtype of URI.](fig/uriUrnUrl.png){height="300px" style="float:right;"}
 
 The **Uniform Resource Identifier (URI)** is a string of characters formulated to uniquely identify a resource, (most commonly on the Web) and enable interaction with it via common protocols such as HTTP.
 
 A **Uniform Resource Name (URN)** is a type of URI. It is a standard, persistent and unique identifier for digital resources on the Internet. To link to the resource from the URN, a **resolver service is required.**
 
-The **Uniform Resource Locator (URL)** is a string of characters used to access the information or resource by **using the address of the resource location** via communication protocols such as HTTP. </span>
-<br><br>
+The **Uniform Resource Locator (URL)** is a string of characters used to access the information or resource by **using the address of the resource location** via communication protocols such as HTTP.
+</span>
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: callout 
 ## How links rot
@@ -179,21 +182,21 @@ The **URL** specifies the exact location of a retrievable resource on the web (h
 If you open a link on the web operated under the HTTP protocol, the browser sends a **GET request** to the host server, specifying the path to the requested resource. The host server then follows this path and responds with the resource information, if retrievable.
 
 A resource might **not be retrievable** by the host server, if:
-<ul>
-  <li> the location was misspelled.</li>
-  <li> the file path on the host server changed.</li>
-  <li> the resource was deleted.</li>
-  <li> the resource was migrated to a different server.</li>
-</ul>
+
+- the location was misspelled.
+- the file path on the host server changed.
+- the resource was deleted.
+- the resource was migrated to a different server.
 
 Each of these events will result in the **404 error** response. To avoid these broken or rotten links, assigning a **Persistent Identifier (PID)** to the resource resolves the issue.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+
 ## Lecture: Persistent Identifier
 
-**Slide set**: <a href="../files/slideSet/19_PersistentIdentifier_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>PersistentIdentifiers.pdf</a>
+**[Slide set](../files/slideSet/19_PersistentIdentifier_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}**
 
 **Time estimate**: 8 min
 
@@ -219,34 +222,36 @@ Each of these events will result in the **404 error** response. To avoid these b
 20. The Digital Object Identifier is a digital identifier of an object, any object – physical, digital, or abstract. It is not exclusively used for academic Web resources but can be used to register and identify any resource represented on the Web.
 21. In the academic environment, it is largely used to identify research articles, data objects, metadata records, code, and software.
 22. For these academic Web resources, DOIs can be issued by different DOI providers, most commonly Data Cite and Crossref. Many repositories and scientific journals assign published resources with a DOI, often in collaboration with DataCite or Crossref. These providers guarantee long-lasting retrievability of any data object in their database.
-15. <i>Allow some time for questions.</i>
+15. *Allow some time for questions.*
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ### Persistent Identifier
-A **Persistent Identifier (PID)** is a long-lasting reference to digital objects such as websites, articles, datasets, persons or organizations. PIDs are **globally unique** and **persistent over time**. Assigning a PID to a digital resource ensures its permanent indentifiability, accessibility, and referenciability.[^16] <br><br>
+
+A **Persistent Identifier (PID)** is a long-lasting reference to digital objects such as websites, articles, datasets, persons or organizations. PIDs are **globally unique** and **persistent over time**. Assigning a PID to a digital resource ensures its permanent indentifiability, accessibility, and referenciability.[^16] 
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: callout
+
 ## PID Services
 
-A **PID service** operate as a persistent look-up service that redirects GET requests for digital resources to the latest URL of this resource.<br>
-**The host of the digital resource is responsible for updating the resource's location wiith the PID service after the location changed.** <br><br>
+A **PID service** operate as a persistent look-up service that redirects GET requests for digital resources to the latest URL of this resource.
+
+**The host of the digital resource is responsible for updating the resource's location wiith the PID service after the location changed.**
 
 **Frequently used PIDs in the scientific context are:**
-<ul>
-  <li>Digital Object Identifier (<a href="https://www.doi.org/index.html" target="_blank">DOI</a>)</li>
-  <li>Open Researcher and Contributor ID (<a href="https://orcid.org/0000-0002-1825-0097" target="_blank">ORCID</a>)</li>
-  <li>Research Organization Registry (<a href="https://ror.org/" target="_blank">ROR</a>)</li>
-</ul>
+- Digital Object Identifier ([DOI](https://www.doi.org/index.html){target="_blank"})
+- Open Researcher and Contributor ID ([ORCID](https://orcid.org/0000-0002-1825-0097){target="_blank"})
+- Research Organization Registry ([ROR](https://ror.org/){target="_blank"})
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Web Locations and (Scientific) Metadata
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+
 ## Lecture: PIDs and Metadata 
 
-**Slide set**: <a href="../files/slideSet/20_PIDsAndMetadata_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>PIDsAndMetadata.pdf</a>
+**[Slide Set](../files/slideSet/20_PIDsAndMetadata_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}**
 
 **Time estimate**: 5 min
 
@@ -255,13 +260,13 @@ A **PID service** operate as a persistent look-up service that redirects GET req
 3. An ORCiD ID is an unique and persistent identifier for researchers.
 4. The ORCiD service comes with more than an unique, persistent identifier. It comes with an ORCiD record, in other words a metadata record, that connected to each ORCID ID. And the service also provides technical tools, with which this metadata can be retrieved.
 5. So all the information that is visible on this page…
-6. is connected with a metadata object, that looks somewhat like this. A structured metadata object including all the information about your person, that you like to share. [<i>side note: the JSON object is based on the original ORCID schema. However, ORCiD uses XML.</i>]
+6. is connected with a metadata object, that looks somewhat like this. A structured metadata object including all the information about your person, that you like to share. [*side note: the JSON object is based on the original ORCID schema. However, ORCiD uses XML.*]
 7. Now, let’s say, you want to publish a dataset or journal paper and attach all the necessary metadata. In order to add all the bibliographical information to unambiguously identify you as the author, you might need to include many details. And you might have been one of many authors. So you need to repeat this process for your co-authors as well. If you have an ORCiD, you can just use the PID as a synonym for your name and your information can be retrieved automatically.
 8. And if your information changes – for example you got married and your name changed, or you started a new job and your contact information was updated – you only need to include the update in your ORCiD record. 
 9. Your ID stays the same, thus you do not have to touch your dataset metadata records again. Your ORCiD ID will automatically resolve to the updated personal information.
 10. Similarly, when you register a DOI – let’s say for a dataset – you will give metadata on this data object, that will be saved with the DOI. So whenever you reference this exact dataset, for example if you publish several papers referring to the same data, you need the DOI as an identifier and further meta information about the data set can be retrieved automatically.
 11. To sum it up, PIDs ensure sustainable retrievability of any kind of web resource, they can be used to unambiguously identify resources on the Web and PIDs are connected to metadata records, which describe the resource in question. 
-12. <i>Allow some time for questions.</i>
+12. *Allow some time for questions.*
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -373,4 +378,5 @@ The metadata stored in the ORCID record would resolve to:
 - PIDs can be used to identify and retrieve metadata records.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
-[^16]: Kunze, J. (2018, August 24). <i>Ten persistent myths about persistent identifiers.</i> https://escholarship.org/uc/item/73m910w8
+
+[^16]: Kunze, J. (2018, August 24). *Ten persistent myths about persistent identifiers.* https://escholarship.org/uc/item/73m910w8

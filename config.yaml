@@ -40,35 +40,16 @@ contact: 'hmc@fz-juelich.de'
 # Use the following menu items to specify the order of
 # individual pages in each dropdown section. Leave blank to
 # include all pages in the folder.
-#
-# Example -------------
-#
-# episodes:
-# - introduction.md
-# - first-steps.md
-#
-# learners:
-# - setup.md
-#
-# instructors:
-# - instructor-notes.md
-#
-# profiles:
-# - one-learner.md
-# - another-learner.md
 
-# Order of episodes in your lesson
-episodes: 
+episodes:
 - getting-started.Rmd
 - data-metadata.Rmd
 - structure-schema.Rmd
 - enabling-technologies-standards.Rmd
 - web-location-identifiers.Rmd
 
-
 # Information for Learners
 learners: 
-- reference.Rmd
 - further-reading.Rmd
 - meet-the-creators.Rmd
 - acknowledgements.Rmd
@@ -87,7 +68,5 @@ profiles:
 
 # Customisation ---------------------------------------------
 #
-# This space below is where custom yaml items (e.g. pinning
-# sandpaper and varnish versions) should live
-
-
+# This space below is where custom yaml items
+# (e.g. pinning sandpaper and varnish versions) should live

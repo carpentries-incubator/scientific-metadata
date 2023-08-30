@@ -116,7 +116,7 @@ Guiding questions could be:
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-## Lecture: Lesson scope & structure
+## Lecture: Lesson scope and structure
 
 **Slide set**: -
 
@@ -126,7 +126,7 @@ Guiding questions could be:
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Episode 2: Data & Metadata
+## Episode 2: Data and Metadata
 <div class="overview card">
   <h2 class="card-header">Episode Schedule</h2>
   <div class="row g-0">
@@ -337,7 +337,7 @@ Use a whiteboard application to display the journal publication. This allows for
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> |Content type | Title |
 | :-----: | ---------- | ----------------------------------------- |
 | 5 min | **Lecture** | [Introduction to information transfer](#accordionInstructor11) |
-| 15 min | **Lecture** | [What is Markup, XML & JSON?](#accordionInstructor12) |
+| 15 min | **Lecture** | [What is Markup, XML and JSON?](#accordionInstructor12) |
 | 7 min | **Lecture** | [JSON step-by-step](#accordionInstructor13) |
 | 3 min | **Lecture** | [Challenge Introduction](#accordionInstructor14)|
 | 15 min | **Challenge** | [Identify metadata in README.txt](#accordionInstructor15) |
@@ -381,7 +381,7 @@ This episode introduces the concept of semi-structured metadata in the context o
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-## Lecture: What is Markup, XML & JSON
+## Lecture: What is Markup, XML and JSON
 
 **Slide set**: <a href="../files/slideSet/8_WhatIsMarkupXmlJson_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>WhatIsMarkupXmlJson.pdf</a>
 
@@ -922,7 +922,7 @@ You can find an example Markdown file for the group handouts <a href="../files/e
 **Objective:** <br>
 By writing a short excerpt of a JSON Schema, the learner gets familiar with the schema syntax, gains the ability to read and understand a schema, and gets to know some important JSON Schema keywords. By writing the schema in a group setup, the learners experience the discussion process as a crucial part of schema development.
 
-##### <u>Challenge 5: Form Input & Validation with JSON Schema</u>
+##### <u>Challenge 5: Form Input and Validation with JSON Schema</u>
 
 **Time:** 10 min
 
@@ -1041,12 +1041,12 @@ After giving the challenge instructions, allow for some time for the learners to
   <li>accompanying journal publications</li>
 </ul>
 
-**Transition to "(Web) Locations & Identifiers":**
+**Transition to "(Web) Locations and Identifiers":**
 During the discussion, ask the group of learners, whether someone encountered a `404 Error` while exploring a metadata standard. If you are working with a heterogeneous group regarding their scientific background, chances are high, that at least one of the learners had this experience (-> it is not unusual that the development of a metadata standard in a specific research field was concluded and the maintenance of the web representation was terminated at the end of the funding period.)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Episode 5: (Web) Location & Identifiers
+## Episode 5: (Web) Location and Identifiers
 <div class="overview card">
   <h2 class="card-header">Episode Schedule</h2>
   <div class="row g-0">
@@ -1054,7 +1054,7 @@ During the discussion, ask the group of learners, whether someone encountered a 
 | :-----: | ---------- | ----------------------------------------- |
 | 2 min | **Group activity** | [PID poll](#accordionInstructor33) |
 | 4 min | **Lecture** | [The Web of Today](#accordionInstructor34) |
-| 14 min | **Lecture** | [Identifier & Web Locations](#accordionInstructor35) |
+| 14 min | **Lecture** | [Identifiers and Web Locations](#accordionInstructor35) |
 | 2 min | **Guided confrontation** | [Error 404](#accordionInstructor36)
 | 8 min | **Lecture** | [Persistent Identifier](#accordionInstructor37) |
 | 5 min | **Lecture** | [PIDs and Metadata](#accordionInstructor38) |
@@ -1133,7 +1133,7 @@ We use [AHA slides](https://ahaslides.com/){target="_blank"} for live polling. S
 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-## Lecture: Identifier & Web Locations
+## Lecture: Identifiers and Web Locations
 
 **Slide set**: <a href="../files/slideSet/18_IdentifierWebLocations_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>IdentifierWebLocations.pdf</a>
 
@@ -1299,7 +1299,7 @@ An invited speaker presents a real world research example and demonstrates how a
 <ul>
   <li>Metadata and Machine Learning / AI</li>
   <li>Metadata Schema / Standard development</li>
-  <li>Knowledge Graphs & the Semantic Web</li>
+  <li>Knowledge Graphs and the Semantic Web</li>
 </ul>
 
 For more information go to the <a href="general-lesson-information.html#lightning-talk" target="_blank">Lightning talk section in our General Lesson Information.</a>
@@ -1315,7 +1315,7 @@ For more information go to the <a href="general-lesson-information.html#lightnin
 | :-----: | ---------- | ----------------------------------------- |
 | 5 min | **Lecture** | [Reflection](#accordionInstructor41) |
 | 10 min | **Group activity** | [Feedback poll](#accordionInstructor42) |
-| 5 min | **Feedback** | [Instructor feedback & farewell](#accordionInstructor43) |
+| 5 min | **Feedback** | [Instructor feedback and farewell](#accordionInstructor43) |
 
 </div>
 </div>
@@ -1396,7 +1396,7 @@ see also [Feedback Day 1](#accordionInstructor18)
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-## Lecture: Instructor Feedback & Farewell
+## Lecture: Instructor Feedback and Farewell
 
 **Slide set**: <i>not provided in slide set</i><br>
 **Time estimate**: 5 min

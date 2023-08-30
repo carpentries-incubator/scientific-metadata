@@ -2,8 +2,7 @@
 site: sandpaper::sandpaper_site
 ---
 
-<img src="https://github.com/carpentries-incubator/scientific-metadata/blob/awesome_dev/episodes/fig/Welcome.png?raw=true/" alt="Welcome." height="75" align="left">
-<br><br><br><br>
+![Welcome.](fig/Welcome.png)
 
 to our entry-level introduction to the **fundamentals of scientific metadata**!
 
@@ -15,42 +14,39 @@ Precise and structured description of research data is key for scientific exchan
 
 This course is targeted at scientific staff and researchers from all fields who are interested in annotating their research data with well-structured and useful metadata.<br><br>
 
-<img src="https://github.com/carpentries-incubator/scientific-metadata/blob/awesome_dev/episodes/fig/youWillLearn.png?raw=true"/ alt="Content overview. In this lesson you will learn, of the differences between and the importance of data and metadata, how to annotate your research data with structured metadata, how to find and evaluate suitable metadata frameworks, how to use basic Markdown, JSON, and JSON Schema, about available tools that you can use to up your metadata annotation game, why structured metadata is important and how it can increase your scientific visibility.">
-<br>
+![Content overview. In this lesson you will learn, of the differences between and the importance of data and metadata, how to annotate your research data with structured metadata, how to find and evaluate suitable metadata frameworks, how to use basic Markdown, JSON, and JSON Schema, about available tools that you can use to up your metadata annotation game, why structured metadata is important and how it can increase your scientific visibility.](fig/youWillLearn.png)
 
 **This lesson is for you, if...**
-<ul style="list-style:none">
-  <li>... you are completely new to the topic of scientific metadata.</li>
-  <li>... you are looking for alternatives for documenting your research data.</li>
-  <li>... you have a basic understanding of metadata but want to gain some hands-on experience.</li>
-  <li>... you want to get into the function and syntax of JSON and JSON schema.</li>
-  <li>... you are looking for metadata standards and tools.</li>
-</ul><br>
 
-**This lesson may not be what you are looking for if...**
-<ul style="list-style:none">
-  <li>... you know the difference between a metadata schema and a standard.</li>
-  <li>... you annotate your research data with structured metadata (XML, JSON, YAML).</li>
-  <li>... you have in-depth knowledge on web technologies and data exchange formats.</li>
-  <li>... you are struggling with a specific metadata problem and just look for this one solution.</li>
-  <li>... your main interest lies in linked data and semantic web technologies</li>
-</ul>
-<br><br>
+* ... you are completely new to the topic of scientific metadata.
+* ... you are looking for alternatives for documenting your research data.
+* ... you have a basic understanding of metadata but want to gain some hands-on experience.
+* ... you want to get into the function and syntax of JSON and JSON schema.
+* ... you are looking for metadata standards and tools.
+
+**This lesson may *not* be what you are looking for if...**
+
+* ... you know the difference between a metadata schema and a standard.
+* ... you annotate your research data with structured metadata (XML, JSON, YAML).
+* ... you have in-depth knowledge on web technologies and data exchange formats.
+* ... you are struggling with a specific metadata problem and just look for this one solution.
+* ... your main interest lies in linked data and semantic web technologies
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+
 ## Dear instructor
 
-We prepared some <a href="general-lesson-information.html"> General Lesson Information</a> for you as a starting point :smile:
+We prepared some [General Lesson Information](general-lesson-information.html) for you as a starting point :smile:
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-<br><br>
+<!-- BEGIN ACKNOWLEDGEMENT FOOTER -->
+This training course was created by the
+[Hub Information](https://helmholtz-metadaten.de/en/information/uebersicht) of the
+[Helmholtz Metadata Collaboration (HMC)](https://helmholtz-metadaten.de/en) at
+[Forschungszentrum Jülich](https://www.fz-juelich.de/de/ias/ias-9),
+an incubator-platform of the Helmholtz Association within the framework of the Information and Data Science strategic initiative
 
-<p>This training course was created by the [Hub Information](https://helmholtz-metadaten.de/en/information/uebersicht) of the [Helmholtz Metadata Collaboration (HMC)](https://helmholtz-metadaten.de/en) at [Forschungszentrum Jülich](https://www.fz-juelich.de/de/ias/ias-9), an incubator-platform of the Helmholtz Association within the framework of the Information and Data Science strategic initiative]
-
-<div style="display:flex;">
-<img src="https://github.com/Materials-Data-Science-and-Informatics/Logos/raw/main/HMC/HMC_Logo_M.png" alt="HMC" style="height:86px; padding:20px;" float/>
-
-<img src="https://github.com/Materials-Data-Science-and-Informatics/Logos/blob/main/FZJ/Logo_FZ_Juelich_898x261_rgb_jpg.jpg?raw=true" alt="FZJ" style="width:200px; padding:20px;"/>
-</div><br><br>
-
+![HMC Logo](https://github.com/Materials-Data-Science-and-Informatics/Logos/raw/main/HMC/HMC_Logo_M.png){style="height:86px; padding:20px;"}
+![FZJ Logo](https://github.com/Materials-Data-Science-and-Informatics/Logos/blob/main/FZJ/Logo_FZ_Juelich_898x261_rgb_jpg.jpg?raw=true){style="width:200px; padding:20px;"}
+<!-- END ACKNOWLEDGEMENT FOOTER -->

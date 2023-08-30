@@ -27,17 +27,15 @@ exercises: 2
 ## Linked Data & the Semantic Web
 
 Most search engines are based on keywords:
-<ul>
-  <li>results are high recall and low precision</li>
-  <li>results are highly sensitive to vocabulary</li>
-  <li>results are single human-readable web pages</li>
-  <li>**results do not support logical reasoning and query answering**</li>
-</ul>
+- results are high recall and low precision
+- results are highly sensitive to vocabulary
+- results are single human-readable web pages
+- **results do not support logical reasoning and query answering**
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-## Lecture: Linked Data & JSON Ld
 
-**Slide set**: <i>not provided in slide set</i><br>
+## Lecture: Linked Data and JSON LD
+
 **Time estimate**: 5 min
 
 :construction: **UNDER CONSTRUCTION** :construction:
@@ -47,16 +45,18 @@ Most search engines are based on keywords:
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Lecture: Graph Data Bases & the Semantic Web
 
-**Slide set**: <i>not provided in slide set</i><br>
 **Time estimate**: 5 min
 
 :construction: **UNDER CONSTRUCTION** :construction:
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-**The term “Semantic Web” refers to <a href="https://www.w3.org/standards/semanticweb/" target="_blank">W3C’s</a> vision of a Web of Linked Data.**
+**The term “Semantic Web” refers to [W3C’s](https://www.w3.org/standards/semanticweb/){target="_blank"} vision of a Web of Linked Data.**
 
-It provides a way for machines to be able to process and understand the data that they were only to display on the traditional Web. It is a vision for the future Web (a web of meaning — semantics); originally defined by Tim Berners-Lee. The Semantic Web is not a separate Web, but an extension of the current one. In the Semantic Web, metadata are invisible as people read the page, but they're clearly visible to computers.
+It provides a way for machines to be able to process and understand the data that they were only to display on the traditional Web.
+It is a vision for the future Web (a web of meaning — semantics); originally defined by Tim Berners-Lee.
+The Semantic Web is not a separate Web, but an extension of the current one.
+In the Semantic Web, metadata are invisible as people read the page, but they're clearly visible to computers.
 
 But this is another story and shall be told another time...
 
