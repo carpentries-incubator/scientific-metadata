@@ -22,7 +22,7 @@ title: General Lesson Information
   </div>
 </div>
 
-![Dear instructors,](fig/dearInstructors.png)
+![](fig/dearInstructors.png){alt="Dear instructors,"}
 
 thank you for your interest in our training course **"Fundamentals of Scientific Metadata"**. 
 
@@ -100,7 +100,7 @@ The attached dataset holds information on the biomechanical acceleration of a hu
 
 We added variable names, transformed the time values and added a mock "scream detected" variable with boolean values based on [this onride video](https://www.youtube.com/watch?v=KeKIBSN2F5c){target="_blank"}.
 
-**Example dataset:** <a href="../files/exampleDataObject.csv"> exampleDataObject.csv</a>
+**Example dataset:** [exampleDataObject.csv](../files/exampleDataObject.csv)
 
 <a href="../files/exampleDataObjectColor.png" target="popup" onclick="window.open('../docs/files/exampleDataObjectColor.png,'popup','width=1200'); return false;" onMouseOver="document.exampleData.src='../../docs/files/CLICKexampleDataObjectColor.png';" onMouseOut="document.exampleData.src='../../docs/files/exampleDataObjectColor.png';"><span><img src="files/exampleDataObjectColor.png" alt="Screenshot of example data object." name="exampleData"/></span></a>
 
