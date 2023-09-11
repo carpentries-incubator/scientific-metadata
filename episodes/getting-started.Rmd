@@ -3,6 +3,7 @@ title: 'Getting Started'
 teaching: 2
 exercises: 10
 ---
+
 :::::::::::::::::::::::::::::::::::::: questions 
 
 - What makes us understand the context of data?
@@ -14,14 +15,16 @@ exercises: 10
 
 - Getting familiar with the example dataset.
 - Facing a common challenge when exploring an unknown dataset. 
+
 :::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: challenge
+
 ## Challenge 0: What do you see?
 
 Your collaborators sent you a link to one of their tabular datasets with the request to inspect and comment on the collected data.
 
-- Download the data: <a href="./files/exampleDataObject.csv">exampleDataObject.csv</a> (csv file, delimiter: ",") 
+- Download the data: [exampleDataObject.csv](./files/exampleDataObject.csv){target="_blank"} (csv file, delimiter: ",") 
 - Open the CSV file with your day-to-day data analysis tool (Python, MS Excel, R, Matlab, etc.)
 - Inspect the data
 
@@ -35,11 +38,13 @@ Your collaborators sent you a link to one of their tabular datasets with the req
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: hint
 **Important:** There is no right or wrong in this task. Just note down whatever comes to your mind!
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor 
 
 ## Creator recommendation
+
 This challenge is meant to get the learners into the mindset of the lesson by giving them a (usually) familiar problem: **unsufficiently annotated, uninterpretable data**.
 
 Send this challenge to the learners before the lesson starts. During the warm-up and introduction session of your lesson, ask the learners to briefly share their impressions with the dataset. You can use the questions in the overview as a guideline.

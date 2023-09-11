@@ -3,21 +3,21 @@ title: "Further Reading"
 
 ---
 
-1. Pomerantz, J. (2015). <i>Metadata</i>. The MIT Press. *doi*: [10.7551/mitpress/10237.001.0001](https://doi.org/10.7551/mitpress/10237.001.0001)
-2. Zhang, A. B., Gourley, D. (2008). <i>Metadata strategy</i> in Creating Digital Collections: a practical Guide. Sawston, UK: Woodhead Publishing.
-3. Chadwick, I. (2016). <i>Research Data Management: guide to writing ”readme” type metadata.</i> The Open University. https://www.open.ac.uk/library-research-support/sites/www.open.ac.uk.library-research-support/files/files/RDM-Guidelines-for-creating-readme-style-metadata.pdf
-4. Coombs, J., Renear, A., & DeRose, S. (1987). Markup Systems and the Future of Scholarly Text Processing. <i>Commun. ACM, 30(11), 933–947.</i> *doi*: [10.1145/32206.32209](https://doi.org/10.1145/32206.32209)
-5. Cynthia Zender (2005). Markup 101: Markup Basics. <i>SAS Institute</i>. https://www.lexjansen.com/pharmasug/2005/Tutorials/tu12.pdf
-6. <i>ISO 8879:1986.</i> (n.d.). ISO. https://www.iso.org/standard/16387.html
-7. <i>XML Tutorial.</i> (C) 1999-2022. Refsnes Data, W3Schools. https://www.w3schools.com/xml/
-8. <i>ECMA-404 - ECMA International.</i> (2021, February 4). Ecma International. https://www.ecma-international.org/publications-and-standards/standards/ecma-404/
-9. <i>JSON Introduction.</i> (C) 1999-2022. Refsnes Data, W3Schools. https://www.w3schools.com/js/js_json_intro.asp↩︎
-10. <i>The birth of the Web | CERN.</i> (2023, August 11). https://home.cern/science/computing/birth-web
-11. <i>The arXiv of the future will not look like the arXiv.</i> (n.d.). Ar5iv. https://ar5iv.labs.arxiv.org/html/1709.07020
-12. <i>XML Schema Tutorial.</i> (C) 1999-2022. Refsnes Data, W3Schools. https: //www.w3schools.com/xml/schema_intro.asp
-13. <i>Understanding JSON Schema. The basics.</i> © Copyright 2013-2016 Michael Droettboom, Space Telescope Science Institute; Last updated on Feb 07, 2022. https://json-schema.org/understanding-json-schema/basics.html
-14. <i>Metadata Basics.</i> (2018, December 15). https://www.dublincore.org/resources/metadata-basics/
-15. <i>ISO 15836-1:2017.</i> (n.d.). ISO. https://www.iso.org/standard/71339.html
-16. Kunze, J. (2018, August 24). <i>Ten persistent myths about persistent identifiers.</i> https://escholarship.org/uc/item/73m910w8
+1. Pomerantz, J. (2015). *Metadata*. The MIT Press. *doi*: [10.7551/mitpress/10237.001.0001](https://doi.org/10.7551/mitpress/10237.001.0001)
+2. Zhang, A. B., Gourley, D. (2008). *Metadata strategy* in Creating Digital Collections: a practical Guide. Sawston, UK: Woodhead Publishing.
+3. Chadwick, I. (2016). *Research Data Management: guide to writing ”readme” type metadata.* The Open University. https://www.open.ac.uk/library-research-support/sites/www.open.ac.uk.library-research-support/files/files/RDM-Guidelines-for-creating-readme-style-metadata.pdf
+4. Coombs, J., Renear, A., & DeRose, S. (1987). Markup Systems and the Future of Scholarly Text Processing. *Commun. ACM, 30(11), 933–947.* *doi*: [10.1145/32206.32209](https://doi.org/10.1145/32206.32209)
+5. Cynthia Zender (2005). Markup 101: Markup Basics. *SAS Institute*. https://www.lexjansen.com/pharmasug/2005/Tutorials/tu12.pdf
+6. *ISO 8879:1986.* (n.d.). ISO. https://www.iso.org/standard/16387.html
+7. *XML Tutorial.* (C) 1999-2022. Refsnes Data, W3Schools. https://www.w3schools.com/xml/
+8. *ECMA-404 - ECMA International.* (2021, February 4). Ecma International. https://www.ecma-international.org/publications-and-standards/standards/ecma-404/
+9. *JSON Introduction.* (C) 1999-2022. Refsnes Data, W3Schools. https://www.w3schools.com/js/js_json_intro.asp↩︎
+10. *The birth of the Web | CERN.* (2023, August 11). https://home.cern/science/computing/birth-web
+11. *The arXiv of the future will not look like the arXiv.* (n.d.). Ar5iv. https://ar5iv.labs.arxiv.org/html/1709.07020
+12. *XML Schema Tutorial.* (C) 1999-2022. Refsnes Data, W3Schools. https: //www.w3schools.com/xml/schema_intro.asp
+13. *Understanding JSON Schema. The basics.* © Copyright 2013-2016 Michael Droettboom, Space Telescope Science Institute; Last updated on Feb 07, 2022. https://json-schema.org/understanding-json-schema/basics.html
+14. *Metadata Basics.* (2018, December 15). https://www.dublincore.org/resources/metadata-basics/
+15. *ISO 15836-1:2017.* (n.d.). ISO. https://www.iso.org/standard/71339.html
+16. Kunze, J. (2018, August 24). *Ten persistent myths about persistent identifiers.* https://escholarship.org/uc/item/73m910w8
 
 
