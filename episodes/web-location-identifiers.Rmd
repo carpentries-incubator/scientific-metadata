@@ -57,7 +57,7 @@ We use [AHA slides](https://ahaslides.com/){target="_blank"} for live polling. S
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Lecture: The Web of Today
 
-**[Slide set](../files/slideSet/17_TheWebOfToday_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}**
+**Slide set**: [TheWebOfToday.pdf](../files/slideSet/17_TheWebOfToday_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 4 min
 
@@ -91,7 +91,7 @@ A web resource is any entity (digital, physical or abstract), that is represente
 
 ## Lecture: Identifier and Web Locations
 
-**[Slide set](../files/slideSet/18_IdentifierWebLocations_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}**
+**Slide set**: [IdentifierWebLocations.pdf](../files/slideSet/18_IdentifierWebLocations_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 14 min
 
@@ -196,7 +196,7 @@ Each of these events will result in the **404 error** response. To avoid these b
 
 ## Lecture: Persistent Identifier
 
-**[Slide set](../files/slideSet/19_PersistentIdentifier_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}**
+**Slide set**: [PersistentIdentifier.pdf](../files/slideSet/19_PersistentIdentifier_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 8 min
 
@@ -251,7 +251,7 @@ A **PID service** operate as a persistent look-up service that redirects GET req
 
 ## Lecture: PIDs and Metadata 
 
-**[Slide Set](../files/slideSet/20_PIDsAndMetadata_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}**
+**Slide set**: [PidsAndMetadata.pdf](../files/slideSet/20_PIDsAndMetadata_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 5 min
 

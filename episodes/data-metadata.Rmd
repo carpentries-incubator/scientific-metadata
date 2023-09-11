@@ -30,7 +30,7 @@ editor_options:
 
 ## Lecture: What is data?
 
-**[Slide set](../files/slideSet/1_WhatIsData_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}**
+**Slide set**: [WhatIsData.pdf](../files/slideSet/1_WhatIsData_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 5 min
 
@@ -55,7 +55,7 @@ editor_options:
 
 ## Lecture: The example data object
 
-**[Slide set](../files/slideSet/2_TheExampleDataObject_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}**
+**Slide set**: [TheExampleDataObject.pdf](../files/slideSet/2_TheExampleDataObject_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 5 min
 
@@ -95,7 +95,7 @@ the data: **metadata**.
 
 ## Information pyramid
 
-![Information pyramid from glyphs to wisdom highlighting the data fracture. Text reads: Data is potential information and needs to be processed and contextualized to make it accessible for the human audience.](fig/informationPyramid.png){target="_blank"}
+![](fig/informationPyramid.png){target="_blank" alt="Information pyramid from glyphs to wisdom highlighting the data fracture. Text reads: Data is potential information and needs to be processed and contextualized to make it accessible for the human audience."}
 
 :::
 
@@ -105,7 +105,7 @@ the data: **metadata**.
 
 ## Lecture: What is metadata?
 
-**[Slide set](../files/slideSet/3_WhatIsMetadata_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}**
+**Slide set**: [WhatIsMetadata.pdf](../files/slideSet/3_WhatIsMetadata_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 5 min
 
@@ -125,7 +125,7 @@ the data: **metadata**.
 
 ## Lecture: Descriptive, administrative, structural metadata
 
-**[Slide set](../files/slideSet/4_DescriptiveAdministrativeStructuralMetadata_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}**
+**Slide set**: [DescriptiveAdministrativeStructuralMetadata.pdf](../files/slideSet/4_DescriptiveAdministrativeStructuralMetadata_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}**
 
 **Time estimate**: 5 min
 
@@ -181,7 +181,7 @@ chapters in a book). [<sup>2</sup>](#fn2)
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Challenge 1: Real-world Metadata
 
-**[Slide set](../files/slideSet/5_Challenge1RealWorldMetadata_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}**
+**Slide set**: [Challenge1Introduction.pdf](../files/slideSet/5_Challenge1RealWorldMetadata_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time:** 15 min 
 
@@ -234,7 +234,7 @@ Allow some time for the learners to navigate the websites and explore the metada
 
 ## Lecture: Metadata in the scientific context
 
-**[Slide set](../files/slideSet/6_MetadataInScience_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}**: 
+**Slide set**: [MetadataInScience.pdf](../files/slideSet/6_MetadataInScience_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 10 min
 
@@ -244,8 +244,8 @@ Allow some time for the learners to navigate the websites and explore the metada
 4. But as soon as you open the underlying datasets, understanding the process of how this data was acquired is not so straightforward anymore. The variables might be hard to understand, there might be missing values, and the performed data cleaning is not necessarily apparent.
 5. So you take a look at the experiment's documentation...
 6. A study by Monya Baker, which was published in Nature in 2016 was able to show, that more than 70% of researchers have tried and failed to reproduce another scientist's experiments. And more than half have even failed to reproduce their *own* experiments.
-7. The worst practice that you can encounter in your scientific life is surely data, saved under an uninformative file name, with no documentation whatsoever.
-8. Slightly better practice are lab notes, which are still widely used as the go-to documentation method in experimental scientific areas. Using lab notes as documentation method, you can facilitate the findability... 
+7. A rather bad practice that you can encounter in your scientific life is surely data, saved under an uninformative file name, with no documentation whatsoever.
+8. Slightly better practice are lab notes, which are still widely used as the go-to documentation method in experimental scientific areas. Using lab notes as documentation method, you can facilitate the findability...
 9. by assigning meaningful file names and dates to your data. However...
 10. lab notes come with various disadvantages. Lab notes are usually taken continuously and over the course of a 3-year contract, several hundred pages of lab notes can accumulate.
 11. so even though lab notes allow for some kind of documentation, they are largely unstructured and subjective, rarely following templates or guidelines. Continuously taking notes makes the documentation hard to retrieve. The notes are physically separated from the data they describe and remain in the hand of the experimenter or institution hosting the experiments, which makes them hard to share. And let's admit it - handwriting can be a *pain* to read.
@@ -276,13 +276,15 @@ data. `README`-style metadata best practices include:[^5]
 
 * creating one `README` file for each data file, whenever possible.
 * naming the `README` in a way that it is easily associated with the data file(s) it describes.
-* writing the `README` document as a plain text file for interoperability.
-* formatting multiple `README` files identically.
+* writing the `README` document as a plain text file avoids proprietary data formats.
+* structuring multiple `README` files identically.
 * where possible follow established conventions for scientific vocabulary (i.e. from glossaries or resources such as the [IUPAC Gold book](https://goldbook.iupac.org/){target="_blank"})
 
 We strongly recommend to use
-**[this template](https://cornell.app.box.com/v/ReadmeTemplate){target="_blank"}**
-for readme-style metadata documents.
+**[this template](../files/AUTHOR_DATASET_ReadmeTemplate.txt){target="_blank"}**
+for `README`-style metadata documents.[^6]
+
+[^6]: *Guide to writing “readme” style metadata – Cornell Data Services.* (n.d.). https://data.research.cornell.edu/data-management/sharing/readme/
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 # Guided confrontation: Metadata in scientific publications
@@ -314,7 +316,7 @@ We recommend a **15 min break** at this point.
 
 ::: keypoints
 - **Data** is potential information.
-- Borders between **data** and **metadata** are fluid and depend on the context.
+- The boundaries between **data** and **metadata** are blurred and depend on the context.
 - **Scientific meta information** is often recorded in handwritten (lab) notes. 
   A better - though still limited - solution, is the documentation of scientific metadata in accompanying `README` files
 :::

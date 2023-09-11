@@ -28,7 +28,7 @@ exercises: 60
 
 ## Lecture: Introduction to information transfer
 
-**[Slide set](../files/slideSet/7_DataTransfertIntro_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}**
+**Slide set**: [IntroToInformationTransfer.pdf](../files/slideSet/7_DataTransfertIntro_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 5 min
 
@@ -43,7 +43,7 @@ exercises: 60
 
 ## Lecture: What is Markup, XML and JSON
 
-**[Slide set](../files/slideSet/8_WhatIsMarkupXmlJson_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}**
+**Slide set**: [WhatIsMarkupXmlJson.pdf](../files/slideSet/8_WhatIsMarkupXmlJson_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 15 min
 
@@ -69,7 +69,7 @@ exercises: 60
 
 ## Lecture: JSON Step-By-Step
 
-**[Slide set](../files/slideSet/9_JsonStepByStep_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}**
+**Slide set**: [JsonStepByStep.pdf](../files/slideSet/9_JsonStepByStep_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 7 min
 
@@ -99,9 +99,9 @@ exercises: 60
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-**Markup** is not part of the natural text or content but tells something **about it** [^4], [^5]. By "marking up" a text document additional information on the structure, formatting and relationships within the document can be given. A familiar example are the annotations left by a teacher in a student's assay with a red pen.[<sup>2</sup>](#fn2)  In order to make Markup work it is essential, that it follows determined rules, that are understood by the entity marking up the document and the interpreter alike. Markup languages in the digital context establish sets of rules that allow the machine to interpret the building blocks of the document. Some categories of markup are: 
+**Markup** is not part of the natural language or content of the text but tells something **about it** [^4], [^5]. By "marking up" a text document additional information on the structure, formatting and relationships within the document can be given. A familiar example are the annotations left by a teacher in a student's assay with a red pen.[<sup>2</sup>](#fn2)  In order to make Markup work, it is essential, that it follows determined rules, that are understood by the entity marking up the document and the interpreter alike. Markup languages in the digital context establish sets of rules that allow the machine to interpret the building blocks of the document. Some categories of markup are: 
 
-**Punctuational markup** -- for example -- is placing periods or question marks at the end of sentences.
+**Punctuational markup** is placing periods, question marks, or similar punctuations at the end of sentences. It gives clues about intonations.
 
 ```text
 This is a question?
@@ -121,7 +121,7 @@ Simple markdown will interpret the following word **bold**.
 
 If design rules for headlines change, the document structure remains intact and is still in line with the authors' original intention.
 
-**Referential markup** refers to entities external to the document and may be replaced by those entities during processing. The World Wide Web markup language HTML (**H**yper**T**ext **M**arkup **L**anguage) e.g. uses the anchor `<a>` tag for hypertext references (hyperlinks).
+**Referential markup** refers to entities external to the document and may be replaced by those entities during processing. The World Wide Web markup language HTML (**H**yper**T**ext **M**arkup **L**anguage) e.g. uses the anchor `<a>` tag for hypertext references (hyperlinks) or `<img>` for images.
 
 ```html
 <a href="url">link text displayed to reader</a>
@@ -140,7 +140,7 @@ Rigorous markup can make text (character strings) more accessible for computer a
 
 ## XML
 
-In contrast, the main purpose of **XML** (e**X**tensible **M**arkup **L**anguage) is **the transfer and storage of arbitrary data** on the World Wide Web.  XML is software- and hardware-independent. It is considered human-readable and allows for hierarchical (tree-like) structures. Data elements are wrapped in start `<...>` and end `</...>` "tags". XML tags can be customized by the author of the document, its markup is therefore not limited to a set of rules but **extensible**.[^7]
+The main purpose of **XML** (e**X**tensible **M**arkup **L**anguage) is **the transfer and storage of arbitrary data** on the World Wide Web.  XML is software- and hardware-independent. It is considered human-readable and allows for hierarchical (tree-like) structures. Data elements are wrapped in start `<...>` and end `</...>` "tags". XML tags can be customized by the author of the document, its markup is therefore not limited to a set of rules but **extensible**.[^7]
 
 ```xml
 <example>
@@ -154,13 +154,13 @@ In contrast, the main purpose of **XML** (e**X**tensible **M**arkup **L**anguage
 
 **JSON** (**J**ava**S**cript **O**bject **N**otation) is **not** a markup language. It is a **lightweight, human-readable, hierarchical format to store and transport data**.[^8] <a href="https://www.json.org/json-en.html" target="_blank">JSON syntax</a> is inspired by JavaScript object notation.[^9] Like XML, JSON is software- and hardware-independent.
 
-- data elements are defined in key/value pairs
+- (meta)data elements are defined in key/value pairs
 - keys are of data type `string` (in quotes)
 - values must be of data type `string`, `number`, `boolean`, `array` or `object` 
 - elements are separated by commas
-- curly braces hold objects
-- square brackets hold arrays
-- no comments supported
+- curly braces hold `objects`
+- square brackets hold `arrays`
+- in-line commenting is not supported
     
 ```json
 {
@@ -186,7 +186,7 @@ Data exchange formats such as **XML** or **JSON** can be read and processed not 
 
 ## Lecture: Challenge introduction
 
-**[Slide set](../files/slideSet/10_challengeIntroduction_2_3_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}**
+**Slide set**: [Challenge23Introduction.pdf](../files/slideSet/10_challengeIntroduction_2_3_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 3 min
 
@@ -244,11 +244,11 @@ The learners create a structured JSON object literal and experience the difficul
 You cannot make sense of the data you got from your collaborators. You ask them for supplemental information and they send you the following **README file** (see below).
 
 - Read the README carefully.
-- In the group, **discuss**, **decide** and **prioritize** which information in the text are valuable experimental metadata.
-- **Mark up the valuable information.** In markdown you can mark up the respective words with "==". <br> **Example**: `==This text will be highlighted==`
+- In the group, **discuss**, **decide** and **prioritize** which information in the text are relevant experimental metadata.
+- **Mark up the relevant information.** In markdown you can mark up the respective words with "==". <br> **Example**: `==This text will be highlighted==`
 
 You can download the README as TXT file here: 
-[README_exampleDataObject.txt](data/README_exampleDataObject.txt){target="_blank"}
+[README_exampleDataObject.txt](../data/README_exampleDataObject.txt){target="_blank"}
 
 ##### README_exampleDataObject.txt
 
@@ -310,9 +310,9 @@ You have manually marked up the relevant information in the README. However, you
 }
 ``` 
 
-- Based on the information identified in the README, write a well-formed, descriptive JSON object.
-- Collaboratively, find suitable keys (aka variable names) to your values.
-- You may want to use some  [JSON formatter web service](https://jsonformatter.org/){target="_blank"} to check and pretty-print your output.
+- Based on the information identified in the README, write a structured, descriptive JSON object.
+- Collaboratively, find suitable keys to your values.
+- You may want to use some  [JSON formatter web service](https://jsonformatter.org/){target="_blank"} to check and beautify (*lint*) your output.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: hint
 
@@ -428,7 +428,6 @@ You can use this time to set up the plenary discussion.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-
 ## Discussion: Challenge reflection
 
 **Time:** 20 min
@@ -443,6 +442,7 @@ At this point, the learners should experience some form of frustration - the met
 
 - What was easy while generating the structured metadata record?
 - What was hard? Which points were intensely discussed in the group?
+- How did you decide, which information are relevant metadata?
 - Which differences do you see between the different JSON metadata records?
 - How do you feel after comparing the results?
 

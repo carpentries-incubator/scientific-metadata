@@ -2,7 +2,7 @@
 site: sandpaper::sandpaper_site
 ---
 
-![Welcome.](fig/Welcome.png)
+![](fig/Welcome.png){alt="Welcome."}
 
 to our entry-level introduction to the **fundamentals of scientific metadata**!
 
@@ -14,7 +14,7 @@ Precise and structured description of research data is key for scientific exchan
 
 This course is targeted at scientific staff and researchers from all fields who are interested in annotating their research data with well-structured and useful metadata.<br><br>
 
-![Content overview. In this lesson you will learn, of the differences between and the importance of data and metadata, how to annotate your research data with structured metadata, how to find and evaluate suitable metadata frameworks, how to use basic Markdown, JSON, and JSON Schema, about available tools that you can use to up your metadata annotation game, why structured metadata is important and how it can increase your scientific visibility.](fig/youWillLearn.png)
+![](fig/youWillLearn.png){alt="Content overview. In this lesson you will learn, of the differences between and the importance of data and metadata, how to annotate your research data with structured metadata, how to find and evaluate suitable metadata frameworks, how to use basic Markdown, JSON, and JSON Schema, about available tools that you can use to up your metadata annotation game, why structured metadata is important and how it can increase your scientific visibility."}
 
 **This lesson is for you, if...**
 
@@ -36,7 +36,7 @@ This course is targeted at scientific staff and researchers from all fields who 
 
 ## Dear instructor
 
-We prepared some [General Lesson Information](general-lesson-information.html) for you as a starting point :smile:
+We prepared some [General Lesson Information](general-lesson-information.html) for you as a starting point :wink:
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

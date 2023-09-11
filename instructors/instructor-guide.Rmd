@@ -26,10 +26,10 @@ title: Instructor Guide
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> | Episode | Description |
 | :-----: | :---: | ------------------------------- |
 | 35 min | [0](#episode-0-housekeeping) | <u>[**Housekeeping**](#episode-0-housekeeping)</u><br>The lesson starts with an introduction by the instructors, and usually the hosting organization, to the learners. The learners introduce themselves briefly and report on their first impressions of the example data object. Scope and schedule of the lesson are outlined. |
-| 80 min | [2](#episode-2-data-metadata) | <u>[**Data and Metadata**](#episode-2-data-metadata)</u><br>The learners get an introduction to data and metadata in everyday life and research contexts. Descriptive, administrative, and structural metadata are distinguished. The learners conduct a guided online search (URLs are provided) and explore the metadata tagging in selected web pages. Good (enough) and worst practices of metadata annotation will be covered in the final talk of this module. The presentation is complemented by a live demonstration, collaboratively extracting metadata from scientific publications. |
-| 105 min | [3](#episode-3-structured-metadata-from-markup-to-json) | <u>[**Structured Metadata: From Markup to JSON**](##episode-3-structured-metadata-from-markup-to-json)</u><br>This episode introduces the concept of semi-structured metadata in the context of machine accessibility and interoperability. After defining the term *Markup*, the learners will be confronted with XML and JSON as (meta)data exchange formats. In the challenges 2 & 3, the learners will apply the lecture content to the example data object by extracting metadata from an accompanying `README` file and annotating the example data object using JSON. Challenges will be tackled in groups of 4 - 6 learners. Group results are compared and discussed in a plenary discussion. Ideally, the learners will experience light frustration during result comparison, realizing, that structuring their metadata will result in valid machine-interpretable data objects, yet lack comparability and reusability. |
+| 80 min | [2](#episode-2-data-and-metadata) | <u>[**Data and Metadata**](#episode-2-data-and-metadata)</u><br>The learners get an introduction to data and metadata in everyday life and research contexts. Descriptive, administrative, and structural metadata are distinguished. The learners conduct a guided online search (URLs are provided) and explore the metadata tagging in selected web pages. Good (enough) and worst practices of metadata annotation will be covered in the final talk of this module. The presentation is complemented by a live demonstration, collaboratively extracting metadata from scientific publications. |
+| 105 min | [3](#episode-3-structured-metadata-from-markup-to-json) | <u>[**Structured Metadata: From Markup to JSON**](#episode-3-structured-metadata-from-markup-to-json)</u><br>This episode introduces the concept of semi-structured metadata in the context of machine accessibility and interoperability. After defining the term *Markup*, the learners will be confronted with XML and JSON as (meta)data exchange formats. In the challenges 2 & 3, the learners will apply the lecture content to the example data object by extracting metadata from an accompanying `README` file and annotating the example data object using JSON. Challenges will be tackled in groups of 4 - 6 learners. Group results are compared and discussed in a plenary discussion. Ideally, the learners will experience light frustration during result comparison, realizing, that structuring their metadata will result in valid machine-interpretable data objects, yet lack comparability and reusability. |
 | 20 min | [0](#episode-0-housekeeping-1) | <u>[**Housekeeping**](#episode-0-housekeeping-1)</u><br>Day 1 concludes with a brief recap on the topics of the first day. Feedback is gathered from the learners and eventually implemented in day 2. An outlook on the content of the second day is presented. |
-|  |  | [**To Do: After Day 1**](#checklist2) |
+|  |  | [**To Do: After Day 1**](#to-do-after-day-1) |
 </div>
 </div>
 
@@ -40,10 +40,10 @@ title: Instructor Guide
 | :-----: | :---: | ------------------------------- |
 | 15 min | [0](#episode-0-housekeeping-2) | <u>[**Housekeeping**](#episode-0-housekeeping-2)</u><br>The learners get a brief recap of the contents of day 1 and an outlook on day 2. In the warm-up session, the learners actively apply their knowledge acquired on day 1 by completing a personal JSON object using a provided template. |
 | 120 min | [4](#episode-4.-enabling-technologies-and-standards) | <u>[**Enabling Technologies and Standards**](#episode-4.-enabling-technologies-and-standards)</u><br>The episode starts with a short history of the World Wide Web from a scholarly perspective, highlighting the benefits of this technology for sharing information. Metadata schemas are introduced in depth by lectures and live coding. Learners practice writing a *JSON Schema* in a group challenge. Subsequently, the written schema is visualized in a web interface, illustrating a possible application. The concept of *metadata standards* is introduced and distinguished from metadata schemas. Some community-independent standards with wide adoption in the scientific context and beyond are investigated. In the following challenge, the learners are introduced to *terminology registries*, practice their navigation and get the opportunity to identify metadata terminologies relevant for their fields of research. |
-| 30 min | [5](#episode-5-web-location-identifiers) | <u>[**(Web) Location and Identifiers**](#episode-5-web-location-identifiers)</u><br>This episode is an introduction to the concept and technology of Persistent Identifiers (PIDs) on the World Wide Web. The learners are familiarized with the technology of client-server communication on the web, learn to differentiate between URN, URL, URI, and PID, and get to know  PID services commonly used in the scientific community. Further, the application of (Persistent) Identifiers in metadata records is discussed. |
+| 30 min | [5](#episode-5-web-location-and-identifiers) | <u>[**(Web) Location and Identifiers**](#episode-5-web-location-and-identifiers)</u><br>This episode is an introduction to the concept and technology of Persistent Identifiers (PIDs) on the World Wide Web. The learners are familiarized with the technology of client-server communication on the web, learn to differentiate between URN, URL, URI, and PID, and get to know  PID services commonly used in the scientific community. Further, the application of (Persistent) Identifiers in metadata records is discussed. |
 | 35 min | [0](#episode-0-lightning-talk) | <u>[**Lightning Talk**](#episode-0-lightning-talk)</u><br>An invited speaker presents a real-world research example and demonstrates how applied metadata can shape research.  |
 | 20 min | [0](#episode-0-housekeeping-3) | <u>[**Housekeeping**](#episode-0-housekeeping-3)</u><br>This module concludes the lesson. A summarizing overview of the past two days is given. The learners provide their feedback on the lesson. The instructors give feedback to the learners. |
-|  |  | [**To Do: After the lesson**](#checklist3) |
+|  |  | [**To Do: After the lesson**](#to-do-after-the-lesson) |
 </div>
 </div>
 
@@ -166,7 +166,7 @@ The learners get an introduction to data and metadata in everyday life and resea
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Lecture: What is data?
 
-**Slide set**: <a href="../files/slideSet/1_WhatIsData_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>WhatIsData.pdf</a>
+**Slide set**: [WhatIsData.pdf](../files/slideSet/1_WhatIsData_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 5 min
 
@@ -190,7 +190,7 @@ The learners get an introduction to data and metadata in everyday life and resea
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Lecture: The example data object
 
-**Slide set**: <a href="../files/slideSet/2_TheExampleDataObject_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>TheExampleDataObject.pdf</a>
+**Slide set**: [TheExampleDataObject.pdf](../files/slideSet/2_TheExampleDataObject_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 5 min
 
@@ -206,7 +206,7 @@ The learners get an introduction to data and metadata in everyday life and resea
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Lecture: What is metadata?
 
-**Slide set**: <a href="../files/slideSet/3_WhatIsMetadata_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>WhatIsMetadata.pdf</a>
+**Slide set**: [WhatIsMetadata.pdf](../files/slideSet/3_WhatIsMetadata_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 5 min
 
@@ -225,7 +225,7 @@ The learners get an introduction to data and metadata in everyday life and resea
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Lecture: Descriptive, administrative, structural metadata
 
-**Slide set**: <a href="../files/slideSet/4_DescriptiveAdministrativeStructuralMetadata_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>DescriptiveAdministrativeStructuralMetadata.pdf</a>
+**Slide set**: [DiscriptiveAdministrativeStructuralMetadata.pdf](../files/slideSet/4_DescriptiveAdministrativeStructuralMetadata_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 5 min
 
@@ -247,7 +247,7 @@ The learners get an introduction to data and metadata in everyday life and resea
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Challenge 1: Real-world Metadata
 
-**Slide set**: <a href="../files/slideSet/5_Challenge1RealWorldMetadata_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>Challenge1RealWorldMetadata.pdf</a>
+**Slide set**: [Challenge1Introduction.pdf](../files/slideSet/5_Challenge1RealWorldMetadata_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time:** 15 min 
 
@@ -273,7 +273,7 @@ Allow some time for the learners to navigate the websites and explore the metada
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Lecture: Metadata in the scientific context
 
-**Slide set**: <a href="../files/slideSet/6_MetadataInScience_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>MetadataInScience.pdf</a>
+**Slide set**: [MetadataInScience.pdf](../files/slideSet/6_MetadataInScience_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 10 min
 
@@ -369,7 +369,7 @@ This episode introduces the concept of semi-structured metadata in the context o
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Lecture: Introduction to information transfer
 
-**Slide set**: <a href="../files/slideSet/7_DataTransfertIntro_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>DataTransfertIntro.pdf</a>
+**Slide set**: [IntroToInformationTransfer.pdf](../files/slideSet/7_DataTransfertIntro_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 5 min
 
@@ -383,7 +383,7 @@ This episode introduces the concept of semi-structured metadata in the context o
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Lecture: What is Markup, XML and JSON
 
-**Slide set**: <a href="../files/slideSet/8_WhatIsMarkupXmlJson_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>WhatIsMarkupXmlJson.pdf</a>
+**Slide set**: [WhatIsMarkupXmlJson.pdf](../files/slideSet/8_WhatIsMarkupXmlJson_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 15 min
 
@@ -408,7 +408,7 @@ This episode introduces the concept of semi-structured metadata in the context o
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Lecture: JSON Step-By-Step
 
-**Slide set**: <a href="../files/slideSet/9_JsonStepByStep_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>JsonStepByStep.pdf</a>
+**Slide set**: [JsonStepByStep.pdf](../files/slideSet/9_JsonStepByStep_CarpentriesIncubator_ScientificMetadata.pdf){target="blank"}
 
 **Time estimate**: 7 min
 
@@ -441,7 +441,7 @@ This episode introduces the concept of semi-structured metadata in the context o
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Lecture: Challenge introduction
 
-**Slide set**: <a href="../files/slideSet/10_challengeIntroduction_2_3_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>Challenge2and3.pdf</a>
+**Slide set**: [Challenge23Introduction.pdf](../files/slideSet/10_challengeIntroduction_2_3_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 3 min
 
@@ -512,21 +512,20 @@ Display the final JSON object literals of the different groups next to each othe
 At this point, the learners should experience some form of frustration - the metadata is now structured and machine-readable, yet interoperability and reusability haven't been achieved. This frustration is relieved in the next episode "**Enabling Technolgy & Standards**", when schemas and standards are introduced.
 
 **Leading questions:**<br>
-<ul>
-  <li>What was easy while generating the structured metadata record?</li>
-  <li>What was hard? Which points were intensely discussed in the group?</li>
-  <li>Which differences do you see between the different JSON metadata records?</li>
-  <li>How do you feel after comparing the results?</li>
-</ul>
+
+- What was easy while generating the structured metadata record?
+- What was hard? Which points were intensely discussed in the group?
+- How did you decide, which information are relevant metadata?
+- Which differences do you see between the different JSON metadata records?
+- How do you feel after comparing the results?
 
 **Creator's recommendation:** <br>
 While moderating the discussion, pay attention to and highlight the following characteristics of the created JSON object literals:
-<ul>
-  <li>(if done correctly) all JSON object literals are **valid**, **functional** and **machine-readable**</li>
-  <li>representation of key strings (e.g. camel case vs. snake case, capitalization)</li>
-  <li>structure of the JSON object literal (e.g. nested objects vs. flat structure)</li>
-  <li>value representation</li>
-</ul>
+
+- (if done correctly) all JSON object literals are **valid**, **functional** and **machine-readable**
+- representation of key strings (e.g. camel case vs. snake case, capitalization)
+- structure of the JSON object literal (e.g. nested objects vs. flat structure)
+- value representation
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -769,25 +768,25 @@ The episode starts with a short history of the World Wide Web from a scholarly p
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Lecture: A brief history of the World Wide Web
 
-**Slide set**: <a href="../files/slideSet/11_briefWebHistory_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>BriefWebHistory.pdf</a>
+**Slide set**: [BriefHistoryOfTheWeb.pdf](../files/slideSet/11_briefWebHistory_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 10 min
 
 1. Before we dive deeper into the topic of metadata and how we can make it more accessible, we would like to travel a few decades back and have a quick glimpse at the technical advancements, that paved the way for us, to share data across the globe instantaneously: the internet and the world wide web.
-2. Let’s travel back to the 1960s, when computers still looked like this (<i>point to bottom right corner </i>). Computers became increasingly common in work environments, especially universities, research institutes and governmental agencies.
+2. Let’s travel back to the 1960s, when computers still looked like this (*point to bottom right corner *). Computers became increasingly common in work environments, especially universities, research institutes and governmental agencies.
 3. With this advancements, the need to share data between computers arose and local network technologies were developed. Within the institutions, the computers were linked with cables…
 4. and communication protocols were developed, that allowed the transfer of data between computers in the local area network and controlled the means of data distribution.
 5. This was a development that naturally occurred on many sites simultaneously and soon the scientific drive to collaborate was aiming to use this new technology to share data quickly across inter-institutional boundaries…
 6. However, there was a major issue. The individual networks were using different communication protocols, that were largely incompatible with each other. 
 7. To solve this problem, two researchers at the US Defense Advanced Research Projects Agency, Vint Cerf & Bob Kahn, worked hard on a solution. In 1974 they introduced the Transmission Control Protocol / Internet Protocol – TCP / IP, a term you have certainly heard at some point.
 8. This Internet Protocol Suite finally enabled communication between networks. It was soon declared as the standard for all military computer networking and adopted by research organizations as well as large communication companies. The internet, the network of networks, was born and Vint Cerf and Bob Kahn will become known as the fathers of the internet. That the TCP / IP protocol developed to a global standard for communication between networks, can be attributed… 
-9.to another decision based in academia. In 1989, the University of California, Berkley, decided to share their TCP/IP code with the world and put it under public domain; free for anyone to use.
+9. to another decision based in academia. In 1989, the University of California, Berkley, decided to share their TCP/IP code with the world and put it under public domain; free for anyone to use.
 10. And today, computer networks all over the world are connected with each other over uncountable miles of cables...
 11. Crossing the oceans.
 12. Now, that communication between networks was secured, the way was free for applications running on top of the Internet Protocol Suite. And scientists love to communicate, right? So again, to researchers at the University of California – Jon Postel and Suzanne Sluizer – developed the Mail Tranfer Protocol. No more letters, no more making appointments for phone calls, but sharing information instantaneously by email.
-13. Meanwhile in Europe, two computer scientists shared the vision to implement an application for the internet, that “<i>serves as a collaborative space where you can communicate through sharing information</i>”.
+13. Meanwhile in Europe, two computer scientists shared the vision to implement an application for the internet, that “*serves as a collaborative space where you can communicate through sharing information*”.
 14. These two were Tim Berners-Lee and Robert Caillau…
-15. at the CERN research center in Geneva Switzerland. They wrote a joint proposal for the “World Wide Web”, which aimed to “<i>meet the demand for automated information-sharing between scientists in universities and institutes around the world</i>”.So the World Wide Web was, from its beginning, meant to facilitate scientific data exchange.
+15. at the CERN research center in Geneva Switzerland. They wrote a joint proposal for the “World Wide Web”, which aimed to “*meet the demand for automated information-sharing between scientists in universities and institutes around the world*”.So the World Wide Web was, from its beginning, meant to facilitate scientific data exchange.
 16. So to distinguish the World Wide Web from the internet: The internet is the global network connecting local networks with each other and allowing them to communicate. The World Wide Web is a service, that runs on top of the internet which allows to search, get and share data.
 17. And this was all established in a very familiar, academic environment. The name of this data sharing application, was discussed at lunch in the cafeteria.
 18. Based on the early protocols, the building blocks of today's World Wide Web were developed - HTML, which is still the standard markup language for documents designed to be interpreted by and displayed in web browsers. The HyperText Transfer Protocol, which is an application layer protocol to ensure client-server communication on the Web. And URIs, Uniform Resource Identifiers, which uniquely identify resources on the web and ensure their accessibility and retrievability. We will come back to these technologies…
@@ -795,7 +794,7 @@ The episode starts with a short history of the World Wide Web from a scholarly p
 20. Coming back to this 1989 picture, we haven’t talked about this young woman sitting next to Tim Berners-Lee.
 21. Her name is Nicola Pellow and back in 1990 she was still studying Mathematics and Information Science at Leicester Polytechnic. She went to Switzerland for an internship in the research group of Tim Berners-Lee and Robert Caillau and as a student intern…
 22. she developed the first operation system independent web browser, the Line Mode Browser, making the world wide web accessible on many computers.
-23. Within the scientific community, the World Wide Web was an immediate success. Already in 1991, the arXiv preprint repository switched from email dissemination of manuscripts to HTTP. The picture on the right gives an insight how scientific article were distributed before the World Wide Web. You couldn't simply click on any article that you found on Google Scholar and download it - provided it isn't hidden behind a paywall - and decide later, whether it was helpful or not. You needed to exactly know which article you want to study, contact the archiving repository, wait for an actual human being to retrieve the article, scan it and send it back to you. (<i>To reactivate the learners, you can ask them at this point, who has a folder on their drive for "unread articles" or "articles to read".</i>). The first German institute to connect a web server to the Web was the "Deutsches Elektronen-Synchrotron DESY. (<i>Well, the lesson was created within the Helmholtz Association in Germany, which makes this a nice Fun Fact for the original audience. Feel free to substitute with some other relevant institution relevant to your learners</i>).
+23. Within the scientific community, the World Wide Web was an immediate success. Already in 1991, the arXiv preprint repository switched from email dissemination of manuscripts to HTTP. The picture on the right gives an insight how scientific article were distributed before the World Wide Web. You couldn't simply click on any article that you found on Google Scholar and download it - provided it isn't hidden behind a paywall - and decide later, whether it was helpful or not. You needed to exactly know which article you want to study, contact the archiving repository, wait for an actual human being to retrieve the article, scan it and send it back to you. (*To reactivate the learners, you can ask them at this point, who has a folder on their drive for "unread articles" or "articles to read".*). The first German institute to connect a web server to the Web was the "Deutsches Elektronen-Synchrotron DESY. (*Well, the lesson was created within the Helmholtz Association in Germany, which makes this a nice Fun Fact for the original audience. Feel free to substitute with some other relevant institution relevant to your learners*).
 24. Today the web hosts so many repositories for research articles and data - global, local, very general or highly domain-specific - that it becomes hard to find the right repository for the resource you want to retrieve or upload. Needless to say that you can find several repositories for repositories online. To sum it up, the World Wide Web was originally created to share data between scientists and scientific institutions, and it succeeded so well, that today it is barely imaginable to conduct research without the Web.
 25. The take away-message of this brief history lesson is that the World Wide Web was created by scientist for scientist to promote data sharing and collaboration in a scholarly environment across physical borders. And the decision of CERN to put all the components of Web software in the public Domain paved the way for the web as we know it today.
 
@@ -804,7 +803,7 @@ The episode starts with a short history of the World Wide Web from a scholarly p
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Lecture: Metadata Schemas
 
-**Slide set**: <a href="../files/slideSet/12_MetadataSchemas_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>MetadataSchemas.pdf</a>
+**Slide set**: [MetadataSchemas.pdf](../files/slideSet/12_MetadataSchemas_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 10 min
 
@@ -878,7 +877,7 @@ The concept of a schema can be overwhelming for learners with little to no prior
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Lecture: Challenge introduction
 
-**Slide set**: <a href="../files/slideSet/13_challengeIntroduction_4_5_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>Challenge4and5.pdf</a>
+**Slide set**: [Challenge45Introduction.pdf](../files/slideSet/13_challengeIntroduction_4_5_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 5 min
 
@@ -962,7 +961,7 @@ The learners are aware of the advantages of a metadata schema and metadata recor
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Lecture: Summary - Annotating the Example Data
 
-**Slide set**: <a href="../files/slideSet/14_SummaryExampleDataAnnotation_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>SummaryExampleDataAnnotation.pdf</a>
+**Slide set**: [AnnotatingTheExampleData.pdf](../files/slideSet/14_SummaryExampleDataAnnotation_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 5 min
 
@@ -976,7 +975,7 @@ The learners are aware of the advantages of a metadata schema and metadata recor
 6. By structuring our metadata records as JSON objects...
 7. we made the information not only findable but also accessible to machines. As we put some effort into developing a schema for the metadata records, we can make sure, that experiments in the same study and collaboration, are recorded and annotated in the same way, which increases its reusability...
 8. and ensures, that metadata records can be validated.
-9. (<i>If you like, recommend some tools that support and facilitate metadata annotation and validation.</i>)
+9. (*If you like, recommend some tools that support and facilitate metadata annotation and validation.* For more information on the examples in the slides, visit the [DirSchema](https://github.com/Materials-Data-Science-and-Informatics/dirschema) and [Metador](https://github.com/Materials-Data-Science-and-Informatics/metador-push) Github repositories.)
 10. With the metadata schema you have developed, you made sure, that every researcher in the collaboration annotates their data in the same meaningful way. Collaborating in this closed circle was made a lot easier.
 11. But now imagine that you want to analyse published data by some other scientist in your research field. Someone, who is not part of your collaboration...
 12. Wouldn't it be nice, if this data would be annotated in the same way as yours?! We will dive deeper into community-wide metadata schemas and standards after the break.
@@ -996,7 +995,7 @@ The learners are aware of the advantages of a metadata schema and metadata recor
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Lecture: Metadata standards
 
-**Slide set**: <a href="../files/slideSet/15_MetadataStandards_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>MetadataStandards.pdf</a>
+**Slide set**: [MetadataStandards.pdf](../files/slideSet/15_MetadataStandards_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 4 min
 
@@ -1014,7 +1013,7 @@ The learners are aware of the advantages of a metadata schema and metadata recor
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Lecture: Challenge introduction
 
-**Slide set**: <a href="../files/slideSet/16_Challenge6_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>Challenge6.pdf</a>
+**Slide set**: [Challenge6Introduction.pdf](../files/slideSet/16_Challenge6_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 1 min
 
@@ -1115,7 +1114,7 @@ We use [AHA slides](https://ahaslides.com/){target="_blank"} for live polling. S
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Lecture: The Web of Today
 
-**Slide set**: <a href="../files/slideSet/17_TheWebOfToday_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>TheWebOfToday.pdf</a>
+**Slide set**: [TheWebOfToday.pdf](../files/slideSet/17_TheWebOfToday_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time extimate**: 4 min
 
@@ -1135,7 +1134,7 @@ We use [AHA slides](https://ahaslides.com/){target="_blank"} for live polling. S
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Lecture: Identifiers and Web Locations
 
-**Slide set**: <a href="../files/slideSet/18_IdentifierWebLocations_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>IdentifierWebLocations.pdf</a>
+**Slide set**: [IdentifierWebLocations.pdf](../files/slideSet/18_IdentifierWebLocations_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 14 min
 
@@ -1198,7 +1197,7 @@ We use [AHA slides](https://ahaslides.com/){target="_blank"} for live polling. S
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Lecture: Persistent Identifier
 
-**Slide set**: <a href="../files/slideSet/19_PersistentIdentifier_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>PersistentIdentifiers.pdf</a>
+**Slide set**: [PersistentIdentifier.pdf](../files/slideSet/19_PersistentIdentifier_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 8 min
 
@@ -1231,7 +1230,7 @@ We use [AHA slides](https://ahaslides.com/){target="_blank"} for live polling. S
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Lecture: PIDs and Metadata 
 
-**Slide set**: <a href="../files/slideSet/20_PIDsAndMetadata_CarpentriesIncubator_ScientificMetadata.pdf" target="_blank" download>PIDsAndMetadata.pdf</a>
+**Slide set**: [PidsAndMetadata.pdf](../files/slideSet/20_PIDsAndMetadata_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 5 min
 
@@ -1265,8 +1264,8 @@ We use [AHA slides](https://ahaslides.com/){target="_blank"} for live polling. S
   <div class="row g-0">
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> | Content type | Title |
 | :-----: | ---------- | ----------------------------------------- |
-| 30 min | **Lecture** | [Lightning Talk](#accordionInstructor40) |
-| 15 min | **Group activity** | [Q&A with invited speaker](#accordionInstructor40) |
+| 30 min | **Lecture** | [Lightning Talk](#accordionInstructor39) |
+| 15 min | **Group activity** | [Q&A with invited speaker](#accordionInstructor39) |
 
 </div>
 </div>
@@ -1313,9 +1312,9 @@ For more information go to the <a href="general-lesson-information.html#lightnin
   <div class="row g-0">
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> | Content type | Title |
 | :-----: | ---------- | ----------------------------------------- |
-| 5 min | **Lecture** | [Reflection](#accordionInstructor41) |
-| 10 min | **Group activity** | [Feedback poll](#accordionInstructor42) |
-| 5 min | **Feedback** | [Instructor feedback and farewell](#accordionInstructor43) |
+| 5 min | **Lecture** | [Reflection](#accordionInstructor40) |
+| 10 min | **Group activity** | [Feedback poll](#accordionInstructor41) |
+| 5 min | **Feedback** | [Instructor feedback and farewell](#accordionInstructor42) |
 
 </div>
 </div>
@@ -1352,7 +1351,7 @@ This module concludes the lesson. An summarizing overview of the past two days i
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Group activity: Feedback Day 2
 
-**Slide set**: <i>not provided in slide set</i><br>
+**Slide set**: -
 **Time estimate**: 10 min
 
 **Creators' recommendation:**<br>
@@ -1398,7 +1397,7 @@ see also [Feedback Day 1](#accordionInstructor18)
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Lecture: Instructor Feedback and Farewell
 
-**Slide set**: <i>not provided in slide set</i><br>
+**Slide set**: -
 **Time estimate**: 5 min
 
 <i>We do believe, that giving feedback is important for instructors as well as learners. So we would like to encourage you to reflect on your experiences with the closing lesson and communicate them to your group of learners</i> :relaxed: .

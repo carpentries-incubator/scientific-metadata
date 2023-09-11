@@ -7,7 +7,7 @@ output:
     df_print: paged
 ---
 
-![Quote by Tim Berners-Lee saying 'The original idea of the web was that it should be a collaborative space where you can communicate through sharing information.'](fig/timBernersLee.png)
+![](fig/timBernersLee.png){alt="Quote by Tim Berners-Lee saying 'The original idea of the web was that it should be a collaborative space where you can communicate through sharing information.'"}
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
@@ -29,7 +29,7 @@ output:
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Lecture: A brief history of the World Wide Web
 
-**[Slide set](../files/slideSet/11_briefWebHistory_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}**:
+**Slide set**: [BriefHistoryOfTheWeb.pdf](../files/slideSet/11_briefWebHistory_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 10 min
 
@@ -41,7 +41,7 @@ output:
 6. However, there was a major issue. The individual networks were using different communication protocols, that were largely incompatible with each other. 
 7. To solve this problem, two researchers at the US Defense Advanced Research Projects Agency, Vint Cerf & Bob Kahn, worked hard on a solution. In 1974 they introduced the Transmission Control Protocol / Internet Protocol – TCP / IP, a term you have certainly heard at some point.
 8. This Internet Protocol Suite finally enabled communication between networks. It was soon declared as the standard for all military computer networking and adopted by research organizations as well as large communication companies. The internet, the network of networks, was born and Vint Cerf and Bob Kahn will become known as the fathers of the internet. That the TCP / IP protocol developed to a global standard for communication between networks, can be attributed… 
-9.to another decision based in academia. In 1989, the University of California, Berkley, decided to share their TCP/IP code with the world and put it under public domain; free for anyone to use.
+9. to another decision based in academia. In 1989, the University of California, Berkley, decided to share their TCP/IP code with the world and put it under public domain; free for anyone to use.
 10. And today, computer networks all over the world are connected with each other over uncountable miles of cables...
 11. Crossing the oceans.
 12. Now, that communication between networks was secured, the way was free for applications running on top of the Internet Protocol Suite. And scientists love to communicate, right? So again, to researchers at the University of California – Jon Postel and Suzanne Sluizer – developed the Mail Tranfer Protocol. No more letters, no more making appointments for phone calls, but sharing information instantaneously by email.
@@ -64,13 +64,14 @@ output:
 In 1989 researchers Tim Berners-Lee and Robert Cailliau started their HyperText project called the WWW (**W**orld-**W**ide **W**eb, short Web) at the CERN research center in Geneva, Switzerland. The Web was developed to "meet the demand for automated information-sharing between scientists in universities and institutes around the world".[^10]
 
 The main building blocks of the World Wide Web are:
+
 - HTML (**H**yper**T**ext **M**arkup **L**anguage) with "hyperlinks"
 - HTTP (**H**yper**T**ext **T**ransfer **P**rotocol)
 - URI (**U**niform **R**esource **I**dentifier)
 
-HTML applies the ideas of HyperText and HyperMedia -- terms coined by 
-[Ted Nelson](https://www.youtube.com/user/TheTedNelson/videos){target="_blank"}
-in the 1960s:
+**HTML** is the standard markup language to create Web pages. It describes the Web page's structure and tells the browser how to display the content.[^12]
+
+[^12]: *Introduction to HTML*. (n.d.). https://www.w3schools.com/html/html_intro.asp
 
 <br>
 
@@ -79,9 +80,11 @@ in the 1960s:
 
 <br>
 
-HTTP is a simple protocol for communication between devices that store and provide resources ("server") and devices that want to access and update them ("clients") and is still the main protocol used on the World Wide Web. For URI see chapter [(Web) Location & Identifiers](web-location-identifiers.html){target="_blank"}.
+**HTTP** is a simple protocol for communication between devices that store and provide resources ("server") and devices that want to access and update them ("clients"). It is still the main protocol used on the World Wide Web. 
 
-In 1992 Deutsches Elektronen-Synchrotron DESY in Hamburg connected a web server to the WWW. An even earlier adopter was the **arXiv preprint repository**. They switched from email to HTTP for manuscript dissemination in 1991.[^11]
+For **URI** see chapter [(Web) Location & Identifiers](web-location-identifiers.html){target="_blank"}.
+
+In 1992 Deutsches Elektronen-Synchrotron DESY in Hamburg connected a web server to the WWW. One of the first adopters worldwide was the **arXiv preprint repository**. They switched from email to HTTP for manuscript dissemination in 1991.[^11]
 
 So-called **web repositories** store and publish (scholarly) digital objects -- like paper publications and research data -- and their **metadata records**. This way, they aim to improve the persistent **findability and accessibility of research output.** Repositories in turn are indexed for findability in registry services like 
 [re3data](https://www.re3data.org/){target="_blank"} and 
@@ -89,13 +92,13 @@ So-called **web repositories** store and publish (scholarly) digital objects -- 
 
 ## Metadata Schemas
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: callout 
-**A metadata schema is a template** which precisely describes the metadata elements expected and how they should be structured.
+**A metadata schema is a template** which precisely spicifies the metadata elements expected and how they should be structured.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Lecture: Metadata Schemas
 
-**[Slide set](../files/slideSet/12_MetadataSchemas_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}**
+**Slide set**: [MetadataSchemas.pdf](../files/slideSet/12_MetadataSchemas_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 10 min
 
@@ -113,7 +116,7 @@ So-called **web repositories** store and publish (scholarly) digital objects -- 
 12. The schema specifies keys - or properties - that require to enter a data value. In this case...
 13. The superhero property is required and expects an entry of data type: string.
 14. A second property is defined: power. However, power is not listed in the required properties, so it is optional.
-15. Coming back to the data types: This schema describes a JSON **object** in which the superhero-value should be a **string** and the power-value needs to be of data type **integer**. And for the human reader, some meaningful descriptions are added to describe the individual properties.
+15. Coming back to the data types: This schema specifies a JSON **object** in which the superhero-value should be a **string** and the power-value needs to be of data type **integer**. And for the human reader, some meaningful descriptions are added to describe the individual properties.
 16. Based on this example schema, the object on top would be valid. A string value is assigned to the required property. The bottom object, however, does not conform with the schema and would throw an error, as the value data type is not a string. **It is important to know**, that schema validation only checks for syntactical validity. In this case, it only checks, whether the object contains the required property, the corresponding value and whether the value conforms with the expected data type. To prevent nonsensical values, a meaningful property description can be of great help."
 17. *(Allow some time for questions.)*
 18. Before we write a JSON schema for our roller coaster experiment data, let's get back to the customer information form and design a JSON schema together that enforces the data entries for this form.
@@ -163,11 +166,11 @@ The concept of a schema can be overwhelming for learners with little to no prior
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-**XML Schemas (.xsd)** are written in XML and used to describe & syntactically validate the structure of XML documents or (meta)data records.[^12] You might encounter XML Schemas while looking for certain standards relevant to your field of research. However, `xsd` is less frequently used for modern standards.
+**XML Schemas (.xsd)** are written in XML and used to specify & syntactically validate the structure of XML documents or (meta)data records.[^12] You might encounter XML Schemas while looking for certain standards relevant to your field of research. However, `xsd` is less frequently used for modern standards.
 
 The 
 [**JSON Schema Vocabulary**](https://json-schema.org/){target="_blank"}
-is used to describe & syntactically validate the structure of JSON (meta)data records. We will focus on **JSON Schema** in our next hands-on task. Each JSON schema is a JSON object literal by itself.[^13] 
+is used to specify & syntactically validate the structure of JSON (meta)data records. We will focus on **JSON Schema** in our next hands-on task. Each JSON schema is a JSON object literal by itself.[^13] 
     
 A simple JSON schema could look like the one below. It declares:
 
@@ -199,7 +202,7 @@ There are also some `descriptions` added for the human reader.
 }
 
 ```
-A JSON entity is syntactically valid and is called **instance** of a schema, if it conforms to the definition described by the JSON schema. Note, that the JSON Schema `required` keyword holds a list of keys that must be present for a JSON object to be considered a valid instance of this schema.
+A JSON entity is syntactically valid and is called **instance** of a schema, if it conforms to the definition specified by the JSON schema. Note, that the JSON Schema `required` keyword holds a list of keys that must be present for a JSON object to be considered a valid instance of this schema.
 
 ```json
 {
@@ -214,7 +217,7 @@ The most challenging part of schema development can be to **have everyone agree 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Lecture: Challenge introduction
 
-**[Slide set](../files/slideSet/13_challengeIntroduction_4_5_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}**
+**Slide set**: [Challenge45Introduction.pdf](../files/slideSet/13_challengeIntroduction_4_5_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 5 min
 
@@ -280,7 +283,7 @@ Your collaboration decides to develop a metadata schema to standardize metadata 
 
 **Now it is your task to help with the subschema for experimental conditions!**
 
-In the following **code block** you see valid JSON metadata that describes experimental conditions as agreed on in the project.
+In the following **code block** you see valid JSON metadata that specifies experimental conditions as agreed on in the project.
 
 ```json
 {
@@ -592,7 +595,7 @@ The learners are aware of the advantages of a metadata schema and metadata recor
 
 ## Lecture: Summary - Annotating the Example Data
 
-**[Slide set](../files/slideSet/14_SummaryExampleDataAnnotation_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}**
+**Slide set**: [AnnotatingTheExampleData.pdf](../files/slideSet/14_SummaryExampleDataAnnotation_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 5 min
 
@@ -606,7 +609,7 @@ The learners are aware of the advantages of a metadata schema and metadata recor
 6. By structuring our metadata records as JSON objects...
 7. we made the information not only findable but also accessible to machines. As we put some effort into developing a schema for the metadata records, we can make sure, that experiments in the same study and collaboration, are recorded and annotated in the same way, which increases its reusability...
 8. and ensures, that metadata records can be validated.
-9. (*If you like, recommend some tools that support and facilitate metadata annotation and validation.*)
+9. (*If you like, recommend some tools that support and facilitate metadata annotation and validation.* For more information on the examples in the slides, visit the [DirSchema](https://github.com/Materials-Data-Science-and-Informatics/dirschema) and [Metador](https://github.com/Materials-Data-Science-and-Informatics/metador-push) Github repositories.)
 10. With the metadata schema you have developed, you made sure, that every researcher in the collaboration annotates their data in the same meaningful way. Collaborating in this closed circle was made a lot easier.
 11. But now imagine that you want to analyse published data by some other scientist in your research field. Someone, who is not part of your collaboration...
 12. Wouldn't it be nice, if this data would be annotated in the same way as yours?! We will dive deeper into community-wide metadata schemas and standards after the break.
@@ -622,13 +625,13 @@ We recommend a **15 min break** at this point.
 ## Metadata Standards
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: callout 
-A well **established metadata schema** can become a standard.
+A **metadata schema** can become a standard by governance authority or common adoption.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Lecture: Metadata standards
 
-**[Slide set](../files/slideSet/15_MetadataStandards_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}**
+**Slide set**: [MetadataStandards.pdf](../files/slideSet/15_MetadataStandards_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 4 min
 
@@ -651,7 +654,7 @@ states to work openly, with a paid-membership model.
 
 The 15 generic Dublin Core metadata elements have been formally standardized for cross-domain resource description in e.g. **ISO 15836-1:2017**[^15]
 
-![Depiction of the 15 Dublin Core Elements: Creator, Contributor, Publisher, Title, Date, Language, Format, Subject, Description, Identifier, Relation, Source, Type, Coverage, Rights](fig/dublinCoreElements.png)
+![](fig/dublinCoreElements.png){alt="Depiction of the 15 Dublin Core Elements: Creator, Contributor, Publisher, Title, Date, Language, Format, Subject, Description, Identifier, Relation, Source, Type, Coverage, Rights"}
 
 Many scholarly repositories expose a standardized **application programming interface (API)** for the harvesting of Dublin Core metadata as specified in the
 [OAI 2.0 specification](http://www.openarchives.org/OAI/2.0/openarchivesprotocol.htm#dublincore){target="_blank"}
@@ -659,7 +662,7 @@ Many scholarly repositories expose a standardized **application programming inte
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Lecture: Challenge introduction
 
-**[Slide set](../files/slideSet/16_Challenge6_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}**
+**Slide set**: [Challenge6Introduction.pdf](../files/slideSet/16_Challenge6_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 1 min
 
