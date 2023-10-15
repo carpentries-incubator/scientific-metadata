@@ -1,7 +1,7 @@
 ---
 title: '(Web) Location and Identifiers'
-teaching: 35
-exercises: 0
+teaching: 51
+exercises: 9
 ---
 
 ![**Bugeja, M., Dimitrova, D.** (2010) in "_Vanishing Act: The Erosion of Online Footnotes and Implications for Scholarship in the Digital Age_." Litwin Books. <a href="https://dr.lib.iastate.edu/handle/20.500.12876/96527" target="_blank">https://dr.lib.iastate.edu/handle/20.500.12876/96527</a>](fig/dimitrovaBugejaQuote.png){alt="Quote from the Book Vanishing Act: The Erosion of Online Footnotes and Implications for Schlolarship in the Digital Age by Daniela Dimitrova and Michael Bugeja, saying 'Vanishing online footnotes undermine the building blocks of research, and their disappearance raises concerns about the reliability and replicability of scholarship.'"}
@@ -46,7 +46,7 @@ We use [AHA slides](https://ahaslides.com/){target="_blank"} for live polling. S
 - URL
 - URI
 
-<a href="../../docs/files/exampleAhaslidesPid.png" target="popup" onclick="window.open('../docs/files/exampleAhaslidesPid.png,'popup','width=1200'); return false;" onMouseOver="document.PIDpoll.src='../../docs/files/CLICKexampleAhaslidesPid.png';" onMouseOut="document.PIDpoll.src='../../docs/files/exampleAhaslidesPid.png';">
+<a href="../docs/files/exampleAhaslidesPid.png" target="popup" onclick="window.open('../docs/files/exampleAhaslidesPid.png,'popup','width=1200'); return false;" onMouseOver="document.PIDpoll.src='../../docs/files/CLICKexampleAhaslidesPid.png';" onMouseOut="document.PIDpoll.src='../../docs/files/exampleAhaslidesPid.png';">
 <img src="files/exampleAhaslidesPid.png" alt="Screenshot of the recommended live polling session on PIDs." name="PIDpoll"/>
 </a>
 
@@ -261,15 +261,15 @@ A **PID service** operates as a persistent look-up service that redirects GET re
 7. Now, let’s say, you want to publish a dataset or journal paper and attach all the necessary metadata. In order to add all the bibliographical information to unambiguously identify you as the author, you might need to include many details. And you might have been one of many authors. So you need to repeat this process for your co-authors as well. If you have an ORCiD, you can just use the PID as an identifier for your name and your information can be retrieved automatically.
 8. And if your information changes – for example you got married and your name changed, or you started a new job and your contact information was updated – you only need to include the update in your ORCiD record. 
 9. Your ID stays the same, thus you do not have to touch your dataset metadata records again. Your ORCiD ID will automatically resolve to the updated personal information.
-10. Similarly, when you register a DOI – let’s say for a dataset or a journa publication – you will give metadata on this data object, that will be saved with the DOI. So whenever you reference this exact resource, for example if you publish several papers referring to the same data, you need the DOI as an identifier and further meta information about the data set can be retrieved automatically.
+10. Similarly, when you register a DOI – let’s say for a dataset or a journal publication – you will give metadata on this data object, that will be saved with the DOI. So whenever you reference this exact resource, for example if you publish several papers referring to the same data, you need the DOI as an identifier and further meta information about the data set can be retrieved automatically.
 11. To sum it up, PIDs ensure sustainable retrievability of any kind of web resource, they can be used to unambiguously identify resources on the Web and PIDs are connected to metadata records, which describe the resource in question. 
 12. These are certainly benefits for any human interactor with the resource.
 13. But let's stay with the DOI a bit longer.
 14. Remember the journal paper we examined yesterday?
 15. One crucial metadatum we found was the DOI.
 16. Let's see what happens, when we retrieve this DOI in a Browser. (*Switch to a browser window and continue with "Guided confrontation: DOI Record"*)
-17. **Optional slide** *to discuss the structure of the PID record*
-18. PID records are stored with the PID resolver service. They are targeted especially to machines and hold machine-readable information. These information support machine-actionability for interoperability. We will take a closer look on this in the next section.
+17. **Optional slide to discuss the structure of the PID record**
+18. PID records are stored with the PID resolver service. They are targeted especially at machines and hold machine-readable information. These information support machine-actionability for interoperability. We will take a closer look on this in the next section.
 19. *Allow some time for questions.*
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -283,11 +283,11 @@ A **PID service** operates as a persistent look-up service that redirects GET re
 **Narrative / Teaching script**: 
 
 - *Share an empty browser tab on your screen.*
-- *Open the DOI of the journal publication you presented in* **"Guided confrontation: Metadata in scientific publications"** *(if the publication is <u>not</u> Open Access, make sure to login in advance :wink:).*
-- *Guide the audience through the information stored on the landing page (e.g. authors, abstract, references, etc.). Highlight the human-friendly representation.*
-- *Copy the DOI and open [https://www.crossref.org/](https://www.crossref.org/).*
+- *Open the DOI of the journal publication you presented in* [**"Guided confrontation: Metadata in scientific publications"**](../data-metadata.html#metadata-records){target="_blank"} *(if the publication is <u>not</u> Open Access, make sure to login in advance :wink:).*
+- *Guide the audience through the information stored on the landing page (i.e. authors, abstract, references, etc.). Highlight the human-friendly representation.*
+- *Copy the DOI and open [https://www.crossref.org/](https://www.crossref.org/){target="_blank"}.*
 - *Retrieve the corresponding Crossref entry for the publication using the metadata search box.*
-- *To retrieve the metadata record associated with the DOI (Kernel Information Profil), click on* **Actions** *and select* **Metadata as JSON**.
+- *To retrieve the metadata record associated with the DOI (Kernel Information Profil), click on* `Actions` *and select* `Metadata as JSON`.
 - *Reflect the metadata record with the participants.*
 
 <a href="../files/exampleCrossref.png" target="popup" onclick="window.open('../files/exampleCrossref.png','popup','width=1200'); return false;" onMouseOver="document.Crossref.src='../../docs/files/CLICKexampleCrossref.png';" onMouseOut="document.Crossref.src='../../docs/files/exampleCrossref.png';">
@@ -298,42 +298,6 @@ A **PID service** operates as a persistent look-up service that redirects GET re
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-
-## Lecture: Machine-Actionability and Interoperability 
-
-**Slide set**: [MachineActionabilityInteroperability.pdf](../files/slideSet/21_MachineReadabilityAndInteroperability_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
-
-**Time estimate**: 5 min
-
-1. -
-2. Going back to our journal paper example.
-3. Humans are trained to scan these representations for information. If we are looking for a specific publication, e.g. on a certain topic, published by a specific author, or in a certain journal, we can easily scan this page and decide in a short amount of time, whether the article suits our requirements or not.
-4. As we have discussed yesterday, the machine only sees glyphs, formats, structure, etc. In order to extract information from such an article automatically, sophisticated algorithms - like natural language processing - would be required. In other words: automatically retrieving key information from resources that are targeted at a human audience, is slow and costly. To speed up this process, machine-actionable and interoperable representations of the resource are necessary.
-5. And this leads us back to PIDs and specifically the PID Records.We have seen previously, how the PID resolver service stores the current location of a resource and redirects client requests for a resource. Additionally, the PID resolver stores the PID record - metadata that describes the resource.
-6. This enables new possibilities for requests made by the client. Instead of asking for a redirect to the actual resource, the machine can now request the PID record...
-7. and even specify the format in which the metadata is supposed to be presented. This makes the client-PID resolver interaction much faster and accessed data...
-8. is delivered in a light-weight and machine-readable format. This allows the machine to access the information about the resource immediately without any costly and lengthy workarounds.
-9. By now it might not surprise you, that PID services request metadata that conforms to a certain schema for the PID Record with every resource that is registered. This is a snippet of the PID Record Schema from Crossref written in XSD. Whenever a publication, data set, or any other resource is registered with Crossref to get a DOI, Crossref will request meta-information that validate against this schema.
-10. Just a little nice-to-know: Should you come across the term **"Kernel Information Profile"** while researching metadata - it is just another name for a **PID Record Schema**.
-11. One more thing. When you were researching domain specific standards in Challenge 6, you might have come across PIDs in the standards you examined. Let me show you an example.
-12. "Allosteric molecule" is a term defined in the "Molecular Interactions" controlled vocabulary.
-13. In this documentation of the term, you can find an identifier - MI, which stands for the Molecular Interactions Standard, 1159. Associated with this term is also a location, that starts with `purl`.
-14. A PURL or Persistent URL is a form of PID. Requesting this location will lead to a redirect to the current location - URL - of the resource.
-15. If we follow the PURL of the "allosteric molecule" term...
-16. we will be redirected to this record on the Ontobee Web service. This record holds the same definition as seen on the previous page and additional annotation information. Also...
-17. the persistent URL is here specified as the **Term IRI**.
-18. IRI stands for **Internationalized Resource Identifier**. The IRI technology essentially extends the Uniform Resource Identifier (URI), allowing for a greater set of characters. In other words, it serves the same function as a URI. However, URIs can only consist of ASCII characters, whereas IRIs allow for a wide variety of characters, including Chinese, Japanese, Korean, and Cyrillic characters.
-19. Associating (metadata) terms with a PID in such a way enables the machine to unambiguously and persistently identify the term. This opens up advanced information technologies. Different terms can be put into relations with each other...
-20. In this example the term "allosteric molecule" is specified to be a subclass of "biological role". Hence, a relational connection of the type "sublass of" is formed between the terms "allosteric molecule" and "biological role". 
-21. Based on the associated PIDs the machine is now able to assign meaning to a specific term.
-22. The study of meaning, reference, or truth is called **Semantics**. By formally describing concepts, relationships between different (meta)data entities, and categories, we add meaning to the information. This technology is known as the **Semantic Web**.
-23. In the words of Tim Berners-Lee and his peers: "The Semantic Web is an extension of the current Web in which information is given well-defined meaning, better enabling computers and people to work in cooperation."
-24. In this course we have been focusing on data formats such as JSON, XML and Markdown to describe our data. Adding meaning to these data object calls for enhanced describtive technologies and the W3C has well-defined and endorsed the standards of the Semantic Web...
-25. but this is another story and shall be told in another course.
-26. *Allow some time for questions.*
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Assigning your Web publications (journal articles, datasets, code, etc.) with a PID holds more advantages than persistent retrievability of the resource. Many PID providers ask you to provide metadata for the published resource and **store the metadata record alongside the resource**. This metadata in return is accessible by machines via the PID.
 
@@ -436,12 +400,62 @@ The metadata stored in the ORCID record would resolve to:
 }
 ```
 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+
+## Lecture: Machine-Actionability and Interoperability 
+
+**Slide set**: [MachineActionabilityInteroperability.pdf](../files/slideSet/21_MachineReadabilityAndInteroperability_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
+
+**Time estimate**: 5 min
+
+1. -
+2. Going back to our journal paper example.
+3. Humans are trained to scan these representations for information. If we are looking for a specific publication, e.g. on a certain topic, published by a specific author, or in a certain journal, we can easily scan this page and decide in a short amount of time, whether the article suits our requirements or not.
+4. As we have discussed yesterday, the machine only sees glyphs, formats, structure, etc. In order to extract information from such an article automatically, sophisticated algorithms - like natural language processing - would be required. In other words: automatically retrieving key information from resources that are targeted at a human audience, is slow and costly. To speed up this process, machine-actionable and interoperable representations of the resource are necessary.
+5. And this leads us back to PIDs and specifically the PID Records. We have seen previously, how the PID resolver service stores the current location of a resource and redirects client requests for a resource. Additionally, the PID resolver stores the PID record - metadata that describes the resource.
+6. This enables new possibilities for requests made by the client. Instead of asking for a redirect to the actual resource, the machine can now request the PID record...
+7. and even specify the format in which the metadata is supposed to be presented. This makes the client-PID resolver interaction much faster and accessed data...
+8. is delivered in a light-weight and machine-readable format. This allows the machine to access the information about the resource immediately without any costly and lengthy workarounds.
+9. By now it might not surprise you, that PID services request metadata that conform to a certain schema with every resource that is registered. Here you see a snippet of the PID Record Schema from Crossref written in XSD. Whenever a publication, data set, or any other resource is registered with Crossref to get a DOI, Crossref will request meta-information that validate against this schema.
+10. Just a little nice-to-know: Should you come across the term **"Kernel Information Profile"** while researching metadata - it is just another name for a **PID Record Schema**.
+11. One more thing. When you were researching domain specific standards in Challenge 6, you might have come across PIDs in the standards you examined. Let me show you an example.
+12. "Allosteric molecule" is a term defined in the "Molecular Interactions" controlled vocabulary.
+13. In the documentation of the term, you can find an identifier - MI, which stands for the Molecular Interactions Standard, 1159. Associated with this term is also a location, that starts with `purl`.
+14. A PURL or Persistent URL is a form of PID. Requesting this location will lead to a redirect to the current location - URL - of the resource.
+15. If we follow the PURL of the "allosteric molecule" term...
+16. we will be redirected to this record on the Ontobee Web service. This record holds the same definition as seen on the previous page and additional annotation information.
+17. The persistent URL is here specified as  `Term IRI`.
+18. IRI stands for **Internationalized Resource Identifier**. The IRI technology essentially extends the Uniform Resource Identifier (URI), allowing for a greater set of characters. In other words, it serves the same function as the URI. However, URIs can only consist of ASCII characters, whereas IRIs allow for a wide variety of characters, including Chinese, Japanese, Korean, and Cyrillic characters.
+19. Associating (metadata) terms with a PID in such a way enables the machine to unambiguously and persistently identify the term. This opens up advanced information technologies. Different terms can be put into relations with each other...
+20. In this example the term "allosteric molecule" is specified to be a subclass of "biological role". Hence, a relational connection of the type "sublass of" is formed between the terms "allosteric molecule" and "biological role". 
+21. Based on the associated PIDs the machine is now able to assign meaning to a specific term.
+22. The study of meaning, reference, or truth is called **Semantics**. By formally describing concepts, relationships between different (meta)data entities, and categories, we add meaning to the information. This technology is known as the **Semantic Web**.
+23. In the words of Tim Berners-Lee and his peers: "The Semantic Web is an extension of the current Web in which information is given well-defined meaning, better enabling computers and people to work in cooperation."
+24. In this course we have been focusing on data formats such as JSON, XML and Markdown to describe our data. Adding meaning to these data object calls for enhanced describtive technologies and the W3C has well-defined and endorsed the standards of the Semantic Web...
+25. but this is another story and shall be told in another course.
+26. *Allow some time for questions.*
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+### Machine-Actionability and Interoperability
+As discussed previously, most resources on the Web are optimized for the human audience. In order to make the information accessible for machines, elaborate computations would be necessary to process and contextualize the data. By attaching **PID (metadata) Records** to data objects that are located by PIDs, the machine-actionability and interoperability of the resource is significantly enhanced. PID Records are stored with the PID resolver service and conform to a well-defined **PID Record Schema** (or **Kernel Information Profile**).[^17][^18]
+
+### Outlook: The Semantic Web
+PIDs can be used as identifiers for **(meta)data terms** (or **entities**) and **relationships** in schemas, vocabularies, and ontologies. With this technology, machines are provided with a blueprint of concepts, categories and relationships associated with data entries. In other words, meaning and references are added to the data. <br>
+**The Semantic Web** was proposed by Tim Berners-Lee and his colleagues in 2001.[^19] The [World Wide Web Consortium (W3C)](https://www.w3.org/) envisions in the Semantic Web a "Web of linked Data" and has issued a set of standards, which "enables people to create data stores [...], build vocabularies, and write rules for handling data.[^20]
+
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
 - URLs can unambiguously identify a Web resource.
 - DOI, ORCiD, and ROR are relevant PIDs in the scientific context.
-- PIDs can be used to identify and retrieve metadata records.
+- PIDs can be used to persistently identify and a resource on the Web.
+- Some PIDs come with associated metadata records which are specified by Kernel Information Profiles (PID Record Schemas).
+- Identifying entities (terms) of vocabularies, schemas, and ontologies is essential for Semantic Web technologies. 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 [^16]: Kunze, J. (2018, August 24). *Ten persistent myths about persistent identifiers.* https://escholarship.org/uc/item/73m910w8
+[^17]: Weigel, T., Plale, B., Parsons, M., Zhou, G., Luo, Y., Schwardmann, U., Quick, R., Hellström, M., & Kurakawa, K. (2018). *RDA Recommendation on PID Kernel Information.* Research Data Alliance. https://doi.org/10.15497/RDA00031 
+[^18]: Curdt, C., Günther, G., Jejkal, T., Koch, C., Krebs, F., Pfeil, A., Pirogov, A., Schweikert, J., Videgain Barranco, P., Weinelt, M., HMC Cross-cutting Topic Working Group "From Development to Deployment" (2022). *Helmholtz Kernel Infomation Profile.* Helmholtz Metadata Collaboration. DOI [10.3289/HMC_publ_03](https://doi.org/10.3289/HMC_publ_03).
+[^19]: Berners-Lee, T., Hendler, J., Lassila, O. (2001). *The Semantic Web.* Scientific American
+[^20]: World Wide Web Consortium. (n.d.) *Semantic Web Standards*. https://www.w3.org/2001/sw/wiki/Main_Page

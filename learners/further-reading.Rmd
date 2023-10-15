@@ -19,5 +19,9 @@ title: "Further Reading"
 14. *Metadata Basics.* (2018, December 15). https://www.dublincore.org/resources/metadata-basics/
 15. *ISO 15836-1:2017.* (n.d.). ISO. https://www.iso.org/standard/71339.html
 16. Kunze, J. (2018, August 24). *Ten persistent myths about persistent identifiers.* https://escholarship.org/uc/item/73m910w8
+17. Weigel, T., Plale, B., Parsons, M., Zhou, G., Luo, Y., Schwardmann, U., Quick, R., Hellström, M., & Kurakawa, K. (2018). *RDA Recommendation on PID Kernel Information.* Research Data Alliance. https://doi.org/10.15497/RDA00031 
+18. Curdt, C., Günther, G., Jejkal, T., Koch, C., Krebs, F., Pfeil, A., Pirogov, A., Schweikert, J., Videgain Barranco, P., Weinelt, M., HMC Cross-cutting Topic Working Group "From Development to Deployment" (2022). *Helmholtz Kernel Infomation Profile.* Helmholtz Metadata Collaboration. DOI [10.3289/HMC_publ_03](https://doi.org/10.3289/HMC_publ_03).
+19. Berners-Lee, T., Hendler, J., Lassila, O. (2001). *The Semantic Web.* Scientific American
+20. World Wide Web Consortium. (n.d.) *Semantic Web Standards*. https://www.w3.org/2001/sw/wiki/Main_Page
 
 

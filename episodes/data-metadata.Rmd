@@ -1,6 +1,6 @@
 ---
 title: 'Data and Metadata'
-teaching: 30
+teaching: 45
 exercises: 30
 editor_options: 
   markdown: 
@@ -125,7 +125,7 @@ the data: **metadata**.
 
 ## Lecture: Descriptive, administrative, structural metadata
 
-**Slide set**: [DescriptiveAdministrativeStructuralMetadata.pdf](../files/slideSet/4_DescriptiveAdministrativeStructuralMetadata_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}**
+**Slide set**: [DescriptiveAdministrativeStructuralMetadata.pdf](../files/slideSet/4_DescriptiveAdministrativeStructuralMetadata_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 5 min
 

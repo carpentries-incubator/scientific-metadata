@@ -13,12 +13,12 @@ title: General Lesson Information
   |**Scientific discipline**| generic |
   |**Level**| beginner |
   |**Target group**| PhD candidates and early career postdocs, little prior knowledge of metadata (annotation), RDM - Bloom Level 1 / 2, participants do not know each other |
-  |**Duration** | 420 min learning time, 4 breaks of 15 min |
+  |**Duration** | 430 min learning time, 4 breaks of 15 min |
   |**Group size**| 15 (recommended for 2 - 3 instructors) |
   |**Prior knowledge**| none |
   |**Required equipment** | text editor, web browser |
   |**License** | https://creativecommons.org/licenses/by/4.0/ |
-  |**Creators**| See [Citation File](https://github.com/carpentries-incubator/scientific-metadata/CITATION.cff) |
+  |**Creators**| See [citation file](https://github.com/carpentries-incubator/scientific-metadata/CITATION.cff) |
   </div>
 </div>
 
@@ -89,7 +89,7 @@ For these challenges, we prepare handouts for each group in Markdown-based share
 
 **Group handout Markdown:** [exampleGroupHandout.md](../files/exampleGroupHandout.txt){target="_blank"} (optimised for HedgeDoc)
 
-<a href="../files/exampleGroupHandoutPreview.png" target="popup" onclick="window.open('../docs/files/exampleAhaslidesPid.png,'popup','width=1200'); return false;" onMouseOver="document.groupHandout.src='../../docs/files/CLICKexampleGroupHandoutPreview.png';" onMouseOut="document.groupHandout.src='../../docs/files/exampleGroupHandoutPreview.png';"><span><img src="files/exampleGroupHandoutPreview.png" alt="Screenshot of the HedgeDoc Markdown group handout." name="groupHandout"/></span></a>
+<a href="../docs/files/exampleGroupHandoutPreview.png" target="popup" onclick="window.open('../docs/files/exampleGroupHandoutPreview.png,'popup','width=1200'); return false;" onMouseOver="document.groupHandout.src='../../docs/files/CLICKexampleGroupHandoutPreview.png';" onMouseOut="document.groupHandout.src='../../docs/files/exampleGroupHandoutPreview.png';"><span><img src="files/exampleGroupHandoutPreview.png" alt="Screenshot of the HedgeDoc Markdown group handout." name="groupHandout"/></span></a>
 
 ### Example Data
 The lesson starts by introducing a barely annotated dataset, which operates as the base of the whole lesson. Throughout the episodes, the learners will gradually be supplied with more information about this dataset, annotate it with the given information and continuously improve the accompanying metadata to improve its findability, accessibility, interoperability and reusability.
@@ -100,9 +100,9 @@ The attached dataset holds information on the biomechanical acceleration of a hu
 
 We added variable names, transformed the time values and added a mock "scream detected" variable with boolean values based on [this onride video](https://www.youtube.com/watch?v=KeKIBSN2F5c){target="_blank"}.
 
-**Example dataset:** [exampleDataObject.csv](../files/exampleDataObject.csv)
+**Example dataset:** <a href="../docs/data/exampleDataObject.txt" target="_blank">exampleDataObject.csv</a>
 
-<a href="../files/exampleDataObjectColor.png" target="popup" onclick="window.open('../docs/files/exampleDataObjectColor.png,'popup','width=1200'); return false;" onMouseOver="document.exampleData.src='../../docs/files/CLICKexampleDataObjectColor.png';" onMouseOut="document.exampleData.src='../../docs/files/exampleDataObjectColor.png';"><span><img src="files/exampleDataObjectColor.png" alt="Screenshot of example data object." name="exampleData"/></span></a>
+<a href="../docs/files/exampleDataObjectColor.png" target="popup" onclick="window.open('../docs/files/exampleDataObjectColor.png,'popup','width=1200'); return false;" onMouseOver="document.exampleData.src='../../docs/files/CLICKexampleDataObjectColor.png';" onMouseOut="document.exampleData.src='../../docs/files/exampleDataObjectColor.png';"><span><img src="files/exampleDataObjectColor.png" alt="Screenshot of example data object." name="exampleData"/></span></a>
 
 ### Learning Objectives
 Our learning objectives follow the model of <a href="https://archive.org/details/taxonomyofeducat0000bloo_o9o7" target="_blank">Bloom <i>et al.</i> (1956)</a> and use the measurable verbs proposed by <a href="https://doi.org/10.3390/educsci6040037" target="_blank">Stanny <i>et al.</i> (2016)</a>.

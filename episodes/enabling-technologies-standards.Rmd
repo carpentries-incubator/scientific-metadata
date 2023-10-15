@@ -1,7 +1,7 @@
 ---
 title: "Enabling Technologies and Standards"
-teaching: 35
-exercises: 70
+teaching: 47
+exercises: 73
 output:
   html_document:
     df_print: paged
@@ -140,7 +140,7 @@ The concept of a schema can be overwhelming for learners with little to no prior
 - Introduce a customer information form as an example for data validation / enforcement in your lecture.
 - Open the image of the customer information form and an empty JSON file in **split-screen view**.
 
-<a href="../../docs/files/liveCodingScreenshot.png" target="popup" onclick="window.open('../docs/files/liveCodingScreenshot.png,'popup','width=1200'); return false;" onMouseOver="document.liveCoding.src='../../docs/files/CLICKliveCodingScreenshot.png';" onMouseOut="document.liveCoding.src='../../docs/files/liveCodingScreenshot.png';">
+<a href="../docs/files/liveCodingScreenshot.png" target="popup" onclick="window.open('../docs/files/liveCodingScreenshot.png,'popup','width=1200'); return false;" onMouseOver="document.liveCoding.src='../../docs/files/CLICKliveCodingScreenshot.png';" onMouseOut="document.liveCoding.src='../../docs/files/liveCodingScreenshot.png';">
 <span>
 <img src="files/liveCodingScreenshot.png" alt="Screenshot of the recommended live coding session." width="800" name="liveCoding"/>
 </span>
@@ -270,7 +270,7 @@ By writing a short excerpt of a JSON Schema, the learner gets familiar with the 
 **Challenge type:** group activity **OR** individual exploration
 
 **Objective:** <br>
-By downloading and inspecting the final JSON Schema, the learners comprehend the complexity a metadata schema can acquire. With the implementation of the schema in the UI of the [react-jsonschema-form playground](https://rjsf-team.github.io/react-jsonschema-form/), the learners bring the developed schema into use, get to know a software tool they can benefit from, and experience relief from the frustration after Challenge 3.
+By downloading and inspecting the final JSON Schema, the learners comprehend the complexity a metadata schema can acquire. With the implementation of the schema in the UI of the [react-jsonschema-form playground](https://rjsf-team.github.io/react-jsonschema-form/){target="_blank"}, the learners bring the developed schema into use, get to know a software tool they can benefit from, and experience relief from the frustration after Challenge 3.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -609,7 +609,7 @@ The learners are aware of the advantages of a metadata schema and metadata recor
 6. By structuring our metadata records as JSON objects...
 7. we made the information not only findable but also accessible to machines. As we put some effort into developing a schema for the metadata records, we can make sure, that experiments in the same study and collaboration, are recorded and annotated in the same way, which increases its reusability...
 8. and ensures, that metadata records can be validated.
-9. (*If you like, recommend some tools that support and facilitate metadata annotation and validation.* For more information on the examples in the slides, visit the [DirSchema](https://github.com/Materials-Data-Science-and-Informatics/dirschema) and [Metador](https://github.com/Materials-Data-Science-and-Informatics/metador-push) Github repositories.)
+9. (*If you like, recommend some tools that support and facilitate metadata annotation and validation.* For more information on the examples in the slides, visit the [DirSchema](https://github.com/Materials-Data-Science-and-Informatics/dirschema){target="_blank"} and [Metador](https://github.com/Materials-Data-Science-and-Informatics/metador-push){target="_blank"} Github repositories.)
 10. With the metadata schema you have developed, you made sure, that every researcher in the collaboration annotates their data in the same meaningful way. Collaborating in this closed circle was made a lot easier.
 11. But now imagine that you want to analyse published data by some other scientist in your research field. Someone, who is not part of your collaboration...
 12. Wouldn't it be nice, if this data would be annotated in the same way as yours?! We will dive deeper into community-wide metadata schemas and standards after the break.

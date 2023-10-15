@@ -26,8 +26,8 @@ title: Instructor Guide
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> | Episode | Description |
 | :-----: | :---: | ------------------------------- |
 | 35 min | [0](#episode-0-housekeeping) | <u>[**Housekeeping**](#episode-0-housekeeping)</u><br>The lesson starts with an introduction by the instructors, and usually the hosting organization, to the learners. The learners introduce themselves briefly and report on their first impressions of the example data object. Scope and schedule of the lesson are outlined. |
-| 80 min | [2](#episode-2-data-and-metadata) | <u>[**Data and Metadata**](#episode-2-data-and-metadata)</u><br>The learners get an introduction to data and metadata in everyday life and research contexts. Descriptive, administrative, and structural metadata are distinguished. The learners conduct a guided online search (URLs are provided) and explore the metadata tagging in selected web pages. Good (enough) and worst practices of metadata annotation will be covered in the final talk of this module. The presentation is complemented by a live demonstration, collaboratively extracting metadata from scientific publications. |
-| 105 min | [3](#episode-3-structured-metadata-from-markup-to-json) | <u>[**Structured Metadata: From Markup to JSON**](#episode-3-structured-metadata-from-markup-to-json)</u><br>This episode introduces the concept of semi-structured metadata in the context of machine accessibility and interoperability. After defining the term *Markup*, the learners will be confronted with XML and JSON as (meta)data exchange formats. In the challenges 2 & 3, the learners will apply the lecture content to the example data object by extracting metadata from an accompanying `README` file and annotating the example data object using JSON. Challenges will be tackled in groups of 4 - 6 learners. Group results are compared and discussed in a plenary discussion. Ideally, the learners will experience light frustration during result comparison, realizing, that structuring their metadata will result in valid machine-interpretable data objects, yet lack comparability and reusability. |
+| 75 min | [2](#episode-2-data-and-metadata) | <u>[**Data and Metadata**](#episode-2-data-and-metadata)</u><br>The learners get an introduction to data and metadata in everyday life and research contexts. Descriptive, administrative, and structural metadata are distinguished. The learners conduct a guided online search (URLs are provided) and explore the metadata tagging in selected web pages. Good (enough) and worst practices of metadata annotation will be covered in the final talk of this module. The presentation is complemented by a live demonstration, collaboratively extracting metadata from scientific publications. |
+| 100 min | [3](#episode-3-structured-metadata-from-markup-to-json) | <u>[**Structured Metadata: From Markup to JSON**](#episode-3-structured-metadata-from-markup-to-json)</u><br>This episode introduces the concept of semi-structured metadata in the context of machine accessibility and interoperability. After defining the term *Markup*, the learners will be confronted with XML and JSON as (meta)data exchange formats. In the challenges 2 & 3, the learners will apply the lecture content to the example data object by extracting metadata from an accompanying `README` file and annotating the example data object using JSON. Challenges will be tackled in groups of 4 - 6 learners. Group results are compared and discussed in a plenary discussion. Ideally, the learners will experience light frustration during result comparison, realizing, that structuring their metadata will result in valid machine-interpretable data objects, yet lack comparability and reusability. |
 | 20 min | [0](#episode-0-housekeeping-1) | <u>[**Housekeeping**](#episode-0-housekeeping-1)</u><br>Day 1 concludes with a brief recap on the topics of the first day. Feedback is gathered from the learners and eventually implemented in day 2. An outlook on the content of the second day is presented. |
 |  |  | [**To Do: After Day 1**](#to-do-after-day-1) |
 </div>
@@ -39,10 +39,10 @@ title: Instructor Guide
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> | Episode | Description |
 | :-----: | :---: | ------------------------------- |
 | 15 min | [0](#episode-0-housekeeping-2) | <u>[**Housekeeping**](#episode-0-housekeeping-2)</u><br>The learners get a brief recap of the contents of day 1 and an outlook on day 2. In the warm-up session, the learners actively apply their knowledge acquired on day 1 by completing a personal JSON object using a provided template. |
-| 120 min | [4](#episode-4.-enabling-technologies-and-standards) | <u>[**Enabling Technologies and Standards**](#episode-4.-enabling-technologies-and-standards)</u><br>The episode starts with a short history of the World Wide Web from a scholarly perspective, highlighting the benefits of this technology for sharing information. Metadata schemas are introduced in depth by lectures and live coding. Learners practice writing a *JSON Schema* in a group challenge. Subsequently, the written schema is visualized in a web interface, illustrating a possible application. The concept of *metadata standards* is introduced and distinguished from metadata schemas. Some community-independent standards with wide adoption in the scientific context and beyond are investigated. In the following challenge, the learners are introduced to *terminology registries*, practice their navigation and get the opportunity to identify metadata terminologies relevant for their fields of research. |
-| 30 min | [5](#episode-5-web-location-and-identifiers) | <u>[**(Web) Location and Identifiers**](#episode-5-web-location-and-identifiers)</u><br>This episode is an introduction to the concept and technology of Persistent Identifiers (PIDs) on the World Wide Web. The learners are familiarized with the technology of client-server communication on the web, learn to differentiate between URN, URL, URI, and PID, and get to know  PID services commonly used in the scientific community. Further, the application of (Persistent) Identifiers in metadata records is discussed. |
-| 35 min | [0](#episode-0-lightning-talk) | <u>[**Lightning Talk**](#episode-0-lightning-talk)</u><br>An invited speaker presents a real-world research example and demonstrates how applied metadata can shape research.  |
-| 20 min | [0](#episode-0-housekeeping-3) | <u>[**Housekeeping**](#episode-0-housekeeping-3)</u><br>This module concludes the lesson. A summarizing overview of the past two days is given. The learners provide their feedback on the lesson. The instructors give feedback to the learners. |
+| 120 min | [4](#episode-4-enabling-technologies-and-standards) | <u>[**Enabling Technologies and Standards**](#episode-4-enabling-technologies-and-standards)</u><br>The episode starts with a short history of the World Wide Web from a scholarly perspective, highlighting the benefits of this technology for sharing information. Metadata schemas are introduced in depth by lectures and live coding. Learners practice writing a *JSON Schema* in a group challenge. Subsequently, the written schema is visualized in a web interface, illustrating a possible application. The concept of *metadata standards* is introduced and distinguished from metadata schemas. Some community-independent standards with wide adoption in the scientific context and beyond are investigated. In the following challenge, the learners are introduced to *terminology registries*, practice their navigation and get the opportunity to identify metadata terminologies relevant for their fields of research. |
+| 60 min | [5](#episode-5-web-location-and-identifiers) | <u>[**(Web) Location and Identifiers**](#episode-5-web-location-and-identifiers)</u><br>This episode is an introduction to the concept and technology of Persistent Identifiers (PIDs) on the World Wide Web. The learners are familiarized with the technology of client-server communication on the web, learn to differentiate between URN, URL, URI, and PID, and get to know  PID services commonly used in the scientific community. Further, the application of (Persistent) Identifiers in metadata records is discussed. |
+| 45 min | [0](#episode-0-lightning-talk) | <u>[**Lightning Talk**](#episode-0-lightning-talk)</u><br>An invited speaker presents a real-world research example and demonstrates how applied metadata can shape research.  |
+| 15 min | [0](#episode-0-housekeeping-3) | <u>[**Housekeeping**](#episode-0-housekeeping-3)</u><br>This module concludes the lesson. A summarizing overview of the past two days is given. The learners provide their feedback on the lesson. The instructors give feedback to the learners. |
 |  |  | [**To Do: After the lesson**](#to-do-after-the-lesson) |
 </div>
 </div>
@@ -136,7 +136,7 @@ Guiding questions could be:
 | 5 min | **Lecture** | [The example data object](#accordionInstructor5)  |
 | 5 min | **Lecture** | [What is metadata?](#accordionInstructor6)  |
 | 5 min | **Lecture** | [Descriptive, administrative, structural metadata](#accordionInstructor7) |
-| 15 min | **Challenge** | [Real-world Metadata](#accordionInstructor8) |
+| 15 min | **Challenge** | [Real-world metadata](#accordionInstructor8) |
 | 10 min | **Lecture** | [Metadata in the scientific context](#accordionInstructor9)  |
 | 15 min | **Guided confrontation** | [Metadata in scientific publications](#accordionInstructor10) |
 | 15 min |  | :coffee: **Break** :coffee: |
@@ -266,7 +266,7 @@ Allow some time for the learners to navigate the websites and explore the metada
   <li>**Fun fact:** *The Guardian* regularly uses a comment in the `head` of their HTML documents to advertise IT jobs :grin: </li>
 </ul>
 
-**Whiteboard:** <a href="../files/exampleChallenge1Whiteboard.pdf" target="_blank" download>example setup</a>
+**Whiteboard:** <a href="../docs/files/exampleChallenge1Whiteboard.pdf" target="_blank" download>example setup</a>
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -348,7 +348,7 @@ Use a whiteboard application to display the journal publication. This allows for
 </div>
 </div>
 
-**Total time:**  105 min<br>
+**Total time:**  100 min<br>
 **Teaching methods:**  direct teaching, guided confrontation, live demonstration, group activity<br>
 **Learning types:**  acquisition, discussion, practice, production<br><br>
 
@@ -441,7 +441,7 @@ This episode introduces the concept of semi-structured metadata in the context o
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Lecture: Challenge introduction
 
-**Slide set**: [Challenge23Introduction.pdf](../files/slideSet/10_challengeIntroduction_2_3_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
+**Slide set**: [Challenge23Introduction.pdf](../docs/files/slideSet/10_challengeIntroduction_2_3_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 3 min
 
@@ -467,7 +467,7 @@ Prepare shared notes documents for each group of learners attending the lesson. 
 Try to be present with as many instructors as there are break-out rooms to moderate the discussions and answer questions.
 
 **Shared notes:** <br>
-You can find an example Markdown file for the group handouts <a href="../files/exampleGroupHandout.md" target="_blank">**HERE**</a>. This document is optimized for use in a Hedgedoc document. 
+You can find an example Markdown file for the group handouts <a href="../files/exampleGroupHandout.txt" target="_blank">**HERE**</a>. This document is optimized for use in a Hedgedoc document. 
 
 ##### <u>Challenge 2: Identify metadata in README.txt</u>
 
@@ -609,7 +609,7 @@ In order to increase the response rate and to guarantee that every learner is he
 4. **I would have liked to learn more about...**<br>
     [FREE TEXT]
 
-<a href="../../docs/files/exampleFeedbackDay1.png" target="popup" onclick="window.open('../docs/files/exampleFeedbackDay1.png,'popup','width=1200'); return false;" onMouseOver="document.feedbackDay1.src='../../docs/files/CLICKexampleFeedbackDay1.png';" onMouseOut="document.feedbackDay1.src='../../docs/files/exampleFeedbackDay1.png';"><span><img src="../docs/files/exampleFeedbackDay1.png" name="feedbackDay1"/></span></a>
+<a href="../docs/files/exampleFeedbackDay1.png" target="popup" onclick="window.open('../docs/files/exampleFeedbackDay1.png,'popup','width=1200'); return false;" onMouseOver="document.feedbackDay1.src='../../docs/files/CLICKexampleFeedbackDay1.png';" onMouseOut="document.feedbackDay1.src='../../docs/files/exampleFeedbackDay1.png';"><span><img src="../docs/files/exampleFeedbackDay1.png" name="feedbackDay1"/></span></a>
     
 (<i>Question 4 is, in our opinion, the most important question of this feedback session. It gives you an insight, which topics might need to be revisited on day 2 and help you to add additional literature recommendation to the references adressing the specific needs of your group of learners. </i>)
 
@@ -718,7 +718,7 @@ Supply the learners with a JSON object literal template with pre-defined keys. T
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Episode 4. Enabling technologies and Standards
+## Episode 4: Enabling technologies and Standards
 <div class="overview card">
   <h2 class="card-header">Episode Schedule</h2>
   <div class="row g-0">
@@ -837,8 +837,8 @@ The concept of a schema can be overwhelming for learners with little to no prior
 
 **Instructor material**: <br>
 <ul>
-  <li><a href="../files/customerInformationForm.png" target="_blank" download>customerInformationForm.png</a></li> 
-  <li><a href="../files/customerInformationForm_schemaSolution.json" target="_blank" download>customerInformationForm_schemaSolution.json</a></li>
+  <li><a href="../docs/files/customerInformationForm.png" target="_blank" download>customerInformationForm.png</a></li> 
+  <li><a href="../docs/files/customerInformationForm_schemaSolution.json" target="_blank" download>customerInformationForm_schemaSolution.json</a></li>
 </ul>
 
 **Creator's recommendation**: <br>
@@ -846,7 +846,7 @@ The concept of a schema can be overwhelming for learners with little to no prior
   <li>Introduce a customer information form as an example for data validation / enforcement in your lecture.</li>
   <li>Open the image of the customer information form and an empty JSON file in **split-screen view**.</li>
 </ul>
-<a href="../../docs/files/liveCodingScreenshot.png" target="popup" onclick="window.open('../docs/files/liveCodingScreenshot.png,'popup','width=1200'); return false;" onMouseOver="document.liveCoding.src='../../docs/files/CLICKliveCodingScreenshot.png';" onMouseOut="document.liveCoding.src='../../docs/files/liveCodingScreenshot.png';"><span>
+<a href="../docs/files/liveCodingScreenshot.png" target="popup" onclick="window.open('../docs/files/liveCodingScreenshot.png,'popup','width=1200'); return false;" onMouseOver="document.liveCoding.src='../../docs/files/CLICKliveCodingScreenshot.png';" onMouseOut="document.liveCoding.src='../../docs/files/liveCodingScreenshot.png';"><span>
 <img src="files/liveCodingScreenshot.png" alt="Screenshot of the recommended live coding session." width="800" name="liveCoding"/></span></a>
 <ul>
   <li>For live coding, we recommend using an **IDE** with **JSON syntax highlighting** (e.g. VS Code)</li>
@@ -910,7 +910,7 @@ In our experience that changing the group composition for these tasks benefits t
 As in challenges 2 & 3, we recommend using a pre-structured shared notes document with the groups.
 
 **Shared notes:** <br>
-You can find an example Markdown file for the group handouts <a href="../files/exampleGroupHandout.txt" target="_blank">**HERE**</a>. This document is optimized for use in a Hedgedoc document. 
+You can find an example Markdown file for the group handouts <a href="../docs/files/exampleGroupHandout.txt" target="_blank">**HERE**</a>. This document is optimized for use in a Hedgedoc document. 
 
 ##### <u>Challenge 4: JSON Schema</u>
 
@@ -928,7 +928,7 @@ By writing a short excerpt of a JSON Schema, the learner gets familiar with the 
 **Challenge type:** group activity **OR** individual exploration
 
 **Objective:** <br>
-By downloading and inspecting the final JSON Schema, the learners comprehend the complexity a metadata schema can acquire. With the implementation of the schema in the UI of the [react-jsonschema-form playground](https://rjsf-team.github.io/react-jsonschema-form/), the learners bring the developed schema into use, get to know a software tool they can benefit from, and experience relief from the frustration after Challenge 3.
+By downloading and inspecting the final JSON Schema, the learners comprehend the complexity a metadata schema can acquire. With the implementation of the schema in the UI of the [react-jsonschema-form playground](https://rjsf-team.github.io/react-jsonschema-form/){target="_blank"}, the learners bring the developed schema into use, get to know a software tool they can benefit from, and experience relief from the frustration after Challenge 3.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -941,7 +941,7 @@ By downloading and inspecting the final JSON Schema, the learners comprehend the
 <ul>
   <li>share the [react-jsonschema-form playground](https://rjsf-team.github.io/react-jsonschema-form/){target="_blank"} pre-filled with the final schema and metadata values in your browser **OR**</li>
   <li>share the final **JSON schema** on your screen **OR**</li>
-  <li>display the final **JSON metadata records** (`exampleDataObject.json`) of each group next to each other</li>
+  <li>display the final **JSON metadata records** (`exampleDataObject.json`){target="blank"} of each group next to each other</li>
 </ul>
 
 **Objective:** <br>
@@ -975,7 +975,7 @@ The learners are aware of the advantages of a metadata schema and metadata recor
 6. By structuring our metadata records as JSON objects...
 7. we made the information not only findable but also accessible to machines. As we put some effort into developing a schema for the metadata records, we can make sure, that experiments in the same study and collaboration, are recorded and annotated in the same way, which increases its reusability...
 8. and ensures, that metadata records can be validated.
-9. (*If you like, recommend some tools that support and facilitate metadata annotation and validation.* For more information on the examples in the slides, visit the [DirSchema](https://github.com/Materials-Data-Science-and-Informatics/dirschema) and [Metador](https://github.com/Materials-Data-Science-and-Informatics/metador-push) Github repositories.)
+9. (*If you like, recommend some tools that support and facilitate metadata annotation and validation.* For more information on the examples in the slides, visit the [DirSchema](https://github.com/Materials-Data-Science-and-Informatics/dirschema){target="_blank"} and [Metador](https://github.com/Materials-Data-Science-and-Informatics/metador-push){target="_blank"} Github repositories.)
 10. With the metadata schema you have developed, you made sure, that every researcher in the collaboration annotates their data in the same meaningful way. Collaborating in this closed circle was made a lot easier.
 11. But now imagine that you want to analyse published data by some other scientist in your research field. Someone, who is not part of your collaboration...
 12. Wouldn't it be nice, if this data would be annotated in the same way as yours?! We will dive deeper into community-wide metadata schemas and standards after the break.
@@ -1057,11 +1057,14 @@ During the discussion, ask the group of learners, whether someone encountered a 
 | 2 min | **Guided confrontation** | [Error 404](#accordionInstructor36)
 | 8 min | **Lecture** | [Persistent Identifier](#accordionInstructor37) |
 | 5 min | **Lecture** | [PIDs and Metadata](#accordionInstructor38) |
+| 5 min | **Guided confrontation** | [DOI Record](#accordionInstructor39) |
+| 5 min | **Lecture** | [Machine-Actionability and Interoperability](#accordionInstructor40) |
+| 15 min |  | :coffee: **Break** :coffee: |
 
 </div>
 </div>
 
-**Total time:** 35 min <br>
+**Total time:** 60 min <br>
 **Teaching methods:** direct teaching, group activity <br>
 **Learning types:** acquisition <br><br>
 
@@ -1075,7 +1078,7 @@ During the discussion, ask the group of learners, whether someone encountered a 
 <u>UNDERSTAND</u>
 <ul>
   <li>The learners explain the difference between URL, URN, URI and PID(s)</li>
-  <li>The learners indicate the advantages of assigning web publications with PIDs in the scientific context.</li>
+  <li>The learners indicate the advantages of assigning Web publications with PIDs in the scientific context.</li>
 </ul>
 
 **Description:**<br>
@@ -1086,28 +1089,27 @@ This episode is an introduction to the concept and technology of *persistent ide
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Group activity: PID poll
 
-**Slide set**: -
-
 **Time estimate**: 2 min
 
-<i>Up to this point, the lesson followed a consistent silver lining. In the last episode, the learners "finished" annotating the example data. The following episode on (persistent) identifiers might seem somewhat disconnected to the previous lesson content at first before the connection is drawn to PIDs in metadata records. Therefore, we like to start this episode with a quick live poll on PIDs in the scientific content. Together with the previous discussion on 404 Errors during the search for scientific metadata standards, this will prepare the learner and engage them in the following content.</i>:smile:.
+*Up to this point, the lesson followed a consistent silver lining. In the last episode, the learners "finished" annotating the example data. The following episode on (persistent) identifiers might seem somewhat disconnected to the previous lesson content at first before the connection is drawn to PIDs in metadata records. Therefore, we like to start off this episode with a quick live poll on PIDs in the scientific content. Together with the previous discussion on 404 Errors during the search for scientific metadata standards, this will prepare the learner for and engage them in the following content.*:smile:.
 
 **Creators' recommendation:**<br>
-We use [AHA slides](https://ahaslides.com/){target="_blank"} for live polling. Share the link to the poll with the learners and open the presentation mode of the poll on your shared screen.<br>
+We use [AHA slides](https://ahaslides.com/){target="_blank"} for live polling. Share the link to the poll with the learners and open the presentation mode of the poll on your shared screen.
 
-<u>QUESTION</u><br><br>
+**QUESTION:** Which of these terms do you know? Do any of these ring a bell? 
 
-1. Does it ring a bell? Which of these terms do you know?
-    - DOI
-    - ORCID
-    - ROR
-    - URN
-    - PURL
-    - IRI
+- DOI
+- ORCID
+- ROR
+- URN
+- URL
+- URI
 
-<a href="../../docs/files/exampleAhaslidesPid.png" target="popup" onclick="window.open('../docs/files/exampleAhaslidesPid.png,'popup','width=1200'); return false;" onMouseOver="document.PIDpoll.src='../../docs/files/CLICKexampleAhaslidesPid.png';" onMouseOut="document.PIDpoll.src='../../docs/files/exampleAhaslidesPid.png';"><span><img src="files/exampleAhaslidesPid.png" alt="Screenshot of the recommended live polling session on PIDs." name="PIDpoll"/></span></a>
+<a href="../docs/files/exampleAhaslidesPid.png" target="popup" onclick="window.open('../docs/files/exampleAhaslidesPid.png,'popup','width=1200'); return false;" onMouseOver="document.PIDpoll.src='../../docs/files/CLICKexampleAhaslidesPid.png';" onMouseOut="document.PIDpoll.src='../../docs/files/exampleAhaslidesPid.png';">
+<img src="files/exampleAhaslidesPid.png" alt="Screenshot of the recommended live polling session on PIDs." name="PIDpoll"/>
+</a>
 
-(<i>As you can see in the example image above, DOI and ORCID are usually the best-known PIDs among the learners. Take a few moments, to comment and reflect on the polling results.</i>)
+(*As you can see in the example image above, DOI and ORCID are usually the best known PIDs among the learners. Take a few moments, to comment and reflect on the polling results.*)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -1116,7 +1118,7 @@ We use [AHA slides](https://ahaslides.com/){target="_blank"} for live polling. S
 
 **Slide set**: [TheWebOfToday.pdf](../files/slideSet/17_TheWebOfToday_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
-**Time extimate**: 4 min
+**Time estimate**: 4 min
 
 1. Let’s get back to the World Wide Web.
 2. Today we take a look at the Web and all information stored on it, that we carry in our pockets.
@@ -1125,13 +1127,14 @@ We use [AHA slides](https://ahaslides.com/){target="_blank"} for live polling. S
 5. And we are sharing information and communicating more than ever. Everything in the blink of an eye. The World Wide Web is now an essential tool for every researcher. Reading publications, connecting with other scientists, retrieving and publishing data, accessing servers on the other side of the globe, and even attending conferences and meetings with people hundreds and thousands of miles away from you. In the sense of the original idea of the Web, science became faster and communicating information easier. Its means to access information are so manifold, that retrieving relevant and meaningful information comes with new challenges.
 6. The Web is a hypermedia system, connecting a multitude of resources via hyperlinks. We have already heard the term **resource** earlier and in the next couple of minutes we will get a bit more technical, talking about data retrieval on the Web and Web resources. So let’s define briefly, what the term **Web Resource** actually means.
 7. A Web resource can be digital in nature, such as computer code, documents, videos, and images. These resources can immediately be retrieved or viewed on the Web in a browser.
-8. But the term **Web resource** acts much more encompassingly. Physical and abstract entities, for example persons, art, buildings, and mathematical concepts are also Web resources once they are somehow represented on the Web.
+8. But the term **Web resource** encompasses more than just digital resources. Physical and abstract entities, for example persons, art, buildings, and mathematical concepts are also Web resources once they are somehow represented on the Web.
 9. Hence, any entity - digital, physical or abstract - that is represented on the Web is a Web resource.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+
 ## Lecture: Identifiers and Web Locations
 
 **Slide set**: [IdentifierWebLocations.pdf](../files/slideSet/18_IdentifierWebLocations_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
@@ -1144,12 +1147,12 @@ We use [AHA slides](https://ahaslides.com/){target="_blank"} for live polling. S
 4. Remember the first lecture from yesterday? We have had a close look on the metadata in a book. Now if a librarian wants to identify a specific publication...
 5. they will use its ISBN for unambiguous identification. This ISBN follows a standardized structure, which gives valuable information about the resource, such as the group and publisher of the book. This ISBN is globally unique. Which means it only exists for one specific book and will always lead to the same result, where ever you retrieve it.
 6. And these uniform resource identifiers also exist in the scientific context. Let me give you an example from molecular biology. Let's say, this scientist is working on genetics and she is interested in the functions of a specific gene in the model plant...
-7. <i>Arabidopsis thaliana</i>. Every gene of this plant has an unique identifier assigned, that follows certain representative conventions. In the case of this model plant, the gene identifier holds information on the species, the chromosome, the type of sequence as well as its location on the chromosome. 
-8. To generalize, unique identification codes enable globally unique and persistent identification of a resource. These codes follow conventions in their representation and are registered centrally, enabling a uniform structure of these identifiers globally or in the user community. This makes unique identification codes unambiguous and referencable.
-9. (<i>Use this slide to collect unique identification codes in the research fields of the learners. We like to do this in a brief plenary discussion, asking the learners to share unique identifiers, they use regularly and what they represent.</i>)
+7. *Arabidopsis thaliana*. Every gene of this plant has an unique identifier assigned, that follows certain representative conventions. In the case of this model plant, the gene identifier holds information on the species, the chromosome, the type of sequence as well as its location on the chromosome. 
+8. To generalize, unique identifiers enable globally unique identification of a resource. The structure of these identifiers is standardized and they are registered centrally, enabling a uniform structure of these identifiers globally or in the user community. This makes unique identifiers unambiguous and dereferencable.
+9. (*Use this slide to collect unique identifiers in the research fields of the learners. We like to do this in a brief plenary discussion, asking the learners to share unique identifiers, they use regularly and what they represent.*)
 10. Now we will take this concept of uniform identifiers to the Web.
 11. But first, we will need to define and distinguish between a few terms, that come up frequently in this context. The examples we have seen a couple of minutes ago, are - simply put - a series of structurally harmonized characters that uniquely identify a resource...
-12. The ISBN number we have seen, is basically just a synonym for a book. This is, what we call a URN, Uniform Resource **Name**. We know, what the resource is called. 
+12. The ISBN number we have seen, is basically just a "synonym" for a book. (It acts to the book like a synonym acts to another word). This is, what we call a URN, Uniform Resource **Name**. We know, what the resource is called. 
 13. This name under a certain namespace, is uniform and unique. But the name gives no clue, on how we can retrieve the information stored behind this name. We do not know it’s location and the technical necessities to access it.
 14. To do so on the web, we need the address...
 15. where we can find the resource with a specific resource. The address alone is not enough, though. We also need information on how we can retrieve the resource...
@@ -1166,68 +1169,73 @@ We use [AHA slides](https://ahaslides.com/){target="_blank"} for live polling. S
 26. The response also includes a status code. The code "200: ok" tells the client-server, that sends the request, "I have found the file you requested. Here you go!". There are various status codes for server-client communication, but for now, we will focus on the most common ones. The client, your browser, receives the response with the resource attached and...
 27. displays it.
 28. But I'm fairly sure, we have all experienced this situation: You are looking for publications online, be it data or a journal article. The abstract is super promising and you want to retrieve the PDF...
-29. but instead of the publication, you are faced with an **Error 404**. 
+29. but instead of the publication, you are faced with an **Error 404**. We speak of rotten links.
 30. So what happened here? You click on the link and the familiar HTTP request is sent by your browser to the host server.
 31. Again, the host server follows the file path but it is leading into the void. No file with this path. 
 32. And this is, what the host server communicates back to your browser. The HTTP response now contains the status code **404: Not Found**. 
 33. Let's take a look at this client-server communication in action.
+34. Simplified, there could be two reasons why you end up with a 404 status code: either you can't spell correctly, or the path to the resource is broken.
+35. How do paths break.
+36. The URL you want to retrieve points to a specific resource, which are stored on another server. But within the life cycle of a Web resource, several events can take place.
+37. The file path on the host server might change, the resource might be migrated to a different host server, or the resource might simply be deleted. In any of these cases, the URL does not specify the exact location of the resource any longer and will no longer be retrievable following the **GET** request you send from your browser. This process is also referred to as "link rot". Remember, that we classified the URL as a form of Uniform Resource Identifier? This means, that link rot results in the resource losing a very important identifier!
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+
 # Guided confrontation: Error 404
 
 **Time**: 2 min
 
-**Narrative / Teaching script**: <br>
-<ul>
-  <li><i>Share an empty browser tab on your screen.</i></li> 
-  <li><i>Open the network editor.</i> </li>
-  <li><i>Open any desired website in your browser. This might be a good point to share your organizational, institutional, or personal homepage with the learners for some "hidden" marketing</i> :wink:.</li>
-  <li><i>You can witness all the requests and responses in the network editor, while the page is loading</i>.</li>
-  <li><i>Highlight that each element - HTML documents, images, etc - require individual requests in order to build the website and the `200: ok` status codes that are send back with the resources.</i></li>
-  <li>**Optional:** <i>Take a closer look at the different status codes or the HTTP responses.</i></li>
-  <li><i>Enforce an Error 404, e.g. by deleting one character in the file path. The status code 404 will appear in the status code column of the network editor.</i></li>
-</ul>
+**Narrative / Teaching script**: 
 
-<a href="../../docs/files/exampleError404.png" target="popup" onclick="window.open('../docs/files/exampleError404.png,'popup','width=1200'); return false;" onMouseOver="document.Error404.src='../../docs/files/CLICKexampleError404.png';" onMouseOut="document.Error404.src='../../docs/files/exampleError404.png';"><span><img src="files/exampleError404.png" alt="Screenshot of the recommended live coding session." name="Error404"/></span></a>
+- *Share an empty browser tab on your screen.*
+- *Open the network editor.*
+- *Open any desired website in your browser. This might be a good point to share your organizational, institutional, or personal homepage with the learners for some "hidden" marketing.* :wink:
+- *You can witness all the requests and responses in the network editor, while the page is loading.*
+- *Highlight that each element - HTML documents, images, etc - require individual requests in order to build the website and the `200: ok` status codes that are send back with the resources.*
+- **Optional:** *Take a closer look at the different status codes or the HTTP responses.*
+- *Enforce an Error 404, e.g. by deleting one character in the file path. The status code 404 will appear in the status code column of the network editor.*
+
+<a href="../docs/files/exampleError404.png" target="popup" onclick="window.open('../docs/files/exampleError404.png,'popup','width=1200'); return false;" onMouseOver="document.Error404.src='../../docs/files/CLICKexampleError404.png';" onMouseOut="document.Error404.src='../../docs/files/exampleError404.png';">
+<span>
+<img src="files/exampleError404.png" alt="Screenshot of the recommended live coding session." name="Error404"/>
+</span>
+</a>
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+
 ## Lecture: Persistent Identifier
 
 **Slide set**: [PersistentIdentifier.pdf](../files/slideSet/19_PersistentIdentifier_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 8 min
 
-1. -
-2. Simplified, there could be two reasons why you end up with a 404 status code: either you can't spell, or the resource path is broken.
-3. How do paths break.
-4. The URL you want to retrieve points to a specific resource, which are stored on another server. But within the life cycle of a Web resource, several events can take place.
-5. The file path on the host server might change, the resource might be migrated to a different host server, or the resource might simply be deleted. In any of these cases, the URL does not specify the exact location of the resource any longer and will no longer be retrievable following the **GET** request you send from your browser. This process is also referred to as "link rot". Remember, that we classified the URL as a form of Uniform Resource Identifier? This means, that link rot results in the resource losing a very important identifier!
-6. Web technology has a solution for this issue: Persistent Identifiers or short, PIDs.
-7. Like our other persistent and unique identifiers, such as ISBNs, PIDs are long-lasting references to digital objects on the Web. Any resource that has a representation on the web - articles, datasets, persons, instruments - can have a PID assigned. These PIDs remain constant over time, lead directly to the resource - so they also give information on the location and protocol - and, thus, ensure permanent identifiability, referenceabilty and retrievability of online resources.
-8. The technology behind PIDs is fairly simple. In essence a PID service resembles the basic functionality of a phone book, where the PID identifies the resource in question, like a name in a phone book but unique. The PID is associated with an URL, that locates the resource. 
-9. In PID databases, a PID is mapped to a URL, that retrieves a resource. Even though the URL changes, due to server migration or changes in the file path, the PID remains consistent.
-10. If you activate a hyperlink in your browser to retrieve a resource without a PID service included, your browser will directly communicate with the host server to retrieve a resource.
-11. If the requested resource is identified by a PID, the underlying PID service will be contacted by the browser. The PID service will then query its database for the PID, identify the current URL of the resource and redirect the request to the host server.
-12. So when the location of the resource changes...
-13. a PID will not lead to unretrievable resources and rotten links...
-14. as the new URL is stored in the PID database and the activated link will redirect the request to the new location.
-15. It is important to know, that the PID service **only** provides the **technical infrastructure** for redirections. The owner of the server of the requested resource - which could be a private person, a journal that published an article or a repository that holds a dataset - **is responsible for updating the URL**. For example: You publish an article and one of the journals assigns a PID to this article. If the journal now changes the digital location of your article on their server, the journal is responsible to inform the PID provider about the changes and update the location.
-16. PID technology, however, harbors a significant challenge.
-17. If the PID provider discontinues it’s service, it would lead to a huge amount of broken links and irretrievable resources. Therefore it is important, to choose well-established and sustainable PID service.
-18. In the scientific environment, we daily deal with various resources represented on the Web.
-19. Non-profit services have been established in the scholar world, to provide sustainable PIDs for academic Web resources. Researchers can register an ORCiD ID, short for Open Researcher and Contributor ID. Academic institutions and funding agencies can be identified by their Research Organization Registry handle, short ROR. And once you look for scientific publications, you will inevitably get in contact with a DOI.
-20. The Digital Object Identifier is a digital identifier of an object, any object – physical, digital, or abstract. It is not exclusively used for academic Web resources but can be used to register and identify any resource represented on the Web.
-21. In the academic environment, it is largely used to identify research articles, data objects, metadata records, code, and software.
-22. For these academic Web resources, DOIs can be issued by different DOI providers, most commonly Data Cite and Crossref. Many repositories and scientific journals assign published resources with a DOI, often in collaboration with DataCite or Crossref. These providers guarantee long-lasting retrievability of any data object in their database.
-15. <i>Allow some time for questions.</i>
+1. Web technology has a solution for this issue: Persistent Identifiers or short, PIDs.
+2. Like our other persistent and unique identifiers, such as ISBNs, PIDs are long-lasting references to digital objects on the Web. Any resource that has a representation on the web - articles, datasets, persons, instruments - can have a PID assigned. These PIDs remain constant over time, lead indirectly to the resource - so they also give information on the location and protocol - and, thus, ensure permanent identifiability, referenceabilty and retrievability of online resources.
+3. The technology behind PIDs is fairly simple. In essence a PID service resembles the basic functionality of a phone book, where the PID identifies the resource in question, like a name in a phone book but unique. The PID is associated with an URL, that locates the resource. 
+4. In PID databases, a PID is mapped to a URL, that retrieves a resource. Even though the URL changes, due to server migration or changes in the file path, the PID remains consistent.
+5. If you activate a hyperlink in your browser to retrieve a resource without a PID service included, your browser will directly communicate with the host server to retrieve a resource.
+6. If the requested resource is identified by a PID, the underlying PID service will be contacted by the browser. The PID service will then query its database for the PID, identify the current URL of the resource and redirect the request to the host server.
+7. So when the location of the resource changes...
+8. a PID will not lead to unretrievable resources and rotten links...
+9. as the new URL is stored in the PID resolver service and the activated link will redirect the request to the new location.
+10. It is important to know, that the PID service **only** provides the **technical infrastructure** for redirections. The registrar of the requested resource - which could be a private person, a journal that published an article or a repository that holds a dataset - **is responsible for updating the URL**. For example: You publish an article and one of the journals assigns a PID to this article. If the journal now changes the digital location of your article on their server, the journal is responsible to inform the PID provider about the changes and update the location.
+11. PID technology, however, comes with a significant challenge.
+12. If the PID provider discontinues it’s services, it would lead to a huge amount of broken links and irretrievable resources. Therefore it is important, to choose well-established and sustainable PID service.
+13. In the scientific environment, we daily deal with various resources represented on the Web.
+14. Non-profit services have been established in the scholar world, to provide sustainable PIDs for academic Web resources. Researchers can register an ORCiD ID, short for Open Researcher and Contributor ID. Academic institutions and funding agencies can be identified by their Research Organization Registry handle, short ROR. And once you look for scientific publications, you will inevitably get in contact with a DOI.
+15. The Digital Object Identifier is a digital identifier of an object, any object – physical, digital, or abstract. It is not exclusively used for academic Web resources but can be used to register and identify any resource represented on the Web.
+16. In the academic environment, it is largely used to identify research articles, data objects, metadata records, code, and software.
+17. For these academic Web resources, DOIs can be issued by different DOI providers, most commonly Data Cite and Crossref. Many repositories and scientific journals assign published resources with a DOI, often in collaboration with DataCite or Crossref. These providers guarantee long-lasting retrievability of any data object in their database.
+18. *Allow some time for questions.*
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+
 ## Lecture: PIDs and Metadata 
 
 **Slide set**: [PidsAndMetadata.pdf](../files/slideSet/20_PIDsAndMetadata_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
@@ -1236,18 +1244,87 @@ We use [AHA slides](https://ahaslides.com/){target="_blank"} for live polling. S
 
 1. So, where is the link between PIDs and Metadata? 
 2. For this, we will have a closer look on the ORCiD. If you resolve an ORCiD on the Web, you will get to a website that contains all the information of a researcher, that this person has provided about themself. You can specify employments, education, publications, awards, and grants as well as location details, keywords, and external links. In other words, your ORCiD comes with all the necessary metadata about your professional life. Plus, it is unique but your name may not be. Imagine, you are looking for a publication by John Smith. Without additional information, it would be almost impossible to find a publication by the exact John Smith on arXiv or Google Scholar in a reasonable amount of time. Even if you look up Bruce Wayne on Google Scholar, you will find more than one author with this name. 
-3. An ORCiD ID is a unique and persistent identifier for researchers.
-4. The ORCiD service comes with more than a unique, persistent identifier. It comes with an ORCiD record, in other words a metadata record, that connected to each ORCID ID. And the service also provides technical tools, with which this metadata can be retrieved.
+3. An ORCiD ID is an unique and persistent identifier for researchers.
+4. The ORCiD service comes with more than an unique, persistent identifier. It comes with an ORCiD record, in other words a metadata record, that connected to each ORCID ID. And the service also provides technical tools, with which this metadata can be retrieved.
 5. So all the information that is visible on this page…
-6. is connected with a metadata object, that looks somewhat like this. A structured metadata object including all the information about your person, that you like to share. [side note: the JSON object is based on the original ORCID schema. However, ORCiD uses XML.]
-7. Now, let’s say, you want to publish a dataset or journal paper and attach all the necessary metadata. In order to add all the bibliographical information to unambiguously identify you as the author, you might need to include many details. And you might have been one of many authors. So you need to repeat this process for your co-authors as well. If you have an ORCiD, you can just use the PID as a synonym for your name and your information can be retrieved automatically.
+6. is connected with a metadata object, that looks somewhat like this. A structured metadata object including all the information about your person, that you like to share. [*side note: the JSON object is based on the original ORCID schema. However, ORCiD uses XML.*]
+7. Now, let’s say, you want to publish a dataset or journal paper and attach all the necessary metadata. In order to add all the bibliographical information to unambiguously identify you as the author, you might need to include many details. And you might have been one of many authors. So you need to repeat this process for your co-authors as well. If you have an ORCiD, you can just use the PID as an identifier for your name and your information can be retrieved automatically.
 8. And if your information changes – for example you got married and your name changed, or you started a new job and your contact information was updated – you only need to include the update in your ORCiD record. 
 9. Your ID stays the same, thus you do not have to touch your dataset metadata records again. Your ORCiD ID will automatically resolve to the updated personal information.
-10. Similarly, when you register a DOI – let’s say for a dataset – you will give metadata on this data object, that will be saved with the DOI. So whenever you reference this exact dataset, for example if you publish several papers referring to the same data, you need the DOI as an identifier and further meta information about the data set can be retrieved automatically.
+10. Similarly, when you register a DOI – let’s say for a dataset or a journal publication – you will give metadata on this data object, that will be saved with the DOI. So whenever you reference this exact resource, for example if you publish several papers referring to the same data, you need the DOI as an identifier and further meta information about the data set can be retrieved automatically.
 11. To sum it up, PIDs ensure sustainable retrievability of any kind of web resource, they can be used to unambiguously identify resources on the Web and PIDs are connected to metadata records, which describe the resource in question. 
-12. <i>Allow some time for questions.</i>
+12. These are certainly benefits for any human interactor with the resource.
+13. But let's stay with the DOI a bit longer.
+14. Remember the journal paper we examined yesterday?
+15. One crucial metadatum we found was the DOI.
+16. Let's see what happens, when we retrieve this DOI in a Browser. (*Switch to a browser window and continue with "Guided confrontation: DOI Record"*)
+17. **Optional slide to discuss the structure of the PID record**
+18. PID records are stored with the PID resolver service. They are targeted especially at machines and hold machine-readable information. These information support machine-actionability for interoperability. We will take a closer look on this in the next section.
+19. *Allow some time for questions.*
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+
+# Guided confrontation: DOI Record
+
+**Time**: 5 min
+
+**Narrative / Teaching script**: 
+
+- *Share an empty browser tab on your screen.*
+- *Open the DOI of the journal publication you presented in* [**"Guided confrontation: Metadata in scientific publications"**](../data-metadata.html#metadata-records){target="_blank"} *(if the publication is <u>not</u> Open Access, make sure to login in advance :wink:).*
+- *Guide the audience through the information stored on the landing page (i.e. authors, abstract, references, etc.). Highlight the human-friendly representation.*
+- *Copy the DOI and open [https://www.crossref.org/](https://www.crossref.org/){target="_blank".*
+- *Retrieve the corresponding Crossref entry for the publication using the metadata search box.*
+- *To retrieve the metadata record associated with the DOI (Kernel Information Profil), click on* `Actions` *and select* `Metadata as JSON`.
+- *Reflect the metadata record with the participants.*
+
+<a href="../files/exampleCrossref.png" target="popup" onclick="window.open('../files/exampleCrossref.png','popup','width=1200'); return false;" onMouseOver="document.Crossref.src='../../docs/files/CLICKexampleCrossref.png';" onMouseOut="document.Crossref.src='../../docs/files/exampleCrossref.png';">
+<span>
+<img src="files/exampleCrossref.png" alt="Screenshot of the recommended screen share session." name="Crossref"/>
+</span>
+</a>
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+
+## Lecture: Machine-Actionability and Interoperability 
+
+**Slide set**: [MachineActionabilityInteroperability.pdf](../files/slideSet/21_MachineReadabilityAndInteroperability_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
+
+**Time estimate**: 5 min
+
+1. -
+2. Going back to our journal paper example.
+3. Humans are trained to scan these representations for information. If we are looking for a specific publication, e.g. on a certain topic, published by a specific author, or in a certain journal, we can easily scan this page and decide in a short amount of time, whether the article suits our requirements or not.
+4. As we have discussed yesterday, the machine only sees glyphs, formats, structure, etc. In order to extract information from such an article automatically, sophisticated algorithms - like natural language processing - would be required. In other words: automatically retrieving key information from resources that are targeted at a human audience, is slow and costly. To speed up this process, machine-actionable and interoperable representations of the resource are necessary.
+5. And this leads us back to PIDs and specifically the PID Records. We have seen previously, how the PID resolver service stores the current location of a resource and redirects client requests for a resource. Additionally, the PID resolver stores the PID record - metadata that describes the resource.
+6. This enables new possibilities for requests made by the client. Instead of asking for a redirect to the actual resource, the machine can now request the PID record...
+7. and even specify the format in which the metadata is supposed to be presented. This makes the client-PID resolver interaction much faster and accessed data...
+8. is delivered in a light-weight and machine-readable format. This allows the machine to access the information about the resource immediately without any costly and lengthy workarounds.
+9. By now it might not surprise you, that PID services request metadata that conform to a certain schema with every resource that is registered. Here you see a snippet of the PID Record Schema from Crossref written in XSD. Whenever a publication, data set, or any other resource is registered with Crossref to get a DOI, Crossref will request meta-information that validate against this schema.
+10. Just a little nice-to-know: Should you come across the term **"Kernel Information Profile"** while researching metadata - it is just another name for a **PID Record Schema**.
+11. One more thing. When you were researching domain specific standards in Challenge 6, you might have come across PIDs in the standards you examined. Let me show you an example.
+12. "Allosteric molecule" is a term defined in the "Molecular Interactions" controlled vocabulary.
+13. In the documentation of the term, you can find an identifier - MI, which stands for the Molecular Interactions Standard, 1159. Associated with this term is also a location, that starts with `purl`.
+14. A PURL or Persistent URL is a form of PID. Requesting this location will lead to a redirect to the current location - URL - of the resource.
+15. If we follow the PURL of the "allosteric molecule" term...
+16. we will be redirected to this record on the Ontobee Web service. This record holds the same definition as seen on the previous page and additional annotation information.
+17. The persistent URL is here specified as  `Term IRI`.
+18. IRI stands for **Internationalized Resource Identifier**. The IRI technology essentially extends the Uniform Resource Identifier (URI), allowing for a greater set of characters. In other words, it serves the same function as the URI. However, URIs can only consist of ASCII characters, whereas IRIs allow for a wide variety of characters, including Chinese, Japanese, Korean, and Cyrillic characters.
+19. Associating (metadata) terms with a PID in such a way enables the machine to unambiguously and persistently identify the term. This opens up advanced information technologies. Different terms can be put into relations with each other...
+20. In this example the term "allosteric molecule" is specified to be a subclass of "biological role". Hence, a relational connection of the type "sublass of" is formed between the terms "allosteric molecule" and "biological role". 
+21. Based on the associated PIDs the machine is now able to assign meaning to a specific term.
+22. The study of meaning, reference, or truth is called **Semantics**. By formally describing concepts, relationships between different (meta)data entities, and categories, we add meaning to the information. This technology is known as the **Semantic Web**.
+23. In the words of Tim Berners-Lee and his peers: "The Semantic Web is an extension of the current Web in which information is given well-defined meaning, better enabling computers and people to work in cooperation."
+24. In this course we have been focusing on data formats such as JSON, XML and Markdown to describe our data. Adding meaning to these data object calls for enhanced describtive technologies and the W3C has well-defined and endorsed the standards of the Semantic Web...
+25. but this is another story and shall be told in another course.
+26. *Allow some time for questions.*
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 
 
 <br><br>
@@ -1264,8 +1341,8 @@ We use [AHA slides](https://ahaslides.com/){target="_blank"} for live polling. S
   <div class="row g-0">
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> | Content type | Title |
 | :-----: | ---------- | ----------------------------------------- |
-| 30 min | **Lecture** | [Lightning Talk](#accordionInstructor39) |
-| 15 min | **Group activity** | [Q&A with invited speaker](#accordionInstructor39) |
+| 30 min | **Lecture** | [Lightning Talk](#accordionInstructor41) |
+| 15 min | **Group activity** | [Q&A with invited speaker](#accordionInstructor41) |
 
 </div>
 </div>
@@ -1312,14 +1389,14 @@ For more information go to the <a href="general-lesson-information.html#lightnin
   <div class="row g-0">
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> | Content type | Title |
 | :-----: | ---------- | ----------------------------------------- |
-| 5 min | **Lecture** | [Reflection](#accordionInstructor40) |
-| 10 min | **Group activity** | [Feedback poll](#accordionInstructor41) |
-| 5 min | **Feedback** | [Instructor feedback and farewell](#accordionInstructor42) |
+| 5 min | **Lecture** | [Reflection](#accordionInstructor42) |
+| 5 min | **Group activity** | [Feedback poll](#accordionInstructor43) |
+| 5 min | **Feedback** | [Instructor feedback and farewell](#accordionInstructor44) |
 
 </div>
 </div>
 
-**Total time:** 20 min <br>
+**Total time:** 15 min <br>
 **Teaching methods:** direct teaching, group activity <br>
 **Learning types:** acquisition, reflection <br><br>
 
@@ -1352,7 +1429,7 @@ This module concludes the lesson. An summarizing overview of the past two days i
 ## Group activity: Feedback Day 2
 
 **Slide set**: -
-**Time estimate**: 10 min
+**Time estimate**: 5 min
 
 **Creators' recommendation:**<br>
 see also [Feedback Day 1](#accordionInstructor18)
@@ -1410,7 +1487,7 @@ see also [Feedback Day 1](#accordionInstructor18)
 
 - If you used shared documents during the lesson, restrict editing rights in these documents.
 - Feel free to share the slides with the learners.
-- Internally evaluate the event (all instructors and teaching supports). If you like, you can use our <a href="../files/internalEvaluationForm.txt" target="_blank" download>Internal Evaluation Form</a> as a guideline.
+- Internally evaluate the event (all instructors and teaching supports). If you like, you can use our <a href="../docs/files/internalEvaluationForm.txt" target="_blank" download>Internal Evaluation Form</a> as a guideline.
 
 **And as we are already talking about feedback and evaluation, your lesson feedback and contributions are most welcome! You can get in touch via the channels provided in the <a href="general-lesson-information.html#get-in-touch" target="_blank">General Lesson Information.</a>**
 

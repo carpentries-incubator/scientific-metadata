@@ -24,7 +24,7 @@ exercises: 10
 
 Your collaborators sent you a link to one of their tabular datasets with the request to inspect and comment on the collected data.
 
-- Download the data: [exampleDataObject.csv](./files/exampleDataObject.csv){target="_blank"} (csv file, delimiter: ",") 
+- Download the data: [exampleDataObject.csv](../data/exampleDataObject.txt){target="_blank"} (csv file, delimiter: ",") 
 - Open the CSV file with your day-to-day data analysis tool (Python, MS Excel, R, Matlab, etc.)
 - Inspect the data
 

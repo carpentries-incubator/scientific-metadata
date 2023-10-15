@@ -1,7 +1,7 @@
 ---
 title: 'Structured Metadata: From Markup to JSON'
-teaching: 25
-exercises: 60
+teaching: 45
+exercises: 55
 ---
 
 ![**Baker, M.** (2016) "1,500 scientists lift the lid on reproducibility.", _Nature_ **533**, 452 - 454.<a href="https://doi.org/10.1038/533452a" target="_blank">https://doi.org/10.1038/533452a</a>](fig/monyaBakerQuote.png){alt="Quote by Monya Baker in Nature from 2016, saying 'More than 70% of researchers have tried and failed to reproduce another scientist's experiments. More than half have failed to reproduce their own experiments.'"}
@@ -214,7 +214,7 @@ Try to be present with as many instructors as there are break-out rooms to moder
 
 **Shared notes:** <br>
 You can find an example Markdown file for the group handouts 
-**[HERE](../files/exampleGroupHandout.md){target="_blank"}**. This document is optimized for use in a Hedgedoc document. 
+**[HERE](../files/exampleGroupHandout.txt){target="_blank"}**. This document is optimized for use in a Hedgedoc document. 
 
 ##### Challenge 2: Identify metadata in README.txt
 
