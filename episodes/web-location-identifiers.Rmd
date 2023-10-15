@@ -68,7 +68,7 @@ We use [AHA slides](https://ahaslides.com/){target="_blank"} for live polling. S
 5. And we are sharing information and communicating more than ever. Everything in the blink of an eye. The World Wide Web is now an essential tool for every researcher. Reading publications, connecting with other scientists, retrieving and publishing data, accessing servers on the other side of the globe, and even attending conferences and meetings with people hundreds and thousands of miles away from you. In the sense of the original idea of the Web, science became faster and communicating information easier. Its means to access information are so manifold, that retrieving relevant and meaningful information comes with new challenges.
 6. The Web is a hypermedia system, connecting a multitude of resources via hyperlinks. We have already heard the term **resource** earlier and in the next couple of minutes we will get a bit more technical, talking about data retrieval on the Web and Web resources. So let’s define briefly, what the term **Web Resource** actually means.
 7. A Web resource can be digital in nature, such as computer code, documents, videos, and images. These resources can immediately be retrieved or viewed on the Web in a browser.
-8. But the term **Web resource** acts much more encompassingly. Physical and abstract entities, for example persons, art, buildings, and mathematical concepts are also Web resources once they are somehow represented on the Web.
+8. But the term **Web resource** encompasses more than just digital resources. Physical and abstract entities, for example persons, art, buildings, and mathematical concepts are also Web resources once they are somehow represented on the Web.
 9. Hence, any entity - digital, physical or abstract - that is represented on the Web is a Web resource.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -77,19 +77,15 @@ The Web today is build for human understanding and has taken over a large part o
 
 The World Wide Web is a **hypermedia system**. It contains:
 
-**Resources**
-A web resource is any entity (digital, physical or abstract), that is represented on the Web.
-
-**Links**
-(Web identifiers) between these resources.
-
+- **Resources:** A web resource is any entity (digital, physical or abstract), that is represented on the Web.
+- **Links:** (Web identifiers) between these resources.
 
 
 ## Web Identifiers
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
-## Lecture: Identifier and Web Locations
+## Lecture: Identifiers and Web Locations
 
 **Slide set**: [IdentifierWebLocations.pdf](../files/slideSet/18_IdentifierWebLocations_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
@@ -102,11 +98,11 @@ A web resource is any entity (digital, physical or abstract), that is represente
 5. they will use its ISBN for unambiguous identification. This ISBN follows a standardized structure, which gives valuable information about the resource, such as the group and publisher of the book. This ISBN is globally unique. Which means it only exists for one specific book and will always lead to the same result, where ever you retrieve it.
 6. And these uniform resource identifiers also exist in the scientific context. Let me give you an example from molecular biology. Let's say, this scientist is working on genetics and she is interested in the functions of a specific gene in the model plant...
 7. *Arabidopsis thaliana*. Every gene of this plant has an unique identifier assigned, that follows certain representative conventions. In the case of this model plant, the gene identifier holds information on the species, the chromosome, the type of sequence as well as its location on the chromosome. 
-8. To generalize, unique identification codes enable globally unique and persistent identification of a resource. These codes follow conventions in their representation and are registered centrally, enabling a uniform structure of these identifiers globally or in the user community. This makes unique identification codes unambiguous and referencable.
-9. (*Use this slide to collect unique identification codes in the research fields of the learners. We like to do this in a brief plenary discussion, asking the learners to share unique identifiers, they use regularly and what they represent.*)
+8. To generalize, unique identifiers enable globally unique identification of a resource. The structure of these identifiers is standardized and they are registered centrally, enabling a uniform structure of these identifiers globally or in the user community. This makes unique identifiers unambiguous and dereferencable.
+9. (*Use this slide to collect unique identifiers in the research fields of the learners. We like to do this in a brief plenary discussion, asking the learners to share unique identifiers, they use regularly and what they represent.*)
 10. Now we will take this concept of uniform identifiers to the Web.
 11. But first, we will need to define and distinguish between a few terms, that come up frequently in this context. The examples we have seen a couple of minutes ago, are - simply put - a series of structurally harmonized characters that uniquely identify a resource...
-12. The ISBN number we have seen, is basically just a synonym for a book. This is, what we call a URN, Uniform Resource **Name**. We know, what the resource is called. 
+12. The ISBN number we have seen, is basically just a "synonym" for a book. (It acts to the book like a synonym acts to another word). This is, what we call a URN, Uniform Resource **Name**. We know, what the resource is called. 
 13. This name under a certain namespace, is uniform and unique. But the name gives no clue, on how we can retrieve the information stored behind this name. We do not know it’s location and the technical necessities to access it.
 14. To do so on the web, we need the address...
 15. where we can find the resource with a specific resource. The address alone is not enough, though. We also need information on how we can retrieve the resource...
@@ -123,11 +119,15 @@ A web resource is any entity (digital, physical or abstract), that is represente
 26. The response also includes a status code. The code "200: ok" tells the client-server, that sends the request, "I have found the file you requested. Here you go!". There are various status codes for server-client communication, but for now, we will focus on the most common ones. The client, your browser, receives the response with the resource attached and...
 27. displays it.
 28. But I'm fairly sure, we have all experienced this situation: You are looking for publications online, be it data or a journal article. The abstract is super promising and you want to retrieve the PDF...
-29. but instead of the publication, you are faced with an **Error 404**. 
+29. but instead of the publication, you are faced with an **Error 404**. We speak of rotten links.
 30. So what happened here? You click on the link and the familiar HTTP request is sent by your browser to the host server.
 31. Again, the host server follows the file path but it is leading into the void. No file with this path. 
 32. And this is, what the host server communicates back to your browser. The HTTP response now contains the status code **404: Not Found**. 
 33. Let's take a look at this client-server communication in action.
+34. Simplified, there could be two reasons why you end up with a 404 status code: either you can't spell correctly, or the path to the resource is broken.
+35. How do paths break.
+36. The URL you want to retrieve points to a specific resource, which are stored on another server. But within the life cycle of a Web resource, several events can take place.
+37. The file path on the host server might change, the resource might be migrated to a different host server, or the resource might simply be deleted. In any of these cases, the URL does not specify the exact location of the resource any longer and will no longer be retrievable following the **GET** request you send from your browser. This process is also referred to as "link rot". Remember, that we classified the URL as a form of Uniform Resource Identifier? This means, that link rot results in the resource losing a very important identifier!
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -147,7 +147,7 @@ A web resource is any entity (digital, physical or abstract), that is represente
 - **Optional:** *Take a closer look at the different status codes or the HTTP responses.*
 - *Enforce an Error 404, e.g. by deleting one character in the file path. The status code 404 will appear in the status code column of the network editor.*
 
-<a href="../../docs/files/exampleError404.png" target="popup" onclick="window.open('../docs/files/exampleError404.png,'popup','width=1200'); return false;" onMouseOver="document.Error404.src='../../docs/files/CLICKexampleError404.png';" onMouseOut="document.Error404.src='../../docs/files/exampleError404.png';">
+<a href="../docs/files/exampleError404.png" target="popup" onclick="window.open('../docs/files/exampleError404.png,'popup','width=1200'); return false;" onMouseOver="document.Error404.src='../../docs/files/CLICKexampleError404.png';" onMouseOut="document.Error404.src='../../docs/files/exampleError404.png';">
 <span>
 <img src="files/exampleError404.png" alt="Screenshot of the recommended live coding session." name="Error404"/>
 </span>
@@ -159,18 +159,18 @@ A web resource is any entity (digital, physical or abstract), that is represente
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: callout
 ## Unique Identifiers
 
-Unique identification codes enable **globally unique** and **persistent** identification of a resource. These codes follow **conventions in their representation** and are registered centrally.
+Unique identifiers enable **globally unique** identification of a resource. The **structure** of these identifiers **is standardized** and are registered centrally.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 <span>
 ![Relationship between URI, URN and URL. URN and URL are seperated entities but both are a subtype of URI.](fig/uriUrnUrl.png){height="300px" style="float:right;"}
 
-The **Uniform Resource Identifier (URI)** is a string of characters formulated to uniquely identify a resource, (most commonly on the Web) and enable interaction with it via common protocols such as HTTP.
+The **Uniform Resource Identifier (URI)** is a string of characters used to uniquely identify and locate a resource, (most commonly on the Web) and enable interaction with it via common protocols such as HTTP.
 
-A **Uniform Resource Name (URN)** is a type of URI. It is a standard, persistent and unique identifier for digital resources on the Internet. To link to the resource from the URN, a **resolver service is required.**
+A **Uniform Resource Name (URN)** is a type of URI. It is a standard and unique identifier for digital resources on the Internet. To link to the resource from the URN, a **resolver service is required.**
 
-The **Uniform Resource Locator (URL)** is a string of characters used to access the information or resource by **using the address of the resource location** via communication protocols such as HTTP.
+The **Uniform Resource Locator (URL)** is a string of characters used to direct the client to requested resource by **using the address of the resource location** via communication protocols such as HTTP.
 </span>
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: callout 
@@ -192,6 +192,10 @@ Each of these events will result in the **404 error** response. To avoid these b
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+
+
+### Persistent Identifier
+
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
 ## Lecture: Persistent Identifier
@@ -200,41 +204,34 @@ Each of these events will result in the **404 error** response. To avoid these b
 
 **Time estimate**: 8 min
 
-1. -
-2. Simplified, there could be two reasons why you end up with a 404 status code: either you can't spell, or the resource path is broken.
-3. How do paths break.
-4. The URL you want to retrieve points to a specific resource, which are stored on another server. But within the life cycle of a Web resource, several events can take place.
-5. The file path on the host server might change, the resource might be migrated to a different host server, or the resource might simply be deleted. In any of these cases, the URL does not specify the exact location of the resource any longer and will no longer be retrievable following the **GET** request you send from your browser. This process is also referred to as "link rot". Remember, that we classified the URL as a form of Uniform Resource Identifier? This means, that link rot results in the resource losing a very important identifier!
-6. Web technology has a solution for this issue: Persistent Identifiers or short, PIDs.
-7. Like our other persistent and unique identifiers, such as ISBNs, PIDs are long-lasting references to digital objects on the Web. Any resource that has a representation on the web - articles, datasets, persons, instruments - can have a PID assigned. These PIDs remain constant over time, lead directly to the resource - so they also give information on the location and protocol - and, thus, ensure permanent identifiability, referenceabilty and retrievability of online resources.
-8. The technology behind PIDs is fairly simple. In essence a PID service resembles the basic functionality of a phone book, where the PID identifies the resource in question, like a name in a phone book but unique. The PID is associated with an URL, that locates the resource. 
-9. In PID databases, a PID is mapped to a URL, that retrieves a resource. Even though the URL changes, due to server migration or changes in the file path, the PID remains consistent.
-10. If you activate a hyperlink in your browser to retrieve a resource without a PID service included, your browser will directly communicate with the host server to retrieve a resource.
-11. If the requested resource is identified by a PID, the underlying PID service will be contacted by the browser. The PID service will then query its database for the PID, identify the current URL of the resource and redirect the request to the host server.
-12. So when the location of the resource changes...
-13. a PID will not lead to unretrievable resources and rotten links...
-14. as the new URL is stored in the PID database and the activated link will redirect the request to the new location.
-15. It is important to know, that the PID service **only** provides the **technical infrastructure** for redirections. The owner of the server of the requested resource - which could be a private person, a journal that published an article or a repository that holds a dataset - **is responsible for updating the URL**. For example: You publish an article and one of the journals assigns a PID to this article. If the journal now changes the digital location of your article on their server, the journal is responsible to inform the PID provider about the changes and update the location.
-16. PID technology, however, harbors a significant challenge.
-17. If the PID provider discontinues it’s service, it would lead to a huge amount of broken links and irretrievable resources. Therefore it is important, to choose well-established and sustainable PID service.
-18. In the scientific environment, we daily deal with various resources represented on the Web.
-19. Non-profit services have been established in the scholar world, to provide sustainable PIDs for academic Web resources. Researchers can register an ORCiD ID, short for Open Researcher and Contributor ID. Academic institutions and funding agencies can be identified by their Research Organization Registry handle, short ROR. And once you look for scientific publications, you will inevitably get in contact with a DOI.
-20. The Digital Object Identifier is a digital identifier of an object, any object – physical, digital, or abstract. It is not exclusively used for academic Web resources but can be used to register and identify any resource represented on the Web.
-21. In the academic environment, it is largely used to identify research articles, data objects, metadata records, code, and software.
-22. For these academic Web resources, DOIs can be issued by different DOI providers, most commonly Data Cite and Crossref. Many repositories and scientific journals assign published resources with a DOI, often in collaboration with DataCite or Crossref. These providers guarantee long-lasting retrievability of any data object in their database.
-15. *Allow some time for questions.*
+1. Web technology has a solution for this issue: Persistent Identifiers or short, PIDs.
+2. Like our other persistent and unique identifiers, such as ISBNs, PIDs are long-lasting references to digital objects on the Web. Any resource that has a representation on the web - articles, datasets, persons, instruments - can have a PID assigned. These PIDs remain constant over time, lead indirectly to the resource - so they also give information on the location and protocol - and, thus, ensure permanent identifiability, referenceabilty and retrievability of online resources.
+3. The technology behind PIDs is fairly simple. In essence a PID service resembles the basic functionality of a phone book, where the PID identifies the resource in question, like a name in a phone book but unique. The PID is associated with an URL, that locates the resource. 
+4. In PID databases, a PID is mapped to a URL, that retrieves a resource. Even though the URL changes, due to server migration or changes in the file path, the PID remains consistent.
+5. If you activate a hyperlink in your browser to retrieve a resource without a PID service included, your browser will directly communicate with the host server to retrieve a resource.
+6. If the requested resource is identified by a PID, the underlying PID service will be contacted by the browser. The PID service will then query its database for the PID, identify the current URL of the resource and redirect the request to the host server.
+7. So when the location of the resource changes...
+8. a PID will not lead to unretrievable resources and rotten links...
+9. as the new URL is stored in the PID resolver service and the activated link will redirect the request to the new location.
+10. It is important to know, that the PID service **only** provides the **technical infrastructure** for redirections. The registrar of the requested resource - which could be a private person, a journal that published an article or a repository that holds a dataset - **is responsible for updating the URL**. For example: You publish an article and one of the journals assigns a PID to this article. If the journal now changes the digital location of your article on their server, the journal is responsible to inform the PID provider about the changes and update the location.
+11. PID technology, however, comes with a significant challenge.
+12. If the PID provider discontinues it’s services, it would lead to a huge amount of broken links and irretrievable resources. Therefore it is important, to choose well-established and sustainable PID service.
+13. In the scientific environment, we daily deal with various resources represented on the Web.
+14. Non-profit services have been established in the scholar world, to provide sustainable PIDs for academic Web resources. Researchers can register an ORCiD ID, short for Open Researcher and Contributor ID. Academic institutions and funding agencies can be identified by their Research Organization Registry handle, short ROR. And once you look for scientific publications, you will inevitably get in contact with a DOI.
+15. The Digital Object Identifier is a digital identifier of an object, any object – physical, digital, or abstract. It is not exclusively used for academic Web resources but can be used to register and identify any resource represented on the Web.
+16. In the academic environment, it is largely used to identify research articles, data objects, metadata records, code, and software.
+17. For these academic Web resources, DOIs can be issued by different DOI providers, most commonly Data Cite and Crossref. Many repositories and scientific journals assign published resources with a DOI, often in collaboration with DataCite or Crossref. These providers guarantee long-lasting retrievability of any data object in their database.
+18. *Allow some time for questions.*
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-### Persistent Identifier
-
-A **Persistent Identifier (PID)** is a long-lasting reference to digital objects such as websites, articles, datasets, persons or organizations. PIDs are **globally unique** and **persistent over time**. Assigning a PID to a digital resource ensures its permanent indentifiability, accessibility, and referenciability.[^16] 
+A **Persistent Identifier (PID)** is a long-lasting reference to digital objects such as websites, articles, datasets, persons or organizations. PIDs are **globally unique** and **persistent over time**. Assigning a PID to a digital resource ensures its permanent indentifiability, accessibility, and dereferenciability.[^16] 
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: callout
 
 ## PID Services
 
-A **PID service** operate as a persistent look-up service that redirects GET requests for digital resources to the latest URL of this resource.
+A **PID service** operates as a persistent look-up service that redirects GET requests for digital resources to the latest URL of this resource.
 
 **The host of the digital resource is responsible for updating the resource's location wiith the PID service after the location changed.**
 
@@ -261,18 +258,86 @@ A **PID service** operate as a persistent look-up service that redirects GET req
 4. The ORCiD service comes with more than an unique, persistent identifier. It comes with an ORCiD record, in other words a metadata record, that connected to each ORCID ID. And the service also provides technical tools, with which this metadata can be retrieved.
 5. So all the information that is visible on this page…
 6. is connected with a metadata object, that looks somewhat like this. A structured metadata object including all the information about your person, that you like to share. [*side note: the JSON object is based on the original ORCID schema. However, ORCiD uses XML.*]
-7. Now, let’s say, you want to publish a dataset or journal paper and attach all the necessary metadata. In order to add all the bibliographical information to unambiguously identify you as the author, you might need to include many details. And you might have been one of many authors. So you need to repeat this process for your co-authors as well. If you have an ORCiD, you can just use the PID as a synonym for your name and your information can be retrieved automatically.
+7. Now, let’s say, you want to publish a dataset or journal paper and attach all the necessary metadata. In order to add all the bibliographical information to unambiguously identify you as the author, you might need to include many details. And you might have been one of many authors. So you need to repeat this process for your co-authors as well. If you have an ORCiD, you can just use the PID as an identifier for your name and your information can be retrieved automatically.
 8. And if your information changes – for example you got married and your name changed, or you started a new job and your contact information was updated – you only need to include the update in your ORCiD record. 
 9. Your ID stays the same, thus you do not have to touch your dataset metadata records again. Your ORCiD ID will automatically resolve to the updated personal information.
-10. Similarly, when you register a DOI – let’s say for a dataset – you will give metadata on this data object, that will be saved with the DOI. So whenever you reference this exact dataset, for example if you publish several papers referring to the same data, you need the DOI as an identifier and further meta information about the data set can be retrieved automatically.
+10. Similarly, when you register a DOI – let’s say for a dataset or a journa publication – you will give metadata on this data object, that will be saved with the DOI. So whenever you reference this exact resource, for example if you publish several papers referring to the same data, you need the DOI as an identifier and further meta information about the data set can be retrieved automatically.
 11. To sum it up, PIDs ensure sustainable retrievability of any kind of web resource, they can be used to unambiguously identify resources on the Web and PIDs are connected to metadata records, which describe the resource in question. 
-12. *Allow some time for questions.*
+12. These are certainly benefits for any human interactor with the resource.
+13. But let's stay with the DOI a bit longer.
+14. Remember the journal paper we examined yesterday?
+15. One crucial metadatum we found was the DOI.
+16. Let's see what happens, when we retrieve this DOI in a Browser. (*Switch to a browser window and continue with "Guided confrontation: DOI Record"*)
+17. **Optional slide** *to discuss the structure of the PID record*
+18. PID records are stored with the PID resolver service. They are targeted especially to machines and hold machine-readable information. These information support machine-actionability for interoperability. We will take a closer look on this in the next section.
+19. *Allow some time for questions.*
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+
+# Guided confrontation: DOI Record
+
+**Time**: 2 min
+
+**Narrative / Teaching script**: 
+
+- *Share an empty browser tab on your screen.*
+- *Open the DOI of the journal publication you presented in* **"Guided confrontation: Metadata in scientific publications"** *(if the publication is <u>not</u> Open Access, make sure to login in advance :wink:).*
+- *Guide the audience through the information stored on the landing page (e.g. authors, abstract, references, etc.). Highlight the human-friendly representation.*
+- *Copy the DOI and open [https://www.crossref.org/](https://www.crossref.org/).*
+- *Retrieve the corresponding Crossref entry for the publication using the metadata search box.*
+- *To retrieve the metadata record associated with the DOI (Kernel Information Profil), click on* **Actions** *and select* **Metadata as JSON**.
+- *Reflect the metadata record with the participants.*
+
+<a href="../files/exampleCrossref.png" target="popup" onclick="window.open('../files/exampleCrossref.png','popup','width=1200'); return false;" onMouseOver="document.Crossref.src='../../docs/files/CLICKexampleCrossref.png';" onMouseOut="document.Crossref.src='../../docs/files/exampleCrossref.png';">
+<span>
+<img src="files/exampleCrossref.png" alt="Screenshot of the recommended screen share session." name="Crossref"/>
+</span>
+</a>
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+
+## Lecture: Machine-Actionability and Interoperability 
+
+**Slide set**: [MachineActionabilityInteroperability.pdf](../files/slideSet/21_MachineReadabilityAndInteroperability_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
+
+**Time estimate**: 5 min
+
+1. -
+2. Going back to our journal paper example.
+3. Humans are trained to scan these representations for information. If we are looking for a specific publication, e.g. on a certain topic, published by a specific author, or in a certain journal, we can easily scan this page and decide in a short amount of time, whether the article suits our requirements or not.
+4. As we have discussed yesterday, the machine only sees glyphs, formats, structure, etc. In order to extract information from such an article automatically, sophisticated algorithms - like natural language processing - would be required. In other words: automatically retrieving key information from resources that are targeted at a human audience, is slow and costly. To speed up this process, machine-actionable and interoperable representations of the resource are necessary.
+5. And this leads us back to PIDs and specifically the PID Records.We have seen previously, how the PID resolver service stores the current location of a resource and redirects client requests for a resource. Additionally, the PID resolver stores the PID record - metadata that describes the resource.
+6. This enables new possibilities for requests made by the client. Instead of asking for a redirect to the actual resource, the machine can now request the PID record...
+7. and even specify the format in which the metadata is supposed to be presented. This makes the client-PID resolver interaction much faster and accessed data...
+8. is delivered in a light-weight and machine-readable format. This allows the machine to access the information about the resource immediately without any costly and lengthy workarounds.
+9. By now it might not surprise you, that PID services request metadata that conforms to a certain schema for the PID Record with every resource that is registered. This is a snippet of the PID Record Schema from Crossref written in XSD. Whenever a publication, data set, or any other resource is registered with Crossref to get a DOI, Crossref will request meta-information that validate against this schema.
+10. Just a little nice-to-know: Should you come across the term **"Kernel Information Profile"** while researching metadata - it is just another name for a **PID Record Schema**.
+11. One more thing. When you were researching domain specific standards in Challenge 6, you might have come across PIDs in the standards you examined. Let me show you an example.
+12. "Allosteric molecule" is a term defined in the "Molecular Interactions" controlled vocabulary.
+13. In this documentation of the term, you can find an identifier - MI, which stands for the Molecular Interactions Standard, 1159. Associated with this term is also a location, that starts with `purl`.
+14. A PURL or Persistent URL is a form of PID. Requesting this location will lead to a redirect to the current location - URL - of the resource.
+15. If we follow the PURL of the "allosteric molecule" term...
+16. we will be redirected to this record on the Ontobee Web service. This record holds the same definition as seen on the previous page and additional annotation information. Also...
+17. the persistent URL is here specified as the **Term IRI**.
+18. IRI stands for **Internationalized Resource Identifier**. The IRI technology essentially extends the Uniform Resource Identifier (URI), allowing for a greater set of characters. In other words, it serves the same function as a URI. However, URIs can only consist of ASCII characters, whereas IRIs allow for a wide variety of characters, including Chinese, Japanese, Korean, and Cyrillic characters.
+19. Associating (metadata) terms with a PID in such a way enables the machine to unambiguously and persistently identify the term. This opens up advanced information technologies. Different terms can be put into relations with each other...
+20. In this example the term "allosteric molecule" is specified to be a subclass of "biological role". Hence, a relational connection of the type "sublass of" is formed between the terms "allosteric molecule" and "biological role". 
+21. Based on the associated PIDs the machine is now able to assign meaning to a specific term.
+22. The study of meaning, reference, or truth is called **Semantics**. By formally describing concepts, relationships between different (meta)data entities, and categories, we add meaning to the information. This technology is known as the **Semantic Web**.
+23. In the words of Tim Berners-Lee and his peers: "The Semantic Web is an extension of the current Web in which information is given well-defined meaning, better enabling computers and people to work in cooperation."
+24. In this course we have been focusing on data formats such as JSON, XML and Markdown to describe our data. Adding meaning to these data object calls for enhanced describtive technologies and the W3C has well-defined and endorsed the standards of the Semantic Web...
+25. but this is another story and shall be told in another course.
+26. *Allow some time for questions.*
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Assigning your Web publications (journal articles, datasets, code, etc.) with a PID holds more advantages than persistent retrievability of the resource. Many PID providers ask you to provide metadata for the published resource and **store the metadata record alongside the resource**. This metadata in return is accessible by machines via the PID.
 
-PIDs can be used in metadata records as a **synonym** for an associated resource (e.g. a dataset, a person). In case of the researcher's ORCiD ID, the ORCiD record stores all the metadata about a person that this person has provided and can be retrieved by the ORCiD API. In the metadata record, that is associated with this researcher, the ORCiD can be specified in the description.
+PIDs can be used in metadata records as an **identifier** for an associated resource (e.g. a dataset, a person). In case of the researcher's ORCiD ID, the ORCiD record stores all the metadata about a person that this person has provided and can be retrieved by the ORCiD API. In the metadata record, that is associated with this researcher, the ORCiD can be specified in the description.
 
 ```json
 {
