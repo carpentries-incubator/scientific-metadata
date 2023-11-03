@@ -1,0 +1,27 @@
+---
+title: "Further Reading"
+
+---
+
+1. Pomerantz, J. (2015). *Metadata*. The MIT Press. *doi*: [10.7551/mitpress/10237.001.0001](https://doi.org/10.7551/mitpress/10237.001.0001)
+2. Zhang, A. B., Gourley, D. (2008). *Metadata strategy* in Creating Digital Collections: a practical Guide. Sawston, UK: Woodhead Publishing.
+3. Chadwick, I. (2016). *Research Data Management: guide to writing ”readme” type metadata.* The Open University. https://www.open.ac.uk/library-research-support/sites/www.open.ac.uk.library-research-support/files/files/RDM-Guidelines-for-creating-readme-style-metadata.pdf
+4. Coombs, J., Renear, A., & DeRose, S. (1987). Markup Systems and the Future of Scholarly Text Processing. *Commun. ACM, 30(11), 933–947.* *doi*: [10.1145/32206.32209](https://doi.org/10.1145/32206.32209)
+5. Cynthia Zender (2005). Markup 101: Markup Basics. *SAS Institute*. https://www.lexjansen.com/pharmasug/2005/Tutorials/tu12.pdf
+6. *ISO 8879:1986.* (n.d.). ISO. https://www.iso.org/standard/16387.html
+7. *XML Tutorial.* (C) 1999-2022. Refsnes Data, W3Schools. https://www.w3schools.com/xml/
+8. *ECMA-404 - ECMA International.* (2021, February 4). Ecma International. https://www.ecma-international.org/publications-and-standards/standards/ecma-404/
+9. *JSON Introduction.* (C) 1999-2022. Refsnes Data, W3Schools. https://www.w3schools.com/js/js_json_intro.asp↩︎
+10. *The birth of the Web | CERN.* (2023, August 11). https://home.cern/science/computing/birth-web
+11. *The arXiv of the future will not look like the arXiv.* (n.d.). Ar5iv. https://ar5iv.labs.arxiv.org/html/1709.07020
+12. *XML Schema Tutorial.* (C) 1999-2022. Refsnes Data, W3Schools. https: //www.w3schools.com/xml/schema_intro.asp
+13. *Understanding JSON Schema. The basics.* © Copyright 2013-2016 Michael Droettboom, Space Telescope Science Institute; Last updated on Feb 07, 2022. https://json-schema.org/understanding-json-schema/basics.html
+14. *Metadata Basics.* (2018, December 15). https://www.dublincore.org/resources/metadata-basics/
+15. *ISO 15836-1:2017.* (n.d.). ISO. https://www.iso.org/standard/71339.html
+16. Kunze, J. (2018, August 24). *Ten persistent myths about persistent identifiers.* https://escholarship.org/uc/item/73m910w8
+17. Weigel, T., Plale, B., Parsons, M., Zhou, G., Luo, Y., Schwardmann, U., Quick, R., Hellström, M., & Kurakawa, K. (2018). *RDA Recommendation on PID Kernel Information.* Research Data Alliance. https://doi.org/10.15497/RDA00031 
+18. Curdt, C., Günther, G., Jejkal, T., Koch, C., Krebs, F., Pfeil, A., Pirogov, A., Schweikert, J., Videgain Barranco, P., Weinelt, M., HMC Cross-cutting Topic Working Group "From Development to Deployment" (2022). *Helmholtz Kernel Infomation Profile.* Helmholtz Metadata Collaboration. DOI [10.3289/HMC_publ_03](https://doi.org/10.3289/HMC_publ_03).
+19. Berners-Lee, T., Hendler, J., Lassila, O. (2001). *The Semantic Web.* Scientific American
+20. World Wide Web Consortium. (n.d.) *Semantic Web Standards*. https://www.w3.org/2001/sw/wiki/Main_Page
+
+
