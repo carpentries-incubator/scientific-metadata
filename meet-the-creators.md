@@ -1,0 +1,22 @@
+---
+title: 'Meet the Creators'
+---
+
+<span style="display: flex;">
+![Young woman drinking coffee.](fig/portraitSilke.png){height="300px"}
+<span>
+<h4 style="display:flex">Silke Gerlich</h4>
+[Silke](https://orcid.org/0000-0003-3043-5657) studied Biology at RWTH Aachen and University of Cologne, Germany and holds a PhD in Molecular Plant Biology. After graduation, she gathered several years of experience as an educational consultant. Silke joined the Helmholtz Metadata Collaboration in 2021, acting as a data steward and trainer.
+In her free time, you can find Silke in the bouldering gym, giving yoga classes or hiking in the mountains. She understands herself as a life-long learner and volunteers as a mentor for [Arbeiterkind](https://arbeiterkind.de/), a NGO supporting students from educationally disadvantaged families.
+</span>
+</span>
+
+<br />
+
+<span style="display:flex;">
+<span>
+<h4 style="display:flex;">Annika Strupp</h4>
+[Annika](https://orcid.org/0000-0002-0070-4337) is currently pursuing a master's degree in Digital Data Management at Humboldt-Universität zu Berlin and Potsdam University of Applied Sciences. From 2021 to 2023, she worked as a data steward (and trainer) in the Helmholtz Metadata Collaboration Hub Information, hosted at Forschungszentrum Jülich. Previously, she was a web analytics consultant in marketing technology, but she has also been a specialist journalist in the fashion industry and a seamstress. Annika holds an engineering degree in textile and clothing technology. In her free time, she is an avid reader and internet history enthusiast.
+</span>
+![Young woman with a friendly smile and crossed arms.](fig/portraitAnnika.png){align="right" height="300px"}
+</span>
