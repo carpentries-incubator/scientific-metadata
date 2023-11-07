@@ -140,7 +140,7 @@ The concept of a schema can be overwhelming for learners with little to no prior
 - Introduce a customer information form as an example for data validation / enforcement in your lecture.
 - Open the image of the customer information form and an empty JSON file in **split-screen view**.
 
-<a href="../docs/files/liveCodingScreenshot.png" target="popup" onclick="window.open('../docs/files/liveCodingScreenshot.png,'popup','width=1200'); return false;" onMouseOver="document.liveCoding.src='../../docs/files/CLICKliveCodingScreenshot.png';" onMouseOut="document.liveCoding.src='../../docs/files/liveCodingScreenshot.png';">
+<a href="files/liveCodingScreenshot.png" target="popup" onclick="window.open('files/liveCodingScreenshot.png,'popup','width=1200'); return false;" onMouseOver="document.liveCoding.src='../files/CLICKliveCodingScreenshot.png';" onMouseOut="document.liveCoding.src='../files/liveCodingScreenshot.png';">
 <span>
 <img src="files/liveCodingScreenshot.png" alt="Screenshot of the recommended live coding session." width="800" name="liveCoding"/>
 </span>
