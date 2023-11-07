@@ -18,7 +18,7 @@ title: General Lesson Information
   |**Prior knowledge**| none |
   |**Required equipment** | text editor, web browser |
   |**License** | https://creativecommons.org/licenses/by/4.0/ |
-  |**Creators**| See [citation file](https://github.com/carpentries-incubator/scientific-metadata/CITATION.cff) |
+  |**Creators**| See [citation file](https://github.com/carpentries-incubator/scientific-metadata/blob/main/CITATION.cff) |
   </div>
 </div>
 
