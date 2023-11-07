@@ -459,3 +459,4 @@ PIDs can be used as identifiers for **(meta)data terms** (or **entities**) and *
 [^18]: Curdt, C., Günther, G., Jejkal, T., Koch, C., Krebs, F., Pfeil, A., Pirogov, A., Schweikert, J., Videgain Barranco, P., Weinelt, M., HMC Cross-cutting Topic Working Group "From Development to Deployment" (2022). *Helmholtz Kernel Infomation Profile.* Helmholtz Metadata Collaboration. DOI [10.3289/HMC_publ_03](https://doi.org/10.3289/HMC_publ_03).
 [^19]: Berners-Lee, T., Hendler, J., Lassila, O. (2001). *The Semantic Web.* Scientific American
 [^20]: World Wide Web Consortium. (n.d.) *Semantic Web Standards*. https://www.w3.org/2001/sw/wiki/Main_Page
+
