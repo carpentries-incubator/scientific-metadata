@@ -87,9 +87,9 @@ Additional material needed for this challenge, including downloads and example s
 The **challenges 2 - 4** are designed as **group work challenges**. Challenge 5 can be tackled in a group or individually. We recommend group sizes of 4 - 6 learners that work together in breakout rooms and one instructor or teaching support per group. 
 For these challenges, we prepare handouts for each group in Markdown-based shared documents (e.g. [HedgeDoc](https://hedgedoc.org/)). These handouts allow for immediate and collaborative work on the challenges. Pre-defined code blocks can be used to collect and discuss the results.
 
-**Group handout Markdown:** [exampleGroupHandout.md](../files/exampleGroupHandout.txt){target="_blank"} (optimised for HedgeDoc)
+**Group handout Markdown:** [exampleGroupHandout.md](files/exampleGroupHandout.txt){target="_blank"} (optimised for HedgeDoc)
 
-<a href="../docs/files/exampleGroupHandoutPreview.png" target="popup" onclick="window.open('../docs/files/exampleGroupHandoutPreview.png,'popup','width=1200'); return false;" onMouseOver="document.groupHandout.src='../../docs/files/CLICKexampleGroupHandoutPreview.png';" onMouseOut="document.groupHandout.src='../../docs/files/exampleGroupHandoutPreview.png';"><span><img src="files/exampleGroupHandoutPreview.png" alt="Screenshot of the HedgeDoc Markdown group handout." name="groupHandout"/></span></a>
+<a href="files/exampleGroupHandoutPreview.png" target="popup" onclick="window.open('files/exampleGroupHandoutPreview.png,'popup','width=1200'); return false;" onMouseOver="document.groupHandout.src='../files/CLICKexampleGroupHandoutPreview.png';" onMouseOut="document.groupHandout.src='../files/exampleGroupHandoutPreview.png';"><span><img src="files/exampleGroupHandoutPreview.png" alt="Screenshot of the HedgeDoc Markdown group handout." name="groupHandout"/></span></a>
 
 ### Example Data
 The lesson starts by introducing a barely annotated dataset, which operates as the base of the whole lesson. Throughout the episodes, the learners will gradually be supplied with more information about this dataset, annotate it with the given information and continuously improve the accompanying metadata to improve its findability, accessibility, interoperability and reusability.
@@ -100,9 +100,9 @@ The attached dataset holds information on the biomechanical acceleration of a hu
 
 We added variable names, transformed the time values and added a mock "scream detected" variable with boolean values based on [this onride video](https://www.youtube.com/watch?v=KeKIBSN2F5c){target="_blank"}.
 
-**Example dataset:** <a href="../docs/data/exampleDataObject.txt" target="_blank">exampleDataObject.csv</a>
+**Example dataset:** <a href="data/exampleDataObject.txt" target="_blank">exampleDataObject.csv</a>
 
-<a href="../docs/files/exampleDataObjectColor.png" target="popup" onclick="window.open('../docs/files/exampleDataObjectColor.png,'popup','width=1200'); return false;" onMouseOver="document.exampleData.src='../../docs/files/CLICKexampleDataObjectColor.png';" onMouseOut="document.exampleData.src='../../docs/files/exampleDataObjectColor.png';"><span><img src="files/exampleDataObjectColor.png" alt="Screenshot of example data object." name="exampleData"/></span></a>
+<a href="files/exampleDataObjectColor.png" target="popup" onclick="window.open('files/exampleDataObjectColor.png,'popup','width=1200'); return false;" onMouseOver="document.exampleData.src='../files/CLICKexampleDataObjectColor.png';" onMouseOut="document.exampleData.src='../files/exampleDataObjectColor.png';"><span><img src="files/exampleDataObjectColor.png" alt="Screenshot of example data object." name="exampleData"/></span></a>
 
 ### Learning Objectives
 Our learning objectives follow the model of <a href="https://archive.org/details/taxonomyofeducat0000bloo_o9o7" target="_blank">Bloom <i>et al.</i> (1956)</a> and use the measurable verbs proposed by <a href="https://doi.org/10.3390/educsci6040037" target="_blank">Stanny <i>et al.</i> (2016)</a>.
