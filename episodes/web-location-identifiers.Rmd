@@ -46,7 +46,7 @@ We use [AHA slides](https://ahaslides.com/){target="_blank"} for live polling. S
 - URL
 - URI
 
-<a href="../docs/files/exampleAhaslidesPid.png" target="popup" onclick="window.open('../docs/files/exampleAhaslidesPid.png,'popup','width=1200'); return false;" onMouseOver="document.PIDpoll.src='../../docs/files/CLICKexampleAhaslidesPid.png';" onMouseOut="document.PIDpoll.src='../../docs/files/exampleAhaslidesPid.png';">
+<a href="files/exampleAhaslidesPid.png" target="popup" onclick="window.open('files/exampleAhaslidesPid.png,'popup','width=1200'); return false;" onMouseOver="document.PIDpoll.src='../files/CLICKexampleAhaslidesPid.png';" onMouseOut="document.PIDpoll.src='../files/exampleAhaslidesPid.png';">
 <img src="files/exampleAhaslidesPid.png" alt="Screenshot of the recommended live polling session on PIDs." name="PIDpoll"/>
 </a>
 
@@ -147,7 +147,7 @@ The World Wide Web is a **hypermedia system**. It contains:
 - **Optional:** *Take a closer look at the different status codes or the HTTP responses.*
 - *Enforce an Error 404, e.g. by deleting one character in the file path. The status code 404 will appear in the status code column of the network editor.*
 
-<a href="../docs/files/exampleError404.png" target="popup" onclick="window.open('../docs/files/exampleError404.png,'popup','width=1200'); return false;" onMouseOver="document.Error404.src='../../docs/files/CLICKexampleError404.png';" onMouseOut="document.Error404.src='../../docs/files/exampleError404.png';">
+<a href="files/exampleError404.png" target="popup" onclick="window.open('files/exampleError404.png,'popup','width=1200'); return false;" onMouseOver="document.Error404.src='../files/CLICKexampleError404.png';" onMouseOut="document.Error404.src='../files/exampleError404.png';">
 <span>
 <img src="files/exampleError404.png" alt="Screenshot of the recommended live coding session." name="Error404"/>
 </span>
@@ -290,7 +290,7 @@ A **PID service** operates as a persistent look-up service that redirects GET re
 - *To retrieve the metadata record associated with the DOI (Kernel Information Profil), click on* `Actions` *and select* `Metadata as JSON`.
 - *Reflect the metadata record with the participants.*
 
-<a href="../files/exampleCrossref.png" target="popup" onclick="window.open('../files/exampleCrossref.png','popup','width=1200'); return false;" onMouseOver="document.Crossref.src='../../docs/files/CLICKexampleCrossref.png';" onMouseOut="document.Crossref.src='../../docs/files/exampleCrossref.png';">
+<a href="../files/exampleCrossref.png" target="popup" onclick="window.open('../files/exampleCrossref.png','popup','width=1200'); return false;" onMouseOver="document.Crossref.src='../files/CLICKexampleCrossref.png';" onMouseOut="document.Crossref.src='../files/exampleCrossref.png';">
 <span>
 <img src="files/exampleCrossref.png" alt="Screenshot of the recommended screen share session." name="Crossref"/>
 </span>

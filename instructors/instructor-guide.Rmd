@@ -266,7 +266,7 @@ Allow some time for the learners to navigate the websites and explore the metada
   <li>**Fun fact:** *The Guardian* regularly uses a comment in the `head` of their HTML documents to advertise IT jobs :grin: </li>
 </ul>
 
-**Whiteboard:** <a href="../docs/files/exampleChallenge1Whiteboard.pdf" target="_blank" download>example setup</a>
+**Whiteboard:** <a href="files/exampleChallenge1Whiteboard.pdf" target="_blank" download>example setup</a>
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -441,7 +441,7 @@ This episode introduces the concept of semi-structured metadata in the context o
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 ## Lecture: Challenge introduction
 
-**Slide set**: [Challenge23Introduction.pdf](../docs/files/slideSet/10_challengeIntroduction_2_3_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
+**Slide set**: [Challenge23Introduction.pdf](files/slideSet/10_challengeIntroduction_2_3_CarpentriesIncubator_ScientificMetadata.pdf){target="_blank"}
 
 **Time estimate**: 3 min
 
@@ -609,7 +609,7 @@ In order to increase the response rate and to guarantee that every learner is he
 4. **I would have liked to learn more about...**<br>
     [FREE TEXT]
 
-<a href="../docs/files/exampleFeedbackDay1.png" target="popup" onclick="window.open('../docs/files/exampleFeedbackDay1.png,'popup','width=1200'); return false;" onMouseOver="document.feedbackDay1.src='../../docs/files/CLICKexampleFeedbackDay1.png';" onMouseOut="document.feedbackDay1.src='../../docs/files/exampleFeedbackDay1.png';"><span><img src="../docs/files/exampleFeedbackDay1.png" name="feedbackDay1"/></span></a>
+<a href="files/exampleFeedbackDay1.png" target="popup" onclick="window.open('../files/exampleFeedbackDay1.png,'popup','width=1200'); return false;" onMouseOver="document.feedbackDay1.src='../files/CLICKexampleFeedbackDay1.png';" onMouseOut="document.feedbackDay1.src='../files/exampleFeedbackDay1.png';"><span><img src="files/exampleFeedbackDay1.png" name="feedbackDay1"/></span></a>
     
 (<i>Question 4 is, in our opinion, the most important question of this feedback session. It gives you an insight, which topics might need to be revisited on day 2 and help you to add additional literature recommendation to the references adressing the specific needs of your group of learners. </i>)
 
@@ -837,8 +837,8 @@ The concept of a schema can be overwhelming for learners with little to no prior
 
 **Instructor material**: <br>
 <ul>
-  <li><a href="../docs/files/customerInformationForm.png" target="_blank" download>customerInformationForm.png</a></li> 
-  <li><a href="../docs/files/customerInformationForm_schemaSolution.json" target="_blank" download>customerInformationForm_schemaSolution.json</a></li>
+  <li><a href="files/customerInformationForm.png" target="_blank" download>customerInformationForm.png</a></li> 
+  <li><a href="files/customerInformationForm_schemaSolution.json" target="_blank" download>customerInformationForm_schemaSolution.json</a></li>
 </ul>
 
 **Creator's recommendation**: <br>
@@ -846,7 +846,7 @@ The concept of a schema can be overwhelming for learners with little to no prior
   <li>Introduce a customer information form as an example for data validation / enforcement in your lecture.</li>
   <li>Open the image of the customer information form and an empty JSON file in **split-screen view**.</li>
 </ul>
-<a href="../docs/files/liveCodingScreenshot.png" target="popup" onclick="window.open('../docs/files/liveCodingScreenshot.png,'popup','width=1200'); return false;" onMouseOver="document.liveCoding.src='../../docs/files/CLICKliveCodingScreenshot.png';" onMouseOut="document.liveCoding.src='../../docs/files/liveCodingScreenshot.png';"><span>
+<a href="files/liveCodingScreenshot.png" target="popup" onclick="window.open('files/liveCodingScreenshot.png,'popup','width=1200'); return false;" onMouseOver="document.liveCoding.src='../files/CLICKliveCodingScreenshot.png';" onMouseOut="document.liveCoding.src='../files/liveCodingScreenshot.png';"><span>
 <img src="files/liveCodingScreenshot.png" alt="Screenshot of the recommended live coding session." width="800" name="liveCoding"/></span></a>
 <ul>
   <li>For live coding, we recommend using an **IDE** with **JSON syntax highlighting** (e.g. VS Code)</li>
@@ -910,7 +910,7 @@ In our experience that changing the group composition for these tasks benefits t
 As in challenges 2 & 3, we recommend using a pre-structured shared notes document with the groups.
 
 **Shared notes:** <br>
-You can find an example Markdown file for the group handouts <a href="../docs/files/exampleGroupHandout.txt" target="_blank">**HERE**</a>. This document is optimized for use in a Hedgedoc document. 
+You can find an example Markdown file for the group handouts <a href="files/exampleGroupHandout.txt" target="_blank">**HERE**</a>. This document is optimized for use in a Hedgedoc document. 
 
 ##### <u>Challenge 4: JSON Schema</u>
 
@@ -1105,7 +1105,7 @@ We use [AHA slides](https://ahaslides.com/){target="_blank"} for live polling. S
 - URL
 - URI
 
-<a href="../docs/files/exampleAhaslidesPid.png" target="popup" onclick="window.open('../docs/files/exampleAhaslidesPid.png,'popup','width=1200'); return false;" onMouseOver="document.PIDpoll.src='../../docs/files/CLICKexampleAhaslidesPid.png';" onMouseOut="document.PIDpoll.src='../../docs/files/exampleAhaslidesPid.png';">
+<a href="files/exampleAhaslidesPid.png" target="popup" onclick="window.open('files/exampleAhaslidesPid.png,'popup','width=1200'); return false;" onMouseOver="document.PIDpoll.src='../files/CLICKexampleAhaslidesPid.png';" onMouseOut="document.PIDpoll.src='../files/exampleAhaslidesPid.png';">
 <img src="files/exampleAhaslidesPid.png" alt="Screenshot of the recommended live polling session on PIDs." name="PIDpoll"/>
 </a>
 
@@ -1197,7 +1197,7 @@ We use [AHA slides](https://ahaslides.com/){target="_blank"} for live polling. S
 - **Optional:** *Take a closer look at the different status codes or the HTTP responses.*
 - *Enforce an Error 404, e.g. by deleting one character in the file path. The status code 404 will appear in the status code column of the network editor.*
 
-<a href="../docs/files/exampleError404.png" target="popup" onclick="window.open('../docs/files/exampleError404.png,'popup','width=1200'); return false;" onMouseOver="document.Error404.src='../../docs/files/CLICKexampleError404.png';" onMouseOut="document.Error404.src='../../docs/files/exampleError404.png';">
+<a href="files/exampleError404.png" target="popup" onclick="window.open('files/exampleError404.png,'popup','width=1200'); return false;" onMouseOver="document.Error404.src='../files/CLICKexampleError404.png';" onMouseOut="document.Error404.src='../files/exampleError404.png';">
 <span>
 <img src="files/exampleError404.png" alt="Screenshot of the recommended live coding session." name="Error404"/>
 </span>
@@ -1280,7 +1280,7 @@ We use [AHA slides](https://ahaslides.com/){target="_blank"} for live polling. S
 - *To retrieve the metadata record associated with the DOI (Kernel Information Profil), click on* `Actions` *and select* `Metadata as JSON`.
 - *Reflect the metadata record with the participants.*
 
-<a href="../files/exampleCrossref.png" target="popup" onclick="window.open('../files/exampleCrossref.png','popup','width=1200'); return false;" onMouseOver="document.Crossref.src='../../docs/files/CLICKexampleCrossref.png';" onMouseOut="document.Crossref.src='../../docs/files/exampleCrossref.png';">
+<a href="../files/exampleCrossref.png" target="popup" onclick="window.open('../files/exampleCrossref.png','popup','width=1200'); return false;" onMouseOver="document.Crossref.src='../files/CLICKexampleCrossref.png';" onMouseOut="document.Crossref.src='../files/exampleCrossref.png';">
 <span>
 <img src="files/exampleCrossref.png" alt="Screenshot of the recommended screen share session." name="Crossref"/>
 </span>
@@ -1487,7 +1487,7 @@ see also [Feedback Day 1](#accordionInstructor18)
 
 - If you used shared documents during the lesson, restrict editing rights in these documents.
 - Feel free to share the slides with the learners.
-- Internally evaluate the event (all instructors and teaching supports). If you like, you can use our <a href="../docs/files/internalEvaluationForm.txt" target="_blank" download>Internal Evaluation Form</a> as a guideline.
+- Internally evaluate the event (all instructors and teaching supports). If you like, you can use our <a href="files/internalEvaluationForm.txt" target="_blank" download>Internal Evaluation Form</a> as a guideline.
 
 **And as we are already talking about feedback and evaluation, your lesson feedback and contributions are most welcome! You can get in touch via the channels provided in the <a href="general-lesson-information.html#get-in-touch" target="_blank">General Lesson Information.</a>**
 
