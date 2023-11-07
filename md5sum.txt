@@ -20,4 +20,4 @@
 "learners/acknowledgements.Rmd" "dc3d23c225b1c022d0637b6a5aca68d8" "site/built/acknowledgements.md" "2023-11-07"
 "learners/setup.md" "6327ab4182d8b405e7e9cc974e4fe020" "site/built/setup.md" "2023-11-07"
 "profiles/learner-profiles.Rmd" "78524aa6e8ecc4b4a49fc26633fbb1aa" "site/built/learner-profiles.md" "2023-11-07"
-"renv/profiles/lesson-requirements/renv.lock" "8996cf32a4c00459a3d8fefb24331fb6" "site/built/renv.lock" "2023-11-07"
+"renv/profiles/lesson-requirements/renv.lock" "e4a26cbc7e33cb3f2f652f0e16dd23a9" "site/built/renv.lock" "2023-11-07"
