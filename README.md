@@ -16,7 +16,7 @@ See [LICENSE](https://github.com/carpentries-incubator/scientific-metadata/blob/
 
 If you want to cite this project in your scientific work,
 please use the [citation file](https://citation-file-format.github.io/)
-in the [repository]https://github.com/carpentries-incubator/scientific-metadata/blob/main/CITATION.cff).
+of this [repository](https://github.com/carpentries-incubator/scientific-metadata/blob/main/CITATION.cff).
 
 <!-- --8<-- [end:citation] -->
 
