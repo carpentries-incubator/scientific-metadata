@@ -2,7 +2,7 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: 'Fundamentals of Scientific Metadata: Why Context Matters'
+title: 'Fundamentals of Scientific Metadata'
 message: >-
   If you use this dataset, please cite it using the metadata
   from this file.
@@ -46,6 +46,12 @@ keywords:
   - Helmholtz Metadata Collaboration
   - data annotation
   - scientific metadata
+preferred-citation:
+  identifiers:
+    - description: "Zenodo DOI of this work."
+      type: doi
+      value: 10.5281/zenodo.10091708
+  type: generic
 references:
   - identifiers:
       - description: "The GitHub release URL of tag 1.0.0."
