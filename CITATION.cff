@@ -11,7 +11,7 @@ authors:
   - given-names: 'Silke Christine'
     family-names: Gerlich
     email: s.gerlich@fz-juelich.de
-    affiliation:  https://ror.org/02nv7yv05
+    affiliation: 'Institute for advanced simulation - Materials Data Science and Informatics (IAS-9), Forschungszentrum Jülich GmbH'
     orcid: 'https://orcid.org/0000-0003-3043-5657'
   - given-names: Annika
     family-names: Strupp
@@ -19,12 +19,12 @@ authors:
   - given-names: Volker
     family-names: Hofmann
     email: v.hofmann@fz-juelich.de
-    affiliation:  https://ror.org/02nv7yv05
+    affiliation: 'Institute for advanced simulation - Materials Data Science and Informatics (IAS-9), Forschungszentrum Jülich GmbH'
     orcid: 'https://orcid.org/0000-0002-5149-603X'
   - given-names: Stefan
     family-names: Sandfeld
     email: s.sandfeld@fz-juelich.de
-    affiliation:  https://ror.org/02nv7yv05
+    affiliation: 'Institute for advanced simulation - Materials Data Science and Informatics (IAS-9), Forschungszentrum Jülich GmbH'
     orcid: 'https://orcid.org/0000-0001-9560-4728'
 repository-code: >-
   https://github.com/carpentries-incubator/scientific-metadata
@@ -36,10 +36,6 @@ abstract: >-
   course is targeted at scientific staff and researchers
   from all fields who are interested in annotating research
   data with well-structured and useful metadata.
-references:
-  - institution:
-  	name: "Institute for advanced simulation - Materials Data Science and Informatics (IAS-9)"
-    type: generic
 keywords:
   - training
   - metadata
@@ -50,7 +46,12 @@ keywords:
   - Helmholtz Metadata Collaboration
   - data annotation
   - scientific metadata
+references:
+  - identifiers:
+      - description: "The GitHub release URL of tag 1.0.0."
+        type: url
+        value: "https://github.com/carpentries-incubator/scientific-metadata/releases/tag/1.0.0"
+    type: generic
 license: CC-BY-4.0
-commit: a69f8fc5c20214a42867d9084d683c487e205c96
-version: '1.0'
-date-released: '2023-08-31'
+version: '1.0.0'
+date-released: '2023-11-09'
