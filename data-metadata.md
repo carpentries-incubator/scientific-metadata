@@ -297,6 +297,7 @@ for `README`-style metadata documents.[^6]
 The learners apply their acquired knowledge about metadata identification and types in the context of a familiar work situation.
 
 **Implementation:** <br>
+
 * select a scientific journal publication of your liking (could be related to the research field of the learners, if the group is homogeneous in this regard.)
 * share the publication on your screen
 * with the whole group of learners, find the "hidden" metadata in the publication and sort the findings into the metadata types (descriptive, administrative, structural)
