@@ -290,7 +290,7 @@ A **PID service** operates as a persistent look-up service that redirects GET re
 - *To retrieve the metadata record associated with the DOI (Kernel Information Profil), click on* `Actions` *and select* `Metadata as JSON`.
 - *Reflect the metadata record with the participants.*
 
-<a href="../files/exampleCrossref.png" target="popup" onclick="window.open('../files/exampleCrossref.png','popup','width=1200'); return false;" onMouseOver="document.Crossref.src='../files/CLICKexampleCrossref.png';" onMouseOut="document.Crossref.src='../files/exampleCrossref.png';">
+<a href="files/exampleCrossref.png" target="popup" onclick="window.open('../files/exampleCrossref.png','popup','width=1200'); return false;" onMouseOver="document.Crossref.src='../files/CLICKexampleCrossref.png';" onMouseOut="document.Crossref.src='../files/exampleCrossref.png';">
 <span>
 <img src="files/exampleCrossref.png" alt="Screenshot of the recommended screen share session." name="Crossref"/>
 </span>
