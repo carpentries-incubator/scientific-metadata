@@ -467,7 +467,7 @@ Prepare shared notes documents for each group of learners attending the lesson. 
 Try to be present with as many instructors as there are break-out rooms to moderate the discussions and answer questions.
 
 **Shared notes:** <br>
-You can find an example Markdown file for the group handouts <a href="../files/exampleGroupHandout.txt" target="_blank">**HERE**</a>. This document is optimized for use in a Hedgedoc document. 
+You can find an example Markdown file for the group handouts <a href="files/exampleGroupHandout.txt" target="_blank">**HERE**</a>. This document is optimized for use in a Hedgedoc document. 
 
 ##### <u>Challenge 2: Identify metadata in README.txt</u>
 
@@ -1275,12 +1275,12 @@ We use [AHA slides](https://ahaslides.com/){target="_blank"} for live polling. S
 - *Share an empty browser tab on your screen.*
 - *Open the DOI of the journal publication you presented in* [**"Guided confrontation: Metadata in scientific publications"**](../data-metadata.html#metadata-records){target="_blank"} *(if the publication is <u>not</u> Open Access, make sure to login in advance :wink:).*
 - *Guide the audience through the information stored on the landing page (i.e. authors, abstract, references, etc.). Highlight the human-friendly representation.*
-- *Copy the DOI and open [https://www.crossref.org/](https://www.crossref.org/){target="_blank".*
+- *Copy the DOI and open [https://www.crossref.org/](https://www.crossref.org/){target="_blank"}.*
 - *Retrieve the corresponding Crossref entry for the publication using the metadata search box.*
 - *To retrieve the metadata record associated with the DOI (Kernel Information Profil), click on* `Actions` *and select* `Metadata as JSON`.
 - *Reflect the metadata record with the participants.*
 
-<a href="../files/exampleCrossref.png" target="popup" onclick="window.open('../files/exampleCrossref.png','popup','width=1200'); return false;" onMouseOver="document.Crossref.src='../files/CLICKexampleCrossref.png';" onMouseOut="document.Crossref.src='../files/exampleCrossref.png';">
+<a href="files/exampleCrossref.png" target="popup" onclick="window.open('../files/exampleCrossref.png','popup','width=1200'); return false;" onMouseOver="document.Crossref.src='../files/CLICKexampleCrossref.png';" onMouseOut="document.Crossref.src='../files/exampleCrossref.png';">
 <span>
 <img src="files/exampleCrossref.png" alt="Screenshot of the recommended screen share session." name="Crossref"/>
 </span>
