@@ -42,29 +42,29 @@ contact: 'hmc@fz-juelich.de'
 # include all pages in the folder.
 
 episodes:
-- getting-started.Rmd
-- data-metadata.Rmd
-- structure-schema.Rmd
-- enabling-technologies-standards.Rmd
-- web-location-identifiers.Rmd
+- getting-started.md
+- data-metadata.md
+- structure-schema.md
+- enabling-technologies-standards.md
+- web-location-identifiers.md
 
 # Information for Learners
 learners: 
-- further-reading.Rmd
-- meet-the-creators.Rmd
-- acknowledgements.Rmd
+- further-reading.md
+- meet-the-creators.md
+- acknowledgements.md
 
 # Information for Instructors
 instructors: 
 - instructor-notes.md
-- general-lesson-information.Rmd
-- instructor-guide.Rmd
-- meet-the-creators.Rmd
-- acknowledgements.Rmd
+- general-lesson-information.md
+- instructor-guide.md
+- meet-the-creators.md
+- acknowledgements.md
 
 # Learner Profiles
 profiles: 
-- learner-profiles.Rmd
+- learner-profiles.md
 
 # Customisation ---------------------------------------------
 #
