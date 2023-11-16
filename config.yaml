@@ -1,0 +1,72 @@
+#------------------------------------------------------------
+# Values for this lesson.
+#------------------------------------------------------------
+
+# Which carpentry is this (swc, dc, lc, or cp)?
+# swc: Software Carpentry
+# dc: Data Carpentry
+# lc: Library Carpentry
+# cp: Carpentries (to use for instructor training for instance)
+# incubator: The Carpentries Incubator
+carpentry: 'incubator'
+
+# Overall title for pages.
+title: 'Fundamentals of Scientific Metadata'
+
+# Date the lesson was created (YYYY-MM-DD, this is empty by default)
+created: ~
+
+# Comma-separated list of keywords for the lesson
+keywords: 'metadata, JSON, schema, lesson, Helmholtz Metadata collaboration, HMC, scientific metadata, PID'
+
+# Life cycle stage of the lesson
+# possible values: pre-alpha, alpha, beta, stable
+life_cycle: 'beta'
+
+# License of the lesson
+license: 'CC-BY 4.0'
+
+# Link to the source repository for this lesson
+source: 'https://github.com/carpentries-incubator/scientific-metadata'
+
+# Default branch of your lesson
+branch: 'main'
+
+# Who to contact if there are any issues
+contact: 'hmc@fz-juelich.de'
+
+# Navigation ------------------------------------------------
+#
+# Use the following menu items to specify the order of
+# individual pages in each dropdown section. Leave blank to
+# include all pages in the folder.
+
+episodes:
+- getting-started.md
+- data-metadata.md
+- structure-schema.md
+- enabling-technologies-standards.md
+- web-location-identifiers.md
+
+# Information for Learners
+learners: 
+- further-reading.md
+- meet-the-creators.md
+- acknowledgements.md
+
+# Information for Instructors
+instructors: 
+- instructor-notes.md
+- general-lesson-information.md
+- instructor-guide.md
+- meet-the-creators.md
+- acknowledgements.md
+
+# Learner Profiles
+profiles: 
+- learner-profiles.md
+
+# Customisation ---------------------------------------------
+#
+# This space below is where custom yaml items
+# (e.g. pinning sandpaper and varnish versions) should live
