@@ -381,8 +381,9 @@ Just note down whatever comes to your mind!</p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
-<figure><img src="fig/jeffreyPomerantzQuote.png" alt="Quote by Jeffrey Pomerantz saying 'Data is stuff. It is raw, unprocessed, possibly even untouched by human hands, unviewed by human eyes,, un-thought-about by human minds.'" class="figure mx-auto d-block"><figcaption>Pomerantz, J. (2015). Metadata. Cambridge, MA: MIT
-Press.</figcaption></figure><div class="overview card">
+<figure><img src="fig/jeffreyPomerantzQuote.png" alt="Quote by Jeffrey Pomerantz saying 'Data is stuff. It is raw, unprocessed, possibly even untouched by human hands, unviewed by human eyes,, un-thought-about by human minds.'" class="figure mx-auto d-block"><div class="figcaption">Pomerantz, J. (2015). Metadata. Cambridge, MA:
+MIT Press.</div>
+</figure><div class="overview card">
 <h2 class="card-header">Overview</h2>
 <div class="row g-0">
 <div class="col-md-4">
@@ -437,12 +438,12 @@ called <strong>WISDOM</strong>. The key to reaching wisdom from data is
 processing and contextualizing data to extract information. To achieve
 this goal we often need to add a description to the data:
 <strong>metadata</strong>.</p>
-<div id="information-pyramid" class="callout callout">
+<div id="callout1" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="information-pyramid" class="callout-inner">
-<h3 class="callout-title">Information pyramid<a class="anchor" aria-label="anchor" href="#information-pyramid"></a>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="information-pyramid">Information pyramid<a class="anchor" aria-label="anchor" href="#information-pyramid"></a>
 </h3>
 <div class="callout-content">
 <figure><img src="fig/informationPyramid.png" target="_blank" alt="Information pyramid from glyphs to wisdom highlighting the data fracture. Text reads: Data is potential information and needs to be processed and contextualized to make it accessible for the human audience." class="figure mx-auto d-block"></figure>
@@ -632,10 +633,13 @@ Data Services.</em> (n.d.). <a href="https://data.research.cornell.edu/data-mana
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
-<figure><img src="fig/monyaBakerQuote.png" alt="Quote by Monya Baker in Nature from 2016, saying 'More than 70% of researchers have tried and failed to reproduce another scientist's experiments. More than half have failed to reproduce their own experiments.'" class="figure mx-auto d-block"><figcaption><strong>Baker, M.</strong> (2016) “1,500 scientists
-lift the lid on reproducibility.”, <em>Nature</em> <strong>533</strong>,
-452 -
-454.<a href="https://doi.org/10.1038/533452a" target="_blank" class="external-link">https://doi.org/10.1038/533452a</a></figcaption></figure><div class="overview card">
+<figure><img src="fig/monyaBakerQuote.png" alt="Quote by Monya Baker in Nature from 2016, saying 'More than 70% of researchers have tried and failed to reproduce another scientist's experiments. More than half have failed to reproduce their own experiments.'" class="figure mx-auto d-block"><div class="figcaption">
+<strong>Baker, M.</strong> (2016) “1,500
+scientists lift the lid on reproducibility.”, <em>Nature</em>
+<strong>533</strong>, 452 -
+454.<a href="https://doi.org/10.1038/533452a" target="_blank" class="external-link">https://doi.org/10.1038/533452a</a>
+</div>
+</figure><div class="overview card">
 <h2 class="card-header">Overview</h2>
 <div class="row g-0">
 <div class="col-md-4">
@@ -687,14 +691,14 @@ about intonations.</p>
 <div class="codewrapper sourceCode" id="cb2">
 <h3 class="code-label">MARKDOWN<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode markdown" tabindex="0"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>Simple markdown will interpret the following word **bold**.</span></code></pre>
+<pre class="sourceCode markdown" tabindex="0"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a>Simple markdown will interpret the following word **bold**.</span></code></pre>
 </div>
 <p><strong>Descriptive or declarative markup</strong> declares what an
 element is; e. g. a member of a particular type or class like a:</p>
 <div class="codewrapper sourceCode" id="cb3">
 <h3 class="code-label">MARKDOWN<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode markdown" tabindex="0"><code class="sourceCode markdown"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">## headline</span></span></code></pre>
+<pre class="sourceCode markdown" tabindex="0"><code class="sourceCode markdown"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="fu">## headline</span></span></code></pre>
 </div>
 <p>If design rules for headlines change, the document structure remains
 intact and is still in line with the authors’ original intention.</p>
@@ -708,15 +712,14 @@ for images.</p>
 <div class="codewrapper sourceCode" id="cb4">
 <h3 class="code-label">HTML<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode html" tabindex="0"><code class="sourceCode html"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">"url"</span><span class="kw">&gt;</span>link text displayed to reader<span class="kw">&lt;/a&gt;</span></span></code></pre>
+<pre class="sourceCode html" tabindex="0"><code class="sourceCode html"><span id="cb4-1"><a href="#cb4-1" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> href</span><span class="op">=</span><span class="st">"url"</span><span class="dt">&gt;</span>link text displayed to reader<span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span></span></code></pre>
 </div>
-<div id="callout1" class="callout callout">
+<div id="callout1" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="callout-inner">
-<h3 class="callout-title">Callout<a class="anchor" aria-label="anchor" href="#callout1"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title">Callout</h3>
 <div class="callout-content">
 <p>Rigorous markup can make text (character strings) more accessible for
 computer analysis.</p>
@@ -732,9 +735,11 @@ markup languages – first accepted as an ISO standard in 1986. Both, HTML
 <p><strong>HTML</strong> (<strong>H</strong>yper<strong>T</strong>ext
 <strong>M</strong>arkup <strong>L</strong>anguage) is the standard
 markup language for web pages.</p>
-<figure><img src="fig/cynthiaZenderQuote.png" alt="Quote by Cynthia Zender, SAS Institue, saying 'To make markup work, the writer and the interpreter of the marked up content have to agree on the interpretation of the markup symbols.'" target="_blank" class="figure mx-auto d-block"><figcaption>* <strong>Zender, C.</strong> (2005) Cynthia Zender
-(2005). Markup 101: Markup Basics. <em>SAS Institute</em>.
-<a href="https://www.lexjansen.com/pharmasug/2005/Tutorials/tu12.pdf" target="_blank" class="external-link">https://www.lexjansen.com/pharmasug/2005/Tutorials/tu12.pdf</a></figcaption></figure></section><section id="xml"><h2 class="section-heading">XML<a class="anchor" aria-label="anchor" href="#xml"></a>
+<figure><img src="fig/cynthiaZenderQuote.png" target="_blank" alt="Quote by Cynthia Zender, SAS Institue, saying 'To make markup work, the writer and the interpreter of the marked up content have to agree on the interpretation of the markup symbols.'" class="figure mx-auto d-block"><div class="figcaption">* <strong>Zender, C.</strong> (2005) Cynthia
+Zender (2005). Markup 101: Markup Basics. <em>SAS Institute</em>.
+<a href="https://www.lexjansen.com/pharmasug/2005/Tutorials/tu12.pdf" target="_blank" class="external-link">https://www.lexjansen.com/pharmasug/2005/Tutorials/tu12.pdf</a>
+</div>
+</figure></section><section id="xml"><h2 class="section-heading">XML<a class="anchor" aria-label="anchor" href="#xml"></a>
 </h2>
 <hr class="half-width">
 <p>The main purpose of <strong>XML</strong> (e<strong>X</strong>tensible
@@ -749,11 +754,11 @@ rules but <strong>extensible</strong>.<a href="#fn4" class="footnote-ref" id="fn
 <div class="codewrapper sourceCode" id="cb5">
 <h3 class="code-label">XML<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode xml" tabindex="0"><code class="sourceCode xml"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">example</span>&gt;</span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">title</span>&gt;This is the example title&lt;/<span class="kw">title</span>&gt;</span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">description</span>&gt;A simple XML example&lt;/<span class="kw">description</span>&gt;</span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">wordCount</span>&gt;1&lt;/<span class="kw">wordCount</span>&gt;</span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>&lt;/<span class="kw">example</span>&gt;</span></code></pre>
+<pre class="sourceCode xml" tabindex="0"><code class="sourceCode xml"><span id="cb5-1"><a href="#cb5-1" tabindex="-1"></a>&lt;<span class="kw">example</span>&gt;</span>
+<span id="cb5-2"><a href="#cb5-2" tabindex="-1"></a>    &lt;<span class="kw">title</span>&gt;This is the example title&lt;/<span class="kw">title</span>&gt;</span>
+<span id="cb5-3"><a href="#cb5-3" tabindex="-1"></a>    &lt;<span class="kw">description</span>&gt;A simple XML example&lt;/<span class="kw">description</span>&gt;</span>
+<span id="cb5-4"><a href="#cb5-4" tabindex="-1"></a>    &lt;<span class="kw">wordCount</span>&gt;1&lt;/<span class="kw">wordCount</span>&gt;</span>
+<span id="cb5-5"><a href="#cb5-5" tabindex="-1"></a>&lt;/<span class="kw">example</span>&gt;</span></code></pre>
 </div>
 </section><section id="json"><h2 class="section-heading">JSON<a class="anchor" aria-label="anchor" href="#json"></a>
 </h2>
@@ -783,27 +788,26 @@ software- and hardware-independent.</p>
 <div class="codewrapper sourceCode" id="cb6">
 <h3 class="code-label">JSON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode json" tabindex="0"><code class="sourceCode json"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"key"</span><span class="fu">:</span><span class="st">"value"</span><span class="fu">,</span></span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"aString"</span><span class="fu">:</span><span class="st">"string"</span><span class="fu">,</span></span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"anInteger"</span><span class="fu">:</span><span class="dv">5</span><span class="fu">,</span></span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"aFloat"</span><span class="fu">:</span><span class="fl">0.5</span><span class="fu">,</span></span>
-<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"aBoolean"</span><span class="fu">:</span><span class="kw">true</span><span class="fu">,</span></span>
-<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"anArray"</span><span class="fu">:</span> <span class="ot">[</span><span class="st">"item1"</span><span class="ot">,</span> <span class="st">"item2"</span><span class="ot">,</span> <span class="st">"item3"</span><span class="ot">]</span><span class="fu">,</span></span>
-<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"anObject"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>        <span class="dt">"key1"</span><span class="fu">:</span><span class="st">"value1"</span><span class="fu">,</span></span>
-<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>        <span class="dt">"key2"</span><span class="fu">:</span><span class="st">"value2"</span><span class="fu">,</span></span>
-<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>        <span class="dt">"key3"</span><span class="fu">:</span><span class="st">"value3"</span></span>
-<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>    <span class="fu">}</span></span>
-<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre>
+<pre class="sourceCode json" tabindex="0"><code class="sourceCode json"><span id="cb6-1"><a href="#cb6-1" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb6-2"><a href="#cb6-2" tabindex="-1"></a>    <span class="dt">"key"</span><span class="fu">:</span><span class="st">"value"</span><span class="fu">,</span></span>
+<span id="cb6-3"><a href="#cb6-3" tabindex="-1"></a>    <span class="dt">"aString"</span><span class="fu">:</span><span class="st">"string"</span><span class="fu">,</span></span>
+<span id="cb6-4"><a href="#cb6-4" tabindex="-1"></a>    <span class="dt">"anInteger"</span><span class="fu">:</span><span class="dv">5</span><span class="fu">,</span></span>
+<span id="cb6-5"><a href="#cb6-5" tabindex="-1"></a>    <span class="dt">"aFloat"</span><span class="fu">:</span><span class="dv">0</span><span class="er">.</span><span class="dv">5</span><span class="fu">,</span></span>
+<span id="cb6-6"><a href="#cb6-6" tabindex="-1"></a>    <span class="dt">"aBoolean"</span><span class="fu">:</span><span class="kw">true</span><span class="fu">,</span></span>
+<span id="cb6-7"><a href="#cb6-7" tabindex="-1"></a>    <span class="dt">"anArray"</span><span class="fu">:</span> <span class="ot">[</span><span class="st">"item1"</span><span class="ot">,</span> <span class="st">"item2"</span><span class="ot">,</span> <span class="st">"item3"</span><span class="ot">]</span><span class="fu">,</span></span>
+<span id="cb6-8"><a href="#cb6-8" tabindex="-1"></a>    <span class="dt">"anObject"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb6-9"><a href="#cb6-9" tabindex="-1"></a>        <span class="dt">"key1"</span><span class="fu">:</span><span class="st">"value1"</span><span class="fu">,</span></span>
+<span id="cb6-10"><a href="#cb6-10" tabindex="-1"></a>        <span class="dt">"key2"</span><span class="fu">:</span><span class="st">"value2"</span><span class="fu">,</span></span>
+<span id="cb6-11"><a href="#cb6-11" tabindex="-1"></a>        <span class="dt">"key3"</span><span class="fu">:</span><span class="st">"value3"</span></span>
+<span id="cb6-12"><a href="#cb6-12" tabindex="-1"></a>    <span class="fu">}</span></span>
+<span id="cb6-13"><a href="#cb6-13" tabindex="-1"></a><span class="fu">}</span></span></code></pre>
 </div>
-<div id="callout2" class="callout callout">
+<div id="callout2" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="callout-inner">
-<h3 class="callout-title">Callout<a class="anchor" aria-label="anchor" href="#callout2"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title">Callout</h3>
 <div class="callout-content">
 <p>Data exchange formats such as <strong>XML</strong> or
 <strong>JSON</strong> can be read and processed not only by humans but
@@ -920,10 +924,10 @@ braces hold objects):</p>
 <div class="codewrapper sourceCode" id="cb8">
 <h3 class="code-label">JSON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode json" tabindex="0"><code class="sourceCode json"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"key"</span><span class="fu">:</span> <span class="st">"value"</span><span class="fu">,</span></span>
-<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"key"</span><span class="fu">:</span> <span class="st">"value"</span></span>
-<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre>
+<pre class="sourceCode json" tabindex="0"><code class="sourceCode json"><span id="cb8-1"><a href="#cb8-1" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb8-2"><a href="#cb8-2" tabindex="-1"></a>  <span class="dt">"key"</span><span class="fu">:</span> <span class="st">"value"</span><span class="fu">,</span></span>
+<span id="cb8-3"><a href="#cb8-3" tabindex="-1"></a>  <span class="dt">"key"</span><span class="fu">:</span> <span class="st">"value"</span></span>
+<span id="cb8-4"><a href="#cb8-4" tabindex="-1"></a><span class="fu">}</span></span></code></pre>
 </div>
 <ul>
 <li>Based on the information identified in the README, write a
@@ -962,19 +966,19 @@ following data types:</p>
 <div class="codewrapper sourceCode" id="cb9">
 <h3 class="code-label">JSON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode json" tabindex="0"><code class="sourceCode json"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"key"</span><span class="fu">:</span> <span class="st">"value"</span><span class="fu">,</span></span>
-<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"aString"</span><span class="fu">:</span> <span class="st">"string"</span><span class="fu">,</span></span>
-<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"anInteger"</span><span class="fu">:</span> <span class="dv">5</span><span class="fu">,</span></span>
-<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"aFloat"</span><span class="fu">:</span> <span class="fl">0.5</span><span class="fu">,</span></span>
-<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"aBoolean"</span><span class="fu">:</span> <span class="kw">true</span><span class="fu">,</span></span>
-<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"anArray"</span><span class="fu">:</span> <span class="ot">[</span><span class="st">"item1"</span><span class="ot">,</span> <span class="st">"item2"</span><span class="ot">,</span> <span class="st">"item3"</span><span class="ot">]</span><span class="fu">,</span></span>
-<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"anObject"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>        <span class="dt">"key1"</span><span class="fu">:</span> <span class="st">"value1"</span><span class="fu">,</span></span>
-<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>        <span class="dt">"key2"</span><span class="fu">:</span> <span class="st">"value2"</span><span class="fu">,</span></span>
-<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>        <span class="dt">"key3"</span><span class="fu">:</span> <span class="st">"value3"</span></span>
-<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>    <span class="fu">}</span></span>
-<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre>
+<pre class="sourceCode json" tabindex="0"><code class="sourceCode json"><span id="cb9-1"><a href="#cb9-1" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb9-2"><a href="#cb9-2" tabindex="-1"></a>    <span class="dt">"key"</span><span class="fu">:</span> <span class="st">"value"</span><span class="fu">,</span></span>
+<span id="cb9-3"><a href="#cb9-3" tabindex="-1"></a>    <span class="dt">"aString"</span><span class="fu">:</span> <span class="st">"string"</span><span class="fu">,</span></span>
+<span id="cb9-4"><a href="#cb9-4" tabindex="-1"></a>    <span class="dt">"anInteger"</span><span class="fu">:</span> <span class="dv">5</span><span class="fu">,</span></span>
+<span id="cb9-5"><a href="#cb9-5" tabindex="-1"></a>    <span class="dt">"aFloat"</span><span class="fu">:</span> <span class="dv">0</span><span class="er">.</span><span class="dv">5</span><span class="fu">,</span></span>
+<span id="cb9-6"><a href="#cb9-6" tabindex="-1"></a>    <span class="dt">"aBoolean"</span><span class="fu">:</span> <span class="kw">true</span><span class="fu">,</span></span>
+<span id="cb9-7"><a href="#cb9-7" tabindex="-1"></a>    <span class="dt">"anArray"</span><span class="fu">:</span> <span class="ot">[</span><span class="st">"item1"</span><span class="ot">,</span> <span class="st">"item2"</span><span class="ot">,</span> <span class="st">"item3"</span><span class="ot">]</span><span class="fu">,</span></span>
+<span id="cb9-8"><a href="#cb9-8" tabindex="-1"></a>    <span class="dt">"anObject"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb9-9"><a href="#cb9-9" tabindex="-1"></a>        <span class="dt">"key1"</span><span class="fu">:</span> <span class="st">"value1"</span><span class="fu">,</span></span>
+<span id="cb9-10"><a href="#cb9-10" tabindex="-1"></a>        <span class="dt">"key2"</span><span class="fu">:</span> <span class="st">"value2"</span><span class="fu">,</span></span>
+<span id="cb9-11"><a href="#cb9-11" tabindex="-1"></a>        <span class="dt">"key3"</span><span class="fu">:</span> <span class="st">"value3"</span></span>
+<span id="cb9-12"><a href="#cb9-12" tabindex="-1"></a>    <span class="fu">}</span></span>
+<span id="cb9-13"><a href="#cb9-13" tabindex="-1"></a><span class="fu">}</span></span></code></pre>
 </div>
 </div>
 </div>
@@ -991,70 +995,70 @@ following data types:</p>
 <div class="codewrapper sourceCode" id="cb10">
 <h3 class="code-label">JSON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode json" tabindex="0"><code class="sourceCode json"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
-<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"fileName"</span><span class="fu">:</span> <span class="st">"trainingObject.csv"</span><span class="fu">,</span></span>
-<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"abstract"</span><span class="fu">:</span> <span class="st">"The data describes the biomechanical acceleration and screams detected of a test person during the ride of the roller coaster </span><span class="ch">\"</span><span class="st">Flight of the Bat</span><span class="ch">\"</span><span class="st"> in Gotham City."</span><span class="fu">,</span></span>
-<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"format"</span><span class="fu">:</span> <span class="st">"text/csv"</span><span class="fu">,</span></span>
-<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"date"</span><span class="fu">:</span> <span class="st">"2022-02-28"</span><span class="fu">,</span></span>
-<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"creator"</span><span class="fu">:</span> <span class="ot">[</span></span>
-<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>    <span class="fu">{</span></span>
-<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"creatorName"</span><span class="fu">:</span> <span class="st">"Bruce Wayne"</span><span class="fu">,</span></span>
-<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"creatorAffiliation"</span><span class="fu">:</span> <span class="st">"Institute for Vigilance and Nightly Motion - Justice League"</span></span>
-<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>    <span class="fu">}</span><span class="ot">,</span></span>
-<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>    <span class="fu">{</span></span>
-<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"creatorName"</span><span class="fu">:</span> <span class="st">"Selina Kyle"</span><span class="fu">,</span></span>
-<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"creatorAffiliation"</span><span class="fu">:</span> <span class="st">"Institute for Vigilance and Nightly Motion - Justice League"</span></span>
-<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a>    <span class="fu">}</span></span>
-<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a>  <span class="ot">]</span><span class="fu">,</span></span>
-<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"experimentalParameters"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb10-17"><a href="#cb10-17" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"testRide"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb10-18"><a href="#cb10-18" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"rideName"</span><span class="fu">:</span> <span class="st">"Flight of the Bat"</span><span class="fu">,</span></span>
-<span id="cb10-19"><a href="#cb10-19" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"location"</span><span class="fu">:</span> <span class="st">"Gotham City, New Jersey"</span><span class="fu">,</span></span>
-<span id="cb10-20"><a href="#cb10-20" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"rideType"</span><span class="fu">:</span> <span class="st">"roller coaster"</span></span>
-<span id="cb10-21"><a href="#cb10-21" aria-hidden="true" tabindex="-1"></a>    <span class="fu">},</span></span>
-<span id="cb10-22"><a href="#cb10-22" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"testPerson"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb10-23"><a href="#cb10-23" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"sex"</span><span class="fu">:</span> <span class="st">"male"</span><span class="fu">,</span></span>
-<span id="cb10-24"><a href="#cb10-24" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"height"</span><span class="fu">:</span> <span class="dv">180</span></span>
-<span id="cb10-25"><a href="#cb10-25" aria-hidden="true" tabindex="-1"></a>    <span class="fu">},</span></span>
-<span id="cb10-26"><a href="#cb10-26" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"recording"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb10-27"><a href="#cb10-27" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"testDevice"</span><span class="fu">:</span> <span class="st">"iPhone X"</span><span class="fu">,</span></span>
-<span id="cb10-28"><a href="#cb10-28" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"testDeviceFixture"</span><span class="fu">:</span> <span class="st">"left upper arm"</span><span class="fu">,</span></span>
-<span id="cb10-29"><a href="#cb10-29" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"testApp"</span><span class="fu">:</span> <span class="st">"Physics Toolbox Suite by Vieyra Software"</span></span>
-<span id="cb10-30"><a href="#cb10-30" aria-hidden="true" tabindex="-1"></a>    <span class="fu">}</span></span>
-<span id="cb10-31"><a href="#cb10-31" aria-hidden="true" tabindex="-1"></a>  <span class="fu">},</span></span>
-<span id="cb10-32"><a href="#cb10-32" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"columns"</span><span class="fu">:</span> <span class="ot">[</span></span>
-<span id="cb10-33"><a href="#cb10-33" aria-hidden="true" tabindex="-1"></a>    <span class="fu">{</span></span>
-<span id="cb10-34"><a href="#cb10-34" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"columnName"</span><span class="fu">:</span> <span class="st">"t"</span><span class="fu">,</span></span>
-<span id="cb10-35"><a href="#cb10-35" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"columnDescription"</span><span class="fu">:</span> <span class="st">"ride time at which measurements were taken upon activating the recording in seconds"</span><span class="fu">,</span></span>
-<span id="cb10-36"><a href="#cb10-36" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"dataType"</span><span class="fu">:</span> <span class="st">"number"</span><span class="fu">,</span></span>
-<span id="cb10-37"><a href="#cb10-37" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"columnUnit"</span><span class="fu">:</span> <span class="st">"sec"</span></span>
-<span id="cb10-38"><a href="#cb10-38" aria-hidden="true" tabindex="-1"></a>    <span class="fu">}</span><span class="ot">,</span></span>
-<span id="cb10-39"><a href="#cb10-39" aria-hidden="true" tabindex="-1"></a>    <span class="fu">{</span></span>
-<span id="cb10-40"><a href="#cb10-40" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"columnName"</span><span class="fu">:</span> <span class="st">"ax"</span><span class="fu">,</span></span>
-<span id="cb10-41"><a href="#cb10-41" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"columnDescription"</span><span class="fu">:</span> <span class="st">"biomechanical acceleration of the test person on the x axis in m/s²"</span><span class="fu">,</span></span>
-<span id="cb10-42"><a href="#cb10-42" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"dataType"</span><span class="fu">:</span> <span class="st">"number"</span><span class="fu">,</span></span>
-<span id="cb10-43"><a href="#cb10-43" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"columnUnit"</span><span class="fu">:</span> <span class="st">"m/s²"</span></span>
-<span id="cb10-44"><a href="#cb10-44" aria-hidden="true" tabindex="-1"></a>    <span class="fu">}</span><span class="ot">,</span></span>
-<span id="cb10-45"><a href="#cb10-45" aria-hidden="true" tabindex="-1"></a>    <span class="fu">{</span></span>
-<span id="cb10-46"><a href="#cb10-46" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"columnName"</span><span class="fu">:</span> <span class="st">"ay"</span><span class="fu">,</span></span>
-<span id="cb10-47"><a href="#cb10-47" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"columnDescription"</span><span class="fu">:</span> <span class="st">"biomechanical acceleration of the test person on the y axis in m/s²"</span><span class="fu">,</span></span>
-<span id="cb10-48"><a href="#cb10-48" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"dataType"</span><span class="fu">:</span> <span class="st">"number"</span><span class="fu">,</span></span>
-<span id="cb10-49"><a href="#cb10-49" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"columnUnit"</span><span class="fu">:</span> <span class="st">"m/s²"</span></span>
-<span id="cb10-50"><a href="#cb10-50" aria-hidden="true" tabindex="-1"></a>    <span class="fu">}</span><span class="ot">,</span></span>
-<span id="cb10-51"><a href="#cb10-51" aria-hidden="true" tabindex="-1"></a>    <span class="fu">{</span></span>
-<span id="cb10-52"><a href="#cb10-52" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"columnName"</span><span class="fu">:</span> <span class="st">"az"</span><span class="fu">,</span></span>
-<span id="cb10-53"><a href="#cb10-53" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"columnDescription"</span><span class="fu">:</span> <span class="st">"biomechanical acceleration of the test person on the z axis in m/s²"</span><span class="fu">,</span></span>
-<span id="cb10-54"><a href="#cb10-54" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"dataType"</span><span class="fu">:</span> <span class="st">"number"</span><span class="fu">,</span></span>
-<span id="cb10-55"><a href="#cb10-55" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"columnUnit"</span><span class="fu">:</span> <span class="st">"m/s²"</span></span>
-<span id="cb10-56"><a href="#cb10-56" aria-hidden="true" tabindex="-1"></a>    <span class="fu">}</span><span class="ot">,</span></span>
-<span id="cb10-57"><a href="#cb10-57" aria-hidden="true" tabindex="-1"></a>    <span class="fu">{</span></span>
-<span id="cb10-58"><a href="#cb10-58" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"columnName"</span><span class="fu">:</span> <span class="st">"scr"</span><span class="fu">,</span></span>
-<span id="cb10-59"><a href="#cb10-59" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"columnDescription"</span><span class="fu">:</span> <span class="st">"boolean indicating a detected scream of the test person"</span><span class="fu">,</span></span>
-<span id="cb10-60"><a href="#cb10-60" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"dataType"</span><span class="fu">:</span> <span class="st">"boolean"</span><span class="fu">,</span></span>
-<span id="cb10-61"><a href="#cb10-61" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"columnUnit"</span><span class="fu">:</span> <span class="st">"1"</span></span>
-<span id="cb10-62"><a href="#cb10-62" aria-hidden="true" tabindex="-1"></a>    <span class="fu">}</span></span>
-<span id="cb10-63"><a href="#cb10-63" aria-hidden="true" tabindex="-1"></a>  <span class="ot">]</span></span>
-<span id="cb10-64"><a href="#cb10-64" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre>
+<pre class="sourceCode json" tabindex="0"><code class="sourceCode json"><span id="cb10-1"><a href="#cb10-1" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb10-2"><a href="#cb10-2" tabindex="-1"></a>  <span class="dt">"fileName"</span><span class="fu">:</span> <span class="st">"trainingObject.csv"</span><span class="fu">,</span></span>
+<span id="cb10-3"><a href="#cb10-3" tabindex="-1"></a>  <span class="dt">"abstract"</span><span class="fu">:</span> <span class="st">"The data describes the biomechanical acceleration and screams detected of a test person during the ride of the roller coaster </span><span class="ch">\"</span><span class="st">Flight of the Bat</span><span class="ch">\"</span><span class="st"> in Gotham City."</span><span class="fu">,</span></span>
+<span id="cb10-4"><a href="#cb10-4" tabindex="-1"></a>  <span class="dt">"format"</span><span class="fu">:</span> <span class="st">"text/csv"</span><span class="fu">,</span></span>
+<span id="cb10-5"><a href="#cb10-5" tabindex="-1"></a>  <span class="dt">"date"</span><span class="fu">:</span> <span class="st">"2022-02-28"</span><span class="fu">,</span></span>
+<span id="cb10-6"><a href="#cb10-6" tabindex="-1"></a>  <span class="dt">"creator"</span><span class="fu">:</span> <span class="ot">[</span></span>
+<span id="cb10-7"><a href="#cb10-7" tabindex="-1"></a>    <span class="fu">{</span></span>
+<span id="cb10-8"><a href="#cb10-8" tabindex="-1"></a>      <span class="dt">"creatorName"</span><span class="fu">:</span> <span class="st">"Bruce Wayne"</span><span class="fu">,</span></span>
+<span id="cb10-9"><a href="#cb10-9" tabindex="-1"></a>      <span class="dt">"creatorAffiliation"</span><span class="fu">:</span> <span class="st">"Institute for Vigilance and Nightly Motion - Justice League"</span></span>
+<span id="cb10-10"><a href="#cb10-10" tabindex="-1"></a>    <span class="fu">}</span><span class="ot">,</span></span>
+<span id="cb10-11"><a href="#cb10-11" tabindex="-1"></a>    <span class="fu">{</span></span>
+<span id="cb10-12"><a href="#cb10-12" tabindex="-1"></a>      <span class="dt">"creatorName"</span><span class="fu">:</span> <span class="st">"Selina Kyle"</span><span class="fu">,</span></span>
+<span id="cb10-13"><a href="#cb10-13" tabindex="-1"></a>      <span class="dt">"creatorAffiliation"</span><span class="fu">:</span> <span class="st">"Institute for Vigilance and Nightly Motion - Justice League"</span></span>
+<span id="cb10-14"><a href="#cb10-14" tabindex="-1"></a>    <span class="fu">}</span></span>
+<span id="cb10-15"><a href="#cb10-15" tabindex="-1"></a>  <span class="ot">]</span><span class="fu">,</span></span>
+<span id="cb10-16"><a href="#cb10-16" tabindex="-1"></a>  <span class="dt">"experimentalParameters"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb10-17"><a href="#cb10-17" tabindex="-1"></a>    <span class="dt">"testRide"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb10-18"><a href="#cb10-18" tabindex="-1"></a>      <span class="dt">"rideName"</span><span class="fu">:</span> <span class="st">"Flight of the Bat"</span><span class="fu">,</span></span>
+<span id="cb10-19"><a href="#cb10-19" tabindex="-1"></a>      <span class="dt">"location"</span><span class="fu">:</span> <span class="st">"Gotham City, New Jersey"</span><span class="fu">,</span></span>
+<span id="cb10-20"><a href="#cb10-20" tabindex="-1"></a>      <span class="dt">"rideType"</span><span class="fu">:</span> <span class="st">"roller coaster"</span></span>
+<span id="cb10-21"><a href="#cb10-21" tabindex="-1"></a>    <span class="fu">},</span></span>
+<span id="cb10-22"><a href="#cb10-22" tabindex="-1"></a>    <span class="dt">"testPerson"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb10-23"><a href="#cb10-23" tabindex="-1"></a>      <span class="dt">"sex"</span><span class="fu">:</span> <span class="st">"male"</span><span class="fu">,</span></span>
+<span id="cb10-24"><a href="#cb10-24" tabindex="-1"></a>      <span class="dt">"height"</span><span class="fu">:</span> <span class="dv">180</span></span>
+<span id="cb10-25"><a href="#cb10-25" tabindex="-1"></a>    <span class="fu">},</span></span>
+<span id="cb10-26"><a href="#cb10-26" tabindex="-1"></a>    <span class="dt">"recording"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb10-27"><a href="#cb10-27" tabindex="-1"></a>      <span class="dt">"testDevice"</span><span class="fu">:</span> <span class="st">"iPhone X"</span><span class="fu">,</span></span>
+<span id="cb10-28"><a href="#cb10-28" tabindex="-1"></a>      <span class="dt">"testDeviceFixture"</span><span class="fu">:</span> <span class="st">"left upper arm"</span><span class="fu">,</span></span>
+<span id="cb10-29"><a href="#cb10-29" tabindex="-1"></a>      <span class="dt">"testApp"</span><span class="fu">:</span> <span class="st">"Physics Toolbox Suite by Vieyra Software"</span></span>
+<span id="cb10-30"><a href="#cb10-30" tabindex="-1"></a>    <span class="fu">}</span></span>
+<span id="cb10-31"><a href="#cb10-31" tabindex="-1"></a>  <span class="fu">},</span></span>
+<span id="cb10-32"><a href="#cb10-32" tabindex="-1"></a>  <span class="dt">"columns"</span><span class="fu">:</span> <span class="ot">[</span></span>
+<span id="cb10-33"><a href="#cb10-33" tabindex="-1"></a>    <span class="fu">{</span></span>
+<span id="cb10-34"><a href="#cb10-34" tabindex="-1"></a>      <span class="dt">"columnName"</span><span class="fu">:</span> <span class="st">"t"</span><span class="fu">,</span></span>
+<span id="cb10-35"><a href="#cb10-35" tabindex="-1"></a>      <span class="dt">"columnDescription"</span><span class="fu">:</span> <span class="st">"ride time at which measurements were taken upon activating the recording in seconds"</span><span class="fu">,</span></span>
+<span id="cb10-36"><a href="#cb10-36" tabindex="-1"></a>      <span class="dt">"dataType"</span><span class="fu">:</span> <span class="st">"number"</span><span class="fu">,</span></span>
+<span id="cb10-37"><a href="#cb10-37" tabindex="-1"></a>      <span class="dt">"columnUnit"</span><span class="fu">:</span> <span class="st">"sec"</span></span>
+<span id="cb10-38"><a href="#cb10-38" tabindex="-1"></a>    <span class="fu">}</span><span class="ot">,</span></span>
+<span id="cb10-39"><a href="#cb10-39" tabindex="-1"></a>    <span class="fu">{</span></span>
+<span id="cb10-40"><a href="#cb10-40" tabindex="-1"></a>      <span class="dt">"columnName"</span><span class="fu">:</span> <span class="st">"ax"</span><span class="fu">,</span></span>
+<span id="cb10-41"><a href="#cb10-41" tabindex="-1"></a>      <span class="dt">"columnDescription"</span><span class="fu">:</span> <span class="st">"biomechanical acceleration of the test person on the x axis in m/s²"</span><span class="fu">,</span></span>
+<span id="cb10-42"><a href="#cb10-42" tabindex="-1"></a>      <span class="dt">"dataType"</span><span class="fu">:</span> <span class="st">"number"</span><span class="fu">,</span></span>
+<span id="cb10-43"><a href="#cb10-43" tabindex="-1"></a>      <span class="dt">"columnUnit"</span><span class="fu">:</span> <span class="st">"m/s²"</span></span>
+<span id="cb10-44"><a href="#cb10-44" tabindex="-1"></a>    <span class="fu">}</span><span class="ot">,</span></span>
+<span id="cb10-45"><a href="#cb10-45" tabindex="-1"></a>    <span class="fu">{</span></span>
+<span id="cb10-46"><a href="#cb10-46" tabindex="-1"></a>      <span class="dt">"columnName"</span><span class="fu">:</span> <span class="st">"ay"</span><span class="fu">,</span></span>
+<span id="cb10-47"><a href="#cb10-47" tabindex="-1"></a>      <span class="dt">"columnDescription"</span><span class="fu">:</span> <span class="st">"biomechanical acceleration of the test person on the y axis in m/s²"</span><span class="fu">,</span></span>
+<span id="cb10-48"><a href="#cb10-48" tabindex="-1"></a>      <span class="dt">"dataType"</span><span class="fu">:</span> <span class="st">"number"</span><span class="fu">,</span></span>
+<span id="cb10-49"><a href="#cb10-49" tabindex="-1"></a>      <span class="dt">"columnUnit"</span><span class="fu">:</span> <span class="st">"m/s²"</span></span>
+<span id="cb10-50"><a href="#cb10-50" tabindex="-1"></a>    <span class="fu">}</span><span class="ot">,</span></span>
+<span id="cb10-51"><a href="#cb10-51" tabindex="-1"></a>    <span class="fu">{</span></span>
+<span id="cb10-52"><a href="#cb10-52" tabindex="-1"></a>      <span class="dt">"columnName"</span><span class="fu">:</span> <span class="st">"az"</span><span class="fu">,</span></span>
+<span id="cb10-53"><a href="#cb10-53" tabindex="-1"></a>      <span class="dt">"columnDescription"</span><span class="fu">:</span> <span class="st">"biomechanical acceleration of the test person on the z axis in m/s²"</span><span class="fu">,</span></span>
+<span id="cb10-54"><a href="#cb10-54" tabindex="-1"></a>      <span class="dt">"dataType"</span><span class="fu">:</span> <span class="st">"number"</span><span class="fu">,</span></span>
+<span id="cb10-55"><a href="#cb10-55" tabindex="-1"></a>      <span class="dt">"columnUnit"</span><span class="fu">:</span> <span class="st">"m/s²"</span></span>
+<span id="cb10-56"><a href="#cb10-56" tabindex="-1"></a>    <span class="fu">}</span><span class="ot">,</span></span>
+<span id="cb10-57"><a href="#cb10-57" tabindex="-1"></a>    <span class="fu">{</span></span>
+<span id="cb10-58"><a href="#cb10-58" tabindex="-1"></a>      <span class="dt">"columnName"</span><span class="fu">:</span> <span class="st">"scr"</span><span class="fu">,</span></span>
+<span id="cb10-59"><a href="#cb10-59" tabindex="-1"></a>      <span class="dt">"columnDescription"</span><span class="fu">:</span> <span class="st">"boolean indicating a detected scream of the test person"</span><span class="fu">,</span></span>
+<span id="cb10-60"><a href="#cb10-60" tabindex="-1"></a>      <span class="dt">"dataType"</span><span class="fu">:</span> <span class="st">"boolean"</span><span class="fu">,</span></span>
+<span id="cb10-61"><a href="#cb10-61" tabindex="-1"></a>      <span class="dt">"columnUnit"</span><span class="fu">:</span> <span class="st">"1"</span></span>
+<span id="cb10-62"><a href="#cb10-62" tabindex="-1"></a>    <span class="fu">}</span></span>
+<span id="cb10-63"><a href="#cb10-63" tabindex="-1"></a>  <span class="ot">]</span></span>
+<span id="cb10-64"><a href="#cb10-64" tabindex="-1"></a><span class="fu">}</span></span></code></pre>
 </div>
 </div>
 </div>
@@ -1219,13 +1223,12 @@ registry services like <a href="https://www.re3data.org/" target="_blank" class=
 </section><section id="metadata-schemas"><h2 class="section-heading">Metadata Schemas<a class="anchor" aria-label="anchor" href="#metadata-schemas"></a>
 </h2>
 <hr class="half-width">
-<div id="callout1" class="callout callout">
+<div id="callout1" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="callout-inner">
-<h3 class="callout-title">Callout<a class="anchor" aria-label="anchor" href="#callout1"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title">Callout</h3>
 <div class="callout-content">
 <p><strong>A metadata schema is a template</strong> which precisely
 spicifies the metadata elements expected and how they should be
@@ -1261,24 +1264,24 @@ reader.</p>
 <div class="codewrapper sourceCode" id="cb1">
 <h3 class="code-label">JSON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode json" tabindex="0"><code class="sourceCode json"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"$schema"</span><span class="fu">:</span> <span class="st">"https://json-schema.org/draft/2020-12/schema"</span><span class="fu">,</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"In real life you would add a meaningful description here."</span><span class="fu">,</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"object"</span><span class="fu">,</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"required"</span><span class="fu">:</span> <span class="ot">[</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"superhero"</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="ot">]</span><span class="fu">,</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"properties"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"superhero"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"A mandatory string property."</span><span class="fu">,</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"string"</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    <span class="fu">},</span></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"power"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"An optional numeric property."</span><span class="fu">,</span></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"integer"</span></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    <span class="fu">}</span></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">}</span></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre>
+<pre class="sourceCode json" tabindex="0"><code class="sourceCode json"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a>  <span class="dt">"$schema"</span><span class="fu">:</span> <span class="st">"https://json-schema.org/draft/2020-12/schema"</span><span class="fu">,</span></span>
+<span id="cb1-3"><a href="#cb1-3" tabindex="-1"></a>  <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"In real life you would add a meaningful description here."</span><span class="fu">,</span></span>
+<span id="cb1-4"><a href="#cb1-4" tabindex="-1"></a>  <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"object"</span><span class="fu">,</span></span>
+<span id="cb1-5"><a href="#cb1-5" tabindex="-1"></a>  <span class="dt">"required"</span><span class="fu">:</span> <span class="ot">[</span></span>
+<span id="cb1-6"><a href="#cb1-6" tabindex="-1"></a>    <span class="st">"superhero"</span></span>
+<span id="cb1-7"><a href="#cb1-7" tabindex="-1"></a>  <span class="ot">]</span><span class="fu">,</span></span>
+<span id="cb1-8"><a href="#cb1-8" tabindex="-1"></a>  <span class="dt">"properties"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb1-9"><a href="#cb1-9" tabindex="-1"></a>    <span class="dt">"superhero"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb1-10"><a href="#cb1-10" tabindex="-1"></a>      <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"A mandatory string property."</span><span class="fu">,</span></span>
+<span id="cb1-11"><a href="#cb1-11" tabindex="-1"></a>      <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"string"</span></span>
+<span id="cb1-12"><a href="#cb1-12" tabindex="-1"></a>    <span class="fu">},</span></span>
+<span id="cb1-13"><a href="#cb1-13" tabindex="-1"></a>    <span class="dt">"power"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb1-14"><a href="#cb1-14" tabindex="-1"></a>      <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"An optional numeric property."</span><span class="fu">,</span></span>
+<span id="cb1-15"><a href="#cb1-15" tabindex="-1"></a>      <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"integer"</span></span>
+<span id="cb1-16"><a href="#cb1-16" tabindex="-1"></a>    <span class="fu">}</span></span>
+<span id="cb1-17"><a href="#cb1-17" tabindex="-1"></a>  <span class="fu">}</span></span>
+<span id="cb1-18"><a href="#cb1-18" tabindex="-1"></a><span class="fu">}</span></span></code></pre>
 </div>
 <p>A JSON entity is syntactically valid and is called
 <strong>instance</strong> of a schema, if it conforms to the definition
@@ -1288,17 +1291,16 @@ for a JSON object to be considered a valid instance of this schema.</p>
 <div class="codewrapper sourceCode" id="cb2">
 <h3 class="code-label">JSON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode json" tabindex="0"><code class="sourceCode json"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"superhero"</span><span class="fu">:</span> <span class="st">"I am just a string"</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre>
+<pre class="sourceCode json" tabindex="0"><code class="sourceCode json"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb2-2"><a href="#cb2-2" tabindex="-1"></a>  <span class="dt">"superhero"</span><span class="fu">:</span> <span class="st">"I am just a string"</span></span>
+<span id="cb2-3"><a href="#cb2-3" tabindex="-1"></a><span class="fu">}</span></span></code></pre>
 </div>
-<div id="callout2" class="callout callout">
+<div id="callout2" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="callout-inner">
-<h3 class="callout-title">Callout<a class="anchor" aria-label="anchor" href="#callout2"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title">Callout</h3>
 <div class="callout-content">
 <p>The most challenging part of schema development can be to
 <strong>have everyone agree on the same expectations.</strong></p>
@@ -1330,24 +1332,24 @@ project.</p>
 <div class="codewrapper sourceCode" id="cb3">
 <h3 class="code-label">JSON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode json" tabindex="0"><code class="sourceCode json"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"experimentalConditions"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"ride"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"rideType"</span><span class="fu">:</span> <span class="st">"roller coaster"</span><span class="fu">,</span></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"rideName"</span><span class="fu">:</span> <span class="st">"Flight of the Bat"</span><span class="fu">,</span></span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"location"</span><span class="fu">:</span> <span class="st">"Gotham City, New Jersey"</span></span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>    <span class="fu">},</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"testPerson"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"sex"</span><span class="fu">:</span> <span class="st">"male"</span><span class="fu">,</span></span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"height"</span><span class="fu">:</span> <span class="dv">180</span></span>
-<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>    <span class="fu">},</span></span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"recording"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"testDevice"</span><span class="fu">:</span> <span class="st">"iPhone X"</span><span class="fu">,</span></span>
-<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"testDeviceFixture"</span><span class="fu">:</span> <span class="st">"left upper arm"</span><span class="fu">,</span></span>
-<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"testApp"</span><span class="fu">:</span> <span class="st">"Physics Toolbox Suite by Vieyra Software"</span></span>
-<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>    <span class="fu">}</span></span>
-<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">}</span></span>
-<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre>
+<pre class="sourceCode json" tabindex="0"><code class="sourceCode json"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb3-2"><a href="#cb3-2" tabindex="-1"></a>  <span class="dt">"experimentalConditions"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb3-3"><a href="#cb3-3" tabindex="-1"></a>    <span class="dt">"ride"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb3-4"><a href="#cb3-4" tabindex="-1"></a>      <span class="dt">"rideType"</span><span class="fu">:</span> <span class="st">"roller coaster"</span><span class="fu">,</span></span>
+<span id="cb3-5"><a href="#cb3-5" tabindex="-1"></a>      <span class="dt">"rideName"</span><span class="fu">:</span> <span class="st">"Flight of the Bat"</span><span class="fu">,</span></span>
+<span id="cb3-6"><a href="#cb3-6" tabindex="-1"></a>      <span class="dt">"location"</span><span class="fu">:</span> <span class="st">"Gotham City, New Jersey"</span></span>
+<span id="cb3-7"><a href="#cb3-7" tabindex="-1"></a>    <span class="fu">},</span></span>
+<span id="cb3-8"><a href="#cb3-8" tabindex="-1"></a>    <span class="dt">"testPerson"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb3-9"><a href="#cb3-9" tabindex="-1"></a>      <span class="dt">"sex"</span><span class="fu">:</span> <span class="st">"male"</span><span class="fu">,</span></span>
+<span id="cb3-10"><a href="#cb3-10" tabindex="-1"></a>      <span class="dt">"height"</span><span class="fu">:</span> <span class="dv">180</span></span>
+<span id="cb3-11"><a href="#cb3-11" tabindex="-1"></a>    <span class="fu">},</span></span>
+<span id="cb3-12"><a href="#cb3-12" tabindex="-1"></a>    <span class="dt">"recording"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb3-13"><a href="#cb3-13" tabindex="-1"></a>      <span class="dt">"testDevice"</span><span class="fu">:</span> <span class="st">"iPhone X"</span><span class="fu">,</span></span>
+<span id="cb3-14"><a href="#cb3-14" tabindex="-1"></a>      <span class="dt">"testDeviceFixture"</span><span class="fu">:</span> <span class="st">"left upper arm"</span><span class="fu">,</span></span>
+<span id="cb3-15"><a href="#cb3-15" tabindex="-1"></a>      <span class="dt">"testApp"</span><span class="fu">:</span> <span class="st">"Physics Toolbox Suite by Vieyra Software"</span></span>
+<span id="cb3-16"><a href="#cb3-16" tabindex="-1"></a>    <span class="fu">}</span></span>
+<span id="cb3-17"><a href="#cb3-17" tabindex="-1"></a>  <span class="fu">}</span></span>
+<span id="cb3-18"><a href="#cb3-18" tabindex="-1"></a><span class="fu">}</span></span></code></pre>
 </div>
 <p>In the following code block you see the JSON schema draft for the
 experimental conditions. Your collaborators already modelled constraints
@@ -1389,79 +1391,79 @@ of:
 <div class="codewrapper sourceCode" id="cb4">
 <h3 class="code-label">JSON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode json" tabindex="0"><code class="sourceCode json"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"experimentalConditions"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"A summary of the experimental conditions. Include sufficient detail to facilitate search and discovery."</span><span class="fu">,</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"object"</span><span class="fu">,</span></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"required"</span><span class="fu">:</span> <span class="ot">[</span></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>      <span class="st">"recording"</span><span class="ot">,</span></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>      <span class="st">"ride"</span><span class="ot">,</span></span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>      <span class="st">"testPerson"</span></span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>      <span class="ot">]</span><span class="fu">,</span></span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"properties"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"recording"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>      <span class="er">/*</span> <span class="er">Insert</span> <span class="er">your</span> <span class="er">schema</span> <span class="er">here</span> <span class="er">and</span> <span class="er">delete</span> <span class="er">this</span> <span class="er">comment</span> <span class="er">*/</span></span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>        <span class="fu">},</span></span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>      </span>
-<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"ride"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>        <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"Properties of the ride."</span><span class="fu">,</span></span>
-<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>        <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"object"</span><span class="fu">,</span></span>
-<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>        <span class="dt">"required"</span><span class="fu">:</span> <span class="ot">[</span></span>
-<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>          <span class="st">"rideType"</span><span class="ot">,</span></span>
-<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>          <span class="st">"rideName"</span></span>
-<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>        <span class="ot">]</span><span class="fu">,</span></span>
-<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>        <span class="dt">"properties"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>          <span class="dt">"rideType"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>            <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"Ride type."</span><span class="fu">,</span></span>
-<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>            <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"string"</span><span class="fu">,</span></span>
-<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>            <span class="dt">"enum"</span><span class="fu">:</span> <span class="ot">[</span></span>
-<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>              <span class="st">"roller coaster"</span><span class="ot">,</span></span>
-<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>              <span class="st">"water slide"</span><span class="ot">,</span></span>
-<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a>              <span class="st">"bob sled"</span></span>
-<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a>            <span class="ot">]</span></span>
-<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a>          <span class="fu">},</span></span>
-<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a>          <span class="dt">"rideName"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a>            <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"Official name of the ride."</span><span class="fu">,</span></span>
-<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a>            <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"string"</span><span class="fu">,</span></span>
-<span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a>            <span class="dt">"minLength"</span><span class="fu">:</span> <span class="dv">3</span></span>
-<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a>          <span class="fu">},</span></span>
-<span id="cb4-38"><a href="#cb4-38" aria-hidden="true" tabindex="-1"></a>          <span class="dt">"location"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb4-39"><a href="#cb4-39" aria-hidden="true" tabindex="-1"></a>            <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"City and State in which ride is located."</span><span class="fu">,</span></span>
-<span id="cb4-40"><a href="#cb4-40" aria-hidden="true" tabindex="-1"></a>            <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"string"</span><span class="fu">,</span></span>
-<span id="cb4-41"><a href="#cb4-41" aria-hidden="true" tabindex="-1"></a>            <span class="dt">"minLength"</span><span class="fu">:</span> <span class="dv">10</span></span>
-<span id="cb4-42"><a href="#cb4-42" aria-hidden="true" tabindex="-1"></a>          <span class="fu">}</span></span>
-<span id="cb4-43"><a href="#cb4-43" aria-hidden="true" tabindex="-1"></a>        <span class="fu">}</span></span>
-<span id="cb4-44"><a href="#cb4-44" aria-hidden="true" tabindex="-1"></a>      <span class="fu">}</span></span>
-<span id="cb4-45"><a href="#cb4-45" aria-hidden="true" tabindex="-1"></a>    <span class="fu">},</span></span>
-<span id="cb4-46"><a href="#cb4-46" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"testPerson"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb4-47"><a href="#cb4-47" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"Properties of person carrying the test device."</span><span class="fu">,</span></span>
-<span id="cb4-48"><a href="#cb4-48" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"object"</span><span class="fu">,</span></span>
-<span id="cb4-49"><a href="#cb4-49" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"required"</span><span class="fu">:</span> <span class="ot">[</span></span>
-<span id="cb4-50"><a href="#cb4-50" aria-hidden="true" tabindex="-1"></a>        <span class="st">"height"</span><span class="ot">,</span></span>
-<span id="cb4-51"><a href="#cb4-51" aria-hidden="true" tabindex="-1"></a>        <span class="st">"sex"</span></span>
-<span id="cb4-52"><a href="#cb4-52" aria-hidden="true" tabindex="-1"></a>      <span class="ot">]</span><span class="fu">,</span></span>
-<span id="cb4-53"><a href="#cb4-53" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"properties"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb4-54"><a href="#cb4-54" aria-hidden="true" tabindex="-1"></a>        <span class="dt">"height"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb4-55"><a href="#cb4-55" aria-hidden="true" tabindex="-1"></a>          <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"Height of test person in cm (SI unit of length)."</span><span class="fu">,</span></span>
-<span id="cb4-56"><a href="#cb4-56" aria-hidden="true" tabindex="-1"></a>          <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"number"</span><span class="fu">,</span></span>
-<span id="cb4-57"><a href="#cb4-57" aria-hidden="true" tabindex="-1"></a>          <span class="dt">"minimum"</span><span class="fu">:</span> <span class="dv">120</span><span class="fu">,</span></span>
-<span id="cb4-58"><a href="#cb4-58" aria-hidden="true" tabindex="-1"></a>          <span class="dt">"exclusiveMaximum"</span><span class="fu">:</span> <span class="dv">220</span></span>
-<span id="cb4-59"><a href="#cb4-59" aria-hidden="true" tabindex="-1"></a>        <span class="fu">},</span></span>
-<span id="cb4-60"><a href="#cb4-60" aria-hidden="true" tabindex="-1"></a>        <span class="dt">"sex"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb4-61"><a href="#cb4-61" aria-hidden="true" tabindex="-1"></a>          <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"Sex of test person."</span><span class="fu">,</span></span>
-<span id="cb4-62"><a href="#cb4-62" aria-hidden="true" tabindex="-1"></a>          <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"string"</span><span class="fu">,</span></span>
-<span id="cb4-63"><a href="#cb4-63" aria-hidden="true" tabindex="-1"></a>          <span class="dt">"enum"</span><span class="fu">:</span> <span class="ot">[</span></span>
-<span id="cb4-64"><a href="#cb4-64" aria-hidden="true" tabindex="-1"></a>            <span class="st">"female"</span><span class="ot">,</span></span>
-<span id="cb4-65"><a href="#cb4-65" aria-hidden="true" tabindex="-1"></a>            <span class="st">"male"</span><span class="ot">,</span></span>
-<span id="cb4-66"><a href="#cb4-66" aria-hidden="true" tabindex="-1"></a>            <span class="st">"non-binary"</span><span class="ot">,</span></span>
-<span id="cb4-67"><a href="#cb4-67" aria-hidden="true" tabindex="-1"></a>            <span class="st">"not disclosed"</span></span>
-<span id="cb4-68"><a href="#cb4-68" aria-hidden="true" tabindex="-1"></a>          <span class="ot">]</span></span>
-<span id="cb4-69"><a href="#cb4-69" aria-hidden="true" tabindex="-1"></a>        <span class="fu">}</span></span>
-<span id="cb4-70"><a href="#cb4-70" aria-hidden="true" tabindex="-1"></a>      <span class="fu">}</span></span>
-<span id="cb4-71"><a href="#cb4-71" aria-hidden="true" tabindex="-1"></a>    <span class="fu">}</span></span>
-<span id="cb4-72"><a href="#cb4-72" aria-hidden="true" tabindex="-1"></a>  <span class="fu">}</span></span>
-<span id="cb4-73"><a href="#cb4-73" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre>
+<pre class="sourceCode json" tabindex="0"><code class="sourceCode json"><span id="cb4-1"><a href="#cb4-1" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb4-2"><a href="#cb4-2" tabindex="-1"></a>  <span class="dt">"experimentalConditions"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb4-3"><a href="#cb4-3" tabindex="-1"></a>    <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"A summary of the experimental conditions. Include sufficient detail to facilitate search and discovery."</span><span class="fu">,</span></span>
+<span id="cb4-4"><a href="#cb4-4" tabindex="-1"></a>    <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"object"</span><span class="fu">,</span></span>
+<span id="cb4-5"><a href="#cb4-5" tabindex="-1"></a>    <span class="dt">"required"</span><span class="fu">:</span> <span class="ot">[</span></span>
+<span id="cb4-6"><a href="#cb4-6" tabindex="-1"></a>      <span class="st">"recording"</span><span class="ot">,</span></span>
+<span id="cb4-7"><a href="#cb4-7" tabindex="-1"></a>      <span class="st">"ride"</span><span class="ot">,</span></span>
+<span id="cb4-8"><a href="#cb4-8" tabindex="-1"></a>      <span class="st">"testPerson"</span></span>
+<span id="cb4-9"><a href="#cb4-9" tabindex="-1"></a>      <span class="ot">]</span><span class="fu">,</span></span>
+<span id="cb4-10"><a href="#cb4-10" tabindex="-1"></a>    <span class="dt">"properties"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb4-11"><a href="#cb4-11" tabindex="-1"></a>    </span>
+<span id="cb4-12"><a href="#cb4-12" tabindex="-1"></a>      <span class="dt">"recording"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb4-13"><a href="#cb4-13" tabindex="-1"></a>      <span class="er">/*</span> <span class="er">Insert</span> <span class="er">your</span> <span class="er">schema</span> <span class="er">here</span> <span class="er">and</span> <span class="er">delete</span> <span class="er">this</span> <span class="er">comment</span> <span class="er">*/</span></span>
+<span id="cb4-14"><a href="#cb4-14" tabindex="-1"></a>        <span class="fu">},</span></span>
+<span id="cb4-15"><a href="#cb4-15" tabindex="-1"></a>      </span>
+<span id="cb4-16"><a href="#cb4-16" tabindex="-1"></a>      <span class="dt">"ride"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb4-17"><a href="#cb4-17" tabindex="-1"></a>        <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"Properties of the ride."</span><span class="fu">,</span></span>
+<span id="cb4-18"><a href="#cb4-18" tabindex="-1"></a>        <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"object"</span><span class="fu">,</span></span>
+<span id="cb4-19"><a href="#cb4-19" tabindex="-1"></a>        <span class="dt">"required"</span><span class="fu">:</span> <span class="ot">[</span></span>
+<span id="cb4-20"><a href="#cb4-20" tabindex="-1"></a>          <span class="st">"rideType"</span><span class="ot">,</span></span>
+<span id="cb4-21"><a href="#cb4-21" tabindex="-1"></a>          <span class="st">"rideName"</span></span>
+<span id="cb4-22"><a href="#cb4-22" tabindex="-1"></a>        <span class="ot">]</span><span class="fu">,</span></span>
+<span id="cb4-23"><a href="#cb4-23" tabindex="-1"></a>        <span class="dt">"properties"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb4-24"><a href="#cb4-24" tabindex="-1"></a>          <span class="dt">"rideType"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb4-25"><a href="#cb4-25" tabindex="-1"></a>            <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"Ride type."</span><span class="fu">,</span></span>
+<span id="cb4-26"><a href="#cb4-26" tabindex="-1"></a>            <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"string"</span><span class="fu">,</span></span>
+<span id="cb4-27"><a href="#cb4-27" tabindex="-1"></a>            <span class="dt">"enum"</span><span class="fu">:</span> <span class="ot">[</span></span>
+<span id="cb4-28"><a href="#cb4-28" tabindex="-1"></a>              <span class="st">"roller coaster"</span><span class="ot">,</span></span>
+<span id="cb4-29"><a href="#cb4-29" tabindex="-1"></a>              <span class="st">"water slide"</span><span class="ot">,</span></span>
+<span id="cb4-30"><a href="#cb4-30" tabindex="-1"></a>              <span class="st">"bob sled"</span></span>
+<span id="cb4-31"><a href="#cb4-31" tabindex="-1"></a>            <span class="ot">]</span></span>
+<span id="cb4-32"><a href="#cb4-32" tabindex="-1"></a>          <span class="fu">},</span></span>
+<span id="cb4-33"><a href="#cb4-33" tabindex="-1"></a>          <span class="dt">"rideName"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb4-34"><a href="#cb4-34" tabindex="-1"></a>            <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"Official name of the ride."</span><span class="fu">,</span></span>
+<span id="cb4-35"><a href="#cb4-35" tabindex="-1"></a>            <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"string"</span><span class="fu">,</span></span>
+<span id="cb4-36"><a href="#cb4-36" tabindex="-1"></a>            <span class="dt">"minLength"</span><span class="fu">:</span> <span class="dv">3</span></span>
+<span id="cb4-37"><a href="#cb4-37" tabindex="-1"></a>          <span class="fu">},</span></span>
+<span id="cb4-38"><a href="#cb4-38" tabindex="-1"></a>          <span class="dt">"location"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb4-39"><a href="#cb4-39" tabindex="-1"></a>            <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"City and State in which ride is located."</span><span class="fu">,</span></span>
+<span id="cb4-40"><a href="#cb4-40" tabindex="-1"></a>            <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"string"</span><span class="fu">,</span></span>
+<span id="cb4-41"><a href="#cb4-41" tabindex="-1"></a>            <span class="dt">"minLength"</span><span class="fu">:</span> <span class="dv">10</span></span>
+<span id="cb4-42"><a href="#cb4-42" tabindex="-1"></a>          <span class="fu">}</span></span>
+<span id="cb4-43"><a href="#cb4-43" tabindex="-1"></a>        <span class="fu">}</span></span>
+<span id="cb4-44"><a href="#cb4-44" tabindex="-1"></a>      <span class="fu">}</span></span>
+<span id="cb4-45"><a href="#cb4-45" tabindex="-1"></a>    <span class="fu">},</span></span>
+<span id="cb4-46"><a href="#cb4-46" tabindex="-1"></a>    <span class="dt">"testPerson"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb4-47"><a href="#cb4-47" tabindex="-1"></a>      <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"Properties of person carrying the test device."</span><span class="fu">,</span></span>
+<span id="cb4-48"><a href="#cb4-48" tabindex="-1"></a>      <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"object"</span><span class="fu">,</span></span>
+<span id="cb4-49"><a href="#cb4-49" tabindex="-1"></a>      <span class="dt">"required"</span><span class="fu">:</span> <span class="ot">[</span></span>
+<span id="cb4-50"><a href="#cb4-50" tabindex="-1"></a>        <span class="st">"height"</span><span class="ot">,</span></span>
+<span id="cb4-51"><a href="#cb4-51" tabindex="-1"></a>        <span class="st">"sex"</span></span>
+<span id="cb4-52"><a href="#cb4-52" tabindex="-1"></a>      <span class="ot">]</span><span class="fu">,</span></span>
+<span id="cb4-53"><a href="#cb4-53" tabindex="-1"></a>      <span class="dt">"properties"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb4-54"><a href="#cb4-54" tabindex="-1"></a>        <span class="dt">"height"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb4-55"><a href="#cb4-55" tabindex="-1"></a>          <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"Height of test person in cm (SI unit of length)."</span><span class="fu">,</span></span>
+<span id="cb4-56"><a href="#cb4-56" tabindex="-1"></a>          <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"number"</span><span class="fu">,</span></span>
+<span id="cb4-57"><a href="#cb4-57" tabindex="-1"></a>          <span class="dt">"minimum"</span><span class="fu">:</span> <span class="dv">120</span><span class="fu">,</span></span>
+<span id="cb4-58"><a href="#cb4-58" tabindex="-1"></a>          <span class="dt">"exclusiveMaximum"</span><span class="fu">:</span> <span class="dv">220</span></span>
+<span id="cb4-59"><a href="#cb4-59" tabindex="-1"></a>        <span class="fu">},</span></span>
+<span id="cb4-60"><a href="#cb4-60" tabindex="-1"></a>        <span class="dt">"sex"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb4-61"><a href="#cb4-61" tabindex="-1"></a>          <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"Sex of test person."</span><span class="fu">,</span></span>
+<span id="cb4-62"><a href="#cb4-62" tabindex="-1"></a>          <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"string"</span><span class="fu">,</span></span>
+<span id="cb4-63"><a href="#cb4-63" tabindex="-1"></a>          <span class="dt">"enum"</span><span class="fu">:</span> <span class="ot">[</span></span>
+<span id="cb4-64"><a href="#cb4-64" tabindex="-1"></a>            <span class="st">"female"</span><span class="ot">,</span></span>
+<span id="cb4-65"><a href="#cb4-65" tabindex="-1"></a>            <span class="st">"male"</span><span class="ot">,</span></span>
+<span id="cb4-66"><a href="#cb4-66" tabindex="-1"></a>            <span class="st">"non-binary"</span><span class="ot">,</span></span>
+<span id="cb4-67"><a href="#cb4-67" tabindex="-1"></a>            <span class="st">"not disclosed"</span></span>
+<span id="cb4-68"><a href="#cb4-68" tabindex="-1"></a>          <span class="ot">]</span></span>
+<span id="cb4-69"><a href="#cb4-69" tabindex="-1"></a>        <span class="fu">}</span></span>
+<span id="cb4-70"><a href="#cb4-70" tabindex="-1"></a>      <span class="fu">}</span></span>
+<span id="cb4-71"><a href="#cb4-71" tabindex="-1"></a>    <span class="fu">}</span></span>
+<span id="cb4-72"><a href="#cb4-72" tabindex="-1"></a>  <span class="fu">}</span></span>
+<span id="cb4-73"><a href="#cb4-73" tabindex="-1"></a><span class="fu">}</span></span></code></pre>
 </div>
 </div>
 </div>
@@ -1471,128 +1473,128 @@ of:
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb5">
 <h3 class="code-label">JSON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode json" tabindex="0"><code class="sourceCode json"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"experimentalConditions"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>        <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"A summary of the resource. Include sufficient detail to facilitate search and discovery."</span><span class="fu">,</span></span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>        <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"object"</span><span class="fu">,</span></span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>        <span class="dt">"required"</span><span class="fu">:</span> <span class="ot">[</span></span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>            <span class="st">"recording"</span><span class="ot">,</span></span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>            <span class="st">"testObject"</span></span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>            <span class="st">"testPerson"</span></span>
-<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>            <span class="ot">]</span><span class="fu">,</span></span>
-<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>        <span class="dt">"properties"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>            </span>
-<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>            <span class="er">*/</span> <span class="er">add</span> <span class="er">your</span> <span class="er">schema</span> <span class="er">here</span> <span class="er">/*</span></span>
-<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>            <span class="dt">"recording"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>                <span class="dt">"description"</span><span class="fu">:</span> <span class="st">""</span><span class="fu">,</span></span>
-<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>                <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"object"</span><span class="fu">,</span></span>
-<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>                <span class="dt">"required"</span><span class="fu">:</span><span class="ot">[</span></span>
-<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>                    <span class="st">"testApp"</span><span class="ot">,</span></span>
-<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>                    <span class="st">"testDevice"</span><span class="ot">,</span></span>
-<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>                    <span class="st">"testDeviceFixture"</span></span>
-<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>                    <span class="ot">]</span><span class="fu">,</span></span>
-<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>                <span class="dt">"properties"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a>                    <span class="dt">"testApp"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>                        <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"Test app used."</span><span class="fu">,</span></span>
-<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a>                        <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"string"</span><span class="fu">,</span></span>
-<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>                        <span class="dt">"enum"</span><span class="fu">:</span> <span class="ot">[</span></span>
-<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>                            <span class="st">"Physics Toolbox Suite by Vieyra Software"</span><span class="ot">,</span></span>
-<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>                            <span class="st">"Bunny Rollercoaster Physics App"</span></span>
-<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a>                            <span class="ot">]</span></span>
-<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a>                        <span class="fu">},</span></span>
-<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a>                    <span class="dt">"testAppVersion"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a>                        <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"Version of test app (free text input). Full semantic versioning input preferred: Major.minor.bugfix"</span><span class="fu">,</span></span>
-<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a>                        <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"string"</span><span class="fu">,</span></span>
-<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a>                        <span class="dt">"minLength"</span><span class="fu">:</span> <span class="dv">1</span></span>
-<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a>                        <span class="fu">},</span></span>
-<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a>                    <span class="dt">"testDevice"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a>                        <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"Test device used."</span><span class="fu">,</span></span>
-<span id="cb5-37"><a href="#cb5-37" aria-hidden="true" tabindex="-1"></a>                        <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"string"</span><span class="fu">,</span></span>
-<span id="cb5-38"><a href="#cb5-38" aria-hidden="true" tabindex="-1"></a>                        <span class="dt">"enum"</span><span class="fu">:</span> <span class="ot">[</span></span>
-<span id="cb5-39"><a href="#cb5-39" aria-hidden="true" tabindex="-1"></a>                            <span class="st">"iPhone X"</span><span class="ot">,</span></span>
-<span id="cb5-40"><a href="#cb5-40" aria-hidden="true" tabindex="-1"></a>                            <span class="st">"iPhone 6"</span><span class="ot">,</span></span>
-<span id="cb5-41"><a href="#cb5-41" aria-hidden="true" tabindex="-1"></a>                            <span class="st">"iPhone 6s"</span><span class="ot">,</span></span>
-<span id="cb5-42"><a href="#cb5-42" aria-hidden="true" tabindex="-1"></a>                            <span class="st">"other"</span></span>
-<span id="cb5-43"><a href="#cb5-43" aria-hidden="true" tabindex="-1"></a>                            <span class="ot">]</span></span>
-<span id="cb5-44"><a href="#cb5-44" aria-hidden="true" tabindex="-1"></a>                        <span class="fu">},</span></span>
-<span id="cb5-45"><a href="#cb5-45" aria-hidden="true" tabindex="-1"></a>                    <span class="dt">"testDeviceFixture"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb5-46"><a href="#cb5-46" aria-hidden="true" tabindex="-1"></a>                        <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"Test device fixture."</span><span class="fu">,</span></span>
-<span id="cb5-47"><a href="#cb5-47" aria-hidden="true" tabindex="-1"></a>                        <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"string"</span><span class="fu">,</span></span>
-<span id="cb5-48"><a href="#cb5-48" aria-hidden="true" tabindex="-1"></a>                        <span class="dt">"enum"</span><span class="fu">:</span> <span class="ot">[</span></span>
-<span id="cb5-49"><a href="#cb5-49" aria-hidden="true" tabindex="-1"></a>                            <span class="st">"left upper arm"</span><span class="ot">,</span></span>
-<span id="cb5-50"><a href="#cb5-50" aria-hidden="true" tabindex="-1"></a>                            <span class="st">"right upper arm"</span><span class="ot">,</span></span>
-<span id="cb5-51"><a href="#cb5-51" aria-hidden="true" tabindex="-1"></a>                            <span class="st">"mouth fixture device"</span><span class="ot">,</span></span>
-<span id="cb5-52"><a href="#cb5-52" aria-hidden="true" tabindex="-1"></a>                            <span class="st">"other"</span></span>
-<span id="cb5-53"><a href="#cb5-53" aria-hidden="true" tabindex="-1"></a>                            <span class="ot">]</span></span>
-<span id="cb5-54"><a href="#cb5-54" aria-hidden="true" tabindex="-1"></a>                        <span class="fu">}</span></span>
-<span id="cb5-55"><a href="#cb5-55" aria-hidden="true" tabindex="-1"></a>                    <span class="fu">}</span>   </span>
-<span id="cb5-56"><a href="#cb5-56" aria-hidden="true" tabindex="-1"></a>                <span class="fu">},</span></span>
-<span id="cb5-57"><a href="#cb5-57" aria-hidden="true" tabindex="-1"></a>                </span>
-<span id="cb5-58"><a href="#cb5-58" aria-hidden="true" tabindex="-1"></a>            <span class="er">*/</span> <span class="er">this</span> <span class="er">part</span> <span class="er">was</span> <span class="er">prepared</span> <span class="er">by</span> <span class="er">your</span> <span class="er">collaborators</span> <span class="er">/*</span></span>
-<span id="cb5-59"><a href="#cb5-59" aria-hidden="true" tabindex="-1"></a>            <span class="dt">"testObject"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb5-60"><a href="#cb5-60" aria-hidden="true" tabindex="-1"></a>                <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"A free text abstract of the experimental setup."</span><span class="fu">,</span></span>
-<span id="cb5-61"><a href="#cb5-61" aria-hidden="true" tabindex="-1"></a>                <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"object"</span><span class="fu">,</span></span>
-<span id="cb5-62"><a href="#cb5-62" aria-hidden="true" tabindex="-1"></a>                <span class="dt">"required"</span><span class="fu">:</span> <span class="ot">[</span></span>
-<span id="cb5-63"><a href="#cb5-63" aria-hidden="true" tabindex="-1"></a>                    <span class="st">"rideType"</span><span class="ot">,</span></span>
-<span id="cb5-64"><a href="#cb5-64" aria-hidden="true" tabindex="-1"></a>                    <span class="st">"rideName"</span></span>
-<span id="cb5-65"><a href="#cb5-65" aria-hidden="true" tabindex="-1"></a>                    <span class="ot">]</span><span class="fu">,</span></span>
-<span id="cb5-66"><a href="#cb5-66" aria-hidden="true" tabindex="-1"></a>                <span class="dt">"properties"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb5-67"><a href="#cb5-67" aria-hidden="true" tabindex="-1"></a>                </span>
-<span id="cb5-68"><a href="#cb5-68" aria-hidden="true" tabindex="-1"></a>                    <span class="dt">"rideType"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb5-69"><a href="#cb5-69" aria-hidden="true" tabindex="-1"></a>                        <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"Specification of ride type of the tested object"</span><span class="fu">,</span></span>
-<span id="cb5-70"><a href="#cb5-70" aria-hidden="true" tabindex="-1"></a>                        <span class="dt">"type"</span><span class="fu">:</span><span class="st">"string"</span><span class="fu">,</span></span>
-<span id="cb5-71"><a href="#cb5-71" aria-hidden="true" tabindex="-1"></a>                        <span class="dt">"enum"</span><span class="fu">:</span> <span class="ot">[</span></span>
-<span id="cb5-72"><a href="#cb5-72" aria-hidden="true" tabindex="-1"></a>                            <span class="st">"roller coaster"</span><span class="ot">,</span></span>
-<span id="cb5-73"><a href="#cb5-73" aria-hidden="true" tabindex="-1"></a>                            <span class="st">"water slide"</span><span class="ot">,</span></span>
-<span id="cb5-74"><a href="#cb5-74" aria-hidden="true" tabindex="-1"></a>                            <span class="st">"bob sled"</span></span>
-<span id="cb5-75"><a href="#cb5-75" aria-hidden="true" tabindex="-1"></a>                            <span class="ot">]</span></span>
-<span id="cb5-76"><a href="#cb5-76" aria-hidden="true" tabindex="-1"></a>                        <span class="fu">},</span></span>
-<span id="cb5-77"><a href="#cb5-77" aria-hidden="true" tabindex="-1"></a>                        </span>
-<span id="cb5-78"><a href="#cb5-78" aria-hidden="true" tabindex="-1"></a>                    <span class="dt">"rideName"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb5-79"><a href="#cb5-79" aria-hidden="true" tabindex="-1"></a>                        <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"Official name of the ride."</span><span class="fu">,</span></span>
-<span id="cb5-80"><a href="#cb5-80" aria-hidden="true" tabindex="-1"></a>                        <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"string"</span><span class="fu">,</span></span>
-<span id="cb5-81"><a href="#cb5-81" aria-hidden="true" tabindex="-1"></a>                        <span class="dt">"minLength"</span><span class="fu">:</span> <span class="dv">1</span></span>
-<span id="cb5-82"><a href="#cb5-82" aria-hidden="true" tabindex="-1"></a>                        <span class="fu">},</span></span>
-<span id="cb5-83"><a href="#cb5-83" aria-hidden="true" tabindex="-1"></a>                        </span>
-<span id="cb5-84"><a href="#cb5-84" aria-hidden="true" tabindex="-1"></a>                    <span class="dt">"location"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb5-85"><a href="#cb5-85" aria-hidden="true" tabindex="-1"></a>                        <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"City and State in which the ride is located"</span><span class="fu">,</span></span>
-<span id="cb5-86"><a href="#cb5-86" aria-hidden="true" tabindex="-1"></a>                        <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"string"</span></span>
-<span id="cb5-87"><a href="#cb5-87" aria-hidden="true" tabindex="-1"></a>                    <span class="fu">}</span></span>
-<span id="cb5-88"><a href="#cb5-88" aria-hidden="true" tabindex="-1"></a>                <span class="fu">},</span></span>
-<span id="cb5-89"><a href="#cb5-89" aria-hidden="true" tabindex="-1"></a>                </span>
-<span id="cb5-90"><a href="#cb5-90" aria-hidden="true" tabindex="-1"></a>            <span class="dt">"testPerson"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb5-91"><a href="#cb5-91" aria-hidden="true" tabindex="-1"></a>                <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"Information about the subject carrying the test device."</span><span class="fu">,</span></span>
-<span id="cb5-92"><a href="#cb5-92" aria-hidden="true" tabindex="-1"></a>                <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"object"</span><span class="fu">,</span></span>
-<span id="cb5-93"><a href="#cb5-93" aria-hidden="true" tabindex="-1"></a>                <span class="dt">"required"</span><span class="fu">:</span> <span class="ot">[</span></span>
-<span id="cb5-94"><a href="#cb5-94" aria-hidden="true" tabindex="-1"></a>                    <span class="st">"height"</span><span class="ot">,</span></span>
-<span id="cb5-95"><a href="#cb5-95" aria-hidden="true" tabindex="-1"></a>                    <span class="st">"sex"</span></span>
-<span id="cb5-96"><a href="#cb5-96" aria-hidden="true" tabindex="-1"></a>                    <span class="ot">]</span><span class="fu">,</span></span>
-<span id="cb5-97"><a href="#cb5-97" aria-hidden="true" tabindex="-1"></a>                <span class="dt">"properties"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb5-98"><a href="#cb5-98" aria-hidden="true" tabindex="-1"></a>                </span>
-<span id="cb5-99"><a href="#cb5-99" aria-hidden="true" tabindex="-1"></a>                    <span class="dt">"height"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb5-100"><a href="#cb5-100" aria-hidden="true" tabindex="-1"></a>                        <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"The height of the test person in cm (SI unit of length)."</span><span class="fu">,</span></span>
-<span id="cb5-101"><a href="#cb5-101" aria-hidden="true" tabindex="-1"></a>                        <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"number"</span><span class="fu">,</span></span>
-<span id="cb5-102"><a href="#cb5-102" aria-hidden="true" tabindex="-1"></a>                        <span class="dt">"minimum"</span><span class="fu">:</span> <span class="dv">120</span><span class="fu">,</span></span>
-<span id="cb5-103"><a href="#cb5-103" aria-hidden="true" tabindex="-1"></a>                        <span class="dt">"exclusiveMaximum"</span><span class="fu">:</span> <span class="dv">220</span></span>
-<span id="cb5-104"><a href="#cb5-104" aria-hidden="true" tabindex="-1"></a>                        <span class="fu">},</span></span>
-<span id="cb5-105"><a href="#cb5-105" aria-hidden="true" tabindex="-1"></a>                        </span>
-<span id="cb5-106"><a href="#cb5-106" aria-hidden="true" tabindex="-1"></a>                    <span class="dt">"sex"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb5-107"><a href="#cb5-107" aria-hidden="true" tabindex="-1"></a>                        <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"The sex of the test person."</span><span class="fu">,</span></span>
-<span id="cb5-108"><a href="#cb5-108" aria-hidden="true" tabindex="-1"></a>                        <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"string"</span><span class="fu">,</span></span>
-<span id="cb5-109"><a href="#cb5-109" aria-hidden="true" tabindex="-1"></a>                        <span class="dt">"enum"</span><span class="fu">:</span> <span class="ot">[</span></span>
-<span id="cb5-110"><a href="#cb5-110" aria-hidden="true" tabindex="-1"></a>                            <span class="st">"female"</span><span class="ot">,</span></span>
-<span id="cb5-111"><a href="#cb5-111" aria-hidden="true" tabindex="-1"></a>                            <span class="st">"male"</span><span class="ot">,</span></span>
-<span id="cb5-112"><a href="#cb5-112" aria-hidden="true" tabindex="-1"></a>                            <span class="st">"not disclosed"</span></span>
-<span id="cb5-113"><a href="#cb5-113" aria-hidden="true" tabindex="-1"></a>                            <span class="ot">]</span></span>
-<span id="cb5-114"><a href="#cb5-114" aria-hidden="true" tabindex="-1"></a>                        <span class="fu">}</span></span>
-<span id="cb5-115"><a href="#cb5-115" aria-hidden="true" tabindex="-1"></a>                    <span class="fu">}</span></span>
-<span id="cb5-116"><a href="#cb5-116" aria-hidden="true" tabindex="-1"></a>                <span class="fu">}</span></span>
-<span id="cb5-117"><a href="#cb5-117" aria-hidden="true" tabindex="-1"></a>        <span class="fu">}</span></span></code></pre>
+<pre class="sourceCode json" tabindex="0"><code class="sourceCode json"><span id="cb5-1"><a href="#cb5-1" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb5-2"><a href="#cb5-2" tabindex="-1"></a>    <span class="dt">"experimentalConditions"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb5-3"><a href="#cb5-3" tabindex="-1"></a>        <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"A summary of the resource. Include sufficient detail to facilitate search and discovery."</span><span class="fu">,</span></span>
+<span id="cb5-4"><a href="#cb5-4" tabindex="-1"></a>        <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"object"</span><span class="fu">,</span></span>
+<span id="cb5-5"><a href="#cb5-5" tabindex="-1"></a>        <span class="dt">"required"</span><span class="fu">:</span> <span class="ot">[</span></span>
+<span id="cb5-6"><a href="#cb5-6" tabindex="-1"></a>            <span class="st">"recording"</span><span class="ot">,</span></span>
+<span id="cb5-7"><a href="#cb5-7" tabindex="-1"></a>            <span class="st">"testObject"</span></span>
+<span id="cb5-8"><a href="#cb5-8" tabindex="-1"></a>            <span class="st">"testPerson"</span></span>
+<span id="cb5-9"><a href="#cb5-9" tabindex="-1"></a>            <span class="ot">]</span><span class="fu">,</span></span>
+<span id="cb5-10"><a href="#cb5-10" tabindex="-1"></a>        <span class="dt">"properties"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb5-11"><a href="#cb5-11" tabindex="-1"></a>            </span>
+<span id="cb5-12"><a href="#cb5-12" tabindex="-1"></a>            <span class="er">*/</span> <span class="er">add</span> <span class="er">your</span> <span class="er">schema</span> <span class="er">here</span> <span class="er">/*</span></span>
+<span id="cb5-13"><a href="#cb5-13" tabindex="-1"></a>            <span class="dt">"recording"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb5-14"><a href="#cb5-14" tabindex="-1"></a>                <span class="dt">"description"</span><span class="fu">:</span> <span class="st">""</span><span class="fu">,</span></span>
+<span id="cb5-15"><a href="#cb5-15" tabindex="-1"></a>                <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"object"</span><span class="fu">,</span></span>
+<span id="cb5-16"><a href="#cb5-16" tabindex="-1"></a>                <span class="dt">"required"</span><span class="fu">:</span><span class="ot">[</span></span>
+<span id="cb5-17"><a href="#cb5-17" tabindex="-1"></a>                    <span class="st">"testApp"</span><span class="ot">,</span></span>
+<span id="cb5-18"><a href="#cb5-18" tabindex="-1"></a>                    <span class="st">"testDevice"</span><span class="ot">,</span></span>
+<span id="cb5-19"><a href="#cb5-19" tabindex="-1"></a>                    <span class="st">"testDeviceFixture"</span></span>
+<span id="cb5-20"><a href="#cb5-20" tabindex="-1"></a>                    <span class="ot">]</span><span class="fu">,</span></span>
+<span id="cb5-21"><a href="#cb5-21" tabindex="-1"></a>                <span class="dt">"properties"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb5-22"><a href="#cb5-22" tabindex="-1"></a>                    <span class="dt">"testApp"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb5-23"><a href="#cb5-23" tabindex="-1"></a>                        <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"Test app used."</span><span class="fu">,</span></span>
+<span id="cb5-24"><a href="#cb5-24" tabindex="-1"></a>                        <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"string"</span><span class="fu">,</span></span>
+<span id="cb5-25"><a href="#cb5-25" tabindex="-1"></a>                        <span class="dt">"enum"</span><span class="fu">:</span> <span class="ot">[</span></span>
+<span id="cb5-26"><a href="#cb5-26" tabindex="-1"></a>                            <span class="st">"Physics Toolbox Suite by Vieyra Software"</span><span class="ot">,</span></span>
+<span id="cb5-27"><a href="#cb5-27" tabindex="-1"></a>                            <span class="st">"Bunny Rollercoaster Physics App"</span></span>
+<span id="cb5-28"><a href="#cb5-28" tabindex="-1"></a>                            <span class="ot">]</span></span>
+<span id="cb5-29"><a href="#cb5-29" tabindex="-1"></a>                        <span class="fu">},</span></span>
+<span id="cb5-30"><a href="#cb5-30" tabindex="-1"></a>                    <span class="dt">"testAppVersion"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb5-31"><a href="#cb5-31" tabindex="-1"></a>                        <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"Version of test app (free text input). Full semantic versioning input preferred: Major.minor.bugfix"</span><span class="fu">,</span></span>
+<span id="cb5-32"><a href="#cb5-32" tabindex="-1"></a>                        <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"string"</span><span class="fu">,</span></span>
+<span id="cb5-33"><a href="#cb5-33" tabindex="-1"></a>                        <span class="dt">"minLength"</span><span class="fu">:</span> <span class="dv">1</span></span>
+<span id="cb5-34"><a href="#cb5-34" tabindex="-1"></a>                        <span class="fu">},</span></span>
+<span id="cb5-35"><a href="#cb5-35" tabindex="-1"></a>                    <span class="dt">"testDevice"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb5-36"><a href="#cb5-36" tabindex="-1"></a>                        <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"Test device used."</span><span class="fu">,</span></span>
+<span id="cb5-37"><a href="#cb5-37" tabindex="-1"></a>                        <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"string"</span><span class="fu">,</span></span>
+<span id="cb5-38"><a href="#cb5-38" tabindex="-1"></a>                        <span class="dt">"enum"</span><span class="fu">:</span> <span class="ot">[</span></span>
+<span id="cb5-39"><a href="#cb5-39" tabindex="-1"></a>                            <span class="st">"iPhone X"</span><span class="ot">,</span></span>
+<span id="cb5-40"><a href="#cb5-40" tabindex="-1"></a>                            <span class="st">"iPhone 6"</span><span class="ot">,</span></span>
+<span id="cb5-41"><a href="#cb5-41" tabindex="-1"></a>                            <span class="st">"iPhone 6s"</span><span class="ot">,</span></span>
+<span id="cb5-42"><a href="#cb5-42" tabindex="-1"></a>                            <span class="st">"other"</span></span>
+<span id="cb5-43"><a href="#cb5-43" tabindex="-1"></a>                            <span class="ot">]</span></span>
+<span id="cb5-44"><a href="#cb5-44" tabindex="-1"></a>                        <span class="fu">},</span></span>
+<span id="cb5-45"><a href="#cb5-45" tabindex="-1"></a>                    <span class="dt">"testDeviceFixture"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb5-46"><a href="#cb5-46" tabindex="-1"></a>                        <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"Test device fixture."</span><span class="fu">,</span></span>
+<span id="cb5-47"><a href="#cb5-47" tabindex="-1"></a>                        <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"string"</span><span class="fu">,</span></span>
+<span id="cb5-48"><a href="#cb5-48" tabindex="-1"></a>                        <span class="dt">"enum"</span><span class="fu">:</span> <span class="ot">[</span></span>
+<span id="cb5-49"><a href="#cb5-49" tabindex="-1"></a>                            <span class="st">"left upper arm"</span><span class="ot">,</span></span>
+<span id="cb5-50"><a href="#cb5-50" tabindex="-1"></a>                            <span class="st">"right upper arm"</span><span class="ot">,</span></span>
+<span id="cb5-51"><a href="#cb5-51" tabindex="-1"></a>                            <span class="st">"mouth fixture device"</span><span class="ot">,</span></span>
+<span id="cb5-52"><a href="#cb5-52" tabindex="-1"></a>                            <span class="st">"other"</span></span>
+<span id="cb5-53"><a href="#cb5-53" tabindex="-1"></a>                            <span class="ot">]</span></span>
+<span id="cb5-54"><a href="#cb5-54" tabindex="-1"></a>                        <span class="fu">}</span></span>
+<span id="cb5-55"><a href="#cb5-55" tabindex="-1"></a>                    <span class="fu">}</span>   </span>
+<span id="cb5-56"><a href="#cb5-56" tabindex="-1"></a>                <span class="fu">},</span></span>
+<span id="cb5-57"><a href="#cb5-57" tabindex="-1"></a>                </span>
+<span id="cb5-58"><a href="#cb5-58" tabindex="-1"></a>            <span class="er">*/</span> <span class="er">this</span> <span class="er">part</span> <span class="er">was</span> <span class="er">prepared</span> <span class="er">by</span> <span class="er">your</span> <span class="er">collaborators</span> <span class="er">/*</span></span>
+<span id="cb5-59"><a href="#cb5-59" tabindex="-1"></a>            <span class="dt">"testObject"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb5-60"><a href="#cb5-60" tabindex="-1"></a>                <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"A free text abstract of the experimental setup."</span><span class="fu">,</span></span>
+<span id="cb5-61"><a href="#cb5-61" tabindex="-1"></a>                <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"object"</span><span class="fu">,</span></span>
+<span id="cb5-62"><a href="#cb5-62" tabindex="-1"></a>                <span class="dt">"required"</span><span class="fu">:</span> <span class="ot">[</span></span>
+<span id="cb5-63"><a href="#cb5-63" tabindex="-1"></a>                    <span class="st">"rideType"</span><span class="ot">,</span></span>
+<span id="cb5-64"><a href="#cb5-64" tabindex="-1"></a>                    <span class="st">"rideName"</span></span>
+<span id="cb5-65"><a href="#cb5-65" tabindex="-1"></a>                    <span class="ot">]</span><span class="fu">,</span></span>
+<span id="cb5-66"><a href="#cb5-66" tabindex="-1"></a>                <span class="dt">"properties"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb5-67"><a href="#cb5-67" tabindex="-1"></a>                </span>
+<span id="cb5-68"><a href="#cb5-68" tabindex="-1"></a>                    <span class="dt">"rideType"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb5-69"><a href="#cb5-69" tabindex="-1"></a>                        <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"Specification of ride type of the tested object"</span><span class="fu">,</span></span>
+<span id="cb5-70"><a href="#cb5-70" tabindex="-1"></a>                        <span class="dt">"type"</span><span class="fu">:</span><span class="st">"string"</span><span class="fu">,</span></span>
+<span id="cb5-71"><a href="#cb5-71" tabindex="-1"></a>                        <span class="dt">"enum"</span><span class="fu">:</span> <span class="ot">[</span></span>
+<span id="cb5-72"><a href="#cb5-72" tabindex="-1"></a>                            <span class="st">"roller coaster"</span><span class="ot">,</span></span>
+<span id="cb5-73"><a href="#cb5-73" tabindex="-1"></a>                            <span class="st">"water slide"</span><span class="ot">,</span></span>
+<span id="cb5-74"><a href="#cb5-74" tabindex="-1"></a>                            <span class="st">"bob sled"</span></span>
+<span id="cb5-75"><a href="#cb5-75" tabindex="-1"></a>                            <span class="ot">]</span></span>
+<span id="cb5-76"><a href="#cb5-76" tabindex="-1"></a>                        <span class="fu">},</span></span>
+<span id="cb5-77"><a href="#cb5-77" tabindex="-1"></a>                        </span>
+<span id="cb5-78"><a href="#cb5-78" tabindex="-1"></a>                    <span class="dt">"rideName"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb5-79"><a href="#cb5-79" tabindex="-1"></a>                        <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"Official name of the ride."</span><span class="fu">,</span></span>
+<span id="cb5-80"><a href="#cb5-80" tabindex="-1"></a>                        <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"string"</span><span class="fu">,</span></span>
+<span id="cb5-81"><a href="#cb5-81" tabindex="-1"></a>                        <span class="dt">"minLength"</span><span class="fu">:</span> <span class="dv">1</span></span>
+<span id="cb5-82"><a href="#cb5-82" tabindex="-1"></a>                        <span class="fu">},</span></span>
+<span id="cb5-83"><a href="#cb5-83" tabindex="-1"></a>                        </span>
+<span id="cb5-84"><a href="#cb5-84" tabindex="-1"></a>                    <span class="dt">"location"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb5-85"><a href="#cb5-85" tabindex="-1"></a>                        <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"City and State in which the ride is located"</span><span class="fu">,</span></span>
+<span id="cb5-86"><a href="#cb5-86" tabindex="-1"></a>                        <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"string"</span></span>
+<span id="cb5-87"><a href="#cb5-87" tabindex="-1"></a>                    <span class="fu">}</span></span>
+<span id="cb5-88"><a href="#cb5-88" tabindex="-1"></a>                <span class="fu">},</span></span>
+<span id="cb5-89"><a href="#cb5-89" tabindex="-1"></a>                </span>
+<span id="cb5-90"><a href="#cb5-90" tabindex="-1"></a>            <span class="dt">"testPerson"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb5-91"><a href="#cb5-91" tabindex="-1"></a>                <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"Information about the subject carrying the test device."</span><span class="fu">,</span></span>
+<span id="cb5-92"><a href="#cb5-92" tabindex="-1"></a>                <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"object"</span><span class="fu">,</span></span>
+<span id="cb5-93"><a href="#cb5-93" tabindex="-1"></a>                <span class="dt">"required"</span><span class="fu">:</span> <span class="ot">[</span></span>
+<span id="cb5-94"><a href="#cb5-94" tabindex="-1"></a>                    <span class="st">"height"</span><span class="ot">,</span></span>
+<span id="cb5-95"><a href="#cb5-95" tabindex="-1"></a>                    <span class="st">"sex"</span></span>
+<span id="cb5-96"><a href="#cb5-96" tabindex="-1"></a>                    <span class="ot">]</span><span class="fu">,</span></span>
+<span id="cb5-97"><a href="#cb5-97" tabindex="-1"></a>                <span class="dt">"properties"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb5-98"><a href="#cb5-98" tabindex="-1"></a>                </span>
+<span id="cb5-99"><a href="#cb5-99" tabindex="-1"></a>                    <span class="dt">"height"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb5-100"><a href="#cb5-100" tabindex="-1"></a>                        <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"The height of the test person in cm (SI unit of length)."</span><span class="fu">,</span></span>
+<span id="cb5-101"><a href="#cb5-101" tabindex="-1"></a>                        <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"number"</span><span class="fu">,</span></span>
+<span id="cb5-102"><a href="#cb5-102" tabindex="-1"></a>                        <span class="dt">"minimum"</span><span class="fu">:</span> <span class="dv">120</span><span class="fu">,</span></span>
+<span id="cb5-103"><a href="#cb5-103" tabindex="-1"></a>                        <span class="dt">"exclusiveMaximum"</span><span class="fu">:</span> <span class="dv">220</span></span>
+<span id="cb5-104"><a href="#cb5-104" tabindex="-1"></a>                        <span class="fu">},</span></span>
+<span id="cb5-105"><a href="#cb5-105" tabindex="-1"></a>                        </span>
+<span id="cb5-106"><a href="#cb5-106" tabindex="-1"></a>                    <span class="dt">"sex"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb5-107"><a href="#cb5-107" tabindex="-1"></a>                        <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"The sex of the test person."</span><span class="fu">,</span></span>
+<span id="cb5-108"><a href="#cb5-108" tabindex="-1"></a>                        <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"string"</span><span class="fu">,</span></span>
+<span id="cb5-109"><a href="#cb5-109" tabindex="-1"></a>                        <span class="dt">"enum"</span><span class="fu">:</span> <span class="ot">[</span></span>
+<span id="cb5-110"><a href="#cb5-110" tabindex="-1"></a>                            <span class="st">"female"</span><span class="ot">,</span></span>
+<span id="cb5-111"><a href="#cb5-111" tabindex="-1"></a>                            <span class="st">"male"</span><span class="ot">,</span></span>
+<span id="cb5-112"><a href="#cb5-112" tabindex="-1"></a>                            <span class="st">"not disclosed"</span></span>
+<span id="cb5-113"><a href="#cb5-113" tabindex="-1"></a>                            <span class="ot">]</span></span>
+<span id="cb5-114"><a href="#cb5-114" tabindex="-1"></a>                        <span class="fu">}</span></span>
+<span id="cb5-115"><a href="#cb5-115" tabindex="-1"></a>                    <span class="fu">}</span></span>
+<span id="cb5-116"><a href="#cb5-116" tabindex="-1"></a>                <span class="fu">}</span></span>
+<span id="cb5-117"><a href="#cb5-117" tabindex="-1"></a>        <span class="fu">}</span></span></code></pre>
 </div>
 </div>
 </div>
@@ -1644,7 +1646,7 @@ box</li>
 <button class="accordion-button hint-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHint1" aria-expanded="false" aria-controls="collapseHint1">
   <h4 class="accordion-header" id="headingHint1">Good to know</h4>
 </button>
-<div id="collapseHint1" class="accordion-collapse collapse" data-bs-parent="#accordionHint1" aria-labelledby="headingHint1">
+<div id="collapseHint1" class="accordion-collapse collapse" aria-labelledby="headingHint1" data-bs-parent="#accordionHint1">
 <div class="accordion-body">
 <p>Note that the JSON Schema used for this demo <strong>lacks the
 recommended <code>$schema</code> keyword</strong>: this is because the
@@ -1684,13 +1686,12 @@ filling all the “required” fields?</li>
 </section><section id="metadata-standards"><h2 class="section-heading">Metadata Standards<a class="anchor" aria-label="anchor" href="#metadata-standards"></a>
 </h2>
 <hr class="half-width">
-<div id="callout3" class="callout callout">
+<div id="callout3" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="callout-inner">
-<h3 class="callout-title">Callout<a class="anchor" aria-label="anchor" href="#callout3"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title">Callout</h3>
 <div class="callout-content">
 <p>A <strong>metadata schema</strong> can become a standard by
 governance authority or common adoption.</p>
@@ -1800,10 +1801,13 @@ Institute; Last updated on Feb 07, 2022. <a href="https://json-schema.org/unders
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
-<figure><img src="fig/dimitrovaBugejaQuote.png" alt="Quote from the Book Vanishing Act: The Erosion of Online Footnotes and Implications for Schlolarship in the Digital Age by Daniela Dimitrova and Michael Bugeja, saying 'Vanishing online footnotes undermine the building blocks of research, and their disappearance raises concerns about the reliability and replicability of scholarship.'" class="figure mx-auto d-block"><figcaption><strong>Bugeja, M., Dimitrova, D.</strong> (2010) in
-“<em>Vanishing Act: The Erosion of Online Footnotes and Implications for
-Scholarship in the Digital Age</em>.” Litwin Books.
-<a href="https://dr.lib.iastate.edu/handle/20.500.12876/96527" target="_blank" class="external-link">https://dr.lib.iastate.edu/handle/20.500.12876/96527</a></figcaption></figure><div class="overview card">
+<figure><img src="fig/dimitrovaBugejaQuote.png" alt="Quote from the Book Vanishing Act: The Erosion of Online Footnotes and Implications for Schlolarship in the Digital Age by Daniela Dimitrova and Michael Bugeja, saying 'Vanishing online footnotes undermine the building blocks of research, and their disappearance raises concerns about the reliability and replicability of scholarship.'" class="figure mx-auto d-block"><div class="figcaption">
+<strong>Bugeja, M., Dimitrova, D.</strong>
+(2010) in “<em>Vanishing Act: The Erosion of Online Footnotes and
+Implications for Scholarship in the Digital Age</em>.” Litwin Books.
+<a href="https://dr.lib.iastate.edu/handle/20.500.12876/96527" target="_blank" class="external-link">https://dr.lib.iastate.edu/handle/20.500.12876/96527</a>
+</div>
+</figure><div class="overview card">
 <h2 class="card-header">Overview</h2>
 <div class="row g-0">
 <div class="col-md-4">
@@ -1853,12 +1857,12 @@ resources.</li>
 </ul></section><section id="web-identifiers"><h2 class="section-heading">Web Identifiers<a class="anchor" aria-label="anchor" href="#web-identifiers"></a>
 </h2>
 <hr class="half-width">
-<div id="unique-identifiers" class="callout callout">
+<div id="callout1" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="unique-identifiers" class="callout-inner">
-<h3 class="callout-title">Unique Identifiers<a class="anchor" aria-label="anchor" href="#unique-identifiers"></a>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="unique-identifiers">Unique Identifiers<a class="anchor" aria-label="anchor" href="#unique-identifiers"></a>
 </h3>
 <div class="callout-content">
 <p>Unique identifiers enable <strong>globally unique</strong>
@@ -1881,15 +1885,16 @@ service is required.</strong></p>
 characters used to direct the client to requested resource by
 <strong>using the address of the resource location</strong> via
 communication protocols such as HTTP. </p>
-<div id="how-links-rot" class="callout callout">
+<div id="callout2" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="how-links-rot" class="callout-inner">
-<h3 class="callout-title">How links rot<a class="anchor" aria-label="anchor" href="#how-links-rot"></a>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="how-links-rot">How links rot<a class="anchor" aria-label="anchor" href="#how-links-rot"></a>
 </h3>
 <div class="callout-content">
-<figure><img src="fig/urlSyntax.png" alt="Examplary representation of the URL syntax: protocol specification, host adress, file path and query parameters." class="figure mx-auto d-block"><figcaption>URL Example</figcaption></figure><p>The <strong>URL</strong> specifies the exact location of a
+<figure><img src="fig/urlSyntax.png" alt="Examplary representation of the URL syntax: protocol specification, host adress, file path and query parameters." class="figure mx-auto d-block"><div class="figcaption">URL Example</div>
+</figure><p>The <strong>URL</strong> specifies the exact location of a
 retrievable resource on the web (host &amp; path) as well as the
 communication protocol (e.g. HTTP) necessary for the local browser to
 address the host server. If you open a link on the web operated under
@@ -1922,12 +1927,12 @@ persons or organizations. PIDs are <strong>globally unique</strong> and
 <strong>persistent over time</strong>. Assigning a PID to a digital
 resource ensures its permanent indentifiability, accessibility, and
 dereferenciability.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
-<div id="pid-services" class="callout callout">
+<div id="callout3" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="pid-services" class="callout-inner">
-<h3 class="callout-title">PID Services<a class="anchor" aria-label="anchor" href="#pid-services"></a>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="pid-services">PID Services<a class="anchor" aria-label="anchor" href="#pid-services"></a>
 </h3>
 <div class="callout-content">
 <p>A <strong>PID service</strong> operates as a persistent look-up
@@ -1961,100 +1966,100 @@ with this researcher, the ORCiD can be specified in the description.</p>
 <div class="codewrapper sourceCode" id="cb1">
 <h3 class="code-label">JSON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode json" tabindex="0"><code class="sourceCode json"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"fileName"</span><span class="fu">:</span> <span class="st">"exampleData.csv"</span><span class="fu">,</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"date"</span><span class="fu">:</span> <span class="st">"2022-02-28"</span><span class="fu">,</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"dataset"</span><span class="fu">,</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"creator"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"creatorName"</span><span class="fu">:</span> <span class="st">"Bruce Wayne"</span><span class="fu">,</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"ORCID"</span><span class="fu">:</span> <span class="st">"https://orcid.org/0000-0002-1201-3114"</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">}</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre>
+<pre class="sourceCode json" tabindex="0"><code class="sourceCode json"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a>  <span class="dt">"fileName"</span><span class="fu">:</span> <span class="st">"exampleData.csv"</span><span class="fu">,</span></span>
+<span id="cb1-3"><a href="#cb1-3" tabindex="-1"></a>  <span class="dt">"date"</span><span class="fu">:</span> <span class="st">"2022-02-28"</span><span class="fu">,</span></span>
+<span id="cb1-4"><a href="#cb1-4" tabindex="-1"></a>  <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"dataset"</span><span class="fu">,</span></span>
+<span id="cb1-5"><a href="#cb1-5" tabindex="-1"></a>  <span class="dt">"creator"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb1-6"><a href="#cb1-6" tabindex="-1"></a>    <span class="dt">"creatorName"</span><span class="fu">:</span> <span class="st">"Bruce Wayne"</span><span class="fu">,</span></span>
+<span id="cb1-7"><a href="#cb1-7" tabindex="-1"></a>    <span class="dt">"ORCID"</span><span class="fu">:</span> <span class="st">"https://orcid.org/0000-0002-1201-3114"</span></span>
+<span id="cb1-8"><a href="#cb1-8" tabindex="-1"></a>  <span class="fu">}</span></span>
+<span id="cb1-9"><a href="#cb1-9" tabindex="-1"></a><span class="fu">}</span></span></code></pre>
 </div>
 <p>The metadata stored in the ORCID record would resolve to:</p>
 <div class="codewrapper sourceCode" id="cb2">
 <h3 class="code-label">JSON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode json" tabindex="0"><code class="sourceCode json"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>	<span class="dt">"given-names"</span><span class="fu">:</span> <span class="st">"Bruce"</span><span class="fu">,</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>	<span class="dt">"family-name"</span><span class="fu">:</span> <span class="st">"Wayne"</span><span class="fu">,</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>	<span class="dt">"credit-name"</span><span class="fu">:</span> <span class="st">"Bruce Wayne"</span><span class="fu">,</span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>	<span class="dt">"other-names"</span><span class="fu">:</span> <span class="st">"Batman"</span><span class="fu">,</span></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>	<span class="dt">"researcher-urls"</span><span class="fu">:</span> <span class="ot">[</span><span class="fu">{</span></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>			<span class="dt">"type"</span><span class="fu">:</span> <span class="st">"researcher-url"</span><span class="fu">,</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>			<span class="dt">"url"</span><span class="fu">:</span> <span class="st">"https://www.dc.com/characters/batman"</span><span class="fu">,</span></span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>			<span class="dt">"url-name"</span><span class="fu">:</span> <span class="st">"Justice League"</span></span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>		<span class="fu">}</span><span class="ot">,</span></span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>		<span class="fu">{</span></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>			<span class="dt">"type"</span><span class="fu">:</span> <span class="st">"researcher-url"</span><span class="fu">,</span></span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>			<span class="dt">"url"</span><span class="fu">:</span> <span class="st">"https://twitter.com/Batman"</span><span class="fu">,</span></span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>			<span class="dt">"url-name"</span><span class="fu">:</span> <span class="st">"Twitter"</span></span>
-<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>		<span class="fu">}</span></span>
-<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>	<span class="ot">]</span><span class="fu">,</span></span>
-<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>	<span class="dt">"email"</span><span class="fu">:</span> <span class="ot">[</span></span>
-<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>		<span class="st">"b.wayne@ivnm-gotham.com"</span><span class="ot">,</span></span>
-<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>		<span class="st">"batman@justic-league.org"</span></span>
-<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>	<span class="ot">]</span><span class="fu">,</span></span>
-<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>	<span class="dt">"address"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>		<span class="dt">"country"</span><span class="fu">:</span> <span class="st">"USA"</span><span class="fu">,</span></span>
-<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>		<span class="dt">"state"</span><span class="fu">:</span> <span class="st">"New Jersey"</span><span class="fu">,</span></span>
-<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>		<span class="dt">"city"</span><span class="fu">:</span> <span class="st">"Gotham City"</span><span class="fu">,</span></span>
-<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>		<span class="dt">"zip-code"</span><span class="fu">:</span> <span class="st">"08302"</span><span class="fu">,</span></span>
-<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>		<span class="dt">"street"</span><span class="fu">:</span> <span class="st">"Wayne Rd 1"</span></span>
-<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>	<span class="fu">},</span></span>
-<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>	<span class="dt">"employment"</span><span class="fu">:</span> <span class="ot">[</span><span class="fu">{</span></span>
-<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>			<span class="dt">"department-name"</span><span class="fu">:</span> <span class="st">"Institute for Vigilance and Nightly Motion"</span><span class="fu">,</span></span>
-<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>			<span class="dt">"start-date"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>				<span class="dt">"year"</span><span class="fu">:</span> <span class="dv">1955</span><span class="fu">,</span></span>
-<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a>				<span class="dt">"month"</span><span class="fu">:</span> <span class="dv">8</span><span class="fu">,</span></span>
-<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>				<span class="dt">"day"</span><span class="fu">:</span> <span class="dv">15</span></span>
-<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a>			<span class="fu">},</span></span>
-<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a>			<span class="dt">"organization"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a>				<span class="dt">"name"</span><span class="fu">:</span> <span class="st">"Justice League"</span><span class="fu">,</span></span>
-<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a>				<span class="dt">"address"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a>					<span class="dt">"city"</span><span class="fu">:</span> <span class="st">"Gotham City"</span><span class="fu">,</span></span>
-<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a>					<span class="dt">"region"</span><span class="fu">:</span> <span class="st">"New Jersey"</span><span class="fu">,</span></span>
-<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a>					<span class="dt">"country"</span><span class="fu">:</span> <span class="st">"USA"</span><span class="fu">,</span></span>
-<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a>					<span class="dt">"disambiguated-organization-identifier"</span><span class="fu">:</span> <span class="st">"https://ror.org/05jl9bm63"</span></span>
-<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a>				<span class="fu">}</span></span>
-<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a>			<span class="fu">}</span></span>
-<span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a>		<span class="fu">}</span><span class="ot">,</span></span>
-<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a>		<span class="fu">{</span></span>
-<span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a>			<span class="dt">"department-name"</span><span class="fu">:</span> <span class="st">"Board of leaders"</span><span class="fu">,</span></span>
-<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a>			<span class="dt">"start-date"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a>				<span class="dt">"year"</span><span class="fu">:</span> <span class="dv">1939</span><span class="fu">,</span></span>
-<span id="cb2-49"><a href="#cb2-49" aria-hidden="true" tabindex="-1"></a>				<span class="dt">"month"</span><span class="fu">:</span> <span class="dv">3</span><span class="fu">,</span></span>
-<span id="cb2-50"><a href="#cb2-50" aria-hidden="true" tabindex="-1"></a>				<span class="dt">"day"</span><span class="fu">:</span> <span class="dv">30</span></span>
-<span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a>			<span class="fu">},</span></span>
-<span id="cb2-52"><a href="#cb2-52" aria-hidden="true" tabindex="-1"></a>			<span class="dt">"organization"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb2-53"><a href="#cb2-53" aria-hidden="true" tabindex="-1"></a>				<span class="dt">"name"</span><span class="fu">:</span> <span class="st">"Wayne Enterprises"</span><span class="fu">,</span></span>
-<span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a>				<span class="dt">"address"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb2-55"><a href="#cb2-55" aria-hidden="true" tabindex="-1"></a>					<span class="dt">"city"</span><span class="fu">:</span> <span class="st">"Gotham City"</span><span class="fu">,</span></span>
-<span id="cb2-56"><a href="#cb2-56" aria-hidden="true" tabindex="-1"></a>					<span class="dt">"region"</span><span class="fu">:</span> <span class="st">"New Jersey"</span><span class="fu">,</span></span>
-<span id="cb2-57"><a href="#cb2-57" aria-hidden="true" tabindex="-1"></a>					<span class="dt">"country"</span><span class="fu">:</span> <span class="st">"USA"</span><span class="fu">,</span></span>
-<span id="cb2-58"><a href="#cb2-58" aria-hidden="true" tabindex="-1"></a>					<span class="dt">"disambiguated-organization-identifier"</span><span class="fu">:</span> <span class="st">"https://ror.org/04we5bw33"</span></span>
-<span id="cb2-59"><a href="#cb2-59" aria-hidden="true" tabindex="-1"></a>				<span class="fu">}</span></span>
-<span id="cb2-60"><a href="#cb2-60" aria-hidden="true" tabindex="-1"></a>			<span class="fu">}</span></span>
-<span id="cb2-61"><a href="#cb2-61" aria-hidden="true" tabindex="-1"></a>		<span class="fu">}</span><span class="ot">,</span></span>
-<span id="cb2-62"><a href="#cb2-62" aria-hidden="true" tabindex="-1"></a>		<span class="fu">{</span></span>
-<span id="cb2-63"><a href="#cb2-63" aria-hidden="true" tabindex="-1"></a>			<span class="dt">"department-name"</span><span class="fu">:</span> <span class="st">"Executive Office"</span><span class="fu">,</span></span>
-<span id="cb2-64"><a href="#cb2-64" aria-hidden="true" tabindex="-1"></a>			<span class="dt">"start-date"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb2-65"><a href="#cb2-65" aria-hidden="true" tabindex="-1"></a>				<span class="dt">"year"</span><span class="fu">:</span> <span class="dv">1945</span><span class="fu">,</span></span>
-<span id="cb2-66"><a href="#cb2-66" aria-hidden="true" tabindex="-1"></a>				<span class="dt">"month"</span><span class="fu">:</span> <span class="dv">4</span><span class="fu">,</span></span>
-<span id="cb2-67"><a href="#cb2-67" aria-hidden="true" tabindex="-1"></a>				<span class="dt">"day"</span><span class="fu">:</span> <span class="dv">1</span></span>
-<span id="cb2-68"><a href="#cb2-68" aria-hidden="true" tabindex="-1"></a>			<span class="fu">},</span></span>
-<span id="cb2-69"><a href="#cb2-69" aria-hidden="true" tabindex="-1"></a>			<span class="dt">"organization"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb2-70"><a href="#cb2-70" aria-hidden="true" tabindex="-1"></a>				<span class="dt">"name"</span><span class="fu">:</span> <span class="st">"Wayne Foundation"</span><span class="fu">,</span></span>
-<span id="cb2-71"><a href="#cb2-71" aria-hidden="true" tabindex="-1"></a>				<span class="dt">"address"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb2-72"><a href="#cb2-72" aria-hidden="true" tabindex="-1"></a>					<span class="dt">"city"</span><span class="fu">:</span> <span class="st">"Gotham City"</span><span class="fu">,</span></span>
-<span id="cb2-73"><a href="#cb2-73" aria-hidden="true" tabindex="-1"></a>					<span class="dt">"region"</span><span class="fu">:</span> <span class="st">"New Jersey"</span><span class="fu">,</span></span>
-<span id="cb2-74"><a href="#cb2-74" aria-hidden="true" tabindex="-1"></a>					<span class="dt">"country"</span><span class="fu">:</span> <span class="st">"USA"</span><span class="fu">,</span></span>
-<span id="cb2-75"><a href="#cb2-75" aria-hidden="true" tabindex="-1"></a>					<span class="dt">"disambiguated-organization-identifier"</span><span class="fu">:</span> <span class="st">"https://ror.org/02eo4wf52"</span></span>
-<span id="cb2-76"><a href="#cb2-76" aria-hidden="true" tabindex="-1"></a>				<span class="fu">}</span></span>
-<span id="cb2-77"><a href="#cb2-77" aria-hidden="true" tabindex="-1"></a>			<span class="fu">}</span></span>
-<span id="cb2-78"><a href="#cb2-78" aria-hidden="true" tabindex="-1"></a>		<span class="fu">}</span></span>
-<span id="cb2-79"><a href="#cb2-79" aria-hidden="true" tabindex="-1"></a>	<span class="ot">]</span></span>
-<span id="cb2-80"><a href="#cb2-80" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre>
+<pre class="sourceCode json" tabindex="0"><code class="sourceCode json"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb2-2"><a href="#cb2-2" tabindex="-1"></a>	<span class="dt">"given-names"</span><span class="fu">:</span> <span class="st">"Bruce"</span><span class="fu">,</span></span>
+<span id="cb2-3"><a href="#cb2-3" tabindex="-1"></a>	<span class="dt">"family-name"</span><span class="fu">:</span> <span class="st">"Wayne"</span><span class="fu">,</span></span>
+<span id="cb2-4"><a href="#cb2-4" tabindex="-1"></a>	<span class="dt">"credit-name"</span><span class="fu">:</span> <span class="st">"Bruce Wayne"</span><span class="fu">,</span></span>
+<span id="cb2-5"><a href="#cb2-5" tabindex="-1"></a>	<span class="dt">"other-names"</span><span class="fu">:</span> <span class="st">"Batman"</span><span class="fu">,</span></span>
+<span id="cb2-6"><a href="#cb2-6" tabindex="-1"></a>	<span class="dt">"researcher-urls"</span><span class="fu">:</span> <span class="ot">[</span><span class="fu">{</span></span>
+<span id="cb2-7"><a href="#cb2-7" tabindex="-1"></a>			<span class="dt">"type"</span><span class="fu">:</span> <span class="st">"researcher-url"</span><span class="fu">,</span></span>
+<span id="cb2-8"><a href="#cb2-8" tabindex="-1"></a>			<span class="dt">"url"</span><span class="fu">:</span> <span class="st">"https://www.dc.com/characters/batman"</span><span class="fu">,</span></span>
+<span id="cb2-9"><a href="#cb2-9" tabindex="-1"></a>			<span class="dt">"url-name"</span><span class="fu">:</span> <span class="st">"Justice League"</span></span>
+<span id="cb2-10"><a href="#cb2-10" tabindex="-1"></a>		<span class="fu">}</span><span class="ot">,</span></span>
+<span id="cb2-11"><a href="#cb2-11" tabindex="-1"></a>		<span class="fu">{</span></span>
+<span id="cb2-12"><a href="#cb2-12" tabindex="-1"></a>			<span class="dt">"type"</span><span class="fu">:</span> <span class="st">"researcher-url"</span><span class="fu">,</span></span>
+<span id="cb2-13"><a href="#cb2-13" tabindex="-1"></a>			<span class="dt">"url"</span><span class="fu">:</span> <span class="st">"https://twitter.com/Batman"</span><span class="fu">,</span></span>
+<span id="cb2-14"><a href="#cb2-14" tabindex="-1"></a>			<span class="dt">"url-name"</span><span class="fu">:</span> <span class="st">"Twitter"</span></span>
+<span id="cb2-15"><a href="#cb2-15" tabindex="-1"></a>		<span class="fu">}</span></span>
+<span id="cb2-16"><a href="#cb2-16" tabindex="-1"></a>	<span class="ot">]</span><span class="fu">,</span></span>
+<span id="cb2-17"><a href="#cb2-17" tabindex="-1"></a>	<span class="dt">"email"</span><span class="fu">:</span> <span class="ot">[</span></span>
+<span id="cb2-18"><a href="#cb2-18" tabindex="-1"></a>		<span class="st">"b.wayne@ivnm-gotham.com"</span><span class="ot">,</span></span>
+<span id="cb2-19"><a href="#cb2-19" tabindex="-1"></a>		<span class="st">"batman@justic-league.org"</span></span>
+<span id="cb2-20"><a href="#cb2-20" tabindex="-1"></a>	<span class="ot">]</span><span class="fu">,</span></span>
+<span id="cb2-21"><a href="#cb2-21" tabindex="-1"></a>	<span class="dt">"address"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb2-22"><a href="#cb2-22" tabindex="-1"></a>		<span class="dt">"country"</span><span class="fu">:</span> <span class="st">"USA"</span><span class="fu">,</span></span>
+<span id="cb2-23"><a href="#cb2-23" tabindex="-1"></a>		<span class="dt">"state"</span><span class="fu">:</span> <span class="st">"New Jersey"</span><span class="fu">,</span></span>
+<span id="cb2-24"><a href="#cb2-24" tabindex="-1"></a>		<span class="dt">"city"</span><span class="fu">:</span> <span class="st">"Gotham City"</span><span class="fu">,</span></span>
+<span id="cb2-25"><a href="#cb2-25" tabindex="-1"></a>		<span class="dt">"zip-code"</span><span class="fu">:</span> <span class="st">"08302"</span><span class="fu">,</span></span>
+<span id="cb2-26"><a href="#cb2-26" tabindex="-1"></a>		<span class="dt">"street"</span><span class="fu">:</span> <span class="st">"Wayne Rd 1"</span></span>
+<span id="cb2-27"><a href="#cb2-27" tabindex="-1"></a>	<span class="fu">},</span></span>
+<span id="cb2-28"><a href="#cb2-28" tabindex="-1"></a>	<span class="dt">"employment"</span><span class="fu">:</span> <span class="ot">[</span><span class="fu">{</span></span>
+<span id="cb2-29"><a href="#cb2-29" tabindex="-1"></a>			<span class="dt">"department-name"</span><span class="fu">:</span> <span class="st">"Institute for Vigilance and Nightly Motion"</span><span class="fu">,</span></span>
+<span id="cb2-30"><a href="#cb2-30" tabindex="-1"></a>			<span class="dt">"start-date"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb2-31"><a href="#cb2-31" tabindex="-1"></a>				<span class="dt">"year"</span><span class="fu">:</span> <span class="dv">1955</span><span class="fu">,</span></span>
+<span id="cb2-32"><a href="#cb2-32" tabindex="-1"></a>				<span class="dt">"month"</span><span class="fu">:</span> <span class="dv">8</span><span class="fu">,</span></span>
+<span id="cb2-33"><a href="#cb2-33" tabindex="-1"></a>				<span class="dt">"day"</span><span class="fu">:</span> <span class="dv">15</span></span>
+<span id="cb2-34"><a href="#cb2-34" tabindex="-1"></a>			<span class="fu">},</span></span>
+<span id="cb2-35"><a href="#cb2-35" tabindex="-1"></a>			<span class="dt">"organization"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb2-36"><a href="#cb2-36" tabindex="-1"></a>				<span class="dt">"name"</span><span class="fu">:</span> <span class="st">"Justice League"</span><span class="fu">,</span></span>
+<span id="cb2-37"><a href="#cb2-37" tabindex="-1"></a>				<span class="dt">"address"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb2-38"><a href="#cb2-38" tabindex="-1"></a>					<span class="dt">"city"</span><span class="fu">:</span> <span class="st">"Gotham City"</span><span class="fu">,</span></span>
+<span id="cb2-39"><a href="#cb2-39" tabindex="-1"></a>					<span class="dt">"region"</span><span class="fu">:</span> <span class="st">"New Jersey"</span><span class="fu">,</span></span>
+<span id="cb2-40"><a href="#cb2-40" tabindex="-1"></a>					<span class="dt">"country"</span><span class="fu">:</span> <span class="st">"USA"</span><span class="fu">,</span></span>
+<span id="cb2-41"><a href="#cb2-41" tabindex="-1"></a>					<span class="dt">"disambiguated-organization-identifier"</span><span class="fu">:</span> <span class="st">"https://ror.org/05jl9bm63"</span></span>
+<span id="cb2-42"><a href="#cb2-42" tabindex="-1"></a>				<span class="fu">}</span></span>
+<span id="cb2-43"><a href="#cb2-43" tabindex="-1"></a>			<span class="fu">}</span></span>
+<span id="cb2-44"><a href="#cb2-44" tabindex="-1"></a>		<span class="fu">}</span><span class="ot">,</span></span>
+<span id="cb2-45"><a href="#cb2-45" tabindex="-1"></a>		<span class="fu">{</span></span>
+<span id="cb2-46"><a href="#cb2-46" tabindex="-1"></a>			<span class="dt">"department-name"</span><span class="fu">:</span> <span class="st">"Board of leaders"</span><span class="fu">,</span></span>
+<span id="cb2-47"><a href="#cb2-47" tabindex="-1"></a>			<span class="dt">"start-date"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb2-48"><a href="#cb2-48" tabindex="-1"></a>				<span class="dt">"year"</span><span class="fu">:</span> <span class="dv">1939</span><span class="fu">,</span></span>
+<span id="cb2-49"><a href="#cb2-49" tabindex="-1"></a>				<span class="dt">"month"</span><span class="fu">:</span> <span class="dv">3</span><span class="fu">,</span></span>
+<span id="cb2-50"><a href="#cb2-50" tabindex="-1"></a>				<span class="dt">"day"</span><span class="fu">:</span> <span class="dv">30</span></span>
+<span id="cb2-51"><a href="#cb2-51" tabindex="-1"></a>			<span class="fu">},</span></span>
+<span id="cb2-52"><a href="#cb2-52" tabindex="-1"></a>			<span class="dt">"organization"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb2-53"><a href="#cb2-53" tabindex="-1"></a>				<span class="dt">"name"</span><span class="fu">:</span> <span class="st">"Wayne Enterprises"</span><span class="fu">,</span></span>
+<span id="cb2-54"><a href="#cb2-54" tabindex="-1"></a>				<span class="dt">"address"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb2-55"><a href="#cb2-55" tabindex="-1"></a>					<span class="dt">"city"</span><span class="fu">:</span> <span class="st">"Gotham City"</span><span class="fu">,</span></span>
+<span id="cb2-56"><a href="#cb2-56" tabindex="-1"></a>					<span class="dt">"region"</span><span class="fu">:</span> <span class="st">"New Jersey"</span><span class="fu">,</span></span>
+<span id="cb2-57"><a href="#cb2-57" tabindex="-1"></a>					<span class="dt">"country"</span><span class="fu">:</span> <span class="st">"USA"</span><span class="fu">,</span></span>
+<span id="cb2-58"><a href="#cb2-58" tabindex="-1"></a>					<span class="dt">"disambiguated-organization-identifier"</span><span class="fu">:</span> <span class="st">"https://ror.org/04we5bw33"</span></span>
+<span id="cb2-59"><a href="#cb2-59" tabindex="-1"></a>				<span class="fu">}</span></span>
+<span id="cb2-60"><a href="#cb2-60" tabindex="-1"></a>			<span class="fu">}</span></span>
+<span id="cb2-61"><a href="#cb2-61" tabindex="-1"></a>		<span class="fu">}</span><span class="ot">,</span></span>
+<span id="cb2-62"><a href="#cb2-62" tabindex="-1"></a>		<span class="fu">{</span></span>
+<span id="cb2-63"><a href="#cb2-63" tabindex="-1"></a>			<span class="dt">"department-name"</span><span class="fu">:</span> <span class="st">"Executive Office"</span><span class="fu">,</span></span>
+<span id="cb2-64"><a href="#cb2-64" tabindex="-1"></a>			<span class="dt">"start-date"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb2-65"><a href="#cb2-65" tabindex="-1"></a>				<span class="dt">"year"</span><span class="fu">:</span> <span class="dv">1945</span><span class="fu">,</span></span>
+<span id="cb2-66"><a href="#cb2-66" tabindex="-1"></a>				<span class="dt">"month"</span><span class="fu">:</span> <span class="dv">4</span><span class="fu">,</span></span>
+<span id="cb2-67"><a href="#cb2-67" tabindex="-1"></a>				<span class="dt">"day"</span><span class="fu">:</span> <span class="dv">1</span></span>
+<span id="cb2-68"><a href="#cb2-68" tabindex="-1"></a>			<span class="fu">},</span></span>
+<span id="cb2-69"><a href="#cb2-69" tabindex="-1"></a>			<span class="dt">"organization"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb2-70"><a href="#cb2-70" tabindex="-1"></a>				<span class="dt">"name"</span><span class="fu">:</span> <span class="st">"Wayne Foundation"</span><span class="fu">,</span></span>
+<span id="cb2-71"><a href="#cb2-71" tabindex="-1"></a>				<span class="dt">"address"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb2-72"><a href="#cb2-72" tabindex="-1"></a>					<span class="dt">"city"</span><span class="fu">:</span> <span class="st">"Gotham City"</span><span class="fu">,</span></span>
+<span id="cb2-73"><a href="#cb2-73" tabindex="-1"></a>					<span class="dt">"region"</span><span class="fu">:</span> <span class="st">"New Jersey"</span><span class="fu">,</span></span>
+<span id="cb2-74"><a href="#cb2-74" tabindex="-1"></a>					<span class="dt">"country"</span><span class="fu">:</span> <span class="st">"USA"</span><span class="fu">,</span></span>
+<span id="cb2-75"><a href="#cb2-75" tabindex="-1"></a>					<span class="dt">"disambiguated-organization-identifier"</span><span class="fu">:</span> <span class="st">"https://ror.org/02eo4wf52"</span></span>
+<span id="cb2-76"><a href="#cb2-76" tabindex="-1"></a>				<span class="fu">}</span></span>
+<span id="cb2-77"><a href="#cb2-77" tabindex="-1"></a>			<span class="fu">}</span></span>
+<span id="cb2-78"><a href="#cb2-78" tabindex="-1"></a>		<span class="fu">}</span></span>
+<span id="cb2-79"><a href="#cb2-79" tabindex="-1"></a>	<span class="ot">]</span></span>
+<span id="cb2-80"><a href="#cb2-80" tabindex="-1"></a><span class="fu">}</span></span></code></pre>
 </div>
 
 <div class="section level3">
@@ -2183,8 +2188,8 @@ Standards</em>. <a href="https://www.w3.org/2001/sw/wiki/Main_Page" class="exter
   "url": "https://carpentries-incubator.github.io/scientific-metadata/aio.html",
   "identifier": "https://carpentries-incubator.github.io/scientific-metadata/aio.html",
   "dateCreated": "2023-11-16",
-  "dateModified": "2024-02-27",
-  "datePublished": "2024-02-27"
+  "dateModified": "2024-03-05",
+  "datePublished": "2024-03-05"
 }
 
   </script><script>

@@ -272,10 +272,13 @@
 
         
 
-<figure><img src="fig/dimitrovaBugejaQuote.png" alt="Quote from the Book Vanishing Act: The Erosion of Online Footnotes and Implications for Schlolarship in the Digital Age by Daniela Dimitrova and Michael Bugeja, saying 'Vanishing online footnotes undermine the building blocks of research, and their disappearance raises concerns about the reliability and replicability of scholarship.'" class="figure mx-auto d-block"><figcaption><strong>Bugeja, M., Dimitrova, D.</strong> (2010) in
-“<em>Vanishing Act: The Erosion of Online Footnotes and Implications for
-Scholarship in the Digital Age</em>.” Litwin Books.
-<a href="https://dr.lib.iastate.edu/handle/20.500.12876/96527" target="_blank" class="external-link">https://dr.lib.iastate.edu/handle/20.500.12876/96527</a></figcaption></figure><div class="overview card">
+<figure><img src="fig/dimitrovaBugejaQuote.png" alt="Quote from the Book Vanishing Act: The Erosion of Online Footnotes and Implications for Schlolarship in the Digital Age by Daniela Dimitrova and Michael Bugeja, saying 'Vanishing online footnotes undermine the building blocks of research, and their disappearance raises concerns about the reliability and replicability of scholarship.'" class="figure mx-auto d-block"><div class="figcaption">
+<strong>Bugeja, M., Dimitrova, D.</strong>
+(2010) in “<em>Vanishing Act: The Erosion of Online Footnotes and
+Implications for Scholarship in the Digital Age</em>.” Litwin Books.
+<a href="https://dr.lib.iastate.edu/handle/20.500.12876/96527" target="_blank" class="external-link">https://dr.lib.iastate.edu/handle/20.500.12876/96527</a>
+</div>
+</figure><div class="overview card">
 <h2 class="card-header">Overview</h2>
 <div class="row g-0">
 <div class="col-md-4">
@@ -318,13 +321,12 @@ physical or abstract), that is represented on the Web.</li>
 resources.</li>
 </ul></section><section id="web-identifiers"><h2 class="section-heading">Web Identifiers<a class="anchor" aria-label="anchor" href="#web-identifiers"></a>
 </h2>
-<hr class="half-width"><div id="unique-identifiers" class="callout callout">
+<hr class="half-width"><div id="callout1" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="unique-identifiers" class="callout-inner">
-<h3 class="callout-title">Unique Identifiers<a class="anchor" aria-label="anchor" href="#unique-identifiers"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="unique-identifiers">Unique Identifiers<a class="anchor" aria-label="anchor" href="#unique-identifiers"></a></h3>
 <div class="callout-content">
 <p>Unique identifiers enable <strong>globally unique</strong>
 identification of a resource. The <strong>structure</strong> of these
@@ -346,15 +348,15 @@ service is required.</strong></p>
 characters used to direct the client to requested resource by
 <strong>using the address of the resource location</strong> via
 communication protocols such as HTTP. </p>
-<div id="how-links-rot" class="callout callout">
+<div id="callout2" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="how-links-rot" class="callout-inner">
-<h3 class="callout-title">How links rot<a class="anchor" aria-label="anchor" href="#how-links-rot"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="how-links-rot">How links rot<a class="anchor" aria-label="anchor" href="#how-links-rot"></a></h3>
 <div class="callout-content">
-<figure><img src="fig/urlSyntax.png" alt="Examplary representation of the URL syntax: protocol specification, host adress, file path and query parameters." class="figure mx-auto d-block"><figcaption>URL Example</figcaption></figure><p>The <strong>URL</strong> specifies the exact location of a
+<figure><img src="fig/urlSyntax.png" alt="Examplary representation of the URL syntax: protocol specification, host adress, file path and query parameters." class="figure mx-auto d-block"><div class="figcaption">URL Example</div>
+</figure><p>The <strong>URL</strong> specifies the exact location of a
 retrievable resource on the web (host &amp; path) as well as the
 communication protocol (e.g. HTTP) necessary for the local browser to
 address the host server. If you open a link on the web operated under
@@ -384,13 +386,12 @@ persons or organizations. PIDs are <strong>globally unique</strong> and
 <strong>persistent over time</strong>. Assigning a PID to a digital
 resource ensures its permanent indentifiability, accessibility, and
 dereferenciability.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
-<div id="pid-services" class="callout callout">
+<div id="callout3" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="pid-services" class="callout-inner">
-<h3 class="callout-title">PID Services<a class="anchor" aria-label="anchor" href="#pid-services"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="pid-services">PID Services<a class="anchor" aria-label="anchor" href="#pid-services"></a></h3>
 <div class="callout-content">
 <p>A <strong>PID service</strong> operates as a persistent look-up
 service that redirects GET requests for digital resources to the latest
@@ -422,100 +423,100 @@ with this researcher, the ORCiD can be specified in the description.</p>
 <div class="codewrapper sourceCode" id="cb1">
 <h3 class="code-label">JSON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode json" tabindex="0"><code class="sourceCode json"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"fileName"</span><span class="fu">:</span> <span class="st">"exampleData.csv"</span><span class="fu">,</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"date"</span><span class="fu">:</span> <span class="st">"2022-02-28"</span><span class="fu">,</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"dataset"</span><span class="fu">,</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"creator"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"creatorName"</span><span class="fu">:</span> <span class="st">"Bruce Wayne"</span><span class="fu">,</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"ORCID"</span><span class="fu">:</span> <span class="st">"https://orcid.org/0000-0002-1201-3114"</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">}</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre>
+<pre class="sourceCode json" tabindex="0"><code class="sourceCode json"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a>  <span class="dt">"fileName"</span><span class="fu">:</span> <span class="st">"exampleData.csv"</span><span class="fu">,</span></span>
+<span id="cb1-3"><a href="#cb1-3" tabindex="-1"></a>  <span class="dt">"date"</span><span class="fu">:</span> <span class="st">"2022-02-28"</span><span class="fu">,</span></span>
+<span id="cb1-4"><a href="#cb1-4" tabindex="-1"></a>  <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"dataset"</span><span class="fu">,</span></span>
+<span id="cb1-5"><a href="#cb1-5" tabindex="-1"></a>  <span class="dt">"creator"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb1-6"><a href="#cb1-6" tabindex="-1"></a>    <span class="dt">"creatorName"</span><span class="fu">:</span> <span class="st">"Bruce Wayne"</span><span class="fu">,</span></span>
+<span id="cb1-7"><a href="#cb1-7" tabindex="-1"></a>    <span class="dt">"ORCID"</span><span class="fu">:</span> <span class="st">"https://orcid.org/0000-0002-1201-3114"</span></span>
+<span id="cb1-8"><a href="#cb1-8" tabindex="-1"></a>  <span class="fu">}</span></span>
+<span id="cb1-9"><a href="#cb1-9" tabindex="-1"></a><span class="fu">}</span></span></code></pre>
 </div>
 <p>The metadata stored in the ORCID record would resolve to:</p>
 <div class="codewrapper sourceCode" id="cb2">
 <h3 class="code-label">JSON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode json" tabindex="0"><code class="sourceCode json"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>	<span class="dt">"given-names"</span><span class="fu">:</span> <span class="st">"Bruce"</span><span class="fu">,</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>	<span class="dt">"family-name"</span><span class="fu">:</span> <span class="st">"Wayne"</span><span class="fu">,</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>	<span class="dt">"credit-name"</span><span class="fu">:</span> <span class="st">"Bruce Wayne"</span><span class="fu">,</span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>	<span class="dt">"other-names"</span><span class="fu">:</span> <span class="st">"Batman"</span><span class="fu">,</span></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>	<span class="dt">"researcher-urls"</span><span class="fu">:</span> <span class="ot">[</span><span class="fu">{</span></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>			<span class="dt">"type"</span><span class="fu">:</span> <span class="st">"researcher-url"</span><span class="fu">,</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>			<span class="dt">"url"</span><span class="fu">:</span> <span class="st">"https://www.dc.com/characters/batman"</span><span class="fu">,</span></span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>			<span class="dt">"url-name"</span><span class="fu">:</span> <span class="st">"Justice League"</span></span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>		<span class="fu">}</span><span class="ot">,</span></span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>		<span class="fu">{</span></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>			<span class="dt">"type"</span><span class="fu">:</span> <span class="st">"researcher-url"</span><span class="fu">,</span></span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>			<span class="dt">"url"</span><span class="fu">:</span> <span class="st">"https://twitter.com/Batman"</span><span class="fu">,</span></span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>			<span class="dt">"url-name"</span><span class="fu">:</span> <span class="st">"Twitter"</span></span>
-<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>		<span class="fu">}</span></span>
-<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>	<span class="ot">]</span><span class="fu">,</span></span>
-<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>	<span class="dt">"email"</span><span class="fu">:</span> <span class="ot">[</span></span>
-<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>		<span class="st">"b.wayne@ivnm-gotham.com"</span><span class="ot">,</span></span>
-<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>		<span class="st">"batman@justic-league.org"</span></span>
-<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>	<span class="ot">]</span><span class="fu">,</span></span>
-<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>	<span class="dt">"address"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>		<span class="dt">"country"</span><span class="fu">:</span> <span class="st">"USA"</span><span class="fu">,</span></span>
-<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>		<span class="dt">"state"</span><span class="fu">:</span> <span class="st">"New Jersey"</span><span class="fu">,</span></span>
-<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>		<span class="dt">"city"</span><span class="fu">:</span> <span class="st">"Gotham City"</span><span class="fu">,</span></span>
-<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>		<span class="dt">"zip-code"</span><span class="fu">:</span> <span class="st">"08302"</span><span class="fu">,</span></span>
-<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>		<span class="dt">"street"</span><span class="fu">:</span> <span class="st">"Wayne Rd 1"</span></span>
-<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>	<span class="fu">},</span></span>
-<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>	<span class="dt">"employment"</span><span class="fu">:</span> <span class="ot">[</span><span class="fu">{</span></span>
-<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>			<span class="dt">"department-name"</span><span class="fu">:</span> <span class="st">"Institute for Vigilance and Nightly Motion"</span><span class="fu">,</span></span>
-<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>			<span class="dt">"start-date"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>				<span class="dt">"year"</span><span class="fu">:</span> <span class="dv">1955</span><span class="fu">,</span></span>
-<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a>				<span class="dt">"month"</span><span class="fu">:</span> <span class="dv">8</span><span class="fu">,</span></span>
-<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>				<span class="dt">"day"</span><span class="fu">:</span> <span class="dv">15</span></span>
-<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a>			<span class="fu">},</span></span>
-<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a>			<span class="dt">"organization"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a>				<span class="dt">"name"</span><span class="fu">:</span> <span class="st">"Justice League"</span><span class="fu">,</span></span>
-<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a>				<span class="dt">"address"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a>					<span class="dt">"city"</span><span class="fu">:</span> <span class="st">"Gotham City"</span><span class="fu">,</span></span>
-<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a>					<span class="dt">"region"</span><span class="fu">:</span> <span class="st">"New Jersey"</span><span class="fu">,</span></span>
-<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a>					<span class="dt">"country"</span><span class="fu">:</span> <span class="st">"USA"</span><span class="fu">,</span></span>
-<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a>					<span class="dt">"disambiguated-organization-identifier"</span><span class="fu">:</span> <span class="st">"https://ror.org/05jl9bm63"</span></span>
-<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a>				<span class="fu">}</span></span>
-<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a>			<span class="fu">}</span></span>
-<span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a>		<span class="fu">}</span><span class="ot">,</span></span>
-<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a>		<span class="fu">{</span></span>
-<span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a>			<span class="dt">"department-name"</span><span class="fu">:</span> <span class="st">"Board of leaders"</span><span class="fu">,</span></span>
-<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a>			<span class="dt">"start-date"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a>				<span class="dt">"year"</span><span class="fu">:</span> <span class="dv">1939</span><span class="fu">,</span></span>
-<span id="cb2-49"><a href="#cb2-49" aria-hidden="true" tabindex="-1"></a>				<span class="dt">"month"</span><span class="fu">:</span> <span class="dv">3</span><span class="fu">,</span></span>
-<span id="cb2-50"><a href="#cb2-50" aria-hidden="true" tabindex="-1"></a>				<span class="dt">"day"</span><span class="fu">:</span> <span class="dv">30</span></span>
-<span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a>			<span class="fu">},</span></span>
-<span id="cb2-52"><a href="#cb2-52" aria-hidden="true" tabindex="-1"></a>			<span class="dt">"organization"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb2-53"><a href="#cb2-53" aria-hidden="true" tabindex="-1"></a>				<span class="dt">"name"</span><span class="fu">:</span> <span class="st">"Wayne Enterprises"</span><span class="fu">,</span></span>
-<span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a>				<span class="dt">"address"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb2-55"><a href="#cb2-55" aria-hidden="true" tabindex="-1"></a>					<span class="dt">"city"</span><span class="fu">:</span> <span class="st">"Gotham City"</span><span class="fu">,</span></span>
-<span id="cb2-56"><a href="#cb2-56" aria-hidden="true" tabindex="-1"></a>					<span class="dt">"region"</span><span class="fu">:</span> <span class="st">"New Jersey"</span><span class="fu">,</span></span>
-<span id="cb2-57"><a href="#cb2-57" aria-hidden="true" tabindex="-1"></a>					<span class="dt">"country"</span><span class="fu">:</span> <span class="st">"USA"</span><span class="fu">,</span></span>
-<span id="cb2-58"><a href="#cb2-58" aria-hidden="true" tabindex="-1"></a>					<span class="dt">"disambiguated-organization-identifier"</span><span class="fu">:</span> <span class="st">"https://ror.org/04we5bw33"</span></span>
-<span id="cb2-59"><a href="#cb2-59" aria-hidden="true" tabindex="-1"></a>				<span class="fu">}</span></span>
-<span id="cb2-60"><a href="#cb2-60" aria-hidden="true" tabindex="-1"></a>			<span class="fu">}</span></span>
-<span id="cb2-61"><a href="#cb2-61" aria-hidden="true" tabindex="-1"></a>		<span class="fu">}</span><span class="ot">,</span></span>
-<span id="cb2-62"><a href="#cb2-62" aria-hidden="true" tabindex="-1"></a>		<span class="fu">{</span></span>
-<span id="cb2-63"><a href="#cb2-63" aria-hidden="true" tabindex="-1"></a>			<span class="dt">"department-name"</span><span class="fu">:</span> <span class="st">"Executive Office"</span><span class="fu">,</span></span>
-<span id="cb2-64"><a href="#cb2-64" aria-hidden="true" tabindex="-1"></a>			<span class="dt">"start-date"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb2-65"><a href="#cb2-65" aria-hidden="true" tabindex="-1"></a>				<span class="dt">"year"</span><span class="fu">:</span> <span class="dv">1945</span><span class="fu">,</span></span>
-<span id="cb2-66"><a href="#cb2-66" aria-hidden="true" tabindex="-1"></a>				<span class="dt">"month"</span><span class="fu">:</span> <span class="dv">4</span><span class="fu">,</span></span>
-<span id="cb2-67"><a href="#cb2-67" aria-hidden="true" tabindex="-1"></a>				<span class="dt">"day"</span><span class="fu">:</span> <span class="dv">1</span></span>
-<span id="cb2-68"><a href="#cb2-68" aria-hidden="true" tabindex="-1"></a>			<span class="fu">},</span></span>
-<span id="cb2-69"><a href="#cb2-69" aria-hidden="true" tabindex="-1"></a>			<span class="dt">"organization"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb2-70"><a href="#cb2-70" aria-hidden="true" tabindex="-1"></a>				<span class="dt">"name"</span><span class="fu">:</span> <span class="st">"Wayne Foundation"</span><span class="fu">,</span></span>
-<span id="cb2-71"><a href="#cb2-71" aria-hidden="true" tabindex="-1"></a>				<span class="dt">"address"</span><span class="fu">:</span> <span class="fu">{</span></span>
-<span id="cb2-72"><a href="#cb2-72" aria-hidden="true" tabindex="-1"></a>					<span class="dt">"city"</span><span class="fu">:</span> <span class="st">"Gotham City"</span><span class="fu">,</span></span>
-<span id="cb2-73"><a href="#cb2-73" aria-hidden="true" tabindex="-1"></a>					<span class="dt">"region"</span><span class="fu">:</span> <span class="st">"New Jersey"</span><span class="fu">,</span></span>
-<span id="cb2-74"><a href="#cb2-74" aria-hidden="true" tabindex="-1"></a>					<span class="dt">"country"</span><span class="fu">:</span> <span class="st">"USA"</span><span class="fu">,</span></span>
-<span id="cb2-75"><a href="#cb2-75" aria-hidden="true" tabindex="-1"></a>					<span class="dt">"disambiguated-organization-identifier"</span><span class="fu">:</span> <span class="st">"https://ror.org/02eo4wf52"</span></span>
-<span id="cb2-76"><a href="#cb2-76" aria-hidden="true" tabindex="-1"></a>				<span class="fu">}</span></span>
-<span id="cb2-77"><a href="#cb2-77" aria-hidden="true" tabindex="-1"></a>			<span class="fu">}</span></span>
-<span id="cb2-78"><a href="#cb2-78" aria-hidden="true" tabindex="-1"></a>		<span class="fu">}</span></span>
-<span id="cb2-79"><a href="#cb2-79" aria-hidden="true" tabindex="-1"></a>	<span class="ot">]</span></span>
-<span id="cb2-80"><a href="#cb2-80" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre>
+<pre class="sourceCode json" tabindex="0"><code class="sourceCode json"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb2-2"><a href="#cb2-2" tabindex="-1"></a>	<span class="dt">"given-names"</span><span class="fu">:</span> <span class="st">"Bruce"</span><span class="fu">,</span></span>
+<span id="cb2-3"><a href="#cb2-3" tabindex="-1"></a>	<span class="dt">"family-name"</span><span class="fu">:</span> <span class="st">"Wayne"</span><span class="fu">,</span></span>
+<span id="cb2-4"><a href="#cb2-4" tabindex="-1"></a>	<span class="dt">"credit-name"</span><span class="fu">:</span> <span class="st">"Bruce Wayne"</span><span class="fu">,</span></span>
+<span id="cb2-5"><a href="#cb2-5" tabindex="-1"></a>	<span class="dt">"other-names"</span><span class="fu">:</span> <span class="st">"Batman"</span><span class="fu">,</span></span>
+<span id="cb2-6"><a href="#cb2-6" tabindex="-1"></a>	<span class="dt">"researcher-urls"</span><span class="fu">:</span> <span class="ot">[</span><span class="fu">{</span></span>
+<span id="cb2-7"><a href="#cb2-7" tabindex="-1"></a>			<span class="dt">"type"</span><span class="fu">:</span> <span class="st">"researcher-url"</span><span class="fu">,</span></span>
+<span id="cb2-8"><a href="#cb2-8" tabindex="-1"></a>			<span class="dt">"url"</span><span class="fu">:</span> <span class="st">"https://www.dc.com/characters/batman"</span><span class="fu">,</span></span>
+<span id="cb2-9"><a href="#cb2-9" tabindex="-1"></a>			<span class="dt">"url-name"</span><span class="fu">:</span> <span class="st">"Justice League"</span></span>
+<span id="cb2-10"><a href="#cb2-10" tabindex="-1"></a>		<span class="fu">}</span><span class="ot">,</span></span>
+<span id="cb2-11"><a href="#cb2-11" tabindex="-1"></a>		<span class="fu">{</span></span>
+<span id="cb2-12"><a href="#cb2-12" tabindex="-1"></a>			<span class="dt">"type"</span><span class="fu">:</span> <span class="st">"researcher-url"</span><span class="fu">,</span></span>
+<span id="cb2-13"><a href="#cb2-13" tabindex="-1"></a>			<span class="dt">"url"</span><span class="fu">:</span> <span class="st">"https://twitter.com/Batman"</span><span class="fu">,</span></span>
+<span id="cb2-14"><a href="#cb2-14" tabindex="-1"></a>			<span class="dt">"url-name"</span><span class="fu">:</span> <span class="st">"Twitter"</span></span>
+<span id="cb2-15"><a href="#cb2-15" tabindex="-1"></a>		<span class="fu">}</span></span>
+<span id="cb2-16"><a href="#cb2-16" tabindex="-1"></a>	<span class="ot">]</span><span class="fu">,</span></span>
+<span id="cb2-17"><a href="#cb2-17" tabindex="-1"></a>	<span class="dt">"email"</span><span class="fu">:</span> <span class="ot">[</span></span>
+<span id="cb2-18"><a href="#cb2-18" tabindex="-1"></a>		<span class="st">"b.wayne@ivnm-gotham.com"</span><span class="ot">,</span></span>
+<span id="cb2-19"><a href="#cb2-19" tabindex="-1"></a>		<span class="st">"batman@justic-league.org"</span></span>
+<span id="cb2-20"><a href="#cb2-20" tabindex="-1"></a>	<span class="ot">]</span><span class="fu">,</span></span>
+<span id="cb2-21"><a href="#cb2-21" tabindex="-1"></a>	<span class="dt">"address"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb2-22"><a href="#cb2-22" tabindex="-1"></a>		<span class="dt">"country"</span><span class="fu">:</span> <span class="st">"USA"</span><span class="fu">,</span></span>
+<span id="cb2-23"><a href="#cb2-23" tabindex="-1"></a>		<span class="dt">"state"</span><span class="fu">:</span> <span class="st">"New Jersey"</span><span class="fu">,</span></span>
+<span id="cb2-24"><a href="#cb2-24" tabindex="-1"></a>		<span class="dt">"city"</span><span class="fu">:</span> <span class="st">"Gotham City"</span><span class="fu">,</span></span>
+<span id="cb2-25"><a href="#cb2-25" tabindex="-1"></a>		<span class="dt">"zip-code"</span><span class="fu">:</span> <span class="st">"08302"</span><span class="fu">,</span></span>
+<span id="cb2-26"><a href="#cb2-26" tabindex="-1"></a>		<span class="dt">"street"</span><span class="fu">:</span> <span class="st">"Wayne Rd 1"</span></span>
+<span id="cb2-27"><a href="#cb2-27" tabindex="-1"></a>	<span class="fu">},</span></span>
+<span id="cb2-28"><a href="#cb2-28" tabindex="-1"></a>	<span class="dt">"employment"</span><span class="fu">:</span> <span class="ot">[</span><span class="fu">{</span></span>
+<span id="cb2-29"><a href="#cb2-29" tabindex="-1"></a>			<span class="dt">"department-name"</span><span class="fu">:</span> <span class="st">"Institute for Vigilance and Nightly Motion"</span><span class="fu">,</span></span>
+<span id="cb2-30"><a href="#cb2-30" tabindex="-1"></a>			<span class="dt">"start-date"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb2-31"><a href="#cb2-31" tabindex="-1"></a>				<span class="dt">"year"</span><span class="fu">:</span> <span class="dv">1955</span><span class="fu">,</span></span>
+<span id="cb2-32"><a href="#cb2-32" tabindex="-1"></a>				<span class="dt">"month"</span><span class="fu">:</span> <span class="dv">8</span><span class="fu">,</span></span>
+<span id="cb2-33"><a href="#cb2-33" tabindex="-1"></a>				<span class="dt">"day"</span><span class="fu">:</span> <span class="dv">15</span></span>
+<span id="cb2-34"><a href="#cb2-34" tabindex="-1"></a>			<span class="fu">},</span></span>
+<span id="cb2-35"><a href="#cb2-35" tabindex="-1"></a>			<span class="dt">"organization"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb2-36"><a href="#cb2-36" tabindex="-1"></a>				<span class="dt">"name"</span><span class="fu">:</span> <span class="st">"Justice League"</span><span class="fu">,</span></span>
+<span id="cb2-37"><a href="#cb2-37" tabindex="-1"></a>				<span class="dt">"address"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb2-38"><a href="#cb2-38" tabindex="-1"></a>					<span class="dt">"city"</span><span class="fu">:</span> <span class="st">"Gotham City"</span><span class="fu">,</span></span>
+<span id="cb2-39"><a href="#cb2-39" tabindex="-1"></a>					<span class="dt">"region"</span><span class="fu">:</span> <span class="st">"New Jersey"</span><span class="fu">,</span></span>
+<span id="cb2-40"><a href="#cb2-40" tabindex="-1"></a>					<span class="dt">"country"</span><span class="fu">:</span> <span class="st">"USA"</span><span class="fu">,</span></span>
+<span id="cb2-41"><a href="#cb2-41" tabindex="-1"></a>					<span class="dt">"disambiguated-organization-identifier"</span><span class="fu">:</span> <span class="st">"https://ror.org/05jl9bm63"</span></span>
+<span id="cb2-42"><a href="#cb2-42" tabindex="-1"></a>				<span class="fu">}</span></span>
+<span id="cb2-43"><a href="#cb2-43" tabindex="-1"></a>			<span class="fu">}</span></span>
+<span id="cb2-44"><a href="#cb2-44" tabindex="-1"></a>		<span class="fu">}</span><span class="ot">,</span></span>
+<span id="cb2-45"><a href="#cb2-45" tabindex="-1"></a>		<span class="fu">{</span></span>
+<span id="cb2-46"><a href="#cb2-46" tabindex="-1"></a>			<span class="dt">"department-name"</span><span class="fu">:</span> <span class="st">"Board of leaders"</span><span class="fu">,</span></span>
+<span id="cb2-47"><a href="#cb2-47" tabindex="-1"></a>			<span class="dt">"start-date"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb2-48"><a href="#cb2-48" tabindex="-1"></a>				<span class="dt">"year"</span><span class="fu">:</span> <span class="dv">1939</span><span class="fu">,</span></span>
+<span id="cb2-49"><a href="#cb2-49" tabindex="-1"></a>				<span class="dt">"month"</span><span class="fu">:</span> <span class="dv">3</span><span class="fu">,</span></span>
+<span id="cb2-50"><a href="#cb2-50" tabindex="-1"></a>				<span class="dt">"day"</span><span class="fu">:</span> <span class="dv">30</span></span>
+<span id="cb2-51"><a href="#cb2-51" tabindex="-1"></a>			<span class="fu">},</span></span>
+<span id="cb2-52"><a href="#cb2-52" tabindex="-1"></a>			<span class="dt">"organization"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb2-53"><a href="#cb2-53" tabindex="-1"></a>				<span class="dt">"name"</span><span class="fu">:</span> <span class="st">"Wayne Enterprises"</span><span class="fu">,</span></span>
+<span id="cb2-54"><a href="#cb2-54" tabindex="-1"></a>				<span class="dt">"address"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb2-55"><a href="#cb2-55" tabindex="-1"></a>					<span class="dt">"city"</span><span class="fu">:</span> <span class="st">"Gotham City"</span><span class="fu">,</span></span>
+<span id="cb2-56"><a href="#cb2-56" tabindex="-1"></a>					<span class="dt">"region"</span><span class="fu">:</span> <span class="st">"New Jersey"</span><span class="fu">,</span></span>
+<span id="cb2-57"><a href="#cb2-57" tabindex="-1"></a>					<span class="dt">"country"</span><span class="fu">:</span> <span class="st">"USA"</span><span class="fu">,</span></span>
+<span id="cb2-58"><a href="#cb2-58" tabindex="-1"></a>					<span class="dt">"disambiguated-organization-identifier"</span><span class="fu">:</span> <span class="st">"https://ror.org/04we5bw33"</span></span>
+<span id="cb2-59"><a href="#cb2-59" tabindex="-1"></a>				<span class="fu">}</span></span>
+<span id="cb2-60"><a href="#cb2-60" tabindex="-1"></a>			<span class="fu">}</span></span>
+<span id="cb2-61"><a href="#cb2-61" tabindex="-1"></a>		<span class="fu">}</span><span class="ot">,</span></span>
+<span id="cb2-62"><a href="#cb2-62" tabindex="-1"></a>		<span class="fu">{</span></span>
+<span id="cb2-63"><a href="#cb2-63" tabindex="-1"></a>			<span class="dt">"department-name"</span><span class="fu">:</span> <span class="st">"Executive Office"</span><span class="fu">,</span></span>
+<span id="cb2-64"><a href="#cb2-64" tabindex="-1"></a>			<span class="dt">"start-date"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb2-65"><a href="#cb2-65" tabindex="-1"></a>				<span class="dt">"year"</span><span class="fu">:</span> <span class="dv">1945</span><span class="fu">,</span></span>
+<span id="cb2-66"><a href="#cb2-66" tabindex="-1"></a>				<span class="dt">"month"</span><span class="fu">:</span> <span class="dv">4</span><span class="fu">,</span></span>
+<span id="cb2-67"><a href="#cb2-67" tabindex="-1"></a>				<span class="dt">"day"</span><span class="fu">:</span> <span class="dv">1</span></span>
+<span id="cb2-68"><a href="#cb2-68" tabindex="-1"></a>			<span class="fu">},</span></span>
+<span id="cb2-69"><a href="#cb2-69" tabindex="-1"></a>			<span class="dt">"organization"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb2-70"><a href="#cb2-70" tabindex="-1"></a>				<span class="dt">"name"</span><span class="fu">:</span> <span class="st">"Wayne Foundation"</span><span class="fu">,</span></span>
+<span id="cb2-71"><a href="#cb2-71" tabindex="-1"></a>				<span class="dt">"address"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb2-72"><a href="#cb2-72" tabindex="-1"></a>					<span class="dt">"city"</span><span class="fu">:</span> <span class="st">"Gotham City"</span><span class="fu">,</span></span>
+<span id="cb2-73"><a href="#cb2-73" tabindex="-1"></a>					<span class="dt">"region"</span><span class="fu">:</span> <span class="st">"New Jersey"</span><span class="fu">,</span></span>
+<span id="cb2-74"><a href="#cb2-74" tabindex="-1"></a>					<span class="dt">"country"</span><span class="fu">:</span> <span class="st">"USA"</span><span class="fu">,</span></span>
+<span id="cb2-75"><a href="#cb2-75" tabindex="-1"></a>					<span class="dt">"disambiguated-organization-identifier"</span><span class="fu">:</span> <span class="st">"https://ror.org/02eo4wf52"</span></span>
+<span id="cb2-76"><a href="#cb2-76" tabindex="-1"></a>				<span class="fu">}</span></span>
+<span id="cb2-77"><a href="#cb2-77" tabindex="-1"></a>			<span class="fu">}</span></span>
+<span id="cb2-78"><a href="#cb2-78" tabindex="-1"></a>		<span class="fu">}</span></span>
+<span id="cb2-79"><a href="#cb2-79" tabindex="-1"></a>	<span class="ot">]</span></span>
+<span id="cb2-80"><a href="#cb2-80" tabindex="-1"></a><span class="fu">}</span></span></code></pre>
 </div>
 
 <div class="section level3">
@@ -652,7 +653,7 @@ Standards</em>. <a href="https://www.w3.org/2001/sw/wiki/Main_Page" class="exter
   "identifier": "https://carpentries-incubator.github.io/scientific-metadata/web-location-identifiers.html",
   "dateCreated": "2023-11-16",
   "dateModified": "2023-11-16",
-  "datePublished": "2024-02-27"
+  "datePublished": "2024-03-05"
 }
 
   </script><script>
